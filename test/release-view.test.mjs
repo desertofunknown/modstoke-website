@@ -23,7 +23,7 @@ test('selected release anchors are unique and evidence is explicit',()=>{
  assert.equal(ids.length,new Set(ids).size);
  assert.equal(ids.filter(id=>id===record.releaseId).length,1);
  assert.match(html,/Signature review recorded for Fixture &lt;Publisher&gt;/);
- assert.match(html,/Build: passed/);assert.match(html,/Game launch: not applicable/);assert.match(html,/Installation: not recorded/);
+ assert.match(html,/Build: passed \| Installation: not recorded/);assert.match(html,/Game launch: not applicable/);
  assert.match(html,/does not authenticate an update manifest/);
  assert.match(html,/No release notes have been supplied/);
  record.changelog='Fix <script>fake</script> & installation reporting.';
