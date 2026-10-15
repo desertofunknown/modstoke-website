@@ -52,6 +52,46 @@ test('mutable paths, placeholder hashes, and missing client identity cannot publ
  assert.throws(()=>validateReleaseIndex(index),/host Admin/);
 });
 
+test('preview can disclose unsigned and pending play checks without relaxing rights or install gates', () => {
+ const m=manager();
+ m.channel='preview';
+ m.validation.game='pending';
+ m.validation.multiplayer='pending';
+ m.artifacts[0].signatureStatus='unsigned-preview';
+ m.artifacts[0].signingEvidence=null;
+ m.artifacts[0].unsignedReason='Signing is pending for this test build';
+ const index={schema:1,latest:{manager:m.releaseId,loader:null},releases:[m]};
+ assert.equal(validateReleaseIndex(index).latest.manager,m.releaseId);
+ m.channel='stable';
+ assert.throws(()=>validateReleaseIndex(index),/incomplete release validation|stable artifacts require verified signatures/);
+ m.channel='preview';
+ m.artifacts[0].unsignedReason='';
+ assert.throws(()=>validateReleaseIndex(index),/unsigned preview requires/);
+ m.artifacts[0].unsignedReason='Signing is pending for this test build';
+ m.validation.install='pending';
+ assert.throws(()=>validateReleaseIndex(index),/install has not passed/);
+ m.validation.install='passed';
+ m.validation.licenses='pending';
+ assert.throws(()=>validateReleaseIndex(index),/licenses has not passed/);
+});
+
+test('Loader preview has unknown game builds until the game check passes', () => {
+ const l=loader();
+ l.validation.game='pending';
+ l.validation.multiplayer='pending';
+ l.compatibility.testedGameBuilds=[];
+ l.artifacts[0].signatureStatus='unsigned-preview';
+ l.artifacts[0].signingEvidence=null;
+ l.artifacts[0].unsignedReason='Signing is pending for this test bundle';
+ const index={schema:1,latest:{manager:null,loader:l.releaseId},releases:[l]};
+ assert.equal(validateReleaseIndex(index).latest.loader,l.releaseId);
+ l.compatibility.testedGameBuilds=['untested-build'];
+ assert.throws(()=>validateReleaseIndex(index),/tested game builds must match/);
+ l.compatibility.testedGameBuilds=[];
+ l.channel='stable';
+ assert.throws(()=>validateReleaseIndex(index),/incomplete release validation|Loader game and multiplayer/);
+});
+
 test('hosted artifact bytes and paths are checked before publication', async t => {
  const root=await mkdtemp(join(tmpdir(),'modstoke-release-test-'));
  t.after(()=>rm(root,{recursive:true,force:true}));
@@ -91,6 +131,10 @@ test('schema-1 Loader manifest gets immutable website URLs and requires SDK and 
  const result=await loaderManifest(root,l,'https://example.org');
  assert.equal(result.package.downloadUrl,'https://example.org/downloads/loader/2.3.4/Loader.zip');
  assert.equal(result.update.manifestUrl,'https://example.org/releases/loader/latest/OpenACAILoader.manifest.json');
+ l.artifacts[0].signatureStatus='unsigned-preview';
+ l.artifacts[0].signingEvidence=null;
+ l.artifacts[0].unsignedReason='Pending signature check';
+ assert.equal((await loaderManifest(root,l,'https://example.org')).package.downloadUrl,result.package.downloadUrl);
  source.files.pop();
  await writeFile(file,JSON.stringify(source));
  await assert.rejects(loaderManifest(root,l,'https://example.org'),/SDK or client companion absent/);
@@ -105,16 +149,33 @@ test('Loader ZIP member bytes match the reviewed file manifest', async t => {
  const client='BepInEx/plugins/FixtureClient.dll';
  const archive=join(root,'Loader.zip');
  const manifest=join(root,'manifest.json');
+ const inventory=join(root,'inventory.json');
  const files=[{path:sdk,size:4,sha256:hash('core')},{path:client,size:6,sha256:hash('client')}];
  await writeFile(manifest,JSON.stringify({files}));
+ const reviewed={schema:1,releaseId:'loader-fixture',reviewedUtc:'2026-10-15T00:00:00Z',files:files.map(file=>({path:file.path,provenance:'publisher',license:'GPL-3.0-or-later',sourceRef:'fixture-only',redistributionApproved:true}))};
+ await writeFile(inventory,JSON.stringify(reviewed));
  const makeZip=`import zipfile,sys\nwith zipfile.ZipFile(sys.argv[1],'w') as z:\n z.writestr(sys.argv[2],b'core')\n z.writestr(sys.argv[3],b'client')`;
  assert.equal(spawnSync(python,['-c',makeZip,archive,sdk,client]).status,0);
  const script=fileURLToPath(new URL('../scripts/verify-loader-zip.py',import.meta.url));
- const args=[script,archive,manifest,sdk,client];
+ const args=[script,archive,manifest,inventory,sdk,client,'loader-fixture'];
  assert.equal(spawnSync(python,args,{encoding:'utf8'}).status,0);
+ reviewed.files[1].redistributionApproved=false;
+ await writeFile(inventory,JSON.stringify(reviewed));
+ assert.match(spawnSync(python,args,{encoding:'utf8'}).stderr,/Redistribution has not been approved/);
+ reviewed.files[1].redistributionApproved=true;
+ await writeFile(inventory,JSON.stringify(reviewed));
  files[1].sha256=hash('tampered');
  await writeFile(manifest,JSON.stringify({files}));
  const failed=spawnSync(python,args,{encoding:'utf8'});
  assert.notEqual(failed.status,0);
  assert.match(failed.stderr,/SHA256 mismatch/);
+ files[1].sha256=hash('client');
+ const game='GameAssembly.dll';
+ files.push({path:game,size:4,sha256:hash('game')});
+ reviewed.files.push({path:game,provenance:'publisher',license:'GPL-3.0-or-later',sourceRef:'fixture-only',redistributionApproved:true});
+ await writeFile(manifest,JSON.stringify({files}));
+ await writeFile(inventory,JSON.stringify(reviewed));
+ const makeUnsafeZip=`import zipfile,sys\nwith zipfile.ZipFile(sys.argv[1],'w') as z:\n z.writestr(sys.argv[2],b'core')\n z.writestr(sys.argv[3],b'client')\n z.writestr('GameAssembly.dll',b'game')`;
+ assert.equal(spawnSync(python,['-c',makeUnsafeZip,archive,sdk,client]).status,0);
+ assert.match(spawnSync(python,args,{encoding:'utf8'}).stderr,/Proprietary game file path/);
 });
