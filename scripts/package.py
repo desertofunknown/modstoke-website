@@ -40,6 +40,7 @@ for record in release_index['releases']:
         static.append(local)
     if record['product']=='loader':
         source.append(f"data/loader-manifests/{record['releaseId']}.json")
+        source.append(f"data/package-inventories/{record['releaseId']}.json")
         static.append(f"releases/loader/{record['version']}/OpenACAILoader.manifest.json")
 if release_index['latest']['loader']:
     static.append('releases/loader/latest/OpenACAILoader.manifest.json')
