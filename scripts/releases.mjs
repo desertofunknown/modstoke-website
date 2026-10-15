@@ -38,15 +38,17 @@ export function validateReleaseIndex(index) {
     if (!products.includes(record.product) || !versionText.test(record.version || '') || !['stable', 'preview'].includes(record.channel)) fail(`${record.releaseId}: invalid product, version, or channel`);
     if (!date(record.publishedUtc) || !commit.test(record.sourceCommit || '')) fail(`${record.releaseId}: missing publication date or source commit`);
     if (record.notesPath !== `/releases/#${record.releaseId}`) fail(`${record.releaseId}: notesPath must point to its release section`);
-    if (!object(record.validation) || requiredChecks.some(key => !['passed', 'not-applicable'].includes(record.validation[key]))) fail(`${record.releaseId}: incomplete release validation`);
+    const allowedCheck = record.channel === 'preview' ? ['passed', 'pending', 'not-applicable'] : ['passed', 'not-applicable'];
+    if (!object(record.validation) || requiredChecks.some(key => !allowedCheck.includes(record.validation[key]))) fail(`${record.releaseId}: incomplete release validation`);
     for (const key of ['cleanSource', 'licenses', 'build', 'install', 'hostedFetch']) if (record.validation[key] !== 'passed') fail(`${record.releaseId}: ${key} has not passed`);
-    if (record.product === 'loader' && (record.validation.game !== 'passed' || record.validation.multiplayer !== 'passed')) fail(`${record.releaseId}: game and multiplayer checks required`);
+    if (record.product === 'loader' && (['game','multiplayer'].some(key => !['passed', ...(record.channel === 'preview' ? ['pending'] : [])].includes(record.validation[key])))) fail(`${record.releaseId}: Loader game and multiplayer checks must be passed or explicitly pending in preview`);
     if (record.product === 'manager') {
       if (record.defaultLoaderReleaseId !== null && !slug.test(record.defaultLoaderReleaseId || '')) fail(`${record.releaseId}: invalid default Loader reference`);
     } else {
       const fit = record.compatibility;
       const bundle = record.bundled;
-      if (!object(fit) || fit.gameId !== 'sons-of-the-forest' || !Array.isArray(fit.testedGameBuilds) || !fit.testedGameBuilds.length || fit.testedGameBuilds.some(x => !filled(x)) || !versionText.test(fit.minManagerVersion || '')) fail(`${record.releaseId}: untested or invalid compatibility`);
+      if (!object(fit) || fit.gameId !== 'sons-of-the-forest' || !Array.isArray(fit.testedGameBuilds) || fit.testedGameBuilds.some(x => !filled(x)) || !versionText.test(fit.minManagerVersion || '') ||
+          (record.validation.game === 'pending' ? fit.testedGameBuilds.length !== 0 : fit.testedGameBuilds.length === 0)) fail(`${record.releaseId}: tested game builds must match game validation state`);
       if (!object(bundle) || !object(bundle.sdk) || !safeRelativePath(bundle.sdk.assemblyPath) || !commit.test(bundle.sdk.sourceCommit || '') || !object(bundle.client) || !filled(bundle.client.pluginId) || !versionText.test(bundle.client.version || '') || !safeRelativePath(bundle.client.installPath) || !commit.test(bundle.client.sourceCommit || '')) fail(`${record.releaseId}: complete SDK and distinct client companion required`);
       if (bundle.client.pluginId === 'com.openacai.sotf.admin') fail(`${record.releaseId}: host Admin cannot be the client companion`);
     }
@@ -55,14 +57,20 @@ export function validateReleaseIndex(index) {
     const kind = record.product === 'manager' ? 'manager-windows' : 'game-root-bundle';
     if (!object(artifact) || artifact.kind !== kind || !versionedFile.test(artifact.fileName || '') || artifact.fileName.includes('..') ||
         artifact.sitePath !== `/downloads/${record.product}/${record.version}/${artifact.fileName}` ||
-        !Number.isSafeInteger(artifact.size) || artifact.size <= 0 || !hex.test(artifact.sha256 || '') || artifact.signatureStatus !== 'verified') fail(`${record.releaseId}: artifact metadata is incomplete or path is mutable`);
+        !Number.isSafeInteger(artifact.size) || artifact.size <= 0 || !hex.test(artifact.sha256 || '') || !['verified','unsigned-preview'].includes(artifact.signatureStatus)) fail(`${record.releaseId}: artifact metadata is incomplete or path is mutable`);
+    if (record.channel === 'stable' && artifact.signatureStatus !== 'verified') fail(`${record.releaseId}: stable artifacts require verified signatures`);
     if (record.product === 'loader' && !artifact.fileName.toLowerCase().endsWith('.zip')) fail(`${record.releaseId}: Loader bundle must be a ZIP`);
     if (record.product === 'manager' && !/\.(exe|msi)$/i.test(artifact.fileName)) fail(`${record.releaseId}: Manager package must be a signed EXE or MSI`);
     if (artifactPaths.has(artifact.sitePath)) fail(`${record.releaseId}: duplicate artifact path`);
     artifactPaths.add(artifact.sitePath);
     const evidence = artifact.signingEvidence;
-    if (!object(evidence) || !filled(evidence.publisher) || !date(evidence.verifiedUtc) || !Array.isArray(evidence.files) || !evidence.files.length || evidence.files.some(file => !object(file) || !safeRelativePath(file.path) || !hex.test(file.sha256 || '') || !/^[a-f0-9]{40,64}$/i.test(file.certificateThumbprint || ''))) fail(`${record.releaseId}: signing evidence is incomplete`);
-    if (record.product === 'manager' && !evidence.files.some(file => file.path === artifact.fileName && file.sha256.toLowerCase() === artifact.sha256.toLowerCase())) fail(`${record.releaseId}: Manager signing evidence must identify the package bytes`);
+    if (artifact.signatureStatus === 'unsigned-preview') {
+      if (evidence !== null || !filled(artifact.unsignedReason)) fail(`${record.releaseId}: unsigned preview requires null signingEvidence and a reason`);
+    } else {
+      if (artifact.unsignedReason !== undefined && artifact.unsignedReason !== null) fail(`${record.releaseId}: verified artifact cannot claim an unsigned reason`);
+      if (!object(evidence) || !filled(evidence.publisher) || !date(evidence.verifiedUtc) || !Array.isArray(evidence.files) || !evidence.files.length || evidence.files.some(file => !object(file) || !safeRelativePath(file.path) || !hex.test(file.sha256 || '') || !/^[a-f0-9]{40,64}$/i.test(file.certificateThumbprint || ''))) fail(`${record.releaseId}: signing evidence is incomplete`);
+      if (record.product === 'manager' && !evidence.files.some(file => file.path === artifact.fileName && file.sha256.toLowerCase() === artifact.sha256.toLowerCase())) fail(`${record.releaseId}: Manager signing evidence must identify the package bytes`);
+    }
     byId.set(record.releaseId, record);
   }
   for (const product of products) {
@@ -121,6 +129,11 @@ export async function verifyCopiedArtifact(file, metadata) {
   if (!info.isFile() || info.size !== metadata.size || (await sha256(file)).toLowerCase() !== metadata.sha256.toLowerCase()) fail(`copied artifact mismatch: ${metadata.sitePath}`);
 }
 
+export async function packageInventoryPath(root, releaseId) {
+  if (!slug.test(releaseId || '')) fail('invalid package inventory release ID');
+  return (await regularFileBelow(resolve(root, 'data/package-inventories'), `${releaseId}.json`)).path;
+}
+
 export async function loaderManifest(root, record, origin) {
   if (record.product !== 'loader') fail('Loader manifest requested for another product');
   if (!/^https:\/\/[A-Za-z0-9.-]+(?::[0-9]+)?$/.test(origin || '')) fail('PUBLIC_ORIGIN must be an HTTPS origin for Loader publication');
@@ -138,7 +151,7 @@ export async function loaderManifest(root, record, origin) {
     paths.add(file.path);
   }
   if (!paths.has(record.bundled.sdk.assemblyPath) || !paths.has(record.bundled.client.installPath)) fail(`${record.releaseId}: SDK or client companion absent from installed files`);
-  for (const signedFile of artifact.signingEvidence.files) {
+  for (const signedFile of artifact.signingEvidence?.files || []) {
     const listed = manifest.files.find(file => file.path === signedFile.path);
     if (!listed || listed.sha256.toLowerCase() !== signedFile.sha256.toLowerCase()) fail(`${record.releaseId}: signing evidence does not match an installed file`);
   }
