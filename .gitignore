@@ -1,0 +1,11 @@
+dist/
+node_modules/
+artifacts/
+.env*
+!.env.example
+.build-backups/
+.build-stage-*/
+.build-lock/
+
+# Product captures are reviewed separately from source publication.
+src/assets/*.png

@@ -1,0 +1,44 @@
+{
+  "name": "Modstoke",
+  "organization": "OpenACAI",
+  "stage": "In development",
+  "games": [
+    {
+      "id": "sons-of-the-forest",
+      "name": "Sons of the Forest",
+      "status": "planned"
+    }
+  ],
+  "products": [
+    {
+      "id": "manager",
+      "name": "Modstoke Manager",
+      "audience": "For players",
+      "summary": "A desktop app for browsing and managing mods. The Modstoke-branded public release is not yet published here.",
+      "status": "unpublished"
+    },
+    {
+      "id": "loader",
+      "name": "Modstoke Loader",
+      "audience": "For modders & players",
+      "summary": "Loads native mod packages and inventories installed mods. Public distribution is still being prepared.",
+      "status": "unpublished"
+    },
+    {
+      "id": "sdk",
+      "name": "Modstoke SDK",
+      "audience": "For mod authors",
+      "summary": "Mod author interfaces live in the Loader codebase. A standalone SDK download is not yet published.",
+      "status": "unpublished"
+    },
+    {
+      "id": "admin",
+      "name": "Modstoke Admin",
+      "audience": "For administrators",
+      "summary": "The public repository contains project documentation. Source import is pending, and no downloadable package is available.",
+      "status": "unpublished"
+    }
+  ],
+  "mods": [],
+  "releases": []
+}
