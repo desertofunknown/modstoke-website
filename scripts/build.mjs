@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve, dirname, basename } from 'node:path';
 import { validate } from './model.mjs';
 import { assetName } from './assets.mjs';
-import { validateReleaseIndex, verifiedArtifacts, verifyCopiedArtifact, loaderManifest } from './releases.mjs';
+import { validateReleaseIndex, verifiedArtifacts, verifyCopiedArtifact, loaderManifest, packageInventoryPath } from './releases.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const data = validate(JSON.parse(await readFile(resolve(root, 'data/site.json'), 'utf8')));
 const releaseIndex = validateReleaseIndex(JSON.parse(await readFile(resolve(root, 'data/releases.json'), 'utf8')));
@@ -46,10 +46,12 @@ for (const {metadata,source} of hostedArtifacts) {
 for (const record of releaseIndex.releases.filter(x=>x.product==='loader')) {
  const manifest=await loaderManifest(root,record,process.env.PUBLIC_ORIGIN);
  const bundle=hostedArtifacts.find(x=>x.record.releaseId===record.releaseId);
+ const inventory=await packageInventoryPath(root,record.releaseId);
  execFileSync(process.env.PYTHON || (process.platform==='win32'?'python':'python3'),[
   resolve(root,'scripts/verify-loader-zip.py'), bundle.source,
   resolve(root,'data/loader-manifests',`${record.releaseId}.json`),
-  record.bundled.sdk.assemblyPath,record.bundled.client.installPath
+  inventory,
+  record.bundled.sdk.assemblyPath,record.bundled.client.installPath,record.releaseId
  ],{stdio:'inherit'});
  const output=resolve(staging,'releases/loader',record.version,'OpenACAILoader.manifest.json');
  await mkdir(dirname(output),{recursive:true});
