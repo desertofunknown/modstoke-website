@@ -7,7 +7,7 @@ This repository contains the static portal: tool overviews, player and creator d
 ## Requirements
 
 - Node.js 24
-- Python 3 only if you want to create ZIP bundles
+- Python 3 for ZIP packaging and for checking a future Loader release archive
 
 There are no npm dependencies and no database or credentials are required.
 
@@ -33,15 +33,16 @@ The build writes `dist/`. Serve that directory through a web server rather than 
 - `src/style.css`: responsive styling
 - `src/app.js`: catalog filtering for future published inventory
 - `data/site.json`: product, game and publication state
+- `data/releases.json`: reviewed product download selection (currently empty)
 - `scripts/`: build, local server, packaging and checks
 - `test/`: Node test-runner tests
 - `docs/`: architecture and hosting notes
 
 ## Publication state
 
-The catalog and releases arrays are intentionally empty. The build rejects populated arrays until a reviewed publication adapter is implemented. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
+The catalog and legacy releases arrays in `data/site.json` remain empty. Product downloads use a separate validated `data/releases.json` adapter. Its current latest pointers are null, so the generated `/release-index.json` has no downloadable artifacts. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
 
-Manager and Loader downloads are not published by this website. The SDK interfaces live with the Loader. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here.
+Manager and Loader downloads are not currently published by this website. The SDK interfaces live with the Loader. A complete future player bundle also requires a distinct client companion that has not been built or accepted yet. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here. See [release publication](docs/release-publication.md) for the exact file, index and verification gates.
 
 The local server includes empty catalog/category response fixtures to support integration work. They are not a production backend or an updater service. See [architecture](docs/architecture.md).
 
@@ -58,7 +59,7 @@ Review the complete image for account names, player identifiers, credentials and
 
 ## Checks
 
-`npm run check` runs syntax checks, unit tests, a static build and HTTP smoke tests. Coverage includes empty and synthetic populated catalog states, internal links, image-copy integrity when images are present, publication gates, traversal/symlink handling and content-hashed asset references.
+`npm run check` runs syntax checks, unit tests, a static build and HTTP smoke tests. Coverage includes empty and synthetic populated catalog states, internal links, image-copy integrity when images are present, release-index gates, traversal/symlink handling and content-hashed asset references.
 
 `npm run test:browser` is optional. It requires Playwright and Chromium in the execution environment and a running local server. Browser checks do not replace manual review of desktop and phone layouts.
 

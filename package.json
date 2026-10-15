@@ -11,7 +11,7 @@
     "dev": "node scripts/serve.mjs",
     "preview": "node scripts/serve.mjs",
     "test": "node --test",
-    "check": "node --check scripts/build.mjs && node --check scripts/serve.mjs && node --check src/app.js && npm test && npm run build && node scripts/http-qa.mjs",
+    "check": "node --check scripts/build.mjs && node --check scripts/releases.mjs && node --check scripts/serve.mjs && node --check src/release-view.mjs && node --check src/app.js && npm test && npm run build && node scripts/http-qa.mjs",
     "test:browser": "node scripts/browser-qa.cjs"
   }
 }

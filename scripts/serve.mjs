@@ -6,7 +6,7 @@ import './build.mjs';
 import { emptyCatalog } from './catalog.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../dist');
 const port = Number(process.env.PORT || 4173);
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.json':'application/json; charset=utf-8'};
+const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.json':'application/json; charset=utf-8','.zip':'application/zip','.exe':'application/octet-stream','.msi':'application/octet-stream'};
 createServer(async (req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('Referrer-Policy','no-referrer');
@@ -25,7 +25,9 @@ createServer(async (req,res)=>{
     catch { ({body,file}=await readPublicFile(root,'404/index.html'));res.statusCode=404; }
     res.setHeader('Content-Type',mime[extname(file)]||'application/octet-stream');
     const fingerprinted = dirname(file)===root && /^(?:style|app)\.[a-f0-9]{16}\.(?:css|js)$/.test(basename(file));
-    res.setHeader('Cache-Control',res.statusCode!==200?'no-store':fingerprinted?'public, max-age=31536000, immutable':'no-cache');
+    const download=path.startsWith('/downloads/') && res.statusCode===200;
+    if(download) res.setHeader('Content-Disposition',`attachment; filename="${basename(file)}"`);
+    res.setHeader('Cache-Control',res.statusCode!==200?'no-store':fingerprinted||download?'public, max-age=31536000, immutable':'no-cache');
     res.end(req.method==='HEAD'?undefined:body);
   } catch {res.writeHead(400);res.end('Bad request');}
 }).listen(port,'127.0.0.1',()=>console.log(`Modstoke preview: http://127.0.0.1:${port} (loopback only)`));

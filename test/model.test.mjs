@@ -6,8 +6,8 @@ const source = JSON.parse(await readFile(new URL('../data/site.json',import.meta
 test('valid unpublished project data',()=>assert.equal(validate(structuredClone(source)).mods.length,0));
 test('duplicate IDs rejected',()=>{const d=structuredClone(source);d.products.push(d.products[0]);assert.throws(()=>validate(d),/Duplicate/);});
 test('unsafe IDs rejected',()=>{const d=structuredClone(source);d.products[0].id='../bad';assert.throws(()=>validate(d),/Invalid/);});
-test('unreviewed releases cannot become downloads',()=>{const d=structuredClone(source);d.releases.push({id:'release'});assert.throws(()=>validate(d),/Publication adapter/);});
-test('unreviewed mods cannot become catalog entries',()=>{const d=structuredClone(source);d.mods.push({id:'mod'});assert.throws(()=>validate(d),/Publication adapter/);});
+test('legacy site data cannot become downloads',()=>{const d=structuredClone(source);d.releases.push({id:'release'});assert.throws(()=>validate(d),/Legacy site.json/);});
+test('unreviewed mods cannot become catalog entries',()=>{const d=structuredClone(source);d.mods.push({id:'mod'});assert.throws(()=>validate(d),/Legacy site.json/);});
 test('tool publication blocked until contract review',()=>{const d=structuredClone(source);d.products[0].status='released';assert.throws(()=>validate(d),/publication/);});
 test('escapes all HTML attribute delimiters',()=>assert.equal(escapeHtml('<img a="x">&\''),'&lt;img a=&quot;x&quot;&gt;&amp;&#39;'));
 test('brand and planned games require valid display metadata',()=>{for(const change of [d=>d.name='',d=>d.organization=null,d=>d.games[0].name='',d=>d.games=[]]){const d=structuredClone(source);change(d);assert.throws(()=>validate(d));}});

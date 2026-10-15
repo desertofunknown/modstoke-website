@@ -30,10 +30,12 @@ test('all local links and fragments resolve',async()=>{
   }
  }
 });
-test('no fake downloads, external scripts, trackers, or release metadata',async()=>{
+test('no fake downloads, external scripts, or trackers',async()=>{
+ const index=JSON.parse(await readFile(new URL('../data/releases.json',import.meta.url),'utf8'));
  for(const page of pages){
   const html=await readFile(new URL('../dist/'+page,import.meta.url),'utf8');
-  assert.doesNotMatch(html,/download=|<script[^>]+https?:|https?:\/\/.*\.(exe|zip|msi)|download count|testimonials/i);
+  assert.doesNotMatch(html,/<script[^>]+https?:|https?:\/\/.*\.(exe|zip|msi)|download count|testimonials/i);
+  if(!index.latest.manager && !index.latest.loader) assert.doesNotMatch(html,/href="\/downloads\//);
  }
 });
 

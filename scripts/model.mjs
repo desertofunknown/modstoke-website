@@ -13,8 +13,8 @@ export function validate(data) {
     }
   }
   if(!data.games.length || data.games.some(game => typeof game.name !== 'string' || !game.name.trim() || game.status !== 'planned')) throw Error('Invalid planned game');
-  // Public artifacts need a reviewed contract before enabling download links.
-  if (data.mods.length || data.releases.length) throw new Error('Publication adapter not configured: public mods/releases must remain empty. See docs/architecture.md.');
+  // Product downloads use the separate, reviewed data/releases.json adapter.
+  if (data.mods.length || data.releases.length) throw new Error('Legacy site.json mods/releases must remain empty. Use data/releases.json for verified product files; see docs/architecture.md.');
   if (data.products.some(x => x.status !== 'unpublished')) throw new Error('Product publication is not configured');
   return data;
 }
