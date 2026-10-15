@@ -15,7 +15,7 @@ function releaseEvidence(record) {
   const checks=Object.entries(labels).map(([key,label])=>{
     const value=record.validation?.[key];
     return `${label}: ${value==='passed'?'passed':value==='pending'?'pending':value==='not-applicable'?'not applicable':'not recorded'}`;
-  }).join(' � ');
+  }).join(' | ');
   return `<p class="release-signing">${e(signing)} A SHA-256 checksum identifies file bytes; it does not authenticate an update manifest.</p><p class="release-validation">${e(checks)}.</p>`;
 }
 
