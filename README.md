@@ -4,6 +4,8 @@ A community-oriented website for Modstoke, the free modding tools project by Ope
 
 This repository contains the static portal: tool overviews, player and creator documentation, development notes and an unpublished mod catalog. It does not contain Manager, Loader, SDK or Admin binaries.
 
+Join the [Modstoke Discord](https://discord.gg/T2Tjh5ECS) to connect with the community. The permanent invite opens in #welcome.
+
 ## Requirements
 
 - Node.js 24
