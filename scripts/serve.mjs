@@ -6,11 +6,11 @@ import './build.mjs';
 import { emptyCatalog } from './catalog.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../dist');
 const port = Number(process.env.PORT || 4173);
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.json':'application/json; charset=utf-8','.zip':'application/zip','.exe':'application/octet-stream','.msi':'application/octet-stream'};
+const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8','.webp':'image/webp','.svg':'image/svg+xml','.png':'image/png','.json':'application/json; charset=utf-8','.zip':'application/zip','.exe':'application/octet-stream','.msi':'application/octet-stream'};
 createServer(async (req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('Referrer-Policy','no-referrer');
-  res.setHeader('Content-Security-Policy',"default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'");
+  res.setHeader('Content-Security-Policy',"default-src 'self'; connect-src 'self' https://modstoke.com; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'");
   if (!['GET','HEAD'].includes(req.method)) {res.writeHead(405, {'Allow':'GET, HEAD'}); res.end(); return;}
   try {
     const url = new URL(req.url,'http://localhost');
@@ -24,7 +24,7 @@ createServer(async (req,res)=>{
     try { ({body,file}=await readPublicFile(root,'.'+path));res.statusCode=200; }
     catch { ({body,file}=await readPublicFile(root,'404/index.html'));res.statusCode=404; }
     res.setHeader('Content-Type',mime[extname(file)]||'application/octet-stream');
-    const fingerprinted = dirname(file)===root && /^(?:style|app)\.[a-f0-9]{16}\.(?:css|js)$/.test(basename(file));
+    const fingerprinted = dirname(file)===root && /^(?:style|app|servers)\.[a-f0-9]{16}\.(?:css|js)$/.test(basename(file));
     const download=path.startsWith('/downloads/') && res.statusCode===200;
     if(download) res.setHeader('Content-Disposition',`attachment; filename="${basename(file)}"`);
     res.setHeader('Cache-Control',res.statusCode!==200?'no-store':fingerprinted||download?'public, max-age=31536000, immutable':'no-cache');

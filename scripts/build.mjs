@@ -4,24 +4,27 @@ import { fileURLToPath } from 'node:url';
 import { resolve, dirname, basename } from 'node:path';
 import { validate } from './model.mjs';
 import { assetName } from './assets.mjs';
+import { projectKnowledgeSnapshot } from '../src/project-knowledge-view.mjs';
+import { sitemap, robots } from '../src/seo.mjs';
 import { validateReleaseIndex, verifiedArtifacts, verifyCopiedArtifact, loaderManifest, packageInventoryPath } from './releases.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const data = validate(JSON.parse(await readFile(resolve(root, 'data/site.json'), 'utf8')));
 const releaseIndex = validateReleaseIndex(JSON.parse(await readFile(resolve(root, 'data/releases.json'), 'utf8')));
+const projectKnowledge = projectKnowledgeSnapshot(JSON.parse(await readFile(resolve(root, 'data/project-knowledge.json'), 'utf8')), releaseIndex);
 const hostedArtifacts = await verifiedArtifacts(root, releaseIndex);
 import { renderPages } from '../src/templates.mjs';
 const assetBytes = {};
 const assets = {};
-for(const name of ['style.css','app.js']) {
+for(const name of ['style.css','app.js','servers.css','servers.js','guides.css']) {
  assetBytes[name]=await readFile(resolve(root,'src',name));
  assets[name]=assetName(name,assetBytes[name]);
 }
 const screenshots = {};
-for(const file of ['manager-catalog.png','admin-world-preview.png']) {
+for(const file of ['manager-catalog.png','admin-world-preview.png','manager-catalog.webp','manager-catalog-1200.webp','manager-catalog-800.webp','admin-world-preview.webp','admin-world-preview-1200.webp','admin-world-preview-800.webp','modstoke-social.png','modstoke-logo.png']) {
  try { screenshots[file]=await readFile(resolve(root,'src/assets',file)); }
  catch(error) { if(error.code!=='ENOENT') throw error; }
 }
-const pages = renderPages(data, assets, {screenshots:Object.keys(screenshots), releaseIndex});
+const pages = renderPages(data, assets, {screenshots:Object.keys(screenshots), releaseIndex, projectKnowledge});
 const lock = resolve(root, '.build-lock');
 await mkdir(lock); // Refuse concurrent publishers rather than interleave output.
 let previous;
@@ -31,10 +34,14 @@ const staging = await mkdtemp(resolve(root, '.build-stage-'));
 for (const [path,html] of pages) {
  const out=resolve(staging,path.slice(1)); await mkdir(out,{recursive:true}); await writeFile(resolve(out,'index.html'),html);
 }
-for(const name of ['style.css','app.js']) await writeFile(resolve(staging,assets[name]),assetBytes[name]);
+for(const name of ['style.css','app.js','servers.css','servers.js','guides.css']) await writeFile(resolve(staging,assets[name]),assetBytes[name]);
 await writeFile(resolve(staging,'asset-manifest.json'),JSON.stringify(assets,null,2)+'\n');
 await writeFile(resolve(staging,'release-index.json'),JSON.stringify(releaseIndex,null,2)+'\n');
+await mkdir(resolve(staging,'community'),{recursive:true});
+await writeFile(resolve(staging,'community/knowledge.json'),JSON.stringify(projectKnowledge,null,2)+'\n');
 await copyFile(resolve(root,'src/favicon.svg'),resolve(staging,'favicon.svg'));
+await writeFile(resolve(staging,'sitemap.xml'),sitemap(pages.map(([path])=>path)));
+await writeFile(resolve(staging,'robots.txt'),robots);
 await mkdir(resolve(staging,'assets'),{recursive:true});
 for(const [file,bytes] of Object.entries(screenshots)) await writeFile(resolve(staging,'assets',file),bytes);
 for (const {metadata,source} of hostedArtifacts) {
@@ -73,5 +80,5 @@ catch (error) {
   if (movedPrevious) await rename(previous, resolve(root, 'dist'));
   throw error;
 }
-console.log(`Built 6 pages and ${hostedArtifacts.length} verified release artifacts from a fresh allowlisted staging tree. Previous output preserved outside dist.`);
+console.log(`Built ${pages.length} pages and ${hostedArtifacts.length} verified release artifacts from a fresh allowlisted staging tree. Previous output preserved outside dist.`);
 } finally { await rmdir(lock); }

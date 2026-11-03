@@ -35,7 +35,7 @@
       "id": "admin",
       "name": "Modstoke Admin",
       "audience": "For administrators",
-      "summary": "The public repository contains project documentation. Source import is pending, and no downloadable package is available.",
+      "summary": "Private administration tooling. No public package or feed is approved for distribution.",
       "status": "unpublished"
     }
   ],

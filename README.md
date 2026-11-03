@@ -34,17 +34,22 @@ The build writes `dist/`. Serve that directory through a web server rather than 
 - `src/catalog-view.mjs`: catalog presentation
 - `src/style.css`: responsive styling
 - `src/app.js`: catalog filtering for future published inventory
+- `src/guides-view.mjs`, `src/guides.css`: install and troubleshooting guides
+- `src/servers-view.mjs`, `src/servers.js`: the community server directory, read from `/api/community/v1`
+- `src/app-policies-view.mjs`: the `/apps/` privacy and terms pages
+- `src/project-knowledge-view.mjs`, `data/project-knowledge.json`: dated project facts, published at `/community/knowledge.json` for Sentinel
+- `src/seo.mjs`: sitemap, robots and page metadata
 - `data/site.json`: product, game and publication state
-- `data/releases.json`: reviewed product download selection (currently empty)
+- `data/releases.json`: reviewed product download selection
 - `scripts/`: build, local server, packaging and checks
 - `test/`: Node test-runner tests
 - `docs/`: architecture and hosting notes
 
 ## Publication state
 
-The catalog and legacy releases arrays in `data/site.json` remain empty. Product downloads use a separate validated `data/releases.json` adapter. Its current latest pointers are null, so the generated `/release-index.json` has no downloadable artifacts. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
+The catalog and legacy releases arrays in `data/site.json` remain empty. Product downloads use a separate validated `data/releases.json` adapter. It currently selects a Manager preview; the Loader pointer stays null, so no Loader route is emitted. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
 
-Manager and Loader downloads are not currently published by this website. The SDK interfaces live with the Loader. A complete future player bundle also requires a distinct client companion that has not been built or accepted yet. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here. See [release publication](docs/release-publication.md) for the exact file, index and verification gates.
+The SDK interfaces live with the Loader. A Loader release is selected only when one ZIP contains the Loader, the SDK and a distinct client companion, with its per-file manifest and package inventory. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here. See [release publication](docs/release-publication.md) for the exact file, index and verification gates.
 
 The local server includes empty catalog/category response fixtures to support integration work. They are not a production backend or an updater service. See [architecture](docs/architecture.md).
 
@@ -54,8 +59,8 @@ Screenshot binaries are excluded from the public source bundle. The site builds 
 
 For an authorized visual preview, optional captures can be supplied at:
 
-- `src/assets/manager-catalog.png`
-- `src/assets/admin-world-preview.png`
+- `src/assets/manager-catalog.webp`, with `-1200` and `-800` sizes (or `.png`)
+- `src/assets/admin-world-preview.webp`, with `-1200` and `-800` sizes (or `.png`)
 
 Review the complete image for account names, player identifiers, credentials and private desktop content before adding it. The existing captions distinguish a development capture from a released product; do not remove those qualifications without checking the facts. Merely adding an image locally does not authorize publishing it.
 

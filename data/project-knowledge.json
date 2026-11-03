@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-10-20",
+  "releaseStatus": "Manager 0.2.1-preview.4 is an unsigned Windows preview. The complete Loader, SDK and client bundle is not publicly released. Check Releases before downloading.",
+  "topics": [
+    {
+      "id": "overview",
+      "title": "Welcome to Modstoke",
+      "summary": "Free modding tools and a community for Sons of the Forest players, mod creators and server hosts, alongside Tithewood, our medieval roleplay game on BYOND. Developed by OpenACAI; independent of Endnight Games.",
+      "facts": [
+        "Manager brings mod sources and setup management together in a Windows desktop app. Start with the published preview and installation guide.",
+        "Loader and the SDK are being developed as an independent mod runtime, with compatibility identities for BepInEx, RedLoader and SonsSdk. This is a development direction, not a promise that every existing mod works.",
+        "Ask for setup help, share a mod idea, find a co-op crew, or tell us which player and creator problems matter most. All advertised Modstoke tools are free."
+      ],
+      "url": "https://modstoke.com/docs/#project",
+      "keywords": [
+        "modstoke",
+        "openacai",
+        "project",
+        "about",
+        "community"
+      ]
+    },
+    {
+      "id": "sdk",
+      "title": "What the SDK is being built to provide",
+      "summary": "The current development source provides typed game observations and mod services. These are source contracts, not a released SDK package or proof of in-game acceptance.",
+      "facts": [
+        "Inventory and equipment snapshots; crafting recipe requirements and shortages; local-player survival vitals; season, weather and temperature observations.",
+        "Server-world player and vehicle observations, NPC state and construction requirements; bounded collision queries and loaded-terrain height/normal reads. These do not establish full cave collision or walkability coverage.",
+        "Owned audio and loaded asset-bundle inspection helpers, observed coroutine completion, UI draft fields and remote command responses. Server authorization and world-readiness checks still apply.",
+        "Native mod manifests can declare exact required IDs/versions. The runtime orders callbacks, blocks missing or cyclic requirements, and stops dependents after prerequisite failure. Dedicated-server initialization skips client menus and input.",
+        "Do not assume a stable public API, universal compatibility, higher player limits, automatic retries for uncertain commands, or that source/build success proves multiplayer behavior."
+      ],
+      "url": "https://modstoke.com/docs/#sdk-development",
+      "keywords": [
+        "sdk",
+        "api",
+        "capabilities",
+        "inventory",
+        "crafting",
+        "weather",
+        "terrain",
+        "coroutine",
+        "dependency",
+        "modding",
+        "author"
+      ]
+    },
+    {
+      "id": "loader",
+      "title": "Loader and native mods",
+      "summary": "Loader is the developing runtime for discovering native mod packages and hosting their lifecycle. The complete public Loader/SDK/client bundle is not released yet.",
+      "facts": [
+        "Creator preparation covers package layout, manifest identity, assembly and entry type, dependency declarations, compatibility notes and an isolated development setup.",
+        "Use matching source revisions and record the exact game build. Do not mix arbitrary Loader, SDK and client revisions or treat legacy compatibility identities as a guarantee.",
+        "Manager's automatic full-bundle installation and a public Loader update manifest are not currently available. There is no new Loader download to recommend."
+      ],
+      "url": "https://modstoke.com/docs/#authors",
+      "keywords": [
+        "loader",
+        "bepinex",
+        "redloader",
+        "sonssdk",
+        "manifest",
+        "dependencies",
+        "client"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Manager: start with the published preview",
+      "summary": "Modstoke Manager is the desktop starting point for browsing mod sources and managing a game setup. Current downloadable availability comes from the release index.",
+      "facts": [
+        "Follow the installation guide, back up saves, and identify the correct game installation. The current preview is unsigned; a file checksum does not establish publisher trust.",
+        "The hosted mod catalog is still being prepared. The website does not currently serve a complete Loader/SDK/client bundle or an automatic update service.",
+        "For help, share the Manager and game versions, whether Loader/client are installed, the action attempted, and a short sanitized error excerpt. Never post tokens, passwords or full private logs."
+      ],
+      "url": "https://modstoke.com/guides/install-modstoke-manager/",
+      "keywords": [
+        "manager",
+        "install",
+        "download",
+        "update",
+        "preview",
+        "version",
+        "error",
+        "setup"
+      ]
+    },
+    {
+      "id": "roadmap",
+      "title": "What we are working toward",
+      "summary": "The direction is a useful free toolchain connecting players, mod authors and server hosts. No release dates are promised here.",
+      "facts": [
+        "Expand the typed SDK and independent runtime, preserve useful legacy compatibility, and develop shared mod UI and configuration services.",
+        "Prepare coherent Loader/SDK/client releases and clearer compatibility information. Only approved entries on the Releases page count as public downloads.",
+        "Build an opt-in public game-server directory and a welcoming Discord with setup support, member-created crew listings and creator discussion.",
+        "Admin/Toolkit is private project tooling, without a public package or feed. Do not reveal internal administrative implementation or claim it is available to download."
+      ],
+      "url": "https://modstoke.com/tools/",
+      "keywords": [
+        "roadmap",
+        "plans",
+        "working",
+        "future",
+        "admin",
+        "toolkit",
+        "release date"
+      ]
+    },
+    {
+      "id": "play",
+      "title": "Find your next crew",
+      "summary": "Sons of the Forest is an open-world survival horror game with crafting, building, exploration, solo play and online co-op. Modstoke helps members arrange their own sessions.",
+      "facts": [
+        "Use /crew list with optional region, style and when keyword filters. Time matching searches the host's written session time; it does not calculate overlapping schedules or convert timezones.",
+        "Use /crew create to offer a session with region, time plus timezone, playstyle, open spots and optional requirements. One active post per person; posts expire after six hours by default, with a one-to-24-hour choice.",
+        "Choose your region and playstyle with /roles. These are self-selected interests, not matchmaking guarantees. /crew alerts explicitly opts into DMs; optional region filtering and a one-alert-per-two-hours limit apply. Turn them off any time.",
+        "Use /servers to view opt-in public server listings. Crew posts are member plans, not reservations, verified compatibility, live player presence or an automatic game join. Agree game/mod versions and save expectations with the host."
+      ],
+      "url": "https://modstoke.com/docs/#play-together",
+      "keywords": [
+        "play",
+        "players",
+        "crew",
+        "coop",
+        "co-op",
+        "friends",
+        "looking",
+        "lfg",
+        "session",
+        "game",
+        "survival",
+        "building",
+        "forest",
+        "timezone"
+      ]
+    },
+    {
+      "id": "tithewood",
+      "title": "Tithewood · medieval roleplay on BYOND",
+      "summary": "Tithewood is our independently operated medieval roleplay game on BYOND, built from Ratwood. Its community is part of the Modstoke Discord.",
+      "facts": [
+        "Players take character roles in a shared world with trades, farming, city guard duties and adventuring. Some roles have access requirements that depend on the game configuration.",
+        "The public website presents Grimoria with an inherited setting illustration. It is a world map for the setting, not a live gameplay map.",
+        "The public website reviewed on 2026-10-20 says public access is closed and no launch date is announced. Check tithewood.com for current access; do not assume a reachable service means a playable public round.",
+        "When access opens, follow the website for BYOND client and connection guidance. Use the official BYOND Windows client and your BYOND account; never share your password or private logs in Discord.",
+        "Choose Tithewood in the project role menu and use its dedicated discussion and development channels. Share ideas, report a clear reproduction with sanitized errors, and arrange play only when an actual session has been announced."
+      ],
+      "url": "https://modstoke.com/docs/#tithewood",
+      "keywords": [
+        "tithewood",
+        "byond",
+        "ratwood",
+        "grimoria",
+        "medieval",
+        "roleplay",
+        "role play",
+        "dream seeker",
+        "dream daemon"
+      ]
+    }
+  ]
+}

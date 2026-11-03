@@ -23,7 +23,9 @@ test('all local links and fragments resolve',async()=>{
   const html=await readFile(new URL('../dist/'+page,import.meta.url),'utf8');
   for(const [,href] of html.matchAll(/href="([^"]+)"/g)){
    const url=new URL(href,'https://example.invalid/'+page.replace('index.html',''));
-   assert.equal(url.origin,'https://example.invalid');
+   // Canonical and social links name the public origin; other origins are external.
+   if(url.origin==='https://modstoke.com') url.host='example.invalid';
+   else if(url.origin!=='https://example.invalid') continue;
    const target=url.pathname.endsWith('/')?url.pathname+'index.html':url.pathname;
    const contents=await readFile(resolve(fileURLToPath(root),'dist','.'+target),'utf8');
    if(url.hash) assert.ok(contents.includes(`id="${url.hash.slice(1)}"`),`${page}: ${href}`);
@@ -34,7 +36,7 @@ test('no fake downloads, external scripts, or trackers',async()=>{
  const index=JSON.parse(await readFile(new URL('../data/releases.json',import.meta.url),'utf8'));
  for(const page of pages){
   const html=await readFile(new URL('../dist/'+page,import.meta.url),'utf8');
-  assert.doesNotMatch(html,/<script[^>]+https?:|https?:\/\/.*\.(exe|zip|msi)|download count|testimonials/i);
+  assert.doesNotMatch(html,/<script[^>]+https?:|https?:\/\/[^"\s]*\.(exe|zip|msi)|download count|testimonials/i);
   if(!index.latest.manager && !index.latest.loader) assert.doesNotMatch(html,/href="\/downloads\//);
  }
 });

@@ -4,14 +4,20 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 import { renderCatalog } from '../src/catalog-view.mjs';
 import { renderPages } from '../src/templates.mjs';
-const data=JSON.parse(await readFile(new URL('../data/site.json',import.meta.url),'utf8'));
+import { projectKnowledgeSnapshot } from '../src/project-knowledge-view.mjs';
+import { validateReleaseIndex } from '../scripts/releases.mjs';
+const json=async path=>JSON.parse(await readFile(new URL(path,import.meta.url),'utf8'));
+const data=await json('../data/site.json');
+const releaseIndex=validateReleaseIndex(await json('../data/releases.json'));
+const projectKnowledge=projectKnowledgeSnapshot(await json('../data/project-knowledge.json'),releaseIndex);
 const assets={'style.css':'style.test.css','app.js':'app.test.js'};
+const render=(site,screenshots=['manager-catalog.png','admin-world-preview.png'])=>renderPages(site,assets,{screenshots,releaseIndex,projectKnowledge});
 test('empty inventory renders honest catalog status without unusable controls',()=>{
  const html=renderCatalog(data);
  assert.match(html,/<h1>Catalog status\.<\/h1>/);
  assert.doesNotMatch(html,/id="mod-search"|id="game-filter"|role="search"/);
  assert.match(html,/No mods published yet/);
- const home=renderPages(data,assets).find(([route])=>route==='/')[1];
+ const home=render(data).find(([route])=>route==='/')[1];
  assert.match(home,/href="\/mods\/">Catalog status/);
  assert.doesNotMatch(home,/>Browse mods|>Explore the catalog/);
 });
@@ -22,7 +28,7 @@ test('nonempty synthetic view model exposes controls, escaped records and browse
  assert.match(html,/id="mod-search"/);assert.match(html,/id="game-filter"/);
  assert.match(html,/Synthetic &lt;fixture&gt;/);assert.match(html,/Test &amp; only/);
  assert.doesNotMatch(html,/No mods published yet/);
- assert.match(renderPages(fixture,assets)[0][1],/>Browse mods/);
+ assert.match(render(fixture)[0][1],/>Browse mods/);
 });
 test('catalog heading sequence never skips from h1 to h3',()=>{
  const headings=[...renderCatalog(data).matchAll(/<h([1-6])\b/g)].map(x=>Number(x[1]));
@@ -45,11 +51,11 @@ test('future nonempty filtering combines game/query and resets without submissio
  assert.equal(prevented,true);assert.deepEqual(rows.map(r=>r.hidden),[false,false]);assert.match(status.textContent,/2 of 2/);
 });
 test('captions offer visible full-size links and creators/releases give factual guidance',()=>{
- const pages=Object.fromEntries(renderPages(data,assets));
+ const pages=Object.fromEntries(render(data));
  assert.match(pages['/'],/class="image-full-link"[^>]*>View full-size screenshot/);
  assert.match(pages['/tools/'],/clock-preflight failure/);
  assert.match(pages['/docs/'],/class="creator-checklist"/);assert.match(pages['/docs/'],/public parameterless constructor/);
- assert.match(pages['/releases/'],/datetime="2026-10-14"/);assert.doesNotMatch(pages['/releases/'],/is on its way/);
+ assert.ok(pages['/releases/'].includes(`datetime="${releaseIndex.releases[0].publishedUtc}"`));assert.doesNotMatch(pages['/releases/'],/is on its way/);
 });
 test('caption minimum-size refinement is explicit in desktop and mobile rules',async()=>{
  const css=await readFile(new URL('../src/style.css',import.meta.url),'utf8');
@@ -58,14 +64,14 @@ test('caption minimum-size refinement is explicit in desktop and mobile rules',a
  assert.match(final,/@media\(max-width:740px\).*font-size:14px/s);
 });
 test('public source builds omit unavailable screenshots without broken image references',()=>{
- const pages=renderPages(data,assets,{screenshots:[]});
+ const pages=render(data,[]);
  for(const [,html] of pages) assert.doesNotMatch(html,/<img\b|href="\/assets\//);
  assert.match(pages[0][1],/Find your starting point/);
  assert.match(pages[0][1],/The toolkit/);
 });
 
 test('reviewed screenshot framing qualifies visible catalog actions and keeps links compact',async()=>{
- const pages=Object.fromEntries(renderPages(data,assets));
+ const pages=Object.fromEntries(render(data));
  for(const route of ['/', '/tools/']) {
   const html=pages[route];
   assert.ok(html.indexOf('class="capture-qualification"')<html.indexOf('class="manager-screen"'));

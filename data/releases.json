@@ -1,8 +1,40 @@
 {
   "schema": 1,
   "latest": {
-    "manager": null,
+    "manager": "manager-0-2-1-preview-4",
     "loader": null
   },
-  "releases": []
+  "releases": [
+    {
+      "releaseId": "manager-0-2-1-preview-4",
+      "product": "manager",
+      "version": "0.2.1-preview.4",
+      "channel": "preview",
+      "publishedUtc": "2026-10-15T06:55:07Z",
+      "sourceCommit": "9e64a2ca17acde6d9335bea078c9db22e6db160c",
+      "defaultLoaderReleaseId": null,
+      "notesPath": "/releases/#manager-0-2-1-preview-4",
+      "validation": {
+        "cleanSource": "passed",
+        "licenses": "passed",
+        "build": "passed",
+        "install": "passed",
+        "game": "not-applicable",
+        "multiplayer": "not-applicable",
+        "hostedFetch": "passed"
+      },
+      "artifacts": [
+        {
+          "kind": "manager-windows",
+          "sitePath": "/downloads/manager/0.2.1-preview.4/Modstoke-Manager-Preview-0.2.1-preview.4-x64-setup.exe",
+          "fileName": "Modstoke-Manager-Preview-0.2.1-preview.4-x64-setup.exe",
+          "size": 4250220,
+          "sha256": "48891806E6E20CDA1B957739F922F913A30D94BADDF5F44D54BB171CE3656B18",
+          "signatureStatus": "unsigned-preview",
+          "signingEvidence": null,
+          "unsignedReason": "Local preview build; no publisher signature applied"
+        }
+      ]
+    }
+  ]
 }

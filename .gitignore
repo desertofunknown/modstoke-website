@@ -9,3 +9,4 @@ artifacts/
 
 # Product captures are reviewed separately from source publication.
 src/assets/*.png
+src/assets/*.webp
