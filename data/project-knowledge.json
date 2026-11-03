@@ -50,11 +50,12 @@
     {
       "id": "loader",
       "title": "Loader and native mods",
-      "summary": "Loader is the developing runtime for discovering native mod packages and hosting their lifecycle. The complete public Loader/SDK/client bundle is not released yet.",
+      "summary": "Loader is the runtime that discovers native mod packages and hosts their lifecycle. Loader 0.4.0-net11-preview with the SDK is on Releases; mods such as Client have their own downloads.",
       "facts": [
         "Creator preparation covers package layout, manifest identity, assembly and entry type, dependency declarations, compatibility notes and an isolated development setup.",
         "Use matching source revisions and record the exact game build. Do not mix arbitrary Loader, SDK and client revisions or treat legacy compatibility identities as a guarantee.",
-        "Manager's automatic full-bundle installation and a public Loader update manifest are not currently available. There is no new Loader download to recommend."
+        "Manager 0.3.0 installs and repairs the Loader from modstoke.com. The Loader now lives in a Modstoke folder and moves old OpenACAI mods and settings across on first start.",
+        "Loader 0.4.0-net11-preview is a preview: its game and multiplayer checks are still pending. Coming from an older build, run Modstoke Legacy Cleanup 1.1.0 first."
       ],
       "url": "https://modstoke.com/docs/#authors",
       "keywords": [
@@ -74,7 +75,7 @@
       "facts": [
         "Follow the installation guide, back up saves, and identify the correct game installation. Manager 0.3.0 and everything in its installer are signed by OpenACAI Inc.",
         "Sign in to Nexus Mods through your browser from the Manager; personal API keys are no longer needed. The server browser opens modstoke:// join links, and dedicated server hosts get game settings, staff permissions and a live console.",
-        "The hosted mod catalog is still being prepared. The website does not currently serve a complete Loader/SDK/client bundle or an automatic update service.",
+        "The hosted mod catalog is still being prepared. The Loader and SDK download and their update manifest are on modstoke.com, and Manager uses them to install and repair the Loader.",
         "For help, share the Manager and game versions, whether Loader/client are installed, the action attempted, and a short sanitized error excerpt. Never post tokens, passwords or full private logs."
       ],
       "url": "https://modstoke.com/guides/install-modstoke-manager/",

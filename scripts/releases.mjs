@@ -49,8 +49,10 @@ export function validateReleaseIndex(index) {
       const bundle = record.bundled;
       if (!object(fit) || fit.gameId !== 'sons-of-the-forest' || !Array.isArray(fit.testedGameBuilds) || fit.testedGameBuilds.some(x => !filled(x)) || !versionText.test(fit.minManagerVersion || '') ||
           (record.validation.game === 'pending' ? fit.testedGameBuilds.length !== 0 : fit.testedGameBuilds.length === 0)) fail(`${record.releaseId}: tested game builds must match game validation state`);
-      if (!object(bundle) || !object(bundle.sdk) || !safeRelativePath(bundle.sdk.assemblyPath) || !commit.test(bundle.sdk.sourceCommit || '') || !object(bundle.client) || !filled(bundle.client.pluginId) || !versionText.test(bundle.client.version || '') || !safeRelativePath(bundle.client.installPath) || !commit.test(bundle.client.sourceCommit || '')) fail(`${record.releaseId}: complete SDK and distinct client companion required`);
-      if (bundle.client.pluginId === 'com.openacai.sotf.admin') fail(`${record.releaseId}: host Admin cannot be the client companion`);
+      if (!object(bundle) || !object(bundle.sdk) || !safeRelativePath(bundle.sdk.assemblyPath) || !commit.test(bundle.sdk.sourceCommit || '')) fail(`${record.releaseId}: complete SDK required`);
+      // A Loader + SDK bundle may ship without a client; mods such as Client keep their own downloads.
+      if (bundle.client !== null && (!object(bundle.client) || !filled(bundle.client.pluginId) || !versionText.test(bundle.client.version || '') || !safeRelativePath(bundle.client.installPath) || !commit.test(bundle.client.sourceCommit || ''))) fail(`${record.releaseId}: a bundled client companion must be complete`);
+      if (bundle.client?.pluginId === 'com.openacai.sotf.admin') fail(`${record.releaseId}: host Admin cannot be the client companion`);
     }
     if (!Array.isArray(record.artifacts) || record.artifacts.length !== 1) fail(`${record.releaseId}: exactly one hosted artifact is required`);
     const artifact = record.artifacts[0];
@@ -143,14 +145,14 @@ export async function loaderManifest(root, record, origin) {
   if (manifest.schema !== 1 || !filled(manifest.name) || !date(manifest.generatedUtc) || manifest.version !== record.version || !object(manifest.package) ||
       manifest.package.fileName !== artifact.fileName || String(manifest.package.sha256 || '').toLowerCase() !== artifact.sha256.toLowerCase() ||
       !object(manifest.update) || manifest.update.minManagerVersion !== record.compatibility.minManagerVersion ||
-      !object(manifest.runtime) || ['targetFramework','dotnetRuntimeVersion','supportPolicy','redLoaderCompatibilityTarget'].some(key => !filled(manifest.runtime[key])) ||
+      !object(manifest.runtime) || ['targetFramework','dotnetRuntimeVersion'].some(key => !filled(manifest.runtime[key])) ||
       !Array.isArray(manifest.files) || !manifest.files.length) fail(`${record.releaseId}: invalid Loader schema-1 manifest source`);
   const paths = new Set();
   for (const file of manifest.files) {
     if (!object(file) || !safeRelativePath(file.path) || !hex.test(file.sha256 || '') || !Number.isSafeInteger(file.size) || file.size <= 0 || paths.has(file.path)) fail(`${record.releaseId}: invalid or duplicate installed file`);
     paths.add(file.path);
   }
-  if (!paths.has(record.bundled.sdk.assemblyPath) || !paths.has(record.bundled.client.installPath)) fail(`${record.releaseId}: SDK or client companion absent from installed files`);
+  if (!paths.has(record.bundled.sdk.assemblyPath) || (record.bundled.client && !paths.has(record.bundled.client.installPath))) fail(`${record.releaseId}: SDK or client companion absent from installed files`);
   for (const signedFile of artifact.signingEvidence?.files || []) {
     const listed = manifest.files.find(file => file.path === signedFile.path);
     if (!listed || listed.sha256.toLowerCase() !== signedFile.sha256.toLowerCase()) fail(`${record.releaseId}: signing evidence does not match an installed file`);

@@ -6,7 +6,9 @@ import json
 import stat
 import sys
 
-archive_path, manifest_path, inventory_path, sdk_path, client_path = map(Path, sys.argv[1:6])
+archive_path, manifest_path, inventory_path = map(Path, sys.argv[1:4])
+# The client path is empty for a Loader + SDK bundle without a client companion.
+sdk_path, client_path = sys.argv[4:6]
 release_id = sys.argv[6]
 manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 expected = {item["path"]: item for item in manifest["files"]}
@@ -31,8 +33,8 @@ for item in inventory_files:
     reviewed_paths.add(path)
 if reviewed_paths != set(expected):
     raise ValueError("Reviewed inventory must account for every installed ZIP file")
-for required in (sdk_path.as_posix(), client_path.as_posix()):
-    if required not in expected:
+for required in (sdk_path, client_path):
+    if required and required not in expected:
         raise ValueError(f"Required bundle component is missing: {required}")
 
 with ZipFile(archive_path) as archive:

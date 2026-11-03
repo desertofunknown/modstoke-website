@@ -39,7 +39,7 @@ test('latest release must match product and Manager bundle reference', () => {
  assert.throws(()=>validateReleaseIndex(index),/selections do not match/);
 });
 
-test('mutable paths, placeholder hashes, and missing client identity cannot publish', () => {
+test('mutable paths, placeholder hashes, and incomplete client identity cannot publish', () => {
  const l=loader();
  const index={schema:1,latest:{manager:null,loader:l.releaseId},releases:[l]};
  l.artifacts[0].sitePath='/releases/latest/Loader.zip';
@@ -50,6 +50,10 @@ test('mutable paths, placeholder hashes, and missing client identity cannot publ
  l.artifacts[0].sha256=hash(Buffer.from('test Loader ZIP bytes'));
  l.bundled.client.pluginId='com.openacai.sotf.admin';
  assert.throws(()=>validateReleaseIndex(index),/host Admin/);
+ l.bundled.client={pluginId:'fixture.client'};
+ assert.throws(()=>validateReleaseIndex(index),/client companion must be complete/);
+ l.bundled.client=null;
+ assert.equal(validateReleaseIndex(index),index);
 });
 
 test('preview can disclose unsigned and pending play checks without relaxing rights or install gates', () => {

@@ -58,7 +58,7 @@ for (const record of releaseIndex.releases.filter(x=>x.product==='loader')) {
   resolve(root,'scripts/verify-loader-zip.py'), bundle.source,
   resolve(root,'data/loader-manifests',`${record.releaseId}.json`),
   inventory,
-  record.bundled.sdk.assemblyPath,record.bundled.client.installPath,record.releaseId
+  record.bundled.sdk.assemblyPath,record.bundled.client?.installPath ?? '',record.releaseId
  ],{stdio:'inherit'});
  const output=resolve(staging,'releases/loader',record.version,'OpenACAILoader.manifest.json');
  await mkdir(dirname(output),{recursive:true});

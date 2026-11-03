@@ -1,0 +1,1500 @@
+{
+  "schema": 1,
+  "name": "Modstoke Loader",
+  "publisher": "OpenACAI",
+  "description": "Modstoke Loader by OpenACAI. Independent mod loader and SDK for Sons of the Forest.",
+  "version": "0.4.0-net11-preview",
+  "generatedUtc": "2026-11-03T23:10:16.1215570Z",
+  "package": {
+    "fileName": "OpenACAILoader.zip",
+    "sha256": "3904811BD10F3F818B4023D0DCB0D922F8BF826C95BED0F68DC7788209CC7F14",
+    "size": 55114736,
+    "compressor": "System.IO.Compression"
+  },
+  "update": {
+    "minManagerVersion": "0.3.0"
+  },
+  "installLayout": {
+    "primaryRuntimeDirectory": "Modstoke/Runtime",
+    "runtimeCompatibilityDirectory": "Modstoke/Runtime/Compatibility",
+    "nativeModsDirectory": "Modstoke/Mods",
+    "userDataDirectory": "Modstoke/UserData",
+    "bootstrapCompatibilityMirror": "BepInEx/plugins/OpenACAILoader",
+    "chainloaderStateFile": "Modstoke/Runtime/openacai-chainloader-state.json",
+    "il2CppPreloaderStateFile": "Modstoke/Runtime/openacai-il2cpp-preloader-state.json",
+    "il2CppChainloaderStateFile": "Modstoke/Runtime/openacai-il2cpp-chainloader-state.json",
+    "stateFileCompatibilityMirror": "BepInEx/plugins/OpenACAILoader/openacai-loader-state.json",
+    "fileManifestCompatibilityMirror": "BepInEx/plugins/OpenACAILoader/openacai-loader-files.json"
+  },
+  "runtime": {
+    "targetFramework": "net11.0",
+    "dotnetRuntimeVersion": "11.0.0-rc.3.26522.148",
+    "layout": "hostfxr",
+    "targetAssemblyRelativePath": "Modstoke/Runtime/Modstoke.Bootstrap.dll",
+    "coreclrRelativePath": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/coreclr.dll",
+    "corlibRelativePath": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148",
+    "hostfxrRelativePath": "dotnet/host/fxr/11.0.0-rc.3.26522.148/hostfxr.dll",
+    "runtimeConfigRelativePath": "Modstoke/Runtime/Modstoke.Loader.runtimeconfig.json",
+    "nativeHost": "Modstoke Native Host"
+  },
+  "bundled": {
+    "sdk": {
+      "assemblyPath": "Modstoke/Runtime/Modstoke.Loader.dll",
+      "sourceCommit": "23347f9cb3c2872efa21f8204537141253895f92"
+    }
+  },
+  "sourceTrail": {
+    "openAcaiLoader": {
+      "repository": "https://github.com/desertofunknown/modstoke-loader",
+      "branch": "openacai-net11-preview",
+      "commit": "23347f9cb3c2872efa21f8204537141253895f92"
+    }
+  },
+  "signedFiles": [
+    "winhttp.dll",
+    "BepInEx/core/0Harmony.dll",
+    "BepInEx/core/BepInEx.Core.dll",
+    "BepInEx/core/BepInEx.Preloader.Core.dll",
+    "BepInEx/core/BepInEx.Unity.Common.dll",
+    "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+    "BepInEx/core/dobby.dll",
+    "Modstoke/Runtime/Modstoke.Bootstrap.dll",
+    "Modstoke/Runtime/Modstoke.Preloader.dll",
+    "Modstoke/Runtime/Modstoke.Loader.dll",
+    "Modstoke/Runtime/Modstoke.Console.dll",
+    "Modstoke/Runtime/Compatibility/RedLoader.dll",
+    "Modstoke/Runtime/Compatibility/SonsSdk.dll",
+    "Modstoke/Runtime/Compatibility/modstoke_json_native.dll",
+    "Modstoke/Runtime/Diagnostics/Modstoke.JobTempTrace.dll",
+    "BepInEx/plugins/OpenACAILoader/Modstoke.Loader.dll",
+    "BepInEx/plugins/OpenACAILoader/RedLoader.dll",
+    "BepInEx/plugins/OpenACAILoader/SonsSdk.dll"
+  ],
+  "files": [
+    {
+      "path": ".doorstop_version",
+      "sha256": "A81857747EF12AF1174937B428CC062B0DF7FD76685635F4287E60DAA5A4F3F4",
+      "size": 46
+    },
+    {
+      "path": "BepInEx/core/0Harmony.dll",
+      "sha256": "AAE865A188871CAB3677257DC26A63C17C7235F9FDEFDF3D9AAF6AB8EBDA46F7",
+      "size": 358736
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.dll",
+      "sha256": "8E18B7694BA35EE9E098B2C6F75CE60E41E0CF3E5339388D661426ECCD1BEDA4",
+      "size": 67072
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.DotNet.dll",
+      "sha256": "72D067F72E2BA841936F348A38A5379679B7BA08CEC64255F8E41F0D2FF90A4D",
+      "size": 564736
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.PE.dll",
+      "sha256": "4C45FF51CF3AB6ADD9DD5E480EBCF542033DD13A7FF2522AE96AE18ADCF6C994",
+      "size": 397312
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.PE.File.dll",
+      "sha256": "83F7E46B206F19101600168FE0BFAC198B625CC6FDF3F2B3B6E745922F0A4FC7",
+      "size": 40448
+    },
+    {
+      "path": "BepInEx/core/AssetRipper.CIL.dll",
+      "sha256": "2F36927D557A0A3A0B103E87B066BA9AC09290664F26B7899D130E14F58FFF83",
+      "size": 38912
+    },
+    {
+      "path": "BepInEx/core/AssetRipper.Primitives.dll",
+      "sha256": "9E431F3CB8A17A258EE0DBCCEF11A766052435C5BBFCE377BF6E0585676833AB",
+      "size": 35328
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Core.dll",
+      "sha256": "408D8F46CFFDE6AD1CB1C756577BECF720D982CB02B30AFEDF62D12F5E1E329F",
+      "size": 150864
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Core.xml",
+      "sha256": "1A83D5751328A3C1DD455F6079A6FC81161CDE043541B63B7DC490B173EF6EB1",
+      "size": 97163
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.Core.dll",
+      "sha256": "CA08A79C8DC1227DCC48AB2A0910DD097AA02621523FF108FF1AA520974A2C4B",
+      "size": 51024
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.Core.xml",
+      "sha256": "E9D23345C1D0F6A5759596B806A4991AFCD04F827669CF68ECB2DA7442620C90",
+      "size": 21070
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.Common.dll",
+      "sha256": "04E6ABC7582A6F2D13FA7FDD68AE2B33BFFA6E104022511122B70F36231734C3",
+      "size": 31056
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.Common.xml",
+      "sha256": "B3EA896876D8B005C0DFF9FF4198B0D666CA9CBF3E1D651050DDB430CC60261F",
+      "size": 841
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+      "sha256": "6F5FDD8E812ED47214EFAC7BA73B6EF8B64A357742EA78750506D08F717BBD0D",
+      "size": 75088
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll.config",
+      "sha256": "CB455007CD9DC56B206D66BAFEDB39D6DDF7CD5C7D9919A0D95CBEC3305A2434",
+      "size": 467
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.IL2CPP.xml",
+      "sha256": "30CE6360B5C8D6724FF3E810C2309D3ECDFAE4454D23B18BAFBD154E0B99FFED",
+      "size": 3661
+    },
+    {
+      "path": "BepInEx/core/Cpp2IL.Core.dll",
+      "sha256": "B87B0B307F93E7187CB52BC5729E88B13D7987EBD5F198BC265F9465573D6980",
+      "size": 373760
+    },
+    {
+      "path": "BepInEx/core/Disarm.dll",
+      "sha256": "40E804C35369825884534734725D06831A534759478C8D9F3F908D80779A1A93",
+      "size": 139264
+    },
+    {
+      "path": "BepInEx/core/dobby.dll",
+      "sha256": "8E0396A2296CB5A86997B4010C8572900B1068882C343C0D0484CC229FA396F4",
+      "size": 478544
+    },
+    {
+      "path": "BepInEx/core/Gee.External.Capstone.dll",
+      "sha256": "41AEF753408C59A28A7E01EC9CA0957D67D5CBEA432EE2A36E5EA1C1CDBCD8A3",
+      "size": 289792
+    },
+    {
+      "path": "BepInEx/core/Iced.dll",
+      "sha256": "F058C01321B4CDFC9B9151879E88E59571C8D0BA176FBCF95BC936A8F3D073ED",
+      "size": 1896448
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Common.dll",
+      "sha256": "4109C48C4D5A13F5B0AFBEEAC6D79660634D8E8DCAC56DA2039DB881C5BC5959",
+      "size": 41984
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Generator.dll",
+      "sha256": "88157561F2968AB5EB4CF270528FF052A8596E9B53C6351D90260C030645D07C",
+      "size": 219648
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.HarmonySupport.dll",
+      "sha256": "2EAE4A0C86A348DAAE2FDBB08A96B9F742DDAE3F972D7F48262BFD7BCBDFCFAD",
+      "size": 46080
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Native.dll",
+      "sha256": "2A23AB502059EB0C64301D953E39E6098BC4EEE4D46C919C23422386EBF70072",
+      "size": 412160
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Runtime.dll",
+      "sha256": "EF5E644A4762D9DA14A84989210A59164AF68287492195310B80AF031E4D9964",
+      "size": 1055744
+    },
+    {
+      "path": "BepInEx/core/LibCpp2IL.dll",
+      "sha256": "5724C0B59FF9B8D810637CCB5B0FE51E8E39D0005B6FFAAE66E1BBA8C3E858D9",
+      "size": 290816
+    },
+    {
+      "path": "BepInEx/core/Microsoft.Extensions.DependencyInjection.dll",
+      "sha256": "642983F61CED02961727B6B5DF8BF2A76A43D70F64C91188D4E6EFE4A1E25FE7",
+      "size": 97064
+    },
+    {
+      "path": "BepInEx/core/Microsoft.Extensions.Logging.dll",
+      "sha256": "F25D423883523259100E0B0F03ADE2D843C6A122CD474CA5351573FC46CDEC5A",
+      "size": 51536
+    },
+    {
+      "path": "BepInEx/core/modstoke_harmony_core.dll",
+      "sha256": "B97C479E10587668B5007C37CC0E6B6F822FB9F60F72F7A28BBEF73F49C80F04",
+      "size": 213504
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.dll",
+      "sha256": "831DCA77470D85CB6FFBEA3072DAA7A3DF5B7C9FCFD9C3F43674A9BE99D4BFCF",
+      "size": 361472
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+      "sha256": "28CB367972BDC1CD43E4006306AF2FD96D37F4ED4B239EE90E1DC7237A93AF7F",
+      "size": 39936
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+      "sha256": "A332332633FBCB20E8D50E49B4DB7BD1557721417122CF0C5F4C42F2332391D0",
+      "size": 90112
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+      "sha256": "BF992F3DCE364EBCC3200FA7832EF07E20B4E2DBC3A8A6213CE44E3D239DB984",
+      "size": 27136
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Backports.dll",
+      "sha256": "AC3F32BFD44AAB83ABF71ABDFF6DDE548D57B7C0F8A1FE6D8964E348B4EEAFB1",
+      "size": 27648
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Core.dll",
+      "sha256": "8DED155E191C0F6B3C4D73B54668F1DED8D70D74259BECE44E9391E341F94258",
+      "size": 448512
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Iced.dll",
+      "sha256": "8758F777BE7713A8C3D2558DA8C0534B379333037840642A90FCE2A0515679C7",
+      "size": 645632
+    },
+    {
+      "path": "BepInEx/core/MonoMod.ILHelpers.dll",
+      "sha256": "FDD0E3538340FD78B8F521E62B8CAC1EBB7683AC1F27F6AAEDFC1044B14BF4BB",
+      "size": 4096
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "sha256": "93997B9D5008E9C510B987DD4F9578BBA8D55A26F2BA34A73069A59ADF4DD930",
+      "size": 76288
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.dll",
+      "sha256": "A3455C3BA8E78BCA5EE4089F9E65D9793E55869F082F4CCBED472C59BCF3A86B",
+      "size": 346624
+    },
+    {
+      "path": "BepInEx/core/runtimes/win-x64/native/capstone.dll",
+      "sha256": "F03321188A1615D044314B1183DCD9A7FFDA09286C31C369D109165D4892DCBB",
+      "size": 5596672
+    },
+    {
+      "path": "BepInEx/core/runtimes/win-x64/native/dobby.dll",
+      "sha256": "A93332B729C337B92EC04AC987205E2F2C164B6E859E588C5A1744CA0BDECD2E",
+      "size": 462848
+    },
+    {
+      "path": "BepInEx/core/SemanticVersioning.dll",
+      "sha256": "1EC4E9D7312678E23E40724207D871D0DD68A9518E39FE8165BEB6E5F98B0961",
+      "size": 34816
+    },
+    {
+      "path": "BepInEx/core/StableNameDotNet.dll",
+      "sha256": "280373B93A140395489D714703AC61F8D02C7AA07AC6E34024F8F0E26901325A",
+      "size": 28160
+    },
+    {
+      "path": "BepInEx/core/WasmDisassembler.dll",
+      "sha256": "F316B978EAF41B4E9852737E90D5660EDF774E3D4E6A2F8FAEDF704F1F650B8D",
+      "size": 22016
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/Alt.Json.dll",
+      "sha256": "14284800DEF744CA6D0D0DA12D64EC44706D69947CE393DCFA6C91D59E7BE1DF",
+      "size": 1431552
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/GLTF.dll",
+      "sha256": "67DAAAFE729A01EA5B074EDB2E971D0A29A32914D9F3CDBEAF1770251945791B",
+      "size": 600576
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/modstoke_json_native.dll",
+      "sha256": "1B2F95BE0C8279C2885C2B7E5C3525EEA1617C65D8762AAEC5D77EB863580E1D",
+      "size": 202752
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/Modstoke.Loader.dll",
+      "sha256": "57D8D54E0DBBA35F3E951A677C4A60D813479C3313D509B6BA93202151B2DE95",
+      "size": 6868304
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/openacai-loader-files.json",
+      "sha256": "3C9DC98B26131C73EF117FB3E6B3A653FE91A85B7124699AA17E686086F02D68",
+      "size": 59925
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/openacai-loader.manifest.json",
+      "sha256": "5DFEF891A9076FAF8FB29ABF65FC2F74A7C4E6BF26F9085905A10A4BC45D790D",
+      "size": 2699
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/RedLoader.dll",
+      "sha256": "0851646D2E38A76B0DC4261F3BAB120CBE2B82C099DF6D858DC1D71B69AAE954",
+      "size": 345424
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/SemanticVersioning.dll",
+      "sha256": "1EC4E9D7312678E23E40724207D871D0DD68A9518E39FE8165BEB6E5F98B0961",
+      "size": 34816
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/SonsSdk.dll",
+      "sha256": "EF825E9ED1D363844981F189D9FA3BAFEA985A556496A9F335341E96A3F151A2",
+      "size": 921936
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/Tomlet.dll",
+      "sha256": "D177BF7B3CCD5DCFF493266E559859C634804DAADC964BE65CE70BEB74C03914",
+      "size": 105984
+    },
+    {
+      "path": "doorstop_config.ini",
+      "sha256": "FD94A47B36A1DE9603342CA1C7CA7E4CDDD81D8B28ABB98C11271E9CE889666E",
+      "size": 622
+    },
+    {
+      "path": "dotnet/host/fxr/11.0.0-rc.3.26522.148/hostfxr.dll",
+      "sha256": "5CAB1C94D75F7B1D709BF18684A46F9CC0788059B745594E44FB1D521CA2D111",
+      "size": 369488
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/.version",
+      "sha256": "E7E8C5CF7C39859338D6A80725750B3E4B2BF214C342C660CD25FB0B74C96B4E",
+      "size": 65
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clretwrc.dll",
+      "sha256": "48151E5C9BF5C5E23B555ADE7F5CFA06CA51DD9981CDB183F73EA9901D52DA3C",
+      "size": 317776
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clrgc.dll",
+      "sha256": "F67338DD062989B7B23B8824FDBCC695D3CCF62B91116CD02D5B46F7CF112CC3",
+      "size": 687440
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clrgcexp.dll",
+      "sha256": "F0744315A957EB758C390A6F319B4170635632D97B4AAC26F7B2FAE3918D4F63",
+      "size": 733520
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clrjit.dll",
+      "sha256": "633DEA0CA27AD2AA673D7A085CC36C2880BB44D1948B0F1750E38376380C023F",
+      "size": 2416464
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/coreclr.dll",
+      "sha256": "46A09D97AD8DD30D400A86C90AF707BEE7593B585D3CCB8586C4FFFCA404D1E2",
+      "size": 4888360
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/createdump.exe",
+      "sha256": "67F639986657F65A5694371656C21AB201FE284E4EDA2A19C6FDAB780CCAE26E",
+      "size": 73048
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/hostpolicy.dll",
+      "sha256": "4A24F6BF63C024520A8121E4E82B5003CF81CE61F3F48F2A4B84976F27ACA055",
+      "size": 381736
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.CSharp.dll",
+      "sha256": "9F33A647B4AD8C4030C11E753CEC1EFB4183D2DE288CB284BF40EBDBFA5057AB",
+      "size": 988968
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.DiaSymReader.Native.amd64.dll",
+      "sha256": "70E4B89978CE57EF87B28F4921F3140C383B04AA96E7F3BDB3C4EBB898FD8A72",
+      "size": 2377016
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Caching.Abstractions.dll",
+      "sha256": "56FAC873ADF458C33728295738AC411E1C864FC4C4FD4CFE1FC93CDAE6B3AB52",
+      "size": 87848
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "sha256": "1E0088F6B304BADA3F5D4A08890B35560AC5BA8AD3AB1ACF3918F2A96732A555",
+      "size": 46928
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "sha256": "F9CB6AE9D7AF8F0697123FE09B2541F3D262F4D19D77D6789159CB9730E1759F",
+      "size": 149288
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "sha256": "E55430D8E4133F1BFF412B1B85CA04C4590BC84B6F93208217D58F89D149D983",
+      "size": 46888
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "sha256": "0C70B448259CD96963338EE9AE931D52BBA517DD37A3C43FBF7AD5159853EC2D",
+      "size": 38696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Hosting.Abstractions.dll",
+      "sha256": "934FDB8E14DA86B0E9E90122099EF43822013B91FC7E2E964EB58F623402614F",
+      "size": 55120
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Logging.Abstractions.dll",
+      "sha256": "D3175BF7CEF0E06CE09EE1A4C33FFF1BAEB106FD4AFD8B866799A0174E11D6B6",
+      "size": 157480
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Options.dll",
+      "sha256": "6EBDCA7AE2B7953C8E23C4CEF8DB8914BA447D93B9C9CA22DA7D4D79E842C7C7",
+      "size": 210768
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Primitives.dll",
+      "sha256": "298733D7E6896F2E028B49CAB62A2BC20C96CFD7735AA111F8AC61FE7D8F2967",
+      "size": 96040
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.NETCore.App.deps.json",
+      "sha256": "8098F7FE3F1186A6515933DC45730A55BCFDB04E405532C7E1E9323E027D85B6",
+      "size": 30787
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.NETCore.App.runtimeconfig.json",
+      "sha256": "B6013137D2B1BFA5D6308F6AFEA99D77327C4F143085AEF14377812FCFD0A915",
+      "size": 54
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.VisualBasic.Core.dll",
+      "sha256": "A986AE78C40DD344F087AB36F49C6ED360C604C94F6474EE9306E5EE5422A1C4",
+      "size": 1218344
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.VisualBasic.dll",
+      "sha256": "EFC4C09704DD0B9936E40C1F42E861DED84A7C21C7B2B18C0D603854CCCF17DD",
+      "size": 17192
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Win32.Primitives.dll",
+      "sha256": "C46AB22C450D76591EBC0E308F67D3F65C667BF610660287A3B1DA294BC1A72D",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Win32.Registry.dll",
+      "sha256": "28392DCE9DDDC9761DD76640FF74D58F55890182B3EAA9796B92A86CF016DEC6",
+      "size": 116560
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscordaccore_amd64_amd64_11.0.26.52348.dll",
+      "sha256": "6BF2F1D90753B2C72DEB6654DC32BA73959BFA85E64058AE38C341FEB726C819",
+      "size": 1471360
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscordaccore.dll",
+      "sha256": "6BF2F1D90753B2C72DEB6654DC32BA73959BFA85E64058AE38C341FEB726C819",
+      "size": 1471360
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscordbi.dll",
+      "sha256": "DFC85EBAE38D042CDFD067DA8A1814A1A19DC5809A8D16B026BF4DE3C383546F",
+      "size": 1278808
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscorlib.dll",
+      "sha256": "E56260D6215D6AC2E1E66AA95A34051D6386AA0C6CAC5BAF05984EB545B89932",
+      "size": 59688
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/msquic.dll",
+      "sha256": "7B32A336B638570BFF7B2F4782EBDC05B8C70FAC76FDB412F3E8A3C181C32A61",
+      "size": 537400
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/netstandard.dll",
+      "sha256": "C78E4ED59F0A1E204917F134EEAD5D6450D8C422E651F8E71CC071BF8CF175AF",
+      "size": 101200
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.AppContext.dll",
+      "sha256": "4018A81F7C0C2BC18096DC28F944A9387327D1FDD0B530FA3E608F73A8D93C69",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Buffers.dll",
+      "sha256": "6CDF4B89B677CB1F7BCC83F197B2BA4C0794878002F2D21C11EDD3F324188653",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.Concurrent.dll",
+      "sha256": "FFA5034F41C2120885F393D87D881A10AFBAFB9092D4E81E3C9654B27B66881C",
+      "size": 141096
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.dll",
+      "sha256": "3F0E995A69701EC0059E0656C1C5A1C0F7B859907B9C1651525E445D2A9D6550",
+      "size": 296744
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.Immutable.dll",
+      "sha256": "E00E76C930111923AC39029451096126126D4E167FE9D8DF018EB2C49C9C477B",
+      "size": 1038160
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.NonGeneric.dll",
+      "sha256": "B69269C6C71DBD77BA2B71FB10BAD38876959328633AA721383C594BCA4FEA4D",
+      "size": 104232
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.Specialized.dll",
+      "sha256": "CEC1CA37BA306D2D34589E62BC589BE9802F9F2E075EA854161B95AFBDE6A808",
+      "size": 104272
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.Annotations.dll",
+      "sha256": "A24E88D77FBE8513E1AE2CBC3AED5CE8F5366FF9B7A585CC70A555C8BAB8427A",
+      "size": 239400
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.DataAnnotations.dll",
+      "sha256": "C6062729DD92DA6F58B11BCD45662BFBEAC16C7B359D8DA95EC4FBD9D99CCCC5",
+      "size": 16680
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.dll",
+      "sha256": "4626A0E49F174B003FED1FCF431CF3DD765D7A26529906FE3665422F54FA621D",
+      "size": 30504
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.EventBasedAsync.dll",
+      "sha256": "C28FF0258F41B4F5045BB7485026C96B1E8F01DA08FB0D082F8C00FB1E93EF14",
+      "size": 46888
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.Primitives.dll",
+      "sha256": "18D8C16840B13C25532BAB3A37F24B705E6538AEC8FDC8F82C9860642F44448C",
+      "size": 79656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.TypeConverter.dll",
+      "sha256": "2F9BA6E901816106BB832FBCAEA91965CF916171EC76291E9430CC2A909D0EFD",
+      "size": 771920
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Configuration.dll",
+      "sha256": "629C24C8B78730660B2C3E280501B73700A777C5F3207C3837362939583EC915",
+      "size": 19240
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Console.dll",
+      "sha256": "568A0F0AD11E50B216CDB72102776D14450B2C6C76DFCEDADB9CB468A4EBAC33",
+      "size": 173864
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Core.dll",
+      "sha256": "B42312CBAB3200175E8D962F74A2F9AC3C374AA6AC45E69BEA7F6C08CDA0128B",
+      "size": 23336
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Data.Common.dll",
+      "sha256": "60217A90B358ADBD7223BB38A122B664E756D10D7358D0A2ADAFCEEAA923F47F",
+      "size": 2774824
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Data.DataSetExtensions.dll",
+      "sha256": "581F1DCAF98E218AFAA5291ECEC2F3B57D3FE56EF517F2C7E7C5E8E18408B18E",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Data.dll",
+      "sha256": "D2BC460D25F66E11C1B6590DD2CF56E33A89D89FB0F4D10CEB3963822FF05DF7",
+      "size": 25384
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Contracts.dll",
+      "sha256": "90EDC5CBDED65DF9E7347E9D12EC5269F2F5759F27EEEAA191CF7F71D65532DB",
+      "size": 16168
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Debug.dll",
+      "sha256": "D56620900BDD2AF4D7DAD360F9686C3580B594957A67B9F3F2165E7C415A9BF1",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.DiagnosticSource.dll",
+      "sha256": "A3F481399515CCA37B4288476A507FEF563D4C4100EAF30DD962BB9B5B2E92A9",
+      "size": 522024
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.FileVersionInfo.dll",
+      "sha256": "F38350B54CA970293E7C2F7A5C07E2E06295A605CA221563176937B9E1887EA6",
+      "size": 46888
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Process.dll",
+      "sha256": "77676E0D66B3E72094E9E273C3BA8867EC1C2D5AF7AA476AA1213BFD2790A881",
+      "size": 456488
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.StackTrace.dll",
+      "sha256": "F83A817309E828F720D40A4131C58E8306A46D1BBD44242CA733ACB1CCE321CF",
+      "size": 42792
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.TextWriterTraceListener.dll",
+      "sha256": "2BAC3EEE1C6A720EEB47559D727E05ABC638A13C9314EF6C6645833EF44D2B85",
+      "size": 67368
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Tools.dll",
+      "sha256": "F60E1824367BA433ACB500DC4D782A3C469108F24B5F5EBFD2D54D787A84F357",
+      "size": 15184
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.TraceSource.dll",
+      "sha256": "2FC6A33339B50F7472643C111BD12B97EB08F51589C8DE6C59E6F953295C7C11",
+      "size": 141096
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Tracing.dll",
+      "sha256": "62C6257253F6788265A94F4C76492D157900891087382C1BDA1BAE3828F4C41E",
+      "size": 16168
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.dll",
+      "sha256": "4477E8D99815B5364B330D431A5700EFB11BC3FC4FC6C47C41846BD994E3C449",
+      "size": 50472
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Drawing.dll",
+      "sha256": "90AF53E44EB9A3AD63290EADAD71DF1290AE61B4327BC0C59BBC4C0C5000F6B5",
+      "size": 20304
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Drawing.Primitives.dll",
+      "sha256": "D94425856D05E19B919E9FFB559F0CD6FC01B34E005EFB3FEAD2EDC5DA9DAA5C",
+      "size": 132904
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Dynamic.Runtime.dll",
+      "sha256": "15931E11B65625BD546DDDFC33027DE1DBB9C9CBC3D3587052320BC36160DA7C",
+      "size": 16168
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Formats.Asn1.dll",
+      "sha256": "C5308689EC6C5CC700A5CF948E3E3276D8F4635F02372207639736F27DF9688E",
+      "size": 268112
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Formats.Tar.dll",
+      "sha256": "DB59A724783BA09FCE72670F1629E96273644A139123C47222243A56B6CAF03B",
+      "size": 350032
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Globalization.Calendars.dll",
+      "sha256": "D02A275CF8BF1408691AD445630B7E9E360DD223AA33752CF6A837CC092E06E2",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Globalization.dll",
+      "sha256": "1B09DBD6D01EC514C81A8A1A5A0C9B2EDBE6760A6633B962E74089007A6CCDD9",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Globalization.Extensions.dll",
+      "sha256": "CA774A9DE22B31AA61A58DC8617FC70C18464A937FB9C3891F5DFB5B43AFCE74",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.Brotli.dll",
+      "sha256": "8B65F7EADBA17295FB021649BB059710F49BF0E33AF7E3B1BD6FD9CE305263E5",
+      "size": 83752
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.dll",
+      "sha256": "C61151D793F51B3CE55343EBA2328D0B5F02EBEEEDE86299D82AEFF02D29076C",
+      "size": 599848
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.FileSystem.dll",
+      "sha256": "E7FD4353BB7277D7ECE0B61DCBD0BEC6625DA73B41FDCCF0B80E979A25FA0F67",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.Native.dll",
+      "sha256": "56130200E6C529480CF2DAA16FCDA292737A6F0335A942E6A121971B6D5554A8",
+      "size": 1388840
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.ZipFile.dll",
+      "sha256": "2E43F5DA4D4E65E53BA79D3B060C9620AAB4F7EF875C53614A16E3A8EDE747CB",
+      "size": 124752
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.dll",
+      "sha256": "1974A6F95C67883180B190E61BC8B68B52A8ED4E7AD1F1FD5F31F4A438EF8F28",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.AccessControl.dll",
+      "sha256": "3A28F82A3488335A838F90DB2D1305EFF5E21CD0A8E34066DAA2C50585B81340",
+      "size": 100176
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.dll",
+      "sha256": "42ADA1C233A38873EDA154B1783DF5E57605A9447477A92601A5C2575D6EBC6F",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.DriveInfo.dll",
+      "sha256": "45CD344586C2A54B18BE446B5E40704B567E226FBCE6EDE12A029C49AA7E73D9",
+      "size": 55080
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.Primitives.dll",
+      "sha256": "2EC9DD974E05976F1A717CDA11E9D51FB9C57D5C705B589687BF138FF5EBA873",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.Watcher.dll",
+      "sha256": "D843D3733BCC5C212465E6CE6AFE32F63959D3C5F229D6391DD7C7015B9FBFF9",
+      "size": 87848
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.IsolatedStorage.dll",
+      "sha256": "4B8AB8D31611E5911312394E6723F1B9BF030A5FD09C49A8095B2162F4042666",
+      "size": 87848
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.MemoryMappedFiles.dll",
+      "sha256": "C5A0C5ED25C9310FAD64B55667D7FCEC2FDC260B5637BABFAFA708751A1D0D02",
+      "size": 83752
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Pipelines.dll",
+      "sha256": "84A504B0FF5A9C9798B7073A9F8291358A0E38FD428F38E8FB1210F8FB15076C",
+      "size": 202536
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Pipes.AccessControl.dll",
+      "sha256": "3E29FC1746B7AE17186D73B6686DE179510662EFF7D419B231F52BD88A810765",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Pipes.dll",
+      "sha256": "84CF8547C184559561BD5C02DA182BCD6A62DE4A99539EB5086C7BF81D53929A",
+      "size": 165672
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.UnmanagedMemoryStream.dll",
+      "sha256": "D7A12A3654549ABAD470599FA69064789323878E3E0B604FB6EFAD31AE7B113C",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.AsyncEnumerable.dll",
+      "sha256": "92EE08AC923B00B33E9E56AE34C3F0AE4A04C589188322EA468777A9ACB297C5",
+      "size": 1496872
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.dll",
+      "sha256": "2197F562151B02E04D16407D0890F3DDD22E4DDC39A25D7BA5C2787D1F051408",
+      "size": 755536
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.Expressions.dll",
+      "sha256": "D32ABF0299FF43F3A480910727405BD7E541038B8EA8B95460CC938F89A9DAC1",
+      "size": 3876648
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.Parallel.dll",
+      "sha256": "DE516FB749636976465CE6FC109C7F38DE6819C98D3819083080A62E2FE1FA16",
+      "size": 890704
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.Queryable.dll",
+      "sha256": "04EF193B1EC01365471E9A4CA375674C26C8B2B6CAF79E545BCB1331520BEC40",
+      "size": 198480
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Memory.dll",
+      "sha256": "5B899A3F6C1331CB9A834C36AD71D35C6DA0019B8316CD957399447207184D2E",
+      "size": 173864
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.dll",
+      "sha256": "544E21DD979D98659E1F103AB4550471FBC73C7067357433379DC51961AECF97",
+      "size": 17192
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Http.dll",
+      "sha256": "325E509312DE69EB59B2C655B542E0DD97B34DA0D6DEDBC6BF7386F3E60CC3D8",
+      "size": 1726248
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Http.Json.dll",
+      "sha256": "3137D7F6271AF0C861BBCE30957063E244861340BB21C158A0C151B3C1FA5C77",
+      "size": 128808
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.HttpListener.dll",
+      "sha256": "1E56CD488D783008075F9DB84DBEDA9118A30B02D9FB6C115F81448367031DD3",
+      "size": 526120
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Mail.dll",
+      "sha256": "30A756FF64AEA396141059ED975D8DE4961AFE2E84173C4F63870C3A8F5E5AA5",
+      "size": 485200
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.NameResolution.dll",
+      "sha256": "3B6029063AC2D599B1AF40BF8F16E3069AC346FB095DE7CB2FCAC09FB44A93F2",
+      "size": 231208
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.NetworkInformation.dll",
+      "sha256": "1624EC73DF065C14760B29F14DE0B11ECED282B1268CC5E89FDBCEC37B24B358",
+      "size": 153384
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Ping.dll",
+      "sha256": "81436F05C49D1F55107A05A9963519C6FEF45172E2401F8C2AAA37856C4324BF",
+      "size": 91984
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Primitives.dll",
+      "sha256": "792A65EEEEF6469994D4001F247AA253EAAD3261DF1A110867E9D2DC4A8DD6D6",
+      "size": 218960
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Quic.dll",
+      "sha256": "103D071B1AA25C85E1D9C9DBEBFC3D69A20FE5D78A13AF315C93E548B6AA335D",
+      "size": 358184
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Requests.dll",
+      "sha256": "05FF841E334F35D0E04A818BEC2C9A6F3BC8EAA7F124E37B128AA8B91D20036A",
+      "size": 370512
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Security.dll",
+      "sha256": "8ADE54E9E58C25936E0E6549B23BA372C97B53AA4D07CE87DC577CF9D985A436",
+      "size": 694056
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.ServerSentEvents.dll",
+      "sha256": "EAB908C01C101BCB7E46194CEB9CB33E00B6DC5CF38771920727F7F58CFC8FC6",
+      "size": 83752
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.ServicePoint.dll",
+      "sha256": "7AF3DA6CE0BE17927340118A7ED84B7753E14F060B2065BD1941B6E5A3AA4E49",
+      "size": 15184
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Sockets.dll",
+      "sha256": "D3ECA878DF948E946FD5300C12A3832DE17B36D719E9F8F21CDE0FEA4DAD43DA",
+      "size": 542504
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebClient.dll",
+      "sha256": "25CE711C059BA3F0B309C4605A7352BD13E4DD0E8F3C9F337A974B732585D12D",
+      "size": 169768
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebHeaderCollection.dll",
+      "sha256": "E237FEF06BFA678C09C51E4B1B22CBE8FBB7DE999FBA19FC65FC5BBEF540C2BF",
+      "size": 63272
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebProxy.dll",
+      "sha256": "8F3F386D1E23D9AD87123969FAF5642FB9D8A3C127DC1D06C1EA54FFA100DD86",
+      "size": 46928
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebSockets.Client.dll",
+      "sha256": "D64A0A8C18814429E77123C6262C5D85F066D6343B5933388B6FD8EB34E9A355",
+      "size": 104232
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebSockets.dll",
+      "sha256": "FF4A585196B1667D32B5B2BF553727F6B4ABB092CE725C5CCB57CE9122C724A7",
+      "size": 243496
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Numerics.dll",
+      "sha256": "1CCE9E0F5558C534AC8B60B354211AC37AEA2B4EF6F84C40B4832CC012460C06",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Numerics.Vectors.dll",
+      "sha256": "312B34F29129114B49F8636D38D0A81CEEC87EFD198B3B67A148F85D6D02A1B2",
+      "size": 16168
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ObjectModel.dll",
+      "sha256": "F529A5FD14BC7E6085B018B93785DE959D98439FDC2E7FDDE2ECF611E5489AA9",
+      "size": 79696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.CoreLib.dll",
+      "sha256": "DF53885902E896A2B40988237CBE9CBB9F1BB0743200F05FE9257C56A29C5732",
+      "size": 18224976
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.DataContractSerialization.dll",
+      "sha256": "4145F702B424D7F05A5BAA65B90A70739B5A938AE12893A38DEA8569046DD861",
+      "size": 2049832
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.Uri.dll",
+      "sha256": "7EFA98CDCCEB0772C090F28CA2283447B21258D7C169EF441472D90F12FEBC5C",
+      "size": 251688
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.Xml.dll",
+      "sha256": "B0E5FABE795D5D6412194737654C3553773FC558610C375A506CF176A3342540",
+      "size": 7620432
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.Xml.Linq.dll",
+      "sha256": "099BA8BE43592AA496CACF221AF70920E3B6304597B37F5A92C6B5674CF8EF5E",
+      "size": 370512
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.DispatchProxy.dll",
+      "sha256": "CD7A6321DA50DDDCCB96996EEDE10761EF13C5C6EAB15591D695E408858DDC54",
+      "size": 75560
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.dll",
+      "sha256": "F3B437D29EECF8A2DA6B35B40B2DF174B4269A9E7350F7F1838C604D117D32C7",
+      "size": 16208
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Emit.dll",
+      "sha256": "7F82C6A4BB9335A4BB996066CFDA5C3D3F1EF30B0BF027F3AB02400FD1724F03",
+      "size": 309072
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Emit.ILGeneration.dll",
+      "sha256": "F2F763595C136DEDB758EE4B749BB021A6C896E66F2A639CA08D0AC2F5BB1E80",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Emit.Lightweight.dll",
+      "sha256": "7B59C16F6F0104CB515FC684B384E74CF91795FF7736A2F9FB4E4DC7D6B37701",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Extensions.dll",
+      "sha256": "46FD37E567AF64322BA6DA0BA74104232B37D89B39CC20A85D0319FE0CCA58DC",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Metadata.dll",
+      "sha256": "ADC76B0D818354BE0ED34A76994121911F48E290702D318A33B65F87CD6A38CC",
+      "size": 1169232
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Primitives.dll",
+      "sha256": "4A78CD4712B0A52FE568980F6EBD94AAD31E6B0E35CA165A09E33B4331629776",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.TypeExtensions.dll",
+      "sha256": "0C02BACBAA5E43B21DE191B3D58D013DF5ED619BB764EA7F35E022D8D17C4C5C",
+      "size": 42792
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Resources.Reader.dll",
+      "sha256": "6EB5088B86A54384F77DC056B4323AE8BFCDADC821A37198346E7149C5754566",
+      "size": 15184
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Resources.ResourceManager.dll",
+      "sha256": "F1DECAF76C3539D6944E9F9BEB1001FF3D316D924B87706FEB23F8646911968F",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Resources.Writer.dll",
+      "sha256": "1D83071009604779359429B016C5ADC4A984B14C7B73F712B046545AABE221E2",
+      "size": 50984
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.CompilerServices.Unsafe.dll",
+      "sha256": "D6F031A02E31F8528819599725F18E67FBD659A534495B7DB317F899E79F2763",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.CompilerServices.VisualC.dll",
+      "sha256": "1CE7A943A48430F86201A4FDB22A4E22EAD4F74DBF015005C59BA1A3F0922319",
+      "size": 30504
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.dll",
+      "sha256": "826438BF95100D96BEE4B47BEA223C37EA3EE937BBD3A3803072AA841417CFE2",
+      "size": 45864
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Extensions.dll",
+      "sha256": "016AC1F596CE24C2D80A182EDE077F07DB3C5885D3589943084BC08FE05A481F",
+      "size": 17704
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Handles.dll",
+      "sha256": "05D6159F030C49D09BEAF3BC23A22116C7F1AE7742B922DCA0ED65C88D2E292F",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.InteropServices.dll",
+      "sha256": "74E0B49E9FE4023992500CE8173219B4749EC741C27C5C78048FCF76651ACE4B",
+      "size": 112424
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.InteropServices.JavaScript.dll",
+      "sha256": "77CBA230BC58017234D3D6ACF763C36785DCBBE8A2373BA3D362F81AAC89CAD4",
+      "size": 51024
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "sha256": "9D73B93DA040B5838759125B90D7BFB07C7F769C6F819EE3D568432144A2F7DA",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Intrinsics.dll",
+      "sha256": "63E30E86B553F5861F68EF0634E3A86D2626C4A11CC1324FD004C179482ED219",
+      "size": 18728
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Loader.dll",
+      "sha256": "5D6BBD917BFFCC64202D4BD24367D1DD71EF789E5B6E6DE172E7835855C41F9A",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Numerics.dll",
+      "sha256": "2F9F38FFFA0DCF578F5511F55ED16E5A8356C25AC2C3C316292B0869770A4D43",
+      "size": 562984
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.dll",
+      "sha256": "3E74ED7AFB703D8A55717EC0643669C518F57A1B2875D209018DE7F4C62381A9",
+      "size": 17192
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Formatters.dll",
+      "sha256": "23C3234511279B11F167FFB3A8CF6E2B92F032E165CB8E3EFD1F9083CA6F04C5",
+      "size": 124712
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Json.dll",
+      "sha256": "B3A5BCBA3B9BC7AF2EC27E3A258BB36B1E747CCC11B54FBD7640E06E66823ABA",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Primitives.dll",
+      "sha256": "B1F2A6F75BC6E9F49FF5048DD1C97985E2733010E40E78BCFA9539071CF0FF92",
+      "size": 38696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Xml.dll",
+      "sha256": "836F334E10E012C06811394926624166127FF140774373D55D62B3B06AC05ED0",
+      "size": 16680
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.AccessControl.dll",
+      "sha256": "FD5CCF29AE4C8F81AF0DF9394F18CA2876594CF79019F7D3630148C03BBB9915",
+      "size": 227112
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Claims.dll",
+      "sha256": "DE7F611B9DFEC167246505358FB7A89273C0A0E884978F64F2C367CCE56FCDD3",
+      "size": 100136
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Algorithms.dll",
+      "sha256": "7DC357D47EFD5F3FF5F900E115FFDA536E0828797E2BD8AB470686FEAFBE0C33",
+      "size": 17192
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Cng.dll",
+      "sha256": "906BF28B5FD9F7665D1AF00AC80CB8815068DD95E904A37EFCECF8A98C011930",
+      "size": 16208
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Csp.dll",
+      "sha256": "8DC953FA41951CB497E518CDB0AB49DE57CCBE76543258891FEB3BE5F5238B9B",
+      "size": 16168
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.dll",
+      "sha256": "399726E50F9C8D5DA99F63592F61A1400E48EAFD822B0195B8C3E243BA87A1D1",
+      "size": 2766632
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Encoding.dll",
+      "sha256": "DE6B976563C1ECDDA91FE0C49364DF12F81639BC3B7CDAEB3126C073CD5C495F",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.OpenSsl.dll",
+      "sha256": "C110A0D14B5BE41F0060E25F8F1595DE38B20A86BF8C188A57093FFB1EDC0E45",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Primitives.dll",
+      "sha256": "268B3A2A06874F1B8C038F0FBB5B96439231EE8F14E18A36BBA3A857876E3C0F",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.X509Certificates.dll",
+      "sha256": "623FDD70879D93D64418B0AD3B7503B7AB8C6CB73ADD98ED0891A76EC9C0F8C9",
+      "size": 17192
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.dll",
+      "sha256": "381B8FF434DCFBCE94572652A2CA5B92AE069985F1AE638E4BB93FB985A9C022",
+      "size": 18256
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Principal.dll",
+      "sha256": "FD9A8D9B0827D8BA1CF7F959FEB942DE275B2E93DA48AE6AEEF9363D91DFF269",
+      "size": 15184
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Principal.Windows.dll",
+      "sha256": "58C62F9D846AB820873D2D7B334A150A096B492859926B543DFA69D25B37772F",
+      "size": 177960
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.SecureString.dll",
+      "sha256": "CF006EE2A72CC0149EEA51B448F978A670E80BB22863541F2331E87D169C772C",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ServiceModel.Web.dll",
+      "sha256": "CD2ACD0CD9A0740EB9CEF1443C7980E4929939B746ABCB2F9E43A9DF508E2516",
+      "size": 16720
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ServiceProcess.dll",
+      "sha256": "D010E53152C989821A201F4F4E421AC1B3FCAFF8F51F6A715ED663EC252F3CD6",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encoding.CodePages.dll",
+      "sha256": "A8A0D8A91151D19D81B370A0F6A03A57516536CAEB32260C23A79677AFC7D8A7",
+      "size": 861992
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encoding.dll",
+      "sha256": "86E80E463A20E2676A979C40AEE64BBD9B1FB6213317DC0DE7ABE9FA3A0BBE77",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encoding.Extensions.dll",
+      "sha256": "ABD0A3B611E754DED0D2ED26CC3723E2B9321722BA9AAF9136E0EC81F12AED75",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encodings.Web.dll",
+      "sha256": "2B9F16CB67953D2F9664B356650A558BD5E37FB3FCEB49E0FBCF9C481BA32A69",
+      "size": 124752
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Json.dll",
+      "sha256": "6DB462A8F8811057A518B8C504D944B6A65B48F8478AD2E26C038F471E3D5912",
+      "size": 2500392
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.RegularExpressions.dll",
+      "sha256": "C2A823AE83DDD266BE83D45FEAB4C9E28205ABC954CE621C0CE127E108AF879E",
+      "size": 1075024
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.AccessControl.dll",
+      "sha256": "113D4829F4F4E10F7D11473574A9239DF236AFC61BD988E83F409F26FA2BCC7E",
+      "size": 71464
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Channels.dll",
+      "sha256": "B0198AC104D5FAD5F627F8456A283A4D6DF7134A120D99189947159CC7463A4D",
+      "size": 161576
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.dll",
+      "sha256": "7CBF5C974E11338D14E823DA6444268A28D1BD3F29AA487FE4300A0A7688DB26",
+      "size": 83792
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Overlapped.dll",
+      "sha256": "F993975034754F02204ED076AE504E54D2956F993B5732EB1B916485C0D8DE2F",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.Dataflow.dll",
+      "sha256": "8A31A67D813DD5E9B51A84D77E0EEB68874ED2E89FE2BF92E9A1B9A726225D08",
+      "size": 477008
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.dll",
+      "sha256": "0BA352C9B12CE42B88FAECC7B6F53BEBE83088EAE194AC675628BC665DF0BCA3",
+      "size": 16680
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.Extensions.dll",
+      "sha256": "B780E727D3D70154F5845A87DE90C45AB559BE2059E28A479F163C8198E263D3",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.Parallel.dll",
+      "sha256": "B13F0BD29D1E0AEA2750918E4DBB828BB0CCDE8C6182524CD19D468EF9D56C71",
+      "size": 137000
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Thread.dll",
+      "sha256": "0C4FF1636B4A0A6D08C5CC8CF8B3E65206C0FA182501C929C86C9D390B71397A",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.ThreadPool.dll",
+      "sha256": "1233AB4CCF3AFE3D8ECE36837D372D681548088C9291CD8F502B308131BFC222",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Timer.dll",
+      "sha256": "ED670451BD79CF43CA046D19CA2D95C5972D813B1D186B9C78A3BE09D41188F0",
+      "size": 15184
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Transactions.dll",
+      "sha256": "F6C66CE96C8BDBF30B597B9457C2E319BFB09FBCB9D95FFDDF7DADB7BE0DAE2F",
+      "size": 16680
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Transactions.Local.dll",
+      "sha256": "7272152A9C1366874BBE50949CDA2C0E4EEB94A9B3033A6247BFD58AB1FEB939",
+      "size": 640808
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ValueTuple.dll",
+      "sha256": "F6F33BBB6B9F8864AB6762571A517EC00F1D30EC7514F9A188C5ECE903BDF1E5",
+      "size": 15696
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Web.dll",
+      "sha256": "FB55E5B9BE1254D7E47170AD88D630522AF884A67155CC9ABA40EE6CE6B64F3E",
+      "size": 15144
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Web.HttpUtility.dll",
+      "sha256": "D5E5622DBB7B5767EBCC7DB8C4463DFBCC4DC62E268B9964623F8B40436BF380",
+      "size": 63312
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Windows.dll",
+      "sha256": "469013B0D66910627016614290A58FF46849DA10526B81C220B881DC4714D4A7",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.dll",
+      "sha256": "4958B9A78AD4EC0DBFAB9C94C0A1804E7E2832D9FD6C6B1B5C22CFF1E9A77D1F",
+      "size": 23376
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.Linq.dll",
+      "sha256": "9AB6E7147582F3C37AA4BFB2F2B531612DA61BFE00A53F5D5A2E005555849EA7",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.ReaderWriter.dll",
+      "sha256": "5338E48A33A35F6A2D2943F971BFA1E5E1A8BBB85092399B5275181BE006FCCF",
+      "size": 21800
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.Serialization.dll",
+      "sha256": "B56765F954308A0E18697C137E62CD4BAC55AB86C3EE570F9CB3D2F3CB4DEC1E",
+      "size": 16168
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XDocument.dll",
+      "sha256": "0557E1B41614024CDA7215DA96323BF96B695001FAE054329F16D53E79B304A3",
+      "size": 16208
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XmlDocument.dll",
+      "sha256": "3A3EC9C2FCE4ED367F03E504D40A18F3C0ED657DA261C507779231972B04510E",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XmlSerializer.dll",
+      "sha256": "EEB83358A60ED90A2A586BF03BF097DCB809E6A5A50F5CE5FCF774148EB83ADF",
+      "size": 17704
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XPath.dll",
+      "sha256": "B95C7DB730536BD2879219925D5CA3AB36626B941470CE69817223BBD6AC3004",
+      "size": 15656
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XPath.XDocument.dll",
+      "sha256": "575F4CE900B551C403DFB40265A8EA70288DB3162243DC5779DA20495C25FD0E",
+      "size": 30544
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/WindowsBase.dll",
+      "sha256": "28A9C203CF946314E583E48CAF4A9D61FED01E762F2F01ABC9FCD290D0553E16",
+      "size": 16208
+    },
+    {
+      "path": "Fresh-Install-Defaults/BepInEx.cfg",
+      "sha256": "EB620D165418756C682314707B5C6C6EFABA99DB4D2B4FF2974D2AA93966FB64",
+      "size": 1039
+    },
+    {
+      "path": "INSTALL.txt",
+      "sha256": "165E6EEBE049AB7597CE76A70B5FF9324913859BA8483FF95264AE8BBBD51BF3",
+      "size": 1161
+    },
+    {
+      "path": "Legacy-Cleanup/Cleanup.cmd",
+      "sha256": "39037A8160263A8CC769D2A44C84B0424B0809D3C8B386856D65FFA3540523A6",
+      "size": 120
+    },
+    {
+      "path": "Legacy-Cleanup/LICENSE",
+      "sha256": "3972DC9744F6499F0F9B2DBF76696F2AE7AD8AF9B23DDE66D6AF86C9DFB36986",
+      "size": 35149
+    },
+    {
+      "path": "Legacy-Cleanup/Preview.cmd",
+      "sha256": "7253D4232CFAD7439545FE3E7ECF3A369AE186EADC39DEFB5E4AF6C78B95B300",
+      "size": 113
+    },
+    {
+      "path": "Legacy-Cleanup/README.txt",
+      "sha256": "32D210C18B38DFBBC2C6B759C727C2D3F8B620E840609F13B88C360A2213EE18",
+      "size": 4061
+    },
+    {
+      "path": "Legacy-Cleanup/Remove-LegacyModstoke.ps1",
+      "sha256": "28C67716B45D18DC48BC38D4D73A3B91199E85E5D91E01612551005A4FE38B99",
+      "size": 19296
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972DC9744F6499F0F9B2DBF76696F2AE7AD8AF9B23DDE66D6AF86C9DFB36986",
+      "size": 35149
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+      "size": 11358
+    },
+    {
+      "path": "LICENSES/LGPL-2.1.txt",
+      "sha256": "20E50FE7AAE3E56378EBF0417D9DE904F55A0E61E4DF315333E632A4D3555D95",
+      "size": 26419
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "sha256": "508A77D2E7B51D98ADEED32648AD124B7B30241A8E70B2E72C99F92D8E5874D1",
+      "size": 1036
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/Alt.Json.dll",
+      "sha256": "14284800DEF744CA6D0D0DA12D64EC44706D69947CE393DCFA6C91D59E7BE1DF",
+      "size": 1431552
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/GLTF.dll",
+      "sha256": "67DAAAFE729A01EA5B074EDB2E971D0A29A32914D9F3CDBEAF1770251945791B",
+      "size": 600576
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/modstoke_json_native.dll",
+      "sha256": "4B8433C47BBD69A7BFD9103097D96CF0C56F355F47BB8CB047D920D6659DB8C7",
+      "size": 218448
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/RedLoader.dll",
+      "sha256": "7023F13AFBFE4120B8A8EC645DCAD756170079EE37830C99A96D943B50967D27",
+      "size": 345424
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/SemanticVersioning.dll",
+      "sha256": "1EC4E9D7312678E23E40724207D871D0DD68A9518E39FE8165BEB6E5F98B0961",
+      "size": 34816
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/SonsSdk.dll",
+      "sha256": "1C62A61F374759D86B57E223E99CAB94077FE2E1444813282FDB32E7CEA60099",
+      "size": 921936
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/Tomlet.dll",
+      "sha256": "D177BF7B3CCD5DCFF493266E559859C634804DAADC964BE65CE70BEB74C03914",
+      "size": 105984
+    },
+    {
+      "path": "Modstoke/Runtime/dependency-inventory.json",
+      "sha256": "9BAAE8414600F6485A79CB9D58A51553CC27F5AFE8FB84241DE03191C506E247",
+      "size": 48103
+    },
+    {
+      "path": "Modstoke/Runtime/Diagnostics/Modstoke.JobTempTrace.dll",
+      "sha256": "1EF0C66ED2DE1FC444F4A11C2C0FA4F28588FCD006E68EF1A2E1F72340FED6A9",
+      "size": 155984
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Bootstrap.dll",
+      "sha256": "5F94C26B088B34C7A431353571C3B2582AAA042B6157B49DB494B48FCB593952",
+      "size": 156496
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Console.dll",
+      "sha256": "A2987FFE2124577BAC3528A3A96913A322A7EF78B56627AF70440DBF512417B8",
+      "size": 97616
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Loader.dll",
+      "sha256": "92BAA52BE3BCAF23BD92B9C6D112398C0CA48A8AE2490DAB871D43FC762D6878",
+      "size": 6868304
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Loader.runtimeconfig.json",
+      "sha256": "C21F3A40EF820CB11ED57593148B5ABADA652F53491E383C3D3AAF17A765DA47",
+      "size": 200
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Preloader.dll",
+      "sha256": "CEB51308908E0190ACCA3C3F5CC54CFF49D8F55284B23EC26AA5B6F1B92FBF43",
+      "size": 1596752
+    },
+    {
+      "path": "Modstoke/Runtime/openacai-loader-files.json",
+      "sha256": "3C9DC98B26131C73EF117FB3E6B3A653FE91A85B7124699AA17E686086F02D68",
+      "size": 59925
+    },
+    {
+      "path": "Modstoke/Runtime/openacai-loader.manifest.json",
+      "sha256": "5DFEF891A9076FAF8FB29ABF65FC2F74A7C4E6BF26F9085905A10A4BC45D790D",
+      "size": 2699
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "B8C20B1F7A656D6D418E70B8BE37F398CF28AEB46ABAC2FE10CF6344C7253B4F",
+      "size": 864
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "CA89D91414D0FC238DE8E496A744D9A0FA89FFA2839E98F6EBF40E9C52F3A6C1",
+      "size": 3995
+    },
+    {
+      "path": "winhttp.dll",
+      "sha256": "A0B4A8D7A62D2DB55CB113AF3E0D65F5FBD10E51E009D57CB3BAC6C80A3FA044",
+      "size": 192848
+    }
+  ]
+}

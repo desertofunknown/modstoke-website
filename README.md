@@ -49,7 +49,7 @@ The build writes `dist/`. Serve that directory through a web server rather than 
 
 The catalog and legacy releases arrays in `data/site.json` remain empty. Product downloads use a separate validated `data/releases.json` adapter. It currently selects a Manager preview; the Loader pointer stays null, so no Loader route is emitted. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
 
-The SDK interfaces live with the Loader. A Loader release is selected only when one ZIP contains the Loader, the SDK and a distinct client companion, with its per-file manifest and package inventory. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here. See [release publication](docs/release-publication.md) for the exact file, index and verification gates.
+The SDK interfaces live with the Loader. A Loader release is selected only when one ZIP contains the Loader and SDK (and the client companion, if one is bundled), with its per-file manifest and package inventory. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here. See [release publication](docs/release-publication.md) for the exact file, index and verification gates.
 
 The local server includes empty catalog/category response fixtures to support integration work. They are not a production backend or an updater service. See [architecture](docs/architecture.md).
 
