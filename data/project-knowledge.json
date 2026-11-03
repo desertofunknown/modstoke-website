@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "reviewedOn": "2026-10-20",
+  "reviewedOn": "2026-11-03",
   "releaseStatus": "Manager 0.2.1-preview.4 is an unsigned Windows preview. The complete Loader, SDK and client bundle is not publicly released. Check Releases before downloading.",
   "topics": [
     {
@@ -8,7 +8,7 @@
       "title": "Welcome to Modstoke",
       "summary": "Free modding tools and a community for Sons of the Forest players, mod creators and server hosts, alongside Tithewood, our medieval roleplay game on BYOND. Developed by OpenACAI; independent of Endnight Games.",
       "facts": [
-        "Manager brings mod sources and setup management together in a Windows desktop app. Start with the published preview and installation guide.",
+        "Manager brings mod sources and setup management together in a Windows desktop app. Download the current release from Releases and follow the installation guide.",
         "Loader and the SDK are being developed as an independent mod runtime, with compatibility identities for BepInEx, RedLoader and SonsSdk. This is a development direction, not a promise that every existing mod works.",
         "Ask for setup help, share a mod idea, find a co-op crew, or tell us which player and creator problems matter most. All advertised Modstoke tools are free."
       ],
@@ -72,7 +72,8 @@
       "title": "Manager: start with the published preview",
       "summary": "Modstoke Manager is the desktop starting point for browsing mod sources and managing a game setup. Current downloadable availability comes from the release index.",
       "facts": [
-        "Follow the installation guide, back up saves, and identify the correct game installation. The current preview is unsigned; a file checksum does not establish publisher trust.",
+        "Follow the installation guide, back up saves, and identify the correct game installation. Manager 0.3.0 and everything in its installer are signed by OpenACAI Inc.",
+        "Sign in to Nexus Mods through your browser from the Manager; personal API keys are no longer needed. The server browser opens modstoke:// join links, and dedicated server hosts get game settings, staff permissions and a live console.",
         "The hosted mod catalog is still being prepared. The website does not currently serve a complete Loader/SDK/client bundle or an automatic update service.",
         "For help, share the Manager and game versions, whether Loader/client are installed, the action attempted, and a short sanitized error excerpt. Never post tokens, passwords or full private logs."
       ],
@@ -96,7 +97,7 @@
         "Expand the typed SDK and independent runtime, preserve useful legacy compatibility, and develop shared mod UI and configuration services.",
         "Prepare coherent Loader/SDK/client releases and clearer compatibility information. Only approved entries on the Releases page count as public downloads.",
         "Build an opt-in public game-server directory and a welcoming Discord with setup support, member-created crew listings and creator discussion.",
-        "Admin/Toolkit is private project tooling, without a public package or feed. Do not reveal internal administrative implementation or claim it is available to download."
+        "Admin is a host tool with private source. Its DLL is published on Nexus for server hosts; the website does not host it. Do not reveal internal administrative implementation."
       ],
       "url": "https://modstoke.com/tools/",
       "keywords": [

@@ -2,11 +2,11 @@ import { escapeHtml as e } from '../scripts/model.mjs';
 
 export const origin = 'https://modstoke.com';
 const descriptions = {
- '/': ['Modstoke — Sons of the Forest Mod Manager & Community', 'Explore Modstoke, free modding tools for Sons of the Forest. Download the Windows Manager preview, read setup guides and join the community.'],
+ '/': ['Modstoke — Sons of the Forest Mod Manager & Community', 'Explore Modstoke, free modding tools for Sons of the Forest. Download Modstoke Manager for Windows, read setup guides and join the community.'],
  '/tools/': ['Sons of the Forest Modding Tools — Modstoke', 'Meet Modstoke Manager, Loader and SDK. Compare their roles, see current download availability and find setup resources for Sons of the Forest.'],
  '/mods/': ['Sons of the Forest Mods: Catalog Status — Modstoke', 'Check the status of the Modstoke mod catalog and find player guides, compatibility notes and creator resources for Sons of the Forest.'],
  '/docs/': ['Sons of the Forest Modding Documentation — Modstoke', 'Read Modstoke documentation for players and mod creators: Manager setup, Loader and SDK availability, compatibility notes and community servers.'],
- '/releases/': ['Download Modstoke Manager for Windows — Releases', 'Download the Modstoke Manager Windows preview for Sons of the Forest. Check release notes, version, signing status and the installer SHA-256.'],
+ '/releases/': ['Download Modstoke Manager for Windows — Releases', 'Download Modstoke Manager for Sons of the Forest on Windows. Check release notes, version, signing status and the installer SHA-256.'],
  '/servers/': ['Sons of the Forest Community Servers — Modstoke', 'Find opt-in Sons of the Forest community servers. Browse host-reported status, player counts, required mods and settings, or learn how to list a server.'],
  '/404/': ['Page Not Found — Modstoke', 'This page could not be found. Return to Modstoke for Sons of the Forest tools, guides and community resources.'],
 };

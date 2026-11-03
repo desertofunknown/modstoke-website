@@ -1,10 +1,51 @@
 {
   "schema": 1,
   "latest": {
-    "manager": "manager-0-2-1-preview-4",
+    "manager": "manager-0-3-0",
     "loader": null
   },
   "releases": [
+    {
+      "releaseId": "manager-0-3-0",
+      "product": "manager",
+      "version": "0.3.0",
+      "channel": "stable",
+      "publishedUtc": "2026-11-03T22:22:45Z",
+      "sourceCommit": "63dc4359608550da7190174192aca46a1233afd2",
+      "defaultLoaderReleaseId": null,
+      "notesPath": "/releases/#manager-0-3-0",
+      "changelog": "Sign in to Nexus Mods through your browser; personal API keys are no longer needed. The Manager follows the Loader's new Modstoke folder, and your OpenACAI mods and settings move across on the next game start. New community server browser with modstoke:// join links, plus dedicated server tools: game settings, staff permissions, a live console, and safer stop and restart. A Loader console for games and servers, and Loader installs now only repair or upgrade, never downgrade. Pick a skin in Settings: the game's own look, read from your game files, or the plain Modstoke style. Faster start-up, a sturdier mod catalog, and tighter limits on what the Manager reads, downloads and installs.",
+      "validation": {
+        "cleanSource": "passed",
+        "licenses": "passed",
+        "build": "passed",
+        "install": "passed",
+        "game": "not-applicable",
+        "multiplayer": "not-applicable",
+        "hostedFetch": "passed"
+      },
+      "artifacts": [
+        {
+          "kind": "manager-windows",
+          "sitePath": "/downloads/manager/0.3.0/Modstoke-Manager-0.3.0-x64-setup.exe",
+          "fileName": "Modstoke-Manager-0.3.0-x64-setup.exe",
+          "size": 5579720,
+          "sha256": "511F9A71C16811604A1FB27C49AC8F613395F0138FF78685B668C334B7B691B0",
+          "signatureStatus": "verified",
+          "signingEvidence": {
+            "publisher": "OpenACAI Inc",
+            "verifiedUtc": "2026-11-03T22:18:46Z",
+            "files": [
+              {
+                "path": "Modstoke-Manager-0.3.0-x64-setup.exe",
+                "sha256": "511F9A71C16811604A1FB27C49AC8F613395F0138FF78685B668C334B7B691B0",
+                "certificateThumbprint": "B63B0EF389ED72E0D29E82264A5B9C82A43C443B"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "releaseId": "manager-0-2-1-preview-4",
       "product": "manager",
