@@ -1,0 +1,2002 @@
+{
+  "schema": 1,
+  "releaseId": "loader-0-4-1-net11-preview",
+  "reviewedUtc": "2026-11-03T23:22:51.8651801Z",
+  "files": [
+    {
+      "path": ".doorstop_version",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/0Harmony.dll",
+      "provenance": "publisher",
+      "license": "MIT",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src/Modstoke.Harmony",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.DotNet.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.PE.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/AsmResolver.PE.File.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/AssetRipper.CIL.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/AssetRipper.Primitives.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Core.dll",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Core.xml",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.Core.dll",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.Core.xml",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.Common.dll",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.Common.xml",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll.config",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Unity.IL2CPP.xml",
+      "provenance": "publisher",
+      "license": "LGPL-2.1-only",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba/src",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Cpp2IL.Core.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Disarm.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/dobby.dll",
+      "provenance": "publisher",
+      "license": "Apache-2.0",
+      "sourceRef": "https://github.com/desertofunknown/openacai-dobby (native/modstoke-detours)",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Gee.External.Capstone.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Iced.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Common.dll",
+      "provenance": "third-party",
+      "license": "LGPL-3.0-only",
+      "sourceRef": "https://github.com/BepInEx/Il2CppInterop",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Generator.dll",
+      "provenance": "third-party",
+      "license": "LGPL-3.0-only",
+      "sourceRef": "https://github.com/BepInEx/Il2CppInterop",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.HarmonySupport.dll",
+      "provenance": "third-party",
+      "license": "LGPL-3.0-only",
+      "sourceRef": "https://github.com/BepInEx/Il2CppInterop",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Native.dll",
+      "provenance": "third-party",
+      "license": "LGPL-3.0-only",
+      "sourceRef": "https://github.com/BepInEx/Il2CppInterop",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Il2CppInterop.Runtime.dll",
+      "provenance": "third-party",
+      "license": "LGPL-3.0-only",
+      "sourceRef": "https://github.com/BepInEx/Il2CppInterop",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/LibCpp2IL.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Microsoft.Extensions.DependencyInjection.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Microsoft.Extensions.Logging.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/modstoke_harmony_core.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Backports.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Core.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Iced.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/MonoMod.ILHelpers.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/MonoMod/MonoMod",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/runtimes/win-x64/native/capstone.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/runtimes/win-x64/native/dobby.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/SemanticVersioning.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/StableNameDotNet.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/core/WasmDisassembler.dll",
+      "provenance": "third-party",
+      "license": "see THIRD_PARTY_NOTICES.md",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/Alt.Json.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/GLTF.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/modstoke_json_native.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/Modstoke.Loader.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/openacai-loader-files.json",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/openacai-loader.manifest.json",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/RedLoader.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/SemanticVersioning.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/SonsSdk.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "BepInEx/plugins/OpenACAILoader/Tomlet.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "doorstop_config.ini",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/host/fxr/11.0.0-rc.3.26522.148/hostfxr.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/.version",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clretwrc.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clrgc.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clrgcexp.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/clrjit.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/coreclr.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/createdump.exe",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/hostpolicy.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.CSharp.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.DiaSymReader.Native.amd64.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Caching.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Hosting.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Logging.Abstractions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Options.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Extensions.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.NETCore.App.deps.json",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.NETCore.App.runtimeconfig.json",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.VisualBasic.Core.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.VisualBasic.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Win32.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/Microsoft.Win32.Registry.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscordaccore_amd64_amd64_11.0.26.52348.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscordaccore.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscordbi.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/mscorlib.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/msquic.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/netstandard.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.AppContext.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Buffers.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.Concurrent.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.Immutable.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.NonGeneric.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Collections.Specialized.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.Annotations.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.DataAnnotations.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.EventBasedAsync.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ComponentModel.TypeConverter.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Configuration.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Console.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Core.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Data.Common.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Data.DataSetExtensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Data.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Contracts.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Debug.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.DiagnosticSource.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.FileVersionInfo.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Process.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.StackTrace.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.TextWriterTraceListener.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Tools.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.TraceSource.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Diagnostics.Tracing.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Drawing.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Drawing.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Dynamic.Runtime.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Formats.Asn1.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Formats.Tar.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Globalization.Calendars.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Globalization.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Globalization.Extensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.Brotli.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.FileSystem.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.Native.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Compression.ZipFile.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.AccessControl.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.DriveInfo.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.FileSystem.Watcher.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.IsolatedStorage.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.MemoryMappedFiles.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Pipelines.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Pipes.AccessControl.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.Pipes.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.IO.UnmanagedMemoryStream.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.AsyncEnumerable.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.Expressions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.Parallel.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Linq.Queryable.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Memory.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Http.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Http.Json.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.HttpListener.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Mail.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.NameResolution.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.NetworkInformation.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Ping.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Quic.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Requests.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Security.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.ServerSentEvents.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.ServicePoint.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.Sockets.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebClient.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebHeaderCollection.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebProxy.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebSockets.Client.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Net.WebSockets.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Numerics.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Numerics.Vectors.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ObjectModel.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.CoreLib.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.DataContractSerialization.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.Uri.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.Xml.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Private.Xml.Linq.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.DispatchProxy.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Emit.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Emit.ILGeneration.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Emit.Lightweight.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Extensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Metadata.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Reflection.TypeExtensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Resources.Reader.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Resources.ResourceManager.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Resources.Writer.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.CompilerServices.Unsafe.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.CompilerServices.VisualC.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Extensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Handles.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.InteropServices.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.InteropServices.JavaScript.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Intrinsics.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Loader.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Numerics.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Formatters.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Json.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Runtime.Serialization.Xml.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.AccessControl.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Claims.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Algorithms.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Cng.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Csp.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Encoding.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.OpenSsl.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.Primitives.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Cryptography.X509Certificates.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Principal.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.Principal.Windows.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Security.SecureString.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ServiceModel.Web.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ServiceProcess.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encoding.CodePages.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encoding.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encoding.Extensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Encodings.Web.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.Json.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Text.RegularExpressions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.AccessControl.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Channels.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Overlapped.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.Dataflow.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.Extensions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Tasks.Parallel.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Thread.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.ThreadPool.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Threading.Timer.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Transactions.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Transactions.Local.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.ValueTuple.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Web.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Web.HttpUtility.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Windows.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.Linq.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.ReaderWriter.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.Serialization.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XDocument.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XmlDocument.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XmlSerializer.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XPath.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/System.Xml.XPath.XDocument.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "dotnet/shared/Microsoft.NETCore.App/11.0.0-rc.3.26522.148/WindowsBase.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "https://github.com/dotnet/dotnet/tree/v11.0.100-rc.3.26522.148",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Fresh-Install-Defaults/BepInEx.cfg",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "INSTALL.txt",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Legacy-Cleanup/Cleanup.cmd",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Legacy-Cleanup/LICENSE",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Legacy-Cleanup/Preview.cmd",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Legacy-Cleanup/README.txt",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Legacy-Cleanup/Remove-LegacyModstoke.ps1",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "LICENSE",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "provenance": "third-party",
+      "license": "license text",
+      "sourceRef": "LICENSES",
+      "redistributionApproved": true
+    },
+    {
+      "path": "LICENSES/LGPL-2.1.txt",
+      "provenance": "third-party",
+      "license": "license text",
+      "sourceRef": "LICENSES",
+      "redistributionApproved": true
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "provenance": "third-party",
+      "license": "license text",
+      "sourceRef": "LICENSES",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/Alt.Json.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/GLTF.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/modstoke_json_native.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/RedLoader.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/SemanticVersioning.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/SonsSdk.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Compatibility/Tomlet.dll",
+      "provenance": "third-party",
+      "license": "MIT",
+      "sourceRef": "THIRD_PARTY_NOTICES.md",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/dependency-inventory.json",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Diagnostics/Modstoke.JobTempTrace.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Bootstrap.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Console.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Loader.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Loader.runtimeconfig.json",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/Modstoke.Preloader.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/openacai-loader-files.json",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "Modstoke/Runtime/openacai-loader.manifest.json",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "NOTICE",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    },
+    {
+      "path": "winhttp.dll",
+      "provenance": "publisher",
+      "license": "GPL-3.0-or-later",
+      "sourceRef": "https://github.com/desertofunknown/modstoke-loader/tree/b089eb0e6720e41659201af441f9146dd41d87ba",
+      "redistributionApproved": true
+    }
+  ]
+}

@@ -50,12 +50,12 @@
     {
       "id": "loader",
       "title": "Loader and native mods",
-      "summary": "Loader is the runtime that discovers native mod packages and hosts their lifecycle. Loader 0.4.0-net11-preview with the SDK is on Releases; mods such as Client have their own downloads.",
+      "summary": "Loader is the runtime that discovers native mod packages and hosts their lifecycle. Loader 0.4.1-net11-preview with the SDK is on Releases; mods such as Client have their own downloads.",
       "facts": [
         "Creator preparation covers package layout, manifest identity, assembly and entry type, dependency declarations, compatibility notes and an isolated development setup.",
         "Use matching source revisions and record the exact game build. Do not mix arbitrary Loader, SDK and client revisions or treat legacy compatibility identities as a guarantee.",
         "Manager 0.3.0 installs and repairs the Loader from modstoke.com. The Loader now lives in a Modstoke folder and moves old OpenACAI mods and settings across on first start.",
-        "Loader 0.4.0-net11-preview is a preview: its game and multiplayer checks are still pending. Coming from an older build, run Modstoke Legacy Cleanup 1.1.0 first."
+        "Loader 0.4.1-net11-preview is a preview: its game and multiplayer checks are still pending. Coming from an older build, run Modstoke Legacy Cleanup 1.1.0 first."
       ],
       "url": "https://modstoke.com/docs/#authors",
       "keywords": [
