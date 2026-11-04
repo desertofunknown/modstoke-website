@@ -20,7 +20,7 @@ for(const name of ['style.css','app.js','servers.css','servers.js','guides.css']
  assets[name]=assetName(name,assetBytes[name]);
 }
 const screenshots = {};
-for(const file of ['manager-catalog.png','admin-world-preview.png','manager-catalog.webp','manager-catalog-1200.webp','manager-catalog-800.webp','admin-world-preview.webp','admin-world-preview-1200.webp','admin-world-preview-800.webp','modstoke-social.png','modstoke-logo.png']) {
+for(const file of ['manager-catalog.png','admin-world-preview.png','manager-catalog.webp','manager-catalog-1200.webp','manager-catalog-800.webp','admin-world-preview.webp','admin-world-preview-1200.webp','admin-world-preview-800.webp','manager-trailer.jpg','manager-trailer.webp','manager-trailer-800.webp','loader-trailer.jpg','loader-trailer.webp','loader-trailer-800.webp','modstoke-social.png','modstoke-logo.png']) {
  try { screenshots[file]=await readFile(resolve(root,'src/assets',file)); }
  catch(error) { if(error.code!=='ENOENT') throw error; }
 }
