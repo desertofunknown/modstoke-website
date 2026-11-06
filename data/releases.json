@@ -2,7 +2,7 @@
   "schema": 1,
   "latest": {
     "manager": "manager-0-3-0",
-    "loader": "loader-0-4-1-net11-preview"
+    "loader": "loader-0-4-2-net11-preview"
   },
   "releases": [
     {
@@ -40,6 +40,143 @@
                 "path": "Modstoke-Manager-0.3.0-x64-setup.exe",
                 "sha256": "511F9A71C16811604A1FB27C49AC8F613395F0138FF78685B668C334B7B691B0",
                 "certificateThumbprint": "B63B0EF389ED72E0D29E82264A5B9C82A43C443B"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "releaseId": "loader-0-4-2-net11-preview",
+      "product": "loader",
+      "version": "0.4.2-net11-preview",
+      "channel": "preview",
+      "publishedUtc": "2026-11-06T18:13:31Z",
+      "sourceCommit": "d92d27cd134f50b48942f58c1a33b6cb7ae9fabb",
+      "notesPath": "/releases/#loader-0-4-2-net11-preview",
+      "changelog": "Runs on Linux hosts under Wine, so it now works on hosted dedicated servers. Fixes a startup failure on every Wine install. Hosting panel support: console commands with JSON replies, a live status file, a clean save and stop, player, save-slot and mod lists, an event stream, crash reports, broadcasts and per-mod performance timing. Mods can declare a description and a minimum Loader version. New SDK features for mods: host commands, input-focus owner and menu visibility. Coming from an older Modstoke or OpenACAI build? Run Modstoke Legacy Cleanup 1.1.0 first.",
+      "validation": {
+        "cleanSource": "passed",
+        "licenses": "passed",
+        "build": "passed",
+        "install": "passed",
+        "game": "pending",
+        "multiplayer": "pending",
+        "hostedFetch": "passed"
+      },
+      "compatibility": {
+        "gameId": "sons-of-the-forest",
+        "testedGameBuilds": [],
+        "minManagerVersion": "0.3.0"
+      },
+      "bundled": {
+        "sdk": {
+          "assemblyPath": "Modstoke/Runtime/Modstoke.Loader.dll",
+          "sourceCommit": "d92d27cd134f50b48942f58c1a33b6cb7ae9fabb"
+        },
+        "client": null
+      },
+      "artifacts": [
+        {
+          "kind": "game-root-bundle",
+          "sitePath": "/downloads/loader/0.4.2-net11-preview/OpenACAILoader.zip",
+          "fileName": "OpenACAILoader.zip",
+          "size": 54934834,
+          "sha256": "2A3614F186B46686F635E9F2C9AF43CDDCD8AC9BBDBE4B2F96C955FD8903D6C5",
+          "signatureStatus": "verified",
+          "signingEvidence": {
+            "publisher": "OpenACAI Inc",
+            "verifiedUtc": "2026-11-06T18:13:31Z",
+            "files": [
+              {
+                "path": "BepInEx/core/0Harmony.dll",
+                "sha256": "D9B3CE4FC92E0316911F35683A901986F3B5F8FCC9D5688AD52227FD6E0AA7AF",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/core/BepInEx.Core.dll",
+                "sha256": "F20312BCF52CC13B83E49EE877A1091B2E86FA98CD78CBCBC4C6E7B8867E4307",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/core/BepInEx.Preloader.Core.dll",
+                "sha256": "9774B19E6424496561FB139C52E892B7E453281F6DA3A0C740723CE3CB2A20E9",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/core/BepInEx.Unity.Common.dll",
+                "sha256": "F2E0590F4D22302A359C1F008FF6033A7E251150D0F5473DE1452ECB2442CAC3",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+                "sha256": "42FA2ED75629B4A3C9AFD262030F7C396A8C0EBFD6830F3BEE64FFFCDBF5A7B1",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/core/dobby.dll",
+                "sha256": "373A973093D66E9F963BCF04F1491954C072694D3DCC8E43ABF207E3EC01E0DD",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/plugins/OpenACAILoader/Modstoke.Loader.dll",
+                "sha256": "C93D8326B1155317261FD9153ACC55659B7C376952CF42C53DD4EE613E8C177B",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/plugins/OpenACAILoader/RedLoader.dll",
+                "sha256": "82B126D0285FDF28B3DA3AF43CD3DBF94D9CDB9A59A5B15231175DE7289A9BFF",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "BepInEx/plugins/OpenACAILoader/SonsSdk.dll",
+                "sha256": "7912A518909456C841EB38401DCEE8BAC7D467A67512A724571F911BB10D310C",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Compatibility/RedLoader.dll",
+                "sha256": "28C7A62D8A17C9B423CA1EB29BB98B158687A3BCCF3B6EC0CF53C8D4B87ED8C9",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Compatibility/SonsSdk.dll",
+                "sha256": "3FEC9C618A2BC2651956E82979FCCA8D99A123D71F10FBC4DDDA16A7BE24B748",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Compatibility/modstoke_json_native.dll",
+                "sha256": "15E1CC65139BBDC8A958831D3AF88DF020BE92F6000DC0DBDA3553E26208F56F",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Diagnostics/Modstoke.JobTempTrace.dll",
+                "sha256": "548262414E466E41F94656F085DB55A929C18D558B2168018E170C72A19B8190",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Modstoke.Bootstrap.dll",
+                "sha256": "63F6C8EEDC4E57A41E200639511450302E9B911B7A481E084935D5BA7D01C649",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Modstoke.Console.dll",
+                "sha256": "0363C091E2D6BB2FF53D5F986C3177969D9DA66DB005D454B13FDEB6F616470A",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Modstoke.Loader.dll",
+                "sha256": "B1C9A249EA143B1702795A6208EFC2AD9FFFCB2C253DE1E4351982259083CDF1",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "Modstoke/Runtime/Modstoke.Preloader.dll",
+                "sha256": "932F0927530875B527CA56D8798EE225B9D7E7A8E44155197908287925A6D76F",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
+              },
+              {
+                "path": "winhttp.dll",
+                "sha256": "2B0140B5E3D696F65493E09C1E78AF53027319F5BD98B7FB755B0D34A266D0CC",
+                "certificateThumbprint": "F0AD01CCF002E939484FE077B65F8185C27F16F9"
               }
             ]
           }
