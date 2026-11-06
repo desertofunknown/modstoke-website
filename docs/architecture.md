@@ -6,17 +6,21 @@ The site is a static Node-generated portal. Templates render pages from curated 
 
 Routes:
 
-- `/`: game context, actual tool information and player/creator resources
-- `/tools/`: Manager, Loader and SDK overviews; a secondary Admin status note
-- `/mods/`: catalog status until approved inventory exists
-- `/docs/`: project information and source-grounded preparation notes
-- `/releases/`: dated development milestones and publication state
-- `/release-index.json`: static selected Manager and Loader releases (currently empty)
-- `/downloads/{product}/{version}/{fileName}`: immutable reviewed files, only after release approval
+- `/`: what Modstoke is, the mods, getting set up, latest releases and community links
+- `/mods/`: the mod list, filtered in the browser and complete without JavaScript
+- `/mods/{slug}/`: one page per listed mod, with `#v{version}` anchors for each release
+- `/tools/`: Manager, Loader and SDK
+- `/docs/`: notes for players and mod authors
+- `/releases/`: selected and retained Manager and Loader releases
+- `/servers/`: the community server directory
+- `/release-index.json`: selected Manager and Loader releases
+- `/downloads/{product}/{version}/{fileName}`: immutable reviewed files
 - `/releases/loader/latest/OpenACAILoader.manifest.json`: Loader schema-1 compatibility route, only when a complete verified Loader bundle is selected
 - `/404/`: not-found page
 
-The browser script filters already-rendered catalog rows. Test fixtures exercise populated states, but the public data validator rejects inventory until a publication adapter and its validation rules are ready. The catalog view model is not a new wire API.
+Mods come from `data/store/catalog.json`, which uses the store catalog schema 1 shared with the Manager (`kind: "modstoke.store-catalog"`). `scripts/store.mjs` validates it. A release with `package: null` is listed but not installable from the store; its files are linked through `crossRefs` (Nexus Mods for now). The file is a build input only and is not published at `/store/v1/` until the catalog is signed. Media files sit under `src/assets/mods/{slug}/` as a 1600 px WebP (the recorded file, with its SHA-256), an 800 px WebP and a 1600 px JPEG. Like the other captures they are kept out of git; a missing image is skipped, and a present one must match its hash.
+
+`data/site.json` keeps its legacy gate: its `mods` and `releases` arrays stay empty.
 
 ## Existing clients and future integration
 

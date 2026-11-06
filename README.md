@@ -2,7 +2,7 @@
 
 A community-oriented website for Modstoke, the free modding tools project by OpenACAI. Sons of the Forest is the initial game focus.
 
-This repository contains the static portal: tool overviews, player and creator documentation, development notes and an unpublished mod catalog. It does not contain Manager, Loader, SDK or Admin binaries.
+This repository contains the static site: the mod pages, tool overviews, guides and creator notes. It does not contain Manager, Loader, SDK or mod binaries.
 
 Join the [Modstoke Discord](https://discord.gg/T2Tjh5ECS) to connect with the community. The permanent invite opens in #welcome.
 
@@ -30,24 +30,27 @@ The build writes `dist/`. Serve that directory through a web server rather than 
 
 ## Project layout
 
-- `src/templates.mjs`: page content and layout
-- `src/catalog-view.mjs`: catalog presentation
-- `src/style.css`: responsive styling
-- `src/app.js`: catalog filtering for future published inventory
+- `src/templates.mjs`: assembles every route from the views below
+- `src/layout.mjs`: page shell, release strip, header, phone menu and footer
+- `src/home-view.mjs`, `src/mods-view.mjs`, `src/tools-view.mjs`, `src/docs-view.mjs`: page content
+- `src/style.css`: site styles; `src/fonts/`: Roboto subsets (Apache 2.0, licence alongside)
+- `src/app.js`: the mod list filter
 - `src/guides-view.mjs`, `src/guides.css`: install and troubleshooting guides
 - `src/servers-view.mjs`, `src/servers.js`: the community server directory, read from `/api/community/v1`
 - `src/app-policies-view.mjs`: the `/apps/` privacy and terms pages
 - `src/project-knowledge-view.mjs`, `data/project-knowledge.json`: dated project facts, published at `/community/knowledge.json` for Sentinel
 - `src/seo.mjs`: sitemap, robots and page metadata
-- `data/site.json`: product, game and publication state
+- `data/store/catalog.json`: the mods, in the store catalog format shared with the Manager
+- `data/site.json`: brand and game metadata
 - `data/releases.json`: reviewed product download selection
+- `deploy/caddy/modstoke.caddy`: the site's Caddy block
 - `scripts/`: build, local server, packaging and checks
 - `test/`: Node test-runner tests
 - `docs/`: architecture and hosting notes
 
 ## Publication state
 
-The catalog and legacy releases arrays in `data/site.json` remain empty. Product downloads use a separate validated `data/releases.json` adapter. It currently selects a Manager preview; the Loader pointer stays null, so no Loader route is emitted. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
+Product downloads use the validated `data/releases.json` adapter; it currently selects Manager 0.3.0 and Loader 0.4.1-net11-preview. Mods are listed from `data/store/catalog.json` and download from Nexus Mods until the store can host signed packages. The legacy `mods` and `releases` arrays in `data/site.json` stay empty. A screenshot of a desktop catalog is not an approval to copy those entries or distribute their files.
 
 The SDK interfaces live with the Loader. A Loader release is selected only when one ZIP contains the Loader and SDK (and the client companion, if one is bundled), with its per-file manifest and package inventory. Admin has a public repository with project documentation; its source import is pending, and there is no downloadable Admin package here. See [release publication](docs/release-publication.md) for the exact file, index and verification gates.
 

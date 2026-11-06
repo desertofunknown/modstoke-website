@@ -1,0 +1,416 @@
+{
+  "schema": 1,
+  "kind": "modstoke.store-catalog",
+  "generatedUtc": "2026-11-05T00:00:00Z",
+  "minManagerVersion": "0.3.0",
+  "game": {
+    "id": "sons-of-the-forest",
+    "steamAppId": 1326470,
+    "currentBuild": null
+  },
+  "publishers": [
+    {
+      "id": "openacai",
+      "name": "OpenACAI",
+      "verification": "operator",
+      "repos": [],
+      "changedUtc": null
+    }
+  ],
+  "mods": [
+    {
+      "id": "modstoke.client",
+      "slug": "modstoke.client",
+      "name": "Modstoke Client",
+      "publisher": "openacai",
+      "publisherSinceUtc": "2026-10-20T00:00:00Z",
+      "kind": "mod",
+      "summary": "A field tablet, wristwatch, survey drone and the Kestrel K3, a small three-seat plane. Plan supply runs, pin places on the map, scout from the air or fly friends around the island.",
+      "description": "Client adds gear you carry around: a field tablet, a wristwatch, a survey drone and the Kestrel K3, a small three-seat plane. It's meant to feel like equipment, not a menu stuck on top of the game.\n\nThe tablet has a map with your own pins, a notebook, a clock and Pack, which searches items and ammo and drafts a shopping list for a recipe. It only plans; you still do the crafting yourself.\n\n- Survey drone: fly it from the tablet, drop map pins on anything you see, and it lands by itself when the battery runs low.\n- Kestrel K3: deploy it from the tablet's Hangar app with about 18 metres of clear ground ahead. One pilot, two passengers.\n- Character: pick your body, skin tone and shape, and keep the same look every time you join.\n\nTribes, the printer, shared waypoints and companions need a host running Admin. The host and everyone flying need the same Client version, so try it on a copy of your world first.",
+      "category": "gameplay",
+      "tags": [
+        "gear",
+        "vehicles",
+        "tablet",
+        "multiplayer"
+      ],
+      "license": "GPL-3.0-only",
+      "sourceUrl": null,
+      "intake": "attachment",
+      "aiAssisted": true,
+      "crossRefs": {
+        "nexusModId": 440,
+        "sotfMods": null
+      },
+      "media": [
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.client/kestrel-beach-1600.webp",
+          "sha256": "176cd9d6ed684c4c0e313892ccddc1fa13c92036824d03edfbd5f6b69018946f",
+          "width": 1600,
+          "height": 900,
+          "alt": "The Kestrel K3 parked on a beach, seen from the survey drone"
+        },
+        {
+          "kind": "video",
+          "path": "/assets/mods/modstoke.client/trailer-1600.webp",
+          "sha256": "6e33c7f8c00d0023074669d8f0b571c1ff5fa98322ac89e1230a54e3bb564cb5",
+          "width": 1600,
+          "height": 900,
+          "alt": "Client trailer: the Kestrel K3 flying past snowy peaks",
+          "youtubeId": "7-q5--jgA40"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.client/tablet-home-1600.webp",
+          "sha256": "61cd097470af8e4c9178339ea7d35ac7f9b137c62a65453889a80dbadb5634aa",
+          "width": 1600,
+          "height": 900,
+          "alt": "The field tablet home screen, held up in the forest"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.client/tablet-apps-1600.webp",
+          "sha256": "519c0a958dcca4b14431fa97d38bfc742930b5a04540a43abb61d637f3c77539",
+          "width": 1600,
+          "height": 900,
+          "alt": "The field tablet app list on the beach"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.client/drone-camera-1600.webp",
+          "sha256": "81b5a3abf982bc73f197a760422b7c8c91606e5f647f7ccfbc4d142f882f5919",
+          "width": 1600,
+          "height": 900,
+          "alt": "Survey drone camera controls over the shoreline"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.client/kestrel-cockpit-1600.webp",
+          "sha256": "e525e4f9ef127f135a1bc73ee106f834695771781dd2697eacbfe07acb7b596c",
+          "width": 1600,
+          "height": 900,
+          "alt": "The pilot seat of the Kestrel K3"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.client/spacecraft-test-1600.webp",
+          "sha256": "f91bcf776281f289a7652c140a8f2ca00125801865c1d0f9cf85c9971d9659f7",
+          "width": 1600,
+          "height": 900,
+          "alt": "The spacecraft landed on another world",
+          "caption": "Test build. Not in the current download yet."
+        }
+      ],
+      "status": "listed",
+      "releases": [
+        {
+          "version": "0.2.4",
+          "releaseSeq": 1,
+          "channel": "stable",
+          "publishedUtc": "2026-11-03T20:24:00Z",
+          "changelog": "Character creator: Mods > Character > Customise character opens a full-screen editor with a rotating preview. Pick a body, skin tone, eye and underwear colour, and shape it with the sliders.\nYou keep the same look every time you join, and it works alongside players who don't have Modstoke.\nServer compatibility replaces the duplicate Modstoke Client page in the Mods menu.\nNeeds Modstoke Loader 0.4.0 and its Modstoke folder.",
+          "layout": "modstoke-native",
+          "package": null,
+          "entry": null,
+          "files": [],
+          "runsOn": [
+            {
+              "loader": "modstoke",
+              "range": ">=0.4.0-net11-preview",
+              "tested": true
+            }
+          ],
+          "requires": [],
+          "conflicts": [],
+          "multiplayer": {
+            "role": "all-players",
+            "dedicatedServer": null,
+            "settings": null
+          },
+          "network": [],
+          "capabilities": {
+            "declared": [],
+            "detected": []
+          },
+          "testedGameBuilds": [],
+          "review": null,
+          "authenticode": null,
+          "yanked": null
+        }
+      ],
+      "inTesting": "Spaceflight is in testing: a spacecraft you launch from a big clearing, a station in orbit and a new world to land on and survey with your crew. It isn't in the current download yet."
+    },
+    {
+      "id": "com.openacai.sotf.admin",
+      "slug": "com.openacai.sotf.admin",
+      "name": "Modstoke Admin",
+      "publisher": "openacai",
+      "publisherSinceUtc": "2026-10-20T00:00:00Z",
+      "kind": "mod",
+      "summary": "Host tools for Sons of the Forest. See who's on your world, check what they've been up to, and jail, mute, kick or ban without leaving the game.",
+      "description": "If you host a world, Admin puts the player list and your moderation tools in one menu inside the game. Pick a player to see their Steam ID and what the mod has noticed about them, then deal with it right there.\n\n- Roster with jail, mute, kick and ban\n- Evidence sorted into movement, items, construction, server and actions\n- Staff roles with their own permissions, including remote staff on dedicated servers\n- Host controls for the time, the weather and world settings\n\nThe evidence is there to help you look into a problem. It isn't a full anti-cheat, and nothing bans or kicks on its own. Players don't need Admin to join.",
+      "category": "server",
+      "tags": [
+        "hosting",
+        "moderation"
+      ],
+      "license": null,
+      "sourceUrl": null,
+      "intake": "attachment",
+      "aiAssisted": true,
+      "crossRefs": {
+        "nexusModId": 439,
+        "sotfMods": null
+      },
+      "media": [
+        {
+          "kind": "image",
+          "path": "/assets/mods/com.openacai.sotf.admin/overview-1600.webp",
+          "sha256": "333c1d7f54b46e92fc64781baf4ae878cee7be03e360cf56966b4ce9cd351f6a",
+          "width": 1600,
+          "height": 900,
+          "alt": "The Admin menu open over the forest, using the game-style skin"
+        },
+        {
+          "kind": "video",
+          "path": "/assets/mods/com.openacai.sotf.admin/trailer-1600.webp",
+          "sha256": "090fac621cd3cebbe278e21525b6d6faa3058ee13bb06de02080de1c062b3f7a",
+          "width": 1600,
+          "height": 900,
+          "alt": "Admin trailer title card over the forest",
+          "youtubeId": "m5AZjVJNhgM"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/com.openacai.sotf.admin/overview-classic-1600.webp",
+          "sha256": "a21097cc6d59cd35d46b3effb51e468fce9c692c9e7a3e7c927c688754b167a0",
+          "width": 1600,
+          "height": 900,
+          "alt": "The Admin overview page in the classic skin"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/com.openacai.sotf.admin/world-1600.webp",
+          "sha256": "94b2c18857f22ccbf007e1dc289796c8645a58b1da2035b3961e88f20cd62c09",
+          "width": 1600,
+          "height": 900,
+          "alt": "World controls in the Admin menu"
+        }
+      ],
+      "status": "listed",
+      "releases": [
+        {
+          "version": "0.5.221",
+          "releaseSeq": 1,
+          "channel": "stable",
+          "publishedUtc": "2026-11-03T17:23:00Z",
+          "changelog": "Staff roles: ranked roles with their own allow and deny permissions, plus a Steam64 admin list with expiry dates.\nRemote staff can use F7 on listen hosts and dedicated servers. The host checks every request.\nF7 menu: fixed focus and stuck-cursor problems, new skins, and Simple and Advanced layouts.\nUnmodded players: speed limits only apply to transport the host can confirm, and a pickup duplication bug is fixed.\nNew evidence for god mode, speedhacks, fire rate, impossible hits and Steam tickets.",
+          "layout": "modstoke-native",
+          "package": null,
+          "entry": null,
+          "files": [],
+          "runsOn": [
+            {
+              "loader": "modstoke",
+              "range": ">=0.4.0-net11-preview",
+              "tested": true
+            }
+          ],
+          "requires": [],
+          "conflicts": [],
+          "multiplayer": {
+            "role": "host",
+            "dedicatedServer": "supported",
+            "settings": null
+          },
+          "network": [],
+          "capabilities": {
+            "declared": [],
+            "detected": []
+          },
+          "testedGameBuilds": [],
+          "review": null,
+          "authenticode": null,
+          "yanked": null
+        }
+      ]
+    },
+    {
+      "id": "modstoke.terraforming",
+      "slug": "modstoke.terraforming",
+      "name": "Modstoke Terraforming",
+      "publisher": "openacai",
+      "publisherSinceUtc": "2026-10-20T00:00:00Z",
+      "kind": "mod",
+      "summary": "Dig out soil and rock, fill holes back in and undo mistakes in a small outdoor plot. Offline single-player copies of saves only for now.",
+      "description": "Terraforming lets you dig into a small patch of the island and put the soil back where you want it. Dig a pit, fill part of it in, and undo it if it goes wrong.\n\nFor now it's one outdoor plot in an offline single-player copy of a save. Multiplayer and building on dug-up ground don't work yet.\n\n- Create a plot on clear ground from the Mods menu\n- Dig with the shovel or pickaxe, fill with the shovel\n- Soil you dig goes into a reserve, and filling uses it up\n- Undo puts back both the ground and the soil\n\nClimb out of any hole before uninstalling, because the dug-out shape won't exist without the mod.",
+      "category": "building",
+      "tags": [
+        "terrain",
+        "digging"
+      ],
+      "license": "GPL-3.0-only",
+      "sourceUrl": null,
+      "intake": "attachment",
+      "aiAssisted": true,
+      "crossRefs": {
+        "nexusModId": 441,
+        "sotfMods": null
+      },
+      "media": [
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.terraforming/plot-pit-1600.webp",
+          "sha256": "c45e3546652f105e40aa09d32358db6c4dcfeb0c457d8005b7295afa8963ab6e",
+          "width": 1600,
+          "height": 900,
+          "alt": "A pit dug into the sand of a Terraforming plot"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.terraforming/mods-page-1600.webp",
+          "sha256": "f544bccd2d712eab7d45b4cc87873ced8853133653b65153ff537e20c7889227",
+          "width": 1600,
+          "height": 900,
+          "alt": "The Terraforming page in the Mods menu"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.terraforming/mound-test-1600.webp",
+          "sha256": "e0903fe71380b67a617de80ad6344cd25ff5f5abc9d74819de7af1dcad8edaa9",
+          "width": 1600,
+          "height": 900,
+          "alt": "Kelvin walking over a mound of filled-in ground",
+          "caption": "Test build. Not in the current download yet."
+        }
+      ],
+      "status": "listed",
+      "releases": [
+        {
+          "version": "0.2.2",
+          "releaseSeq": 1,
+          "channel": "stable",
+          "publishedUtc": "2026-11-03T17:20:00Z",
+          "changelog": "Creating, loading, removing and recovering terrain now asks you to confirm, from the console or the Mods menu.\nWorks with Modstoke Loader 0.4.0 and its Modstoke folder.",
+          "layout": "modstoke-native",
+          "package": null,
+          "entry": null,
+          "files": [],
+          "runsOn": [
+            {
+              "loader": "modstoke",
+              "range": ">=0.4.0-net11-preview",
+              "tested": true
+            }
+          ],
+          "requires": [],
+          "conflicts": [],
+          "multiplayer": {
+            "role": "solo",
+            "dedicatedServer": "unsupported",
+            "settings": null
+          },
+          "network": [],
+          "capabilities": {
+            "declared": [],
+            "detected": []
+          },
+          "testedGameBuilds": [],
+          "review": null,
+          "authenticode": null,
+          "yanked": null
+        }
+      ],
+      "inTesting": "Island-wide digging is in testing: dig, fill, flatten and smooth anywhere on the island with the shovel, saved with your world. It isn't in the current download yet."
+    },
+    {
+      "id": "modstoke.virginia",
+      "slug": "modstoke.virginia",
+      "name": "Modstoke Virginia",
+      "publisher": "openacai",
+      "publisherSinceUtc": "2026-10-20T00:00:00Z",
+      "kind": "mod",
+      "summary": "Recolour Virginia's outfits and add a few optional ways to spend time with her: greetings, appreciation and quiet time together.",
+      "description": "A few optional extras for Virginia: outfit colours, plus some ways to greet her, show appreciation or just spend quiet time together. Everything starts switched off.\n\n- Outfit colours: Original, Crimson, Forest, Ocean, Charcoal or Ivory, on your own screen only\n- Greetings, appreciation and quiet time, if the host allows them\n- A separate bond you can check in the menu, saved with your world\n\nHer model, textures and animations are the game's own. The bond doesn't change where she goes, how much she likes you or what she brings you.",
+      "category": "companions",
+      "tags": [
+        "virginia",
+        "appearance"
+      ],
+      "license": "GPL-3.0-only",
+      "sourceUrl": null,
+      "intake": "attachment",
+      "aiAssisted": true,
+      "crossRefs": {
+        "nexusModId": 442,
+        "sotfMods": null
+      },
+      "media": [
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.virginia/path-1600.webp",
+          "sha256": "d1cef2292595508400e1bb36e873a53ee0d799fbc23a50762bb81d7f60280668",
+          "width": 1600,
+          "height": 900,
+          "alt": "Virginia walking along a forest path"
+        },
+        {
+          "kind": "video",
+          "path": "/assets/mods/modstoke.virginia/trailer-1600.webp",
+          "sha256": "cff6d0f137e2093908bff201ce9df1675bb5bafd8982a8e4e6873a192a1eab75",
+          "width": 1600,
+          "height": 900,
+          "alt": "Virginia trailer title card over the forest",
+          "youtubeId": "RrYmhFzMg18"
+        },
+        {
+          "kind": "image",
+          "path": "/assets/mods/modstoke.virginia/settings-1600.webp",
+          "sha256": "7d44bd54ba4866524ca8674d8e09f7ddc824a36133fa1924f0acc782028c1710",
+          "width": 1600,
+          "height": 900,
+          "alt": "Virginia settings in the Mods menu"
+        }
+      ],
+      "status": "listed",
+      "releases": [
+        {
+          "version": "0.1.2",
+          "releaseSeq": 1,
+          "channel": "stable",
+          "publishedUtc": "2026-11-03T17:22:00Z",
+          "changelog": "Your relationship progress now saves with your game.\nWorks with Modstoke Loader 0.4.0 and its Modstoke folder.",
+          "layout": "modstoke-native",
+          "package": null,
+          "entry": null,
+          "files": [],
+          "runsOn": [
+            {
+              "loader": "modstoke",
+              "range": ">=0.4.0-net11-preview",
+              "tested": true
+            }
+          ],
+          "requires": [],
+          "conflicts": [],
+          "multiplayer": {
+            "role": null,
+            "dedicatedServer": null,
+            "settings": "host-synced"
+          },
+          "network": [],
+          "capabilities": {
+            "declared": [],
+            "detected": []
+          },
+          "testedGameBuilds": [],
+          "review": null,
+          "authenticode": null,
+          "yanked": null
+        }
+      ]
+    }
+  ],
+  "revocations": []
+}

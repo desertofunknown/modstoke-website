@@ -11,3 +11,6 @@ artifacts/
 src/assets/*.png
 src/assets/*.webp
 src/assets/*.jpg
+src/assets/home/
+src/assets/mods/
+src/assets/tools/

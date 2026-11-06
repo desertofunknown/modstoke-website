@@ -7,7 +7,8 @@ import { fileURLToPath } from 'node:url';
 const root = new URL('../',import.meta.url);
 const build = spawnSync(process.execPath,['scripts/build.mjs'],{cwd:root,encoding:'utf8'});
 assert.equal(build.status,0,build.stderr);
-const pages=['index.html','mods/index.html','tools/index.html','docs/index.html','releases/index.html','404/index.html'];
+const catalog=JSON.parse(await readFile(new URL('../data/store/catalog.json',import.meta.url),'utf8'));
+const pages=['index.html','mods/index.html',...catalog.mods.map(mod=>`mods/${mod.slug}/index.html`),'tools/index.html','docs/index.html','releases/index.html','servers/index.html','hosting/index.html','support/index.html','404/index.html'];
 test('all pages contain accessible navigation and unique main heading',async()=>{
  for(const page of pages){
   const html=await readFile(new URL('../dist/'+page,import.meta.url),'utf8');
@@ -57,7 +58,7 @@ test('fresh output excludes stale files and preserves their bytes outside publis
 });
 
 test('selected product screenshots are copied unchanged with truthful captions',async()=>{
- for(const name of ['manager-catalog.png','admin-world-preview.png']){
+ for(const name of ['manager-catalog.png']){
   let source;
   try { source=await readFile(new URL('../src/assets/'+name,import.meta.url)); }
   catch(error){if(error.code==='ENOENT')continue;throw error;}
@@ -65,9 +66,7 @@ test('selected product screenshots are copied unchanged with truthful captions',
   assert.deepEqual(output,source);
  }
  const home=await readFile(new URL('../dist/index.html',import.meta.url),'utf8');
- const products=await readFile(new URL('../dist/tools/index.html',import.meta.url),'utf8');
- if(home.includes('manager-catalog.png')) assert.match(home,/Third-party catalog shown/);
- if(products.includes('admin-world-preview.png')) {assert.match(products,/DEVELOPMENT PREVIEW/);assert.match(products,/clock-preflight failure/);}
+ if(home.includes('manager-catalog.png')) assert.match(home,/come from SOTF Mods, not from this site/);
 });
 
 test('all pages reference exact content-hashed assets and no unversioned files',async()=>{

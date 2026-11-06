@@ -1,0 +1,79 @@
+# modstoke.com site block for Caddy. Replaces the modstoke.com and www.modstoke.com blocks only;
+# nothing here touches other sites on the same server.
+#
+# Paths are the same on the current VPS and the new server:
+#   /srv/www/modstoke/releases/<timestamp>/   one site build each (HTML, CSS, JS, JSON, images, fonts)
+#   /srv/www/modstoke/current                 symlink to the live build
+#   /srv/www/modstoke/files/downloads/...     versioned release files, written once, never replaced
+# Copy the existing downloads into files/ and check their SHA-256 before switching to this block.
+
+modstoke.com {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer"
+		Content-Security-Policy "default-src 'self'; connect-src 'self' https://modstoke.com; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+		-Server
+	}
+
+	# PayPal's buttons need its scripts, frames and inline styles, so only /support/ relaxes the policy.
+	header /support/* Content-Security-Policy "default-src 'self'; connect-src 'self' https://*.paypal.com; img-src 'self' data: https://*.paypal.com https://*.paypalobjects.com; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-xiaD0XEAtT7Da8WrcQjkQbhOx0ZR6pjMSRZNsqZuFdA=' https://*.paypal.com https://*.paypalobjects.com; frame-src https://*.paypal.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+
+	handle /api/community/v1/* {
+		reverse_proxy 127.0.0.1:12435
+	}
+
+	# Donations: services/support/support.py in the modstoke-hosting repo.
+	handle /api/support/v1/* {
+		reverse_proxy 127.0.0.1:12436
+	}
+
+	# Release files live outside the site builds, so a deploy or rollback never copies or swaps them.
+	@files path /downloads/*
+	handle @files {
+		root * /srv/www/modstoke/files
+		header Cache-Control "public, max-age=31536000, immutable"
+		header Content-Disposition "attachment"
+		file_server
+	}
+
+	# Fingerprinted CSS/JS and fonts change name when their bytes change.
+	@immutable path_regexp ^/(?:(?:style|app|servers|guides|support)\.[0-9a-f]{16}\.(?:css|js)|fonts/[a-z0-9-]+\.woff2)$
+	handle @immutable {
+		root * /srv/www/modstoke/current
+		header Cache-Control "public, max-age=31536000, immutable"
+		file_server
+	}
+
+	@images path /assets/*
+	handle @images {
+		root * /srv/www/modstoke/current
+		header Cache-Control "public, max-age=3600"
+		file_server
+	}
+
+	handle {
+		root * /srv/www/modstoke/current
+		header Cache-Control "no-cache"
+		@open path /release-index.json /releases/loader/*
+		header @open Access-Control-Allow-Origin "*"
+		@index path_regexp idx ^(.*/)index\.html$
+		redir @index {re.idx.1}{?query} 301
+		file_server {
+			hide .*
+		}
+	}
+
+	handle_errors 404 {
+		root * /srv/www/modstoke/current
+		rewrite * /404/index.html
+		header Cache-Control "no-store"
+		file_server
+	}
+}
+
+www.modstoke.com {
+	redir https://modstoke.com{uri} permanent
+}

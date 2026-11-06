@@ -7,7 +7,9 @@ try {
  const html=await (await fetch('http://127.0.0.1:4175/')).text();
  const css=html.match(/href="(\/style\.[a-f0-9]{16}\.css)"/)[1];
  const js=html.match(/src="(\/app\.[a-f0-9]{16}\.js)"/)[1];
- for(const route of ['/','/mods/','/tools/','/docs/','/releases/',css,js,'/asset-manifest.json','/release-index.json','/favicon.svg']){
+ const storeCatalog=JSON.parse(await (await import('node:fs/promises')).readFile(new URL('../data/store/catalog.json',import.meta.url),'utf8'));
+ const modRoutes=storeCatalog.mods.map(mod=>`/mods/${mod.slug}/`);
+ for(const route of ['/','/mods/',...modRoutes,'/tools/','/docs/','/releases/','/servers/','/hosting/','/support/',css,js,'/asset-manifest.json','/release-index.json','/favicon.svg','/fonts/roboto-400.woff2']){
   const res=await fetch('http://127.0.0.1:4175'+route);assert.equal(res.status,200,route);
   assert.equal(res.headers.get('x-content-type-options'),'nosniff');
   assert.ok(res.headers.get('content-security-policy'));
@@ -23,6 +25,8 @@ try {
  assert.equal((await fetch('http://127.0.0.1:4175/style.css')).status,404);
  assert.equal((await fetch('http://127.0.0.1:4175/app.js')).status,404);
  for(const asset of [...html.matchAll(/<img[^>]+src="([^"]+)"/g)].map(match=>match[1]))assert.equal((await fetch('http://127.0.0.1:4175'+asset)).status,200);
+ for(const route of modRoutes){const page=await (await fetch('http://127.0.0.1:4175'+route)).text();for(const asset of [...page.matchAll(/(?:src|srcset)="([^"]+)"/g)].flatMap(match=>match[1].split(',').map(part=>part.trim().split(' ')[0])).filter(url=>url.startsWith('/assets/')))assert.equal((await fetch('http://127.0.0.1:4175'+asset)).status,200,asset);}
+ const font=await fetch('http://127.0.0.1:4175/fonts/roboto-700.woff2');assert.equal(font.headers.get('content-type'),'font/woff2');assert.equal(font.headers.get('cache-control'),'public, max-age=31536000, immutable');
  const catalog=await (await fetch('http://127.0.0.1:4175/api/mods?approved=true&page=1')).json();assert.deepEqual(catalog.data,[]);assert.equal(catalog.meta.total,0);
  assert.deepEqual(await (await fetch('http://127.0.0.1:4175/api/categories')).json(),{data:[]});
  assert.equal((await fetch('http://127.0.0.1:4175/api/mods?page=-1')).status,400);

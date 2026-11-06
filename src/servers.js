@@ -238,7 +238,7 @@
       actions.append(join);
     } else actions.append(element('p', '', server.online ? 'The host has not supplied a join target.' : 'This server is offline. Joining is unavailable.'));
     const share = element('a', 'inline-link', 'Permanent server link ↗'); share.href = sharePath(server.id); actions.append(share);
-    detailBody.append(actions, element('p', 'server-history-note', 'Requires an installed Manager version with server joining support; preview.4 does not include this feature. Manager will show fresh details for you to confirm. No mods are downloaded by this page.'));
+    detailBody.append(actions, element('p', 'server-history-note', 'Join opens Modstoke Manager 0.3.0 or newer, which shows fresh details for you to confirm. This page does not download any mods.'));
     detailBody.append(packageList('Components', server.components), packageList('Required mods', server.requiredMods));
     detailBody.append(element('h3', '', 'Host-reported settings'), facts([['Difficulty', server.settings.difficulty || 'Unknown'], ['PvP', yesNo(server.settings.pvp)], ['Friendly fire', yesNo(server.settings.friendlyFire)], ['Password required', yesNo(server.settings.passwordRequired)]]));
     detailBody.append(historySection(history, server.id));

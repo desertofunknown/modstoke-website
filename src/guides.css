@@ -1,4 +1,4 @@
-.guide-breadcrumbs { margin: 0 0 20px; color: var(--muted); font-size: 13px; }
+.guide-breadcrumbs { margin: 24px 0 20px; color: var(--muted); font-size: 13px; }
 .guide-breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 6px 10px; margin: 0; padding: 0; list-style: none; }
 .guide-breadcrumbs li + li::before { content: '/'; margin-right: 10px; color: var(--muted); }
 .guide-breadcrumbs a, .guide-body a, .guide-footer-note a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
@@ -29,7 +29,7 @@
 .guide-body ol, .guide-body ul { margin: 14px 0; padding-left: 25px; }
 .guide-body li { padding-left: 5px; margin-bottom: 12px; }
 .guide-body li::marker { color: var(--accent); }
-.guide-callout { padding: 16px 18px; margin: 20px 0; background: var(--bg); border-left: 3px solid var(--accent); }
+.guide-callout { padding: 16px 18px; margin: 20px 0; background: var(--bg); border: 1px solid #5c4a2e; }
 .guide-body code { font-size: .88em; overflow-wrap: anywhere; color: var(--text); }
 .guide-body pre { max-width: 100%; margin: 18px 0; padding: 16px; background: var(--header); border: 1px solid var(--line); white-space: pre-wrap; overflow-wrap: anywhere; }
 .guide-hash { padding: 12px 16px; background: var(--bg); border: 1px solid var(--line); }

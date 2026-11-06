@@ -38,7 +38,7 @@ export function renderGuides(releaseIndex) {
     <section class="guide-card-grid" aria-label="Available guides">
       <article class="guide-card"><p class="eyebrow">WINDOWS SETUP</p><h2><a href="${installPath}">Install Modstoke Manager</a></h2><p>Back up saves, find the official installer, check its checksum and select your game installation.</p><a class="inline-link" href="${installPath}">Read the installation guide</a></article>
       <article class="guide-card"><p class="eyebrow">TROUBLESHOOTING</p><h2><a href="${troubleshootingPath}">Troubleshoot game mods</a></h2><p>Separate Manager setup from Loader and mod issues, check requirements, and prepare a useful problem report.</p><a class="inline-link" href="${troubleshootingPath}">Read the troubleshooting guide</a></article>
-    </section><p class="guide-footer-note">For project information and author preparation, see <a href="/docs/">Documentation</a>.</p>`;
+    </section><p class="guide-footer-note">For project information and author preparation, see the <a href="/docs/">docs</a>.</p>`;
 
   const installTitle = 'How to install Modstoke Manager on Windows';
   const installDescription = 'A step-by-step guide to installing Modstoke Manager: save backups, official download, optional SHA-256 check and game selection.';
