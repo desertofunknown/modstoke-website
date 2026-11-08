@@ -6,8 +6,10 @@
 #   /srv/www/modstoke/current                 symlink to the live build
 #   /srv/www/modstoke/files/downloads/...     versioned release files, written once, never replaced
 # Copy the existing downloads into files/ and check their SHA-256 before switching to this block.
+# TLS uses a Cloudflare Origin certificate (Full strict); the host only accepts 80/443 from Cloudflare.
 
 modstoke.com {
+	tls /etc/caddy/certs/modstoke.com.pem /etc/caddy/certs/modstoke.com.key
 	encode zstd gzip
 
 	header {
@@ -75,5 +77,6 @@ modstoke.com {
 }
 
 www.modstoke.com {
+	tls /etc/caddy/certs/modstoke.com.pem /etc/caddy/certs/modstoke.com.key
 	redir https://modstoke.com{uri} permanent
 }
