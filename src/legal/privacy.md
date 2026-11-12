@@ -18,9 +18,9 @@ The short version:
 
 ## Visiting the site {#site}
 
-You can read modstoke.com and download our mods and tools without an account. The site sets no advertising or tracking cookies and loads no third-party analytics scripts.
+You can read modstoke.com and download our mods and tools without an account. The site sets no advertising or tracking cookies.
 
-Like any website, ours receives your IP address, browser details and the pages you ask for. Cloudflare sits in front of our sites to deliver them and block attacks, so it sees that traffic too. We keep server logs to run and secure the service.
+Like any website, ours receives your IP address, browser details and the pages you ask for. Cloudflare sits in front of our sites to deliver them and block attacks, so it sees that traffic too, and it gives us visit counts in total that don't identify you. We keep server logs to run and secure the service.
 
 ## Your account {#account}
 
@@ -111,7 +111,7 @@ Where the law asks for a legal basis, ours are: carrying out our agreement with 
 
 We don't sell personal information. We share it only:
 
-- with the services that help us run Modstoke, for that purpose: Cloudflare (delivery and protection), InterServer (the datacentre in New Jersey where our machine lives), PayPal (payments), Discord and Steam (sign-in and linking), and Nexus Mods and sotf-mods.com (when you use their stores);
+- with the services that help us run Modstoke, for that purpose: Cloudflare (delivery, protection and visit counts), InterServer (the datacentre in New Jersey where our machine lives), PayPal (payments), Discord and Steam (sign-in and linking), and Nexus Mods and sotf-mods.com (when you use their stores);
 - with a server's owner and staff, for the players and activity on that server;
 - when the law requires it, or when it's needed to protect someone's safety or our rights;
 - with an organisation that takes over Modstoke, under this same policy.
