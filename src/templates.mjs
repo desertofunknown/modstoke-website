@@ -9,6 +9,7 @@ import { renderTools } from './tools-view.mjs';
 import { renderDocs } from './docs-view.mjs';
 import { renderHosting } from './hosting-view.mjs';
 import { renderSupport } from './support-view.mjs';
+import { renderLegal } from './legal-view.mjs';
 
 const emptyCatalog = { mods: [] };
 
@@ -50,7 +51,7 @@ export function renderPages(data, assets, options = {}) {
     page('/servers/', 'Community servers', wrapped(renderServers())),
     page('/hosting/', 'Server hosting', renderHosting()),
     page('/support/', 'Support Modstoke', renderSupport()),
-    ...[...renderGuides(options.releaseIndex), ...renderAppPolicies()].map(([path, title, description, body]) => page(path, title, wrapped(body), description)),
+    ...[...renderGuides(options.releaseIndex), ...renderAppPolicies(), ...renderLegal()].map(([path, title, description, body]) => page(path, title, wrapped(body), description)),
     page('/404/', 'Page not found', notFound),
   ];
 }

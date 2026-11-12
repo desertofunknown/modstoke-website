@@ -69,6 +69,8 @@ ${plans.map(plan).join('\n')}
   <p>After a few days' grace your server pauses. We keep its files for 14 days, so you can pick up where you left off.</p>
   <h3>Why do I have to apply?</h3>
   <p>We're a small nonprofit sharing one machine, so we want to know who's on it. It keeps things fair and safe for everyone.</p>
+  <h3>What are the rules?</h3>
+  <p>The <a href="/terms/#hosting">Terms of Service</a> cover hosting, including refunds and what happens to your files when a server ends. The <a href="/privacy/">Privacy Policy</a> says what we keep.</p>
   </div>
 </section>
 

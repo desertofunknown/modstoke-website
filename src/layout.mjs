@@ -44,7 +44,7 @@ export function createLayout({ assets, releaseIndex }) {
     const links = nav.map(([url, label]) => `<a href="${url}"${section === url ? ' aria-current="page"' : ''}>${label}</a>`).join('');
     const extra = path === '/servers/'
       ? `<link rel="stylesheet" href="/${e(assets['servers.css'])}"><script src="/${e(assets['servers.js'])}" defer></script>`
-      : (path.startsWith('/guides/') || path.startsWith('/apps/')) ? `<link rel="stylesheet" href="/${e(assets['guides.css'])}">`
+      : (path.startsWith('/guides/') || path.startsWith('/apps/') || path === '/terms/' || path === '/privacy/') ? `<link rel="stylesheet" href="/${e(assets['guides.css'])}">`
       : path === '/support/' ? `<script src="/${e(assets['support.js'])}" defer></script>` : '';
     return `<!doctype html>
 <html lang="en">
@@ -93,7 +93,7 @@ ${body}
     <nav class="footer-links" aria-label="Footer">
       <div><h2>Play</h2><a href="/mods/">Mods</a><a href="/servers/">Servers</a><a href="/hosting/">Rent a server</a><a href="/guides/install-modstoke-manager/">Install guide</a><a href="/guides/sons-of-the-forest-mod-troubleshooting/">Troubleshooting</a></div>
       <div><h2>Build</h2><a href="/tools/">Manager, Loader and SDK</a><a href="/docs/#authors">Make a mod</a><a href="/releases/">Releases</a></div>
-      <div><h2>Community</h2><a href="${discordUrl}">Discord</a><a href="/support/">Support Modstoke</a><a href="/support/#gamhon">GAMHON</a><a href="/apps/">Discord apps</a><a href="/apps/privacy/">Privacy</a><a href="/apps/terms/">Terms</a></div>
+      <div><h2>Community</h2><a href="${discordUrl}">Discord</a><a href="/support/">Support Modstoke</a><a href="/support/#gamhon">GAMHON</a><a href="/apps/">Discord apps</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div>
     </nav>
   </div>
 </footer>
