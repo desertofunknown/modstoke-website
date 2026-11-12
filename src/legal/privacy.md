@@ -69,7 +69,9 @@ A server we host records the people who join it. The server's owner decides who 
 
 Only that server's owner and staff, and our own staff, can see this. A public server listing shows the server's name and how many are playing, never who.
 
-If you play on a server and want to know what it holds about you, or want it removed, ask the server's owner, or ask us.
+The record of a visit is kept for a year after it ended. When a server is deleted, everything it held about its players is deleted with it.
+
+If you play on a server and want to know what it holds about you, or want it removed sooner, ask the server's owner, or ask us.
 
 ### Ember {#ember}
 
@@ -125,7 +127,9 @@ We don't sell personal information. We share it only:
 | Server usage samples | 30 days |
 | Chat on a hosted server | 30 days |
 | Player positions | Minutes |
-| Player sessions, moderation records and staff notes | Until the server's staff remove them, or the player or owner asks us to |
+| Player sessions on a hosted server | A year after the session ended |
+| Moderation records, the whitelist and staff notes | Until the server's staff remove them |
+| Everything a hosted server holds about its players | Deleted when the server is deleted |
 | A server's activity log | 365 days |
 | Backups | 3, 7 or 30 days, by plan |
 | Trash on a server | 7 days |
