@@ -3,6 +3,8 @@ import { seoHead } from './seo.mjs';
 import { selectedRelease } from './release-view.mjs';
 
 export const discordUrl = 'https://discord.gg/T2Tjh5ECS';
+// Where a rented server is run from, and where a beta code is used.
+export const panelUrl = 'https://panel.modstoke.com/';
 export const arrow = '<span aria-hidden="true">↗</span>';
 export const mark = '<svg viewBox="0 0 40 30" aria-hidden="true"><path d="M0 30V0h8l12 17L32 0h8v30H29V16l-9 12-9-12v14z" fill="currentColor"/></svg>';
 
@@ -91,7 +93,7 @@ ${body}
       <p>Free mods and tools for Sons of the Forest, made by OpenACAI, a nonprofit, as part of <a href="/support/#gamhon">GAMHON</a>, its program for mental health and social connection through games. Not affiliated with Endnight Games.</p>
     </div>
     <nav class="footer-links" aria-label="Footer">
-      <div><h2>Play</h2><a href="/mods/">Mods</a><a href="/servers/">Servers</a><a href="/hosting/">Rent a server</a><a href="/guides/install-modstoke-manager/">Install guide</a><a href="/guides/sons-of-the-forest-mod-troubleshooting/">Troubleshooting</a></div>
+      <div><h2>Play</h2><a href="/mods/">Mods</a><a href="/servers/">Servers</a><a href="/hosting/">Rent a server</a><a href="${panelUrl}">Server panel</a><a href="/guides/install-modstoke-manager/">Install guide</a><a href="/guides/sons-of-the-forest-mod-troubleshooting/">Troubleshooting</a></div>
       <div><h2>Build</h2><a href="/tools/">Manager, Loader and SDK</a><a href="/docs/#authors">Make a mod</a><a href="/releases/">Releases</a></div>
       <div><h2>Community</h2><a href="${discordUrl}">Discord</a><a href="/support/">Support Modstoke</a><a href="/support/#gamhon">GAMHON</a><a href="/apps/">Discord apps</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div>
     </nav>

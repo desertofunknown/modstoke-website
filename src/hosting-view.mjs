@@ -1,4 +1,4 @@
-import { arrow, discordUrl } from './layout.mjs';
+import { arrow, discordUrl, panelUrl } from './layout.mjs';
 
 // The plans and minimums follow docs/DESIGN.md in the modstoke-hosting repo. Prices are monthly, in US dollars.
 export const plans = [
@@ -53,7 +53,7 @@ ${plans.map(plan).join('\n')}
       <li><strong>Apply.</strong> Sign in with Discord, link your Steam account and tell us what the server's for.</li>
       <li><strong>We review it.</strong> A person on our team reads every application.</li>
       <li><strong>Pay with PayPal.</strong> Choose a plan and how much you'd like to pay. It renews monthly, and you can cancel any time.</li>
-      <li><strong>Play.</strong> Your server starts within minutes, and you run it from your account page.</li>
+      <li><strong>Play.</strong> Your server starts within minutes, and you run it from <a href="${panelUrl}">the panel</a>.</li>
     </ol>
   </div>
 </section>
@@ -78,7 +78,8 @@ ${plans.map(plan).join('\n')}
   <div>
     <h2>Want in on the beta?</h2>
     <p>Ask in our Discord and we'll add you to the list. Hosting is part of <a href="/support/#gamhon">GAMHON</a>, OpenACAI's program for mental health and social connection through games.</p>
+    <p>Already have a server? <a href="${panelUrl}">Open the panel</a> to run it.</p>
   </div>
-  <div class="actions"><a class="button" href="${discordUrl}">Ask on Discord ${arrow}</a><a class="button button-quiet" href="/servers/">Community servers</a></div>
+  <div class="actions"><a class="button" href="${discordUrl}">Ask on Discord ${arrow}</a><a class="button button-quiet" href="${panelUrl}register">I have a beta code</a><a class="button button-quiet" href="/servers/">Community servers</a></div>
 </section>`;
 }
