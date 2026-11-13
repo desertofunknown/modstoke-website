@@ -1,0 +1,1146 @@
+{
+  "_about": "modstoke.com 的文本（简体中文）。由 en.json 翻译而来，欢迎母语者审校。{ } 中的内容由网站填入，保持原样。",
+  "seo": {
+    "home": {
+      "title": "Modstoke：Sons of the Forest 模组、模组管理器与 Loader",
+      "description": "免费的 Sons of the Forest 模组，以及运行它们的工具：Windows 版 Modstoke Manager、Modstoke Loader，还有 Client、Admin、Terraforming、Virginia 等模组。"
+    },
+    "mods": {
+      "title": "Sons of the Forest 模组 | Modstoke",
+      "description": "Sons of the Forest 的 Modstoke 模组：Client（平板、无人机和 Kestrel 飞机）、主机用的 Admin、Terraforming 和 Virginia。版本、要求与多人游戏说明。"
+    },
+    "tools": {
+      "title": "Sons of the Forest 的 Modstoke Manager、Loader 与 SDK",
+      "description": "下载 Windows 版 Modstoke Manager，把 Modstoke Loader 装进 Sons of the Forest，再用随附的 SDK 开发模组。"
+    },
+    "docs": {
+      "title": "面向玩家和模组作者的 Modstoke 文档",
+      "description": "Modstoke Manager、Loader 与模组如何配合、游戏兼容性，以及开发 Sons of the Forest 模组前要知道的事。"
+    },
+    "releases": {
+      "title": "下载 Modstoke Manager 与 Loader | 发布",
+      "description": "下载 Windows 版 Modstoke Manager 和 Modstoke Loader。每个发布版本都列出版本号、更新内容、大小、签名状态和 SHA-256。"
+    },
+    "hosting": {
+      "title": "Sons of the Forest 服务器托管 | Modstoke",
+      "description": "向非营利组织 OpenACAI 租用 Sons of the Forest 专用服务器：独占核心、每日备份，Modstoke Loader 已就绪。"
+    },
+    "support": {
+      "title": "支持 Modstoke | OpenACAI",
+      "description": "捐款让 Modstoke 一直免费。捐款交给 501(c)(3) 非营利组织 OpenACAI，以及它通过游戏促进心理健康与社交联系的项目 GAMHON。"
+    },
+    "servers": {
+      "title": "Sons of the Forest 社区服务器 | Modstoke",
+      "description": "查找主机方选择公开的 Sons of the Forest 服务器，查看玩家数、所需模组和设置，也可以了解如何公开你自己的服务器。"
+    },
+    "notFound": {
+      "title": "找不到页面 | Modstoke",
+      "description": "找不到这个页面。回到 Modstoke，看看 Sons of the Forest 的模组、工具和指南。"
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke，Sons of the Forest 的模组与工具",
+    "organization": "OpenACAI 为 Sons of the Forest 打造的免费模组工具和社区。"
+  },
+  "nav": {
+    "mods": "模组",
+    "tools": "工具",
+    "servers": "服务器",
+    "hosting": "托管",
+    "guides": "指南",
+    "docs": "文档",
+    "releases": "发布"
+  },
+  "layout": {
+    "skip": "跳到正文",
+    "current": "当前",
+    "noDownloads": "暂无公开下载",
+    "support": "支持 Modstoke",
+    "home": "Modstoke 首页",
+    "menu": "菜单",
+    "mainNav": "主导航",
+    "download": "下载 Manager",
+    "language": "语言",
+    "languageNote": "选择本站的语言，你的选择会被记住。",
+    "translated": "译自英文，欢迎到我们的 Discord 指正。"
+  },
+  "footer": {
+    "about": "Sons of the Forest 的免费模组和工具，由非营利组织 OpenACAI 制作，是其通过游戏促进心理健康与社交联系的项目 {gamhon} 的一部分。与 Endnight Games 无关。",
+    "label": "页脚",
+    "play": "玩",
+    "build": "开发",
+    "community": "社区",
+    "mods": "模组",
+    "servers": "服务器",
+    "rent": "租用服务器",
+    "panel": "服务器面板",
+    "install": "安装指南",
+    "troubleshooting": "故障排除",
+    "tools": "Manager、Loader 与 SDK",
+    "makeMod": "开发模组",
+    "releases": "发布",
+    "discord": "Discord",
+    "support": "支持 Modstoke",
+    "apps": "Discord 应用",
+    "privacy": "隐私",
+    "terms": "条款"
+  },
+  "pages": {
+    "overview": "总览",
+    "mods": "模组",
+    "tools": "工具",
+    "docs": "文档",
+    "releases": "发布",
+    "servers": "社区服务器",
+    "hosting": "服务器托管",
+    "support": "支持 Modstoke",
+    "notFound": "找不到页面",
+    "noReleases": {
+      "eyebrow": "发布",
+      "title": "暂无下载",
+      "lede": "这里还没有发布任何内容。每个发布版本都会列出版本号、更新内容、兼容性和文件哈希。"
+    },
+    "missing": {
+      "title": "这里什么也没有。",
+      "lede": "这个页面不存在，或者已经搬走了。",
+      "home": "回到 Modstoke",
+      "mods": "看看模组"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "傍晚的光线洒在岛上松林之上的雪峰",
+      "title": "像游戏本身一样自然的模组。",
+      "lede": "Modstoke 是一个模组加载器、一个桌面管理器，以及目前四个我们自己做的模组：Client、Admin、Terraforming 和 Virginia。全部免费，由非营利组织 OpenACAI 制作。",
+      "download": "下载 Manager {version}",
+      "seeMods": "看看模组",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · OpenACAI 签名"
+    },
+    "mods": {
+      "title": "我们的模组",
+      "all": "所有模组"
+    },
+    "setup": {
+      "title": "开始使用",
+      "manager": {
+        "title": "安装 Manager。",
+        "body": "指向你的 Sons of the Forest 文件夹，它就会找到你的游戏和存档。"
+      },
+      "loader": {
+        "title": "添加 Loader。",
+        "body": "由 Manager 来安装。它会在标题画面和暂停画面加上「Mods」菜单。"
+      },
+      "mods": {
+        "title": "挑选模组。",
+        "body": "大多数人会想要 Client。如果你要开服，再加上 Admin。"
+      },
+      "backup": "先备份你的存档。{guide}会一步步带你完成。",
+      "guideLink": "安装指南",
+      "shotAlt": "Modstoke Manager 显示 Sons of the Forest 的模组列表",
+      "shotCaption": "Manager 的模组列表。所示条目来自 SOTF Mods，而不是本站。"
+    },
+    "releases": {
+      "title": "最新发布",
+      "all": "所有发布"
+    },
+    "ledger": {
+      "manager": "Windows 安装程序，已签名",
+      "loader": "Loader 和 SDK，预览版"
+    },
+    "together": {
+      "title": "一起玩",
+      "body": "{servers}列出主机方选择公开的 Sons of the Forest 世界，以及每个世界所需的模组。想找队友、报告 bug、第一时间了解新版本，就来我们的 {discord}。这一切都属于 {gamhon}，即 OpenACAI 通过游戏促进心理健康与社交联系的项目。",
+      "serversLink": "服务器列表",
+      "browse": "浏览服务器",
+      "join": "加入 Discord"
+    }
+  },
+  "hosting": {
+    "eyebrow": "服务器托管",
+    "title": "租用 Sons of the Forest 服务器",
+    "lede": "运行在我们自有硬件上的专用服务器，Modstoke Loader 和我们的模组已就绪。OpenACAI 以非营利方式运营，你支付的费用用于维持服务器和模组的运转。",
+    "status": "即将开放，先从面向 Discord 成员的小规模测试开始。",
+    "plans": {
+      "heading": "套餐",
+      "small": "Small",
+      "standard": "Standard",
+      "price": "每月 {price}，也可以多付一些",
+      "players": "玩家",
+      "upTo": "最多 {count} 人",
+      "cpu": "CPU",
+      "cores": "{cores} 个独占核心",
+      "memory": "内存",
+      "memorySize": "{memory} GB",
+      "storage": "存储",
+      "storageSize": "{disk} GB NVMe",
+      "note": "每个套餐都有最低价。结账时你可以选择多付。超出最低价的部分算作对 OpenACAI 的捐款，在收据上单独列出。16 人套餐会在我们认真测试之后推出。"
+    },
+    "get": {
+      "title": "你能得到什么",
+      "cores": {
+        "title": "独占的核心。",
+        "body": "你服务器的 CPU 核心不与任何人共用。"
+      },
+      "modstoke": {
+        "title": "已配置好 Modstoke。",
+        "body": "Loader 已安装并保持最新，我们的模组一键即可添加。"
+      },
+      "find": {
+        "title": "容易被找到。",
+        "body": "它会出现在游戏的服务器浏览器中；如果你愿意公开，也会出现在我们的{servers}上，并附带 Manager 加入链接。",
+        "link": "服务器页面"
+      },
+      "admin": {
+        "title": "Admin 工具。",
+        "body": "Modstoke Admin 通过你的 Steam 账号认出你是服主。"
+      },
+      "panel": {
+        "title": "简单的控制面板。",
+        "body": "直接拖入文件和文件夹，查看控制台，看谁在玩，运行命令，全都在同一个界面里。"
+      },
+      "world": {
+        "title": "你的世界，由你保管。",
+        "body": "每天备份，保留一周，还可以一键把你的世界下载到自己的电脑上。"
+      },
+      "discord": {
+        "title": "在我们的 Discord 里有个家。",
+        "body": "你的服务器有自己的公告频道和聊天频道，你的管理员还会收到管理提醒。"
+      },
+      "coast": {
+        "title": "靠近美国东海岸。",
+        "body": "托管在新泽西，使用 1 Gbps 线路。"
+      }
+    },
+    "how": {
+      "title": "如何使用",
+      "apply": {
+        "title": "申请。",
+        "body": "用 Discord 登录，绑定你的 Steam 账号，告诉我们服务器的用途。"
+      },
+      "review": {
+        "title": "我们审核。",
+        "body": "每份申请都由我们团队的人来看。"
+      },
+      "pay": {
+        "title": "用 PayPal 付款。",
+        "body": "选择套餐和你想付的金额。按月续费，随时可以取消。"
+      },
+      "play": {
+        "title": "开玩。",
+        "body": "你的服务器几分钟内启动，你可以在{panel}中管理它。",
+        "link": "面板"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "players": {
+        "q": "可以超过 8 名玩家吗？",
+        "a": "暂时不行。8 人是游戏本身的上限。我们的 Loader 可以突破这个上限，等我们用真实玩家跑过之后，会推出 16 人套餐。"
+      },
+      "mods": {
+        "q": "可以添加我自己的模组吗？",
+        "a": "可以，通过文件管理器添加。你的服务器运行在独立的空间里，与其他人的互不相干。"
+      },
+      "payment": {
+        "q": "付款失败会怎样？",
+        "a": "宽限几天后，你的服务器会暂停。我们会保留它的文件 14 天，你可以接着之前的进度继续。"
+      },
+      "apply": {
+        "q": "为什么要申请？",
+        "a": "我们是一个小型非营利组织，大家共用一台机器，所以想知道有谁在用。这样对所有人都公平、安全。"
+      },
+      "rules": {
+        "q": "有什么规则？",
+        "a": "{terms}涵盖托管相关的内容，包括退款，以及服务器结束后你的文件会如何处理。{privacy}说明我们会保存什么。",
+        "termsLink": "服务条款",
+        "privacyLink": "隐私政策"
+      }
+    },
+    "beta": {
+      "title": "想参加测试吗？",
+      "body": "到我们的 Discord 里说一声，我们会把你加进名单。托管是 {gamhon} 的一部分，即 OpenACAI 通过游戏促进心理健康与社交联系的项目。",
+      "have": "已经有服务器了？{panel}来管理它。",
+      "panelLink": "打开面板",
+      "ask": "去 Discord 询问",
+      "code": "我有测试码",
+      "servers": "社区服务器"
+    }
+  },
+  "support": {
+    "eyebrow": "支持",
+    "title": "让 Modstoke 继续下去",
+    "lede": "我们的模组和工具都是免费的。它们由 501(c)(3) 非营利组织 OpenACAI 制作，捐款用来支付本站背后的服务器、我们的 Discord 机器人和社区服务器。",
+    "donate": {
+      "title": "捐款",
+      "often": "频率",
+      "once": "一次性",
+      "monthly": "每月",
+      "amount": "金额（美元）",
+      "otherLabel": "其他金额",
+      "otherPlaceholder": "其他 $",
+      "closed": "在线捐款即将开放。在此之前，可以到我们的 {discord} 询问如何帮忙。",
+      "note": "付款通过 PayPal 进行，它会用电子邮件把收据发给你。我们看不到你的银行卡信息。"
+    },
+    "roles": {
+      "title": "支持者身份组",
+      "intro": "捐款者会在我们的 Discord 获得一个身份组，作为感谢：",
+      "supporter": {
+        "name": "Supporter",
+        "text": "所有捐过款的人"
+      },
+      "monthly": {
+        "name": "Monthly supporter",
+        "text": "每月捐款持续期间"
+      },
+      "host": {
+        "name": "Server host",
+        "text": "所有租用{hosting}的人",
+        "link": "我们的服务器"
+      },
+      "note": "在账号功能开放之前，请在 Discord 里给管理员发消息，附上你的 PayPal 收据编号，他们会为你添加身份组。身份组只是一份谢意，无论你是否捐款，模组对所有人都保持免费。"
+    },
+    "gamhon": {
+      "title": "GAMHON 的一部分",
+      "what": "Modstoke 是 GAMHON（Game and Mental Health Online Network）的一部分。OpenACAI 运营它，希望通过游戏给人们一个压力不大的社交出口，包括那些没有太多其他地方可以交流的人。",
+      "modding": "做模组正合适。和任何爱好一样，它让你有事可做、有所期待，还附带一群一起创作的人。我们的免费工具、我们的 Discord 和我们托管的服务器，都是其中的一部分。",
+      "money": "在这里的捐款和{hosting}的费用都归 OpenACAI，用于支持这个项目。",
+      "hostingLink": "服务器托管",
+      "crisis": "GAMHON 关乎娱乐和友谊，不是心理咨询。如果你在美国并处于危机中，请拨打或发短信到 988。",
+      "more": "在 openacai.com 了解更多关于 GAMHON 的信息"
+    },
+    "where": {
+      "title": "钱用在哪里",
+      "body": "首先是服务器。新泽西的一台机器运行着本站、Sentinel（我们的 Discord 机器人）及其本地 AI，还有我们托管的游戏服务器。除此之外的部分，交给 GAMHON 的其余工作。",
+      "ask": "有问题？来 Discord 问"
+    }
+  },
+  "servers": {
+    "eyebrow": "社区服务器",
+    "title": "找一台服务器",
+    "intro": "主机方选择在此公开的 Sons of the Forest 世界，以及每个世界所需的模组。",
+    "listYours": "公开你的服务器",
+    "directoryLabel": "服务器目录",
+    "filters": {
+      "find": "查找服务器",
+      "placeholder": "服务器、主机、地区或模组…",
+      "status": "状态",
+      "allStatuses": "所有状态",
+      "online": "在线",
+      "offline": "离线",
+      "kind": "会话类型",
+      "allSessions": "所有会话",
+      "dedicated": "专用服务器",
+      "playerHosted": "玩家开服",
+      "refresh": "刷新"
+    },
+    "loading": "正在加载目录…",
+    "refreshes": "页面可见时每 60 秒刷新一次。",
+    "noscript": {
+      "title": "需要 JavaScript 才能加载服务器。",
+      "body": "请启用 JavaScript 以查看实时目录。本页面不保存任何服务器信息。"
+    },
+    "measureNote": "标有「—」的玩家数表示未知。主机延迟是主机方测得的已连接玩家往返时间的中位数，你自己的网络情况可能不同。",
+    "join": {
+      "eyebrow": "加入之前",
+      "title": "你下一局的去处。",
+      "review": "打开服务器可查看它所需的模组、部分设置和近期活动。这些要求只供你查看；本页面不会下载或安装模组。",
+      "manager": "点「加入」会打开 Modstoke Manager 0.3.0 或更新版本，在任何操作开始之前，它会再次显示服务器详情供你确认。"
+    },
+    "host": {
+      "eyebrow": "给主机方",
+      "title": "分享你的服务器，出于你的选择。",
+      "ask": "请在 {discord} 里请目录运营者批准你的公开申请并发放发布密钥。在托管组件中配置该密钥，然后明确启用发布。不要在聊天中发布密钥，也不要在本网站上输入它。",
+      "discordLink": "我们的 Discord",
+      "privacy": "只有选择加入的主机方才会上报。公开的内容包括服务器信息、部分设置和汇总的活动数据，不含玩家名称、聊天、密码或私有的 Admin 数据。要移除公开信息或吊销密钥，请联系运营者。"
+    },
+    "detail": {
+      "eyebrow": "服务器详情",
+      "close": "关闭",
+      "loading": "正在加载服务器…"
+    }
+  },
+  "tools": {
+    "eyebrow": "工具",
+    "title": "Manager、Loader 与 SDK",
+    "lede": "玩家需要 Manager 和 Loader。模组作者基于 SDK 开发，SDK 随 Loader 一起提供。",
+    "installGuide": "安装指南",
+    "trailer": {
+      "watch": "在 YouTube 上观看 {name} 预告片",
+      "alt": "{name} 预告片的标题画面",
+      "caption": "{name} 预告片，在 YouTube 上播放"
+    },
+    "file": {
+      "none": "暂无公开下载。",
+      "signed": "已签名",
+      "unsigned": "未签名",
+      "preview": "预览版"
+    },
+    "manager": {
+      "what": "一款管理 Sons of the Forest 模组的 Windows 应用。它会找到你的游戏、安装 Loader，并把你的模组集中在一处。你可以在其中浏览 SOTF Mods 和 Nexus Mods，找一台服务器加入，或者架设你自己的专用服务器。",
+      "store": "等 Modstoke 商店开放后，你会通过 Manager 从中安装：在解压任何内容之前，它都会对照已签名的目录检查每个文件。",
+      "download": "下载 Manager"
+    },
+    "loader": {
+      "what": "每个 Modstoke 模组背后的加载器。装一次，再添加你想要的模组。它会在标题画面和暂停画面加上「Mods」菜单，每个模组的设置都在那里，并且自带它所需的 .NET 运行时。",
+      "legacy": "较早的 RedLoader 和 BepInEx 模组可以继续与它一起使用。",
+      "onReleases": "发布页上的 Loader",
+      "nexus": "Nexus 页面",
+      "shotAlt": "游戏内 Loader 的「Mods」菜单",
+      "shotCaption": "Loader 为游戏添加的「Mods」菜单"
+    },
+    "sdk": {
+      "what": "模组所依赖的接口。它们包含在 Loader 里，所以没有需要单独下载的东西：在你的项目中引用 Loader 程序集，并用与玩家相同版本的 Loader 来测试。",
+      "notes": "{notes}介绍了包的结构、清单文件，以及如何在游戏的另一份副本上测试。",
+      "notesLink": "作者说明"
+    }
+  },
+  "guides": {
+    "home": "首页",
+    "guides": "指南",
+    "breadcrumb": "面包屑导航",
+    "eyebrow": "玩家指南",
+    "onThisPage": "本页内容",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "Manager 预览版",
+    "backup": {
+      "exit": "退出 Sons Of The Forest，并关闭所有可能改动其文件的模组工具。等 Steam 云同步（如有）完成。",
+      "find": "在文件资源管理器的地址栏中粘贴 {path}。对于普通的本地玩家安装，{saves} 文件夹就在这里。如果没有找到，请先确认 Windows 账户和你的安装所用的存档位置，再继续。",
+      "copy": "把整个 {saves} 文件夹复制到游戏及其存档目录之外一个单独的、带日期的备份文件夹中。是复制，不要移动或删除原件。账号和世界的所有子文件夹都要保留。",
+      "verify": "打开备份，确认应有的子文件夹和文件都在。进行修改期间，不要动这份副本。Steam 云存档不能代替单独的备份。",
+      "note": "如果是专用服务器，或存档存放在别处，请另行备份该服务器所配置的存档位置。在恢复较旧的副本之前，也请保留当前的存档，这样才能撤销这次恢复。"
+    },
+    "checksum": {
+      "open": "可选：在存放已下载安装程序的文件夹中打开 PowerShell，运行：",
+      "compare": "把返回的{hash}与{release}上同一版本的 SHA-256 对比。{manager}的记录值是：",
+      "releasePage": "发布页面",
+      "differs": "如果不一致，不要运行该文件。请从发布页面重新下载，再检查一次。哈希一致只能说明字节与发布的校验和相同，并不能证明发布者身份，也不会让未签名的安装程序变成已签名。另见 Microsoft 的{reference}。",
+      "reference": "Get-FileHash 参考",
+      "none": "当前没有选定的 Manager 文件。继续之前，请到{releases}查看是否有已发布的安装程序及其校验和。",
+      "releases": "发布"
+    },
+    "index": {
+      "title": "Sons Of The Forest 模组指南",
+      "description": "在 Windows 上安装 Modstoke Manager，备份你的存档，并解决 Sons Of The Forest 的模组问题。",
+      "statusTitle": "先看现在有什么",
+      "statusManager": "{manager}已提供 Windows 版。",
+      "statusManagerPreview": "{manager}已提供 Windows 预览版。",
+      "statusNoManager": "请到发布页查看 Manager 当前是否可用。",
+      "statusLoader": "带 SDK 的 Loader {version} 也在发布页上，Manager 可以替你安装。Client 等模组有各自的下载，Modstoke 目前还没有托管的模组目录。",
+      "statusNoLoader": "完整的 Modstoke Loader、SDK 和 Client 整合包尚未发布，因此无法自动安装该整合包。Modstoke 目前也还没有托管的模组目录。",
+      "reviewReleases": "查看当前发布",
+      "cardsLabel": "可用的指南",
+      "installEyebrow": "WINDOWS 安装",
+      "installTitle": "安装 Modstoke Manager",
+      "installText": "备份存档，找到官方安装程序，检查它的校验和，并选择你的游戏安装位置。",
+      "installLink": "阅读安装指南",
+      "troubleEyebrow": "故障排除",
+      "troubleTitle": "排查游戏模组问题",
+      "troubleText": "区分 Manager 安装问题与 Loader、模组问题，核对要求，并准备一份有用的问题报告。",
+      "troubleLink": "阅读故障排除指南",
+      "footer": "项目信息和作者准备工作，请见{docs}。",
+      "docs": "文档"
+    },
+    "install": {
+      "title": "如何在 Windows 上安装 Modstoke Manager",
+      "description": "Modstoke Manager 的分步安装指南：备份存档、官方下载、可选的 SHA-256 检查，以及选择游戏。",
+      "crumb": "安装 Modstoke Manager",
+      "toc": {
+        "before": "开始之前",
+        "backup": "备份存档",
+        "download": "下载 Manager",
+        "check": "检查下载文件",
+        "install": "安装并选择游戏",
+        "next": "接下来做什么"
+      },
+      "before": {
+        "title": "开始之前",
+        "intro": "本指南介绍 Windows 版 Modstoke Manager。请准备好你的 Steam 版 Sons Of The Forest，并在安装前关闭游戏。当前的下载是{manager}。",
+        "signed": "安装程序由{publisher}签名。如果 Windows 显示的是未知发布者，不要运行它，请从发布页重新下载。",
+        "unsigned": "已发布的预览版安装程序未签名。由于无法验证发布者签名，Windows 可能会显示警告。请先查看源码和发布详情，再决定是否运行。不要为了安装它而关闭 Windows 的安全保护。如果拿不准，请取消，等有签名的版本。",
+        "scope": "安装 Manager 并不会安装游戏，也不能说明模组可以正常运行。",
+        "scopeLoader": "设置好之后，Manager 可以从它的「Loaders」页面安装 Loader。",
+        "scopeNoLoader": "完整的 Modstoke Loader、SDK 和 Client 整合包尚未发布，因此无法自动安装整合包。"
+      },
+      "backupTitle": "1. 备份你的存档",
+      "download": {
+        "title": "2. 获取官方下载",
+        "open": "打开{releases}，找到 Manager 的下载。",
+        "releases": "Modstoke 发布页",
+        "read": "阅读版本、签名信息和已记录的检查结果。",
+        "filename": "在本指南中，安装程序的文件名是 {file}。",
+        "noFile": "只有在列出了 Manager 安装程序时才继续。",
+        "get": "使用该页面上的链接下载安装程序。如果想对比校验和，请保持发布页面打开。",
+        "note": "Manager 的安装检查并不是游戏或多人游戏的兼容性结果。对这个 Manager 发布版本，这些检查标为不适用。"
+      },
+      "checkTitle": "3. 如果你想，可以检查下载文件",
+      "setup": {
+        "title": "4. 安装 Manager 并选择游戏",
+        "runSigned": "运行已下载的安装程序",
+        "runUnsigned": "如果你决定使用未签名的预览版，请运行已下载的安装程序",
+        "run": "{run}，并按安装提示操作。如果安装中途停止，请记下错误信息。",
+        "open": "安装完成后，打开 Modstoke Manager。",
+        "select": "如果 Manager 要求选择游戏可执行文件，请从你实际的 Steam 游戏安装目录中选择 {exe}。你可以通过 Steam 中游戏的本地文件找到安装文件夹。要选的是游戏的可执行文件，而不是 Manager 的安装程序或快捷方式。",
+        "status": "查看该安装位置显示的状态。如果找不到游戏，请确认所选文件仍然存在，并且属于你想用的那个 Steam 安装。",
+        "note": "不同版本的界面文字可能有差异。请按你所安装版本里显示的提示操作，不要去猜找不到的控件。"
+      },
+      "next": {
+        "title": "5. 添加模组前先确认要求",
+        "loader": "Modstoke 目前还没有托管的模组目录。请先通过 Manager 安装 Loader，再从各个模组自己的页面添加模组。",
+        "noLoader": "Modstoke 目前既没有托管的模组目录，也没有发布完整的 Loader、SDK 和 Client 整合包。缺少整合包是发布方面的限制，重装 Manager 解决不了。",
+        "elsewhere": "对于从别处获得的模组，请阅读作者针对该确切版本给出的要求和安装说明。修改文件之前，先确认所支持的游戏版本和 Loader。不要以为为别的 Loader 写的模组也能在 Modstoke 上运行。",
+        "continue": "遇到问题时请继续看{troubleshooting}，或阅读{docs}。",
+        "troubleshooting": "Sons Of The Forest 模组故障排除",
+        "docs": "玩家文档"
+      }
+    },
+    "trouble": {
+      "title": "Sons Of The Forest 模组故障排除",
+      "description": "诊断 Manager 安装、Loader 要求和游戏模组问题，附带存档备份、谨慎的恢复步骤和实用的问题报告清单。",
+      "crumb": "模组故障排除",
+      "toc": {
+        "identify": "确定问题",
+        "protect": "保护存档",
+        "manager": "Manager 安装",
+        "loader": "Loader 与模组要求",
+        "restore": "恢复为未改动的游戏",
+        "report": "报告问题"
+      },
+      "identify": {
+        "title": "确定问题出在哪里",
+        "intro": "从第一个出错的步骤开始。安装程序报错、找不到 Loader 下载、加载模组后崩溃，原因各不相同。",
+        "managerTerm": "Manager 安装",
+        "manager": "安装程序失败、Manager 打不开，或所选的游戏路径不对。请从{link}开始。",
+        "managerLink": "Manager 安装",
+        "loaderTerm": "Loader 是否可用",
+        "loader": "完整的 Modstoke Loader、SDK 和 Client 整合包没有发布。无法自动安装整合包，重装 Manager 也提供不了。",
+        "gameTerm": "游戏或模组的行为",
+        "game": "游戏无法启动、模组没有出现，或世界表现异常。在修改文件之前，请先确认准确的{link}。",
+        "gameLink": "Loader 与模组要求",
+        "catalog": "Modstoke 目前还没有托管的模组目录。目录为空并不能证明你的游戏文件已损坏。"
+      },
+      "protect": {
+        "title": "修改前先保护存档",
+        "note": "在排查是不是移除或更改的模组引起问题时，不要覆盖你珍视的世界。如果需要对比行为，请另用一个临时世界。"
+      },
+      "manager": {
+        "title": "解决 Manager 安装问题",
+        "version": "把你的 Manager 版本与{releases}对比。以该页面的安装程序和签名信息为准，不要以为更旧的或品牌不同的包会有相同的行为。",
+        "releases": "发布页",
+        "publisher": "如果 Windows 提示未知发布者，请确认安装程序来自发布页。保持安全保护开启。如果无法确定这就是你想下载的文件，请取消安装。",
+        "incomplete": "如果下载似乎不完整，请在重试安装之前使用{check}。",
+        "checkLink": "可选的校验和检查",
+        "find": "如果 Manager 找不到游戏，请确认所选的 {exe} 位于当前的 Steam 安装目录中，尤其是在把游戏移到另一个磁盘之后。",
+        "error": "遇到安装程序或启动错误时，请保存准确的错误信息，并记下它发生在 Manager 打开之前还是之后。不要为了修复原因不明的 Manager 启动错误而更改游戏文件。"
+      },
+      "loader": {
+        "title": "核对 Loader 与模组要求",
+        "read": "阅读模组作者针对该确切模组版本的页面。记下它要求的 Loader、依赖项、支持的游戏版本和安装位置。",
+        "compare": "把这些要求与实际安装的内容对比。名字相似的 Loader，或者一个装着 DLL 的文件夹，不足以证明兼容。",
+        "update": "检查问题是不是在游戏、Loader 或模组更新之后才出现的。把之前的版本和第一条错误信息记在笔记里。",
+        "isolate": "按模组作者支持的停用或卸载方式来隔离可疑的模组，同时留意它所需的依赖项。一次只改一处，并在备份好存档的前提下使用一个单独的世界。",
+        "combine": "除非相关作者明确支持这种做法，否则不要把多个 Loader 装在一起，也不要在 Loader 文件夹之间移动插件。对于多人游戏，请分别核对模组声明的主机、客户端和服务器要求；单人游戏能运行，并不代表支持多人游戏。",
+        "notes": "在看模组作者说明的同时，也请阅读本项目的{link}。",
+        "notesLink": "兼容性说明"
+      },
+      "restore": {
+        "title": "谨慎地恢复为未改动的游戏",
+        "close": "关闭游戏。完成{backup}，并保留模组配置文件和已安装包的记录。",
+        "backupLink": "存档备份",
+        "remove": "按每个已安装模组和 Loader 文档中的移除方式操作。对于由其他工具管理的部署，请使用该工具支持的移除方式。不要靠猜哪些文件属于某个模组就去删除不熟悉的文件。",
+        "verify": "在 Steam 中打开游戏的{properties}，选择{installed}，再选择{integrity}。等待验证完成。这些步骤在{support}中有记载。",
+        "properties": "属性",
+        "installed": "已安装文件",
+        "integrity": "验证游戏文件的完整性",
+        "support": "Steam 客服",
+        "leftover": "对照 Loader 和模组的移除说明，检查是否有遗留的文件。Steam 的验证修复的是由 Steam 管理的游戏文件，不应把它当作移除模组添加的所有文件。",
+        "launch": "通过 Steam 启动游戏，并用一个单独的临时世界来对比行为。备份好的世界保持原样不动。如果问题依旧，请把这个结果写进你的报告。",
+        "stop": "如果你无法确定某个新增文件及其所属者，请停止删除文件，并向相关的模组或 Loader 维护者求助。"
+      },
+      "report": {
+        "title": "准备一份有用的问题报告",
+        "intro": "通过出问题的组件所属的项目或模组作者提供的支持渠道发送报告。请包含：",
+        "versions": "你的 Windows 版本、游戏版本或构建号、Manager 版本、Loader 的名称和版本，以及相关模组的版本。",
+        "error": "准确的错误文本和相关的日志片段，包括第一条错误及其前后几行。分享之前，请去掉个人路径、账号信息和机密内容。",
+        "steps": "能复现问题的简短步骤、你期望的结果和实际发生的情况。",
+        "scope": "它影响的是启动、某个特定世界、单人游戏、开服还是加入；以及按支持的方式移除之后问题是否依然存在。",
+        "last": "上一次正常运行的配置、最近的改动，以及你已经试过的步骤。",
+        "outro": "如需 Manager 安装方面的帮助，请回到{guide}。在问题解决之前，请保留原始备份。",
+        "guideLink": "Windows 安装指南"
+      }
+    }
+  },
+  "apps": {
+    "home": "首页",
+    "breadcrumb": "面包屑导航",
+    "eyebrow": "MODSTOKE DISCORD 应用",
+    "onThisPage": "本页内容",
+    "effective": "自 {date} 起生效",
+    "effectiveDate": "2026 年 10 月 19 日",
+    "contactPage": "OpenACAI 联系页面",
+    "index": {
+      "title": "Modstoke Discord 应用",
+      "description": "添加用于管理和社区工具的 Sentinel，或用于共享语音播放的 Radio。由 OpenACAI 运营的公开预览版。",
+      "sentinel": {
+        "heading": "Sentinel：管理与社区",
+        "intro": "为你的 Discord 服务器带来管理辅助、欢迎消息、自助身份组、组队、社区统计和帮助工具。Sentinel 是由 OpenACAI 运营的公开预览版。",
+        "add": "把 Sentinel 添加到你的服务器",
+        "install": "服务器所有者把 Sentinel 作为服务器应用安装。不支持安装到个人账号。在所有者运行 {configure} 并指定欢迎频道、管理员日志频道和更新频道之前，Sentinel 保持未启用状态。综合频道、组队频道和帮助论坛频道是可选的。然后运行 {setup} 来设置自助身份组。封禁和对话功能默认关闭。",
+        "permissions": "安装时会请求以下权限：查看频道、发送消息、读取消息历史、嵌入链接、管理消息、管理身份组、管理成员（超时）、踢出成员和封禁成员。请查看 Discord 的权限界面，只给 Sentinel 你所配置的功能需要的频道和身份组的访问权限。安装不会请求管理员权限或服务器范围的管理频道权限。高级的陷阱和统计功能需要运营者配置，以及限定在相关频道的权限。"
+      },
+      "radio": {
+        "heading": "Radio：一起听",
+        "intro": "用斜杠命令在语音频道中播放受支持的 YouTube 链接和获批的 Discord CDN 媒体。Spotify 请求会生成打开 Spotify 的链接卡片，不会在语音中完整播放 Spotify 曲目。只请求你有权分享或播放的媒体。",
+        "add": "把 Radio 添加到你的服务器",
+        "install": "服务器所有者把 Radio 作为服务器应用安装，而不是个人账号应用。请允许它访问命令频道，并在目标语音频道中拥有连接和发言权限。Radio 处于自我拒听状态，不会录制语音音频。",
+        "limits": "每个服务器有自己的队列，最多 10 首曲目。每首曲目限 10 分钟和 32 MiB。没有听众 60 秒后，Radio 会离开。该服务在所有服务器上最多同时支持两个活跃的音频会话，因此可能暂时没有空位。"
+      },
+      "support": {
+        "heading": "预览版支持与政策",
+        "preview": "这些应用是公开预览版：可用性和自动处理的结果可能会有变化。每个服务器的存储数据、对话上下文和播放队列都是独立的。Sentinel 在各服务器之间共用一个本地模型工作进程，一次处理一个请求，不使用云端 AI。",
+        "read": "安装前请阅读{privacy}和{terms}。需要安装帮助，请加入{community}。对管理决定有异议，请向采取该操作的服务器的管理员申诉。",
+        "privacy": "应用隐私政策",
+        "terms": "应用条款",
+        "community": "Modstoke 支持社区"
+      }
+    },
+    "privacy": {
+      "title": "Discord 应用隐私",
+      "description": "OpenACAI 如何处理安装了 Modstoke Sentinel 和 Modstoke Radio 的 Discord 服务器中所用到的信息。",
+      "scope": {
+        "heading": "这些应用由谁运营",
+        "operator": "OpenACAI 把 Modstoke Sentinel 和 Modstoke Radio 作为面向 Discord 服务器的公开预览版应用来运营。服务器所有者把它们作为服务器应用安装，不支持安装到个人账号。每个服务器的存储数据、上下文和播放队列都是独立的。",
+        "supplement": "这份针对机器人的补充说明，与{privacy}一起，描述它们的数据处理方式。另见{terms}和{apps}。",
+        "privacyLink": "Modstoke 隐私政策",
+        "termsLink": "Discord 应用条款",
+        "appsLink": "应用设置信息"
+      },
+      "sentinel": {
+        "heading": "Sentinel：管理与社区功能",
+        "inactive": "在新服务器中，Sentinel 保持未启用，直到其所有者配置好所需的频道。配置之后，它可以看到它有权限访问的 Discord 频道中的消息和成员事件。它把这些用于管理、汇总的社区统计、自助身份组、组队和帮助。封禁和对话功能默认关闭。",
+        "model": "模型处理在托管服务器上通过本地回环连接在本机运行，不经过云端 AI 处理。各服务器共用一个模型工作进程，一次处理一个请求；它们的上下文彼此独立。近期的管理上下文在内存中，每个频道最多保存六段消息摘录，约三分钟。这些机器人处理的信息不会被出售用于广告，也不会用于 AI 训练。",
+        "ledger": "本地管理台账保留用户 ID、频道 ID 和消息 ID、时间戳、指纹、证据标签、操作和审核者信息，最长七天，上限 1,000 条。另有一份独立的移除台账保留七天。发布到 Discord 的管理日志消息，有由 Discord 和服务器控制的另外的保留期限。"
+      },
+      "crew": {
+        "heading": "组队帖子、偏好设置与统计",
+        "records": "活跃的组队记录包括原始组队文字、显示名称、主机 ID、地区、要求和时间。它们保留到该组队关闭或过期为止，过期期限为一到 24 小时。如果机器人无法访问对应的 Discord 帖子，清理可能会延迟。已关闭的帖子可能仍留在 Discord 上。",
+        "alerts": "组队提醒的订阅和选择退出的用户 ID 会持续保留。用 {alerts} 停止组队提醒；{quiet} 让你退出陪伴互动。这些操作不会删除所有管理记录。",
+        "leave": "成员离开时，Sentinel 会清理他们的组队订阅，并关闭由他们创建的组队；离开并不等于全面删除所有记录。社区统计是汇总的。已配置的频道和身份组 ID 在机器人运行期间保留。"
+      },
+      "radio": {
+        "heading": "Radio：请求与语音播放",
+        "intents": "Radio 使用 Discord 的服务器和语音状态 intent，不请求消息内容 intent。它把斜杠命令请求的 URL 和生成的曲目编号保存在内存中用于播放。Radio 在语音频道中处于自我拒听状态，不会录制语音音频。",
+        "media": "下载的媒体是临时的，曲目播放完后会被清理；启动时的清理也会删除遗留的下载文件。停止队列会清空其内存中的内容。",
+        "fetch": "从 Discord 的 CDN 或 YouTube 获取媒体时，会从托管服务器向这些提供方发送请求。Spotify 链接卡片会打开原网站；Radio 不提供 Spotify 的完整语音播放。"
+      },
+      "hosting": {
+        "heading": "托管与其他服务",
+        "vps": "这些机器人运行在 InterServer 托管的 VPS 上。Sentinel 的本地 JSON 配置、偏好设置和案件记录使用 AES-256-GCM 加密，密钥通过受保护的系统凭据单独保管。Radio 的临时媒体使用私有的、基于内存的运行时目录。两个机器人服务和本地模型服务都已禁用交换空间。运营日志也作为服务运行的一部分被保留。上述较短的保留期限针对的是指定的机器人记录，而不是所有运营日志或 Discord 消息。",
+        "discord": "Discord 依据其自身的政策和服务器设置，独立处理并保留消息、帖子、互动和其他平台信息。媒体提供方也依据其自身政策处理请求。删除本地的机器人记录，并不会删除 Discord 或这些提供方保存的副本。"
+      },
+      "removal": {
+        "heading": "从服务器中移除 Sentinel",
+        "purge": "当 Sentinel 从其 Modstoke 主部署之外的服务器中被移除时，它会关闭该服务器的本地状态，并清除其本地服务器数据文件夹。Discord 上的帖子、管理日志和 Discord 保留的其他副本，仍受 Discord 和服务器的控制。清理该文件夹并不保证删除所有运营日志或另行保留的副本。",
+        "home": "Modstoke 主部署及其配置仍由运营者控制。超出自动控制范围的删除请求，请联系 OpenACAI。"
+      },
+      "requests": {
+        "heading": "隐私问题与删除请求",
+        "contact": "有隐私问题或删除请求，请通过 {email} 或{page}联系 OpenACAI。请说明是哪个机器人、你的 Discord 用户 ID 以及相关的服务器或记录，以便团队找到这些信息。不要发送密码或账号令牌。",
+        "different": "选择退出、离开服务器和删除数据是不同的操作。要请求上述控制之外的删除，请使用这个联系渠道。涉及 Discord 独立保留的信息的请求，可能还需要发给 Discord 或服务器管理员。"
+      }
+    },
+    "terms": {
+      "title": "Discord 应用条款",
+      "description": "在 Discord 服务器中安装和使用 Modstoke Sentinel 与 Modstoke Radio 公开预览版的条款。",
+      "scope": {
+        "heading": "针对机器人的补充条款",
+        "operator": "OpenACAI 把 Modstoke Sentinel 和 Modstoke Radio 作为面向 Discord 服务器的公开预览版应用来运营。这些条款是对{terms}的针对机器人的补充。{privacy}说明机器人处理的信息。",
+        "termsLink": "Modstoke 服务条款",
+        "privacyLink": "Discord 应用隐私页面",
+        "install": "服务器所有者把机器人作为服务器应用安装。不支持安装到个人账号。当前的功能和限制，请见{apps}。",
+        "appsLink": "安装与设置信息"
+      },
+      "use": {
+        "heading": "可接受的使用方式",
+        "rules": "请依法使用这些机器人，并遵守你所在服务器的规则、Discord 的条款以及适用的媒体提供方条款。不要将其用于垃圾信息、骚扰、恶意软件、规避管理或其他滥用行为。不要试图绕过机器人的权限、访问控制或使用限制。",
+        "media": "只提交你有权在相关场合分享或播放的媒体。URL 受支持或播放成功，并不代表你获得了使用该素材的许可。原提供方的条款仍然适用。"
+      },
+      "features": {
+        "heading": "预览功能与可用性",
+        "besteffort": "这些机器人作为尽力而为的预览工具提供。随着团队的维护，功能、响应和播放可能不可用、延迟、出错或有所变化。不要把机器人当作重要信息的唯一来源，也不要把它当作管理覆盖的保证。",
+        "radio": "Radio 依赖于 Discord、托管服务和媒体提供方的可用性。Spotify 卡片链接到原网站；它们不提供在语音频道中完整播放 Spotify 的功能。"
+      },
+      "moderation": {
+        "heading": "管理与申诉",
+        "appeals": "Sentinel 支持管理和社区功能，但自动判断可能出错。如要询问某项操作或对其申诉，请联系采取该操作的服务器的管理员。请附上相关的消息或操作详情，以便他们复核。",
+        "owners": "服务器所有者负责最初的安装和配置。在所有者配置好欢迎频道、管理员日志频道和更新频道之前，Sentinel 保持未启用；可选频道和身份组设置会启用更多功能。封禁和对话功能默认关闭。管理员控制机器人的访问权限和权限。高级的陷阱和统计功能需要运营者配置以及限定范围的权限。",
+        "removal": "从服务器中移除机器人需要具备相应权限的管理员。Sentinel 在被移除时的本地清理，在{privacy}中有说明；它不会删除 Discord 的副本。",
+        "privacyLink": "隐私政策"
+      },
+      "controls": {
+        "heading": "成员控制与联系方式",
+        "controls": "用 {alerts} 停止组队提醒，用 {quiet} 退出陪伴互动。这些操作不会清除所有管理数据。关于数据处理和删除请求，请按{contact}办理。",
+        "contactLink": "隐私联系说明",
+        "questions": "对这些条款有疑问，请联系 {email} 或使用{page}。"
+      }
+    }
+  },
+  "mods": {
+    "notStated": "未说明",
+    "loaderOrNewer": "Loader {version} 或更新版本",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "只有你自己安装也能用",
+      "host": "只有主机或服务器需要",
+      "allPlayers": "主机和玩家需要相同的版本",
+      "solo": "仅限单人游戏",
+      "notStated": "未说明"
+    },
+    "dedicated": {
+      "supported": "支持",
+      "unsupported": "不支持",
+      "notStated": "未说明"
+    },
+    "settings": {
+      "hostSynced": "由主机决定",
+      "perPlayer": "每位玩家自己决定",
+      "none": "无设置",
+      "notStated": "未说明"
+    },
+    "status": {
+      "preview": "预览版",
+      "experimental": "实验性",
+      "stable": "稳定版"
+    },
+    "label": {
+      "needs": "需要",
+      "multiplayer": "多人游戏",
+      "updated": "更新于",
+      "version": "版本",
+      "status": "状态",
+      "dedicatedServer": "专用服务器",
+      "settings": "设置",
+      "madeBy": "作者",
+      "licence": "许可证",
+      "source": "源码",
+      "aiAssistance": "AI 辅助"
+    },
+    "list": {
+      "title": "模组",
+      "lede": "这些是我们自己做的模组。它们都运行在 Modstoke Loader 上，目前需要从 Nexus Mods 下载。等 Modstoke 商店开放后，Manager 会替你安装它们，其他作者的模组也会列在这里。",
+      "search": "搜索模组",
+      "anyMultiplayer": "任何多人游戏方式",
+      "count": {
+        "other": "{count} 个模组"
+      },
+      "note": "这里的每个模组都需要{loader}。{guide}介绍了如何用 Manager 来安装它。",
+      "installGuide": "安装指南",
+      "details": "详情",
+      "nexusPage": "Nexus 页面"
+    },
+    "page": {
+      "breadcrumb": "面包屑导航",
+      "gallery": "截图与视频",
+      "watchTrailer": "在 YouTube 上观看预告片",
+      "openFullSize": "查看原图",
+      "trailerCaption": "预告片，在 YouTube 上播放",
+      "details": "详情",
+      "sourceNotPublic": "暂未公开",
+      "aiYes": "有，已在 Nexus 上说明",
+      "aiNo": "无",
+      "downloadOnNexus": "在 Nexus 下载",
+      "storeNote": "从 Manager 一键安装，将随 Modstoke 商店一起提供。",
+      "meta": "{version} · 更新于 {date} · 作者 OpenACAI",
+      "whatsNew": "{version} 的新内容",
+      "about": "简介",
+      "inTesting": "测试中",
+      "install": "安装",
+      "installStep1": "安装{loader}，或者让{manager}替你完成。",
+      "managerLink": "Manager",
+      "installStep2": "关闭游戏。从 Nexus 下载 {name}，把其中的 Modstoke 文件夹解压到 {exe} 旁边。",
+      "installStep3": "启动游戏，在标题画面打开「Mods」菜单，确认它已加载。",
+      "installNote": "试用预览版之前，请先备份你的存档。如果出了问题，可以看{guide}，或到我们的 {discord} 提问。",
+      "troubleshootingGuide": "故障排除指南"
+    }
+  },
+  "release": {
+    "eyebrow": "发布",
+    "headingPreview": "下载，包括预览版。",
+    "headingVerified": "经过验证的下载。",
+    "lede": "安装之前，请选择当前的发布版本，或查看保留的旧版本。",
+    "previewDownloads": "预览版下载是测试构建。安装之前，请先查看签名和验证详情。",
+    "managerOnly": "Manager 已提供，但完整的 Loader、SDK 和 Client 整合包尚未发布。无法自动安装 Loader、SDK 和 Client 整合包。",
+    "historyTitle": "发布详情与回滚",
+    "historyNote": "带版本号的文件 URL 保持不变。当前选择改变后，较早的发布记录仍可能保留。",
+    "playerBundle": "玩家整合包",
+    "loaderWithClient": "放入游戏根目录的整合包，含 Loader、其内置的 SDK，以及单独构建的 Client 配套组件。",
+    "loaderOnly": "放入游戏根目录的整合包，含 Loader 及其内置的 SDK。Client 等模组有各自的下载。",
+    "managerPackage": "Modstoke Manager 的 Windows 桌面安装包。",
+    "download": "下载 {file}",
+    "size": "大小",
+    "bytes": "{size} 字节",
+    "published": "发布于",
+    "details": "发布详情",
+    "current": "当前",
+    "previous": "以前",
+    "noNotes": "此版本未提供发布说明。下面的文件和验证元数据不是更新日志。",
+    "publishedCommit": "发布于 {date}。源码提交 {commit}。",
+    "packageLine": "包：{file}（{size} 字节）。SHA-256：{hash}。",
+    "testedBuilds": "已测试的 {game} 构建：{builds}。",
+    "noTestedBuilds": "尚未测试任何游戏构建。游戏兼容性未知。",
+    "requiresManager": "需要 Manager {version} 或更新版本。",
+    "guidedLoader": "引导式 Loader 整合包：{id}。",
+    "noGuidedLoader": "此 Manager 发布版本没有选定与之匹配的引导式 Loader 整合包。",
+    "listSeparator": "、",
+    "previewBuild": "预览版测试构建。",
+    "packageUnsigned": "此包未签名：{reason}。",
+    "pendingChecks": "待完成的检查：{checks}。",
+    "reviewDetails": "安装之前，请先查看发布详情。",
+    "pending": {
+      "game": "游戏启动",
+      "multiplayer": "多人游戏"
+    },
+    "signatureReviewedFor": "已记录对 {publisher} 的签名审查。",
+    "signatureReviewed": "已记录签名审查。",
+    "previewUnsigned": "此预览版安装包未签名：{reason}。尚未记录签名验证。",
+    "signatureNotRecorded": "尚未记录签名验证。",
+    "checksumNote": "SHA-256 校验和用于识别文件的字节；它不能验证更新清单的真实性。",
+    "validation": "{checks}。",
+    "checkLine": "{label}：{state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "源码干净",
+      "licenses": "许可证",
+      "build": "构建",
+      "install": "安装",
+      "game": "游戏启动",
+      "multiplayer": "多人游戏",
+      "hostedFetch": "托管文件检查"
+    },
+    "state": {
+      "passed": "通过",
+      "pending": "待定",
+      "notApplicable": "不适用",
+      "notRecorded": "未记录"
+    }
+  },
+  "docs": {
+    "eyebrow": "文档",
+    "title": "给玩家和模组作者的说明",
+    "lede": "安装方面的帮助在{guides}里。本页介绍各部分如何配合，以及开发模组之前要知道的事。",
+    "guidesLink": "指南",
+    "onThisPage": "本页内容",
+    "nav": {
+      "project": "关于项目",
+      "players": "给玩家",
+      "compatibility": "游戏兼容性",
+      "authors": "给模组作者",
+      "sdk": "SDK 开发",
+      "play": "一起玩",
+      "downloads": "下载与更新"
+    },
+    "project": {
+      "title": "关于项目",
+      "about": "Modstoke 是非营利组织 OpenACAI 的模组项目。它包括一个模组加载器、一个桌面管理器，以及一批 Sons of the Forest 的模组，在 Discord 上还有围绕它们的社区。一切都是免费的，使用本站不需要账号。",
+      "endnight": "我们与 Endnight Games 没有关系。请不要把 Modstoke 的问题拿去找他们的客服。"
+    },
+    "players": {
+      "title": "给玩家",
+      "start": "先从{manager}开始。它会找到你的游戏，安装{loader}，并记录你装了什么。然后从{mods}中挑选；目前它们从 Nexus Mods 下载。",
+      "managerLink": "Manager",
+      "loaderLink": "Loader",
+      "modsLink": "模组",
+      "guides": "{install}介绍了如何先备份你的存档，{troubleshooting}能帮你缩小问题的范围。",
+      "installGuide": "安装指南",
+      "troubleshootingGuide": "故障排除指南"
+    },
+    "compatibility": {
+      "title": "游戏兼容性",
+      "supported": "支持",
+      "note": "每个发布版本都列出它测试过的游戏构建。如果某个版本没有列出，说明它还没有针对具体的构建检查过，请先在你存档的副本上试一试。"
+    },
+    "authors": {
+      "title": "给模组作者",
+      "intro": "这是当前的 Loader 查找并启动原生模组的方式。请对照你用来构建的 Loader 源码核实；清单文件还不是固定的模式。",
+      "build": {
+        "title": "针对你用于测试的 Loader 来构建。",
+        "text": "SDK 接口在 Loader 里。在你的项目中引用它的程序集，并记下你测试所用的 Loader 版本和游戏构建。"
+      },
+      "folder": {
+        "title": "使用一个包文件夹。",
+        "text": "Loader 会在 {path} 下查找，最多四层文件夹深。更名之前的 {legacy} 仍然可用。把清单文件放在它的程序集旁边。"
+      },
+      "entry": {
+        "title": "描述入口点。",
+        "text": "清单文件可以是 {first}、{second} 或 {third}，包含 id、name、version、author、assembly、entryType 和 entryMethod。当入口类型有公共的无参构造函数时，可以省略 entryMethod。"
+      },
+      "test": {
+        "title": "在游戏的另一份副本上测试。",
+        "text": "不要让你真正的存档牵涉其中。记下游戏构建、Loader 版本、依赖项，以及任何还不能用的地方。"
+      },
+      "ship": {
+        "title": "文件附上说明一起发布。",
+        "text": "版本说明、安装和移除步骤、许可证，以及文件哈希。这里目前还没有上传表单；商店将接受来自 GitHub 发布的提交。"
+      }
+    },
+    "downloads": {
+      "title": "下载与更新",
+      "releases": "{releases}页面上的每个发布版本都列出版本号、更新内容、兼容性、大小和 SHA-256，这样你可以核对下载的文件就是我们发布的那个。",
+      "releasesLink": "发布",
+      "checksum": "校验和只能告诉你字节一致，不能证明是谁发布的。Modstoke 商店将为此加入签名，这样 Manager 就可以拒绝任何不是由我们或经过审核的作者发布的内容。"
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "SDK 开发",
+    "playEyebrow": "一起玩",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "查看发布状态",
+    "gameInfo": "游戏信息：{link}",
+    "steamLink": "Steam 上的 Sons of the Forest",
+    "findCrew": "在 Discord 上找队友",
+    "visitTithewood": "访问 Tithewood 了解当前的访问信息",
+    "status": {
+      "manager": "Manager {version} 已可用。",
+      "managerPreview": "Manager {version} 已作为 Windows 预览版提供。",
+      "unsigned": "该预览版未签名。",
+      "noManager": "目前没有已发布的 Manager 安装包。",
+      "loader": "Loader {version} 已列在“发布”页面上。请查看它的捆绑包内容、兼容性和验证状态。",
+      "noLoader": "完整的 Loader、SDK 和 Client 捆绑包尚未公开发布。",
+      "check": "下载前请先查看“发布”页面。"
+    },
+    "topics": {
+      "sdk": {
+        "title": "SDK 正在开发中的功能",
+        "summary": "当前的开发源码提供带类型的游戏观测数据和模组服务。这些只是源码层面的约定，不是已发布的 SDK 包，也不能证明已在游戏中验证通过。",
+        "facts": "物品栏和装备快照；制作配方的所需材料和缺口；本地玩家的生存状态数值；季节、天气和温度观测。\n服务器世界中的玩家和载具观测、NPC 状态和建造需求；有范围限制的碰撞查询，以及已加载地形的高度和法线读取。这些并不能保证完整覆盖洞穴碰撞或可行走区域。\n自有音频和已加载资源包的检查辅助工具、协程完成的观测、界面草稿字段和远程命令响应。服务器授权和世界就绪检查仍然适用。\n原生模组清单可以声明确切需要的 ID 和版本。运行时会安排回调顺序，阻止缺失或循环的依赖要求，并在前置模组失败后停止依赖它的模组。专用服务器初始化会跳过客户端菜单和输入。\n不要假定有稳定的公开 API、通用兼容性、更高的玩家上限、对结果不确定的命令自动重试，也不要认为源码或构建成功就能证明多人游戏中的行为。"
+      },
+      "play": {
+        "title": "找到你的下一支队伍",
+        "summary": "Sons of the Forest 是一款开放世界生存恐怖游戏，包含制作、建造、探索、单人游玩和在线合作。Modstoke 帮助成员安排自己的游戏场次。",
+        "facts": "使用 /crew list，可选地加上地区、风格和 when 关键词筛选。时间匹配搜索的是主持人写下的场次时间，不会计算重叠的日程，也不会换算时区。\n使用 /crew create 发布一场游戏，写明地区、时间加时区、玩法风格、空位和可选的要求。每人同时只能有一条有效帖子；帖子默认六小时后过期，也可以选择一到 24 小时。\n用 /roles 选择你的地区和玩法风格。这些是自己选择的兴趣，不保证一定能匹配到人。/crew alerts 表示你明确选择接收私信；可选的地区筛选和每两小时一条提醒的限制都会生效。你随时可以关闭。\n使用 /servers 查看自愿公开的服务器列表。队伍帖子只是成员的计划，不是预订，不代表已验证兼容，不显示实时在线玩家，也不会自动加入游戏。请与主持人商定游戏和模组版本，以及对存档的预期。"
+      },
+      "tithewood": {
+        "title": "Tithewood · BYOND 上的中世纪角色扮演",
+        "summary": "Tithewood 是我们独立运营的、基于 Ratwood 制作的 BYOND 中世纪角色扮演游戏。它的社区是 Modstoke Discord 的一部分。",
+        "facts": "玩家在共享世界中扮演角色，可以经商、务农、担任城市守卫或外出冒险。部分职业有准入要求，取决于游戏的配置。\n公开网站用沿用的设定插画来介绍 Grimoria。它是这个设定的世界地图，不是游戏中的实时地图。\n2026-10-20 查看的公开网站称，目前不对公众开放，也没有公布上线日期。请到 tithewood.com 查看当前的开放情况；不要因为服务能连上，就以为有可玩的公开场次。\n开放之后，请关注网站上的 BYOND 客户端和连接说明。请使用官方的 BYOND Windows 客户端和你自己的 BYOND 账号；不要在 Discord 中分享你的密码或私人日志。\n在项目角色菜单中选择 Tithewood，使用它专门的讨论和开发频道。可以分享想法，附上已脱敏的错误信息报告清晰的复现步骤；只有在确实公布了场次时，才约定游玩。"
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "面包屑导航",
+    "home": "首页",
+    "effective": "自 {date} 起生效",
+    "onThisPage": "本页内容",
+    "translationNote": "此为方便阅读而提供的译文。以本文件的英文版本为准。",
+    "untranslated": "本文件尚未翻译，因此以英文显示。"
+  },
+  "client": {
+    "app": {
+      "count": {
+        "other": "{count} 个模组"
+      },
+      "countOf": {
+        "other": "{count} 个模组中的 {shown} 个"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal 没有加载。请检查网络连接，或稍后再试。",
+      "pickAmount": "请选择 ${min} 到 ${max} 之间的金额，须为整数美元。",
+      "cancelled": "没有产生任何付款。",
+      "error": "PayPal 出了点问题。没有产生任何付款。",
+      "monthlyThanks": "谢谢！你每月 ${amount} 的捐款已设置好。",
+      "thanks": "谢谢！你 ${amount} 的捐款已完成。",
+      "processing": "PayPal 仍在处理你的付款。"
+    },
+    "servers": {
+      "unknown": "未知",
+      "yes": "是",
+      "no": "否",
+      "dedicated": "专用服务器",
+      "playerHosted": "玩家开服",
+      "online": "在线",
+      "offline": "离线",
+      "eyebrow": "社区目录",
+      "hostNotSpecified": "未说明主机",
+      "regionNotSpecified": "未说明地区",
+      "noDescription": "主机方没有提供说明。",
+      "playersCapacity": "玩家数 / 容量",
+      "hostLatency": "主机延迟中位数",
+      "gameBuild": "游戏构建",
+      "moreComponents": {
+        "other": "另有 {count} 个组件"
+      },
+      "requiredMods": {
+        "other": "{count} 个必需模组"
+      },
+      "viewServer": "查看服务器与要求 ↗",
+      "viewServerLabel": "查看 {name} 与要求",
+      "count": "{total} 台服务器中的 {shown} 台 · {online} 台在线",
+      "noneTitle": "下一个社区从这里开始。",
+      "noneMessage": "目前还没有公开的服务器。主机方可以通过我们的 Discord 申请公开。刷新可查看新分享的会话。",
+      "noMatchTitle": "没有匹配的服务器。",
+      "noMatchMessage": "试试别的名称、地区或模组，或者更改状态和会话筛选。",
+      "refreshing": "正在刷新目录…",
+      "updated": "更新于 {time} · 每 60 秒刷新一次",
+      "unavailable": "目录不可用",
+      "tryRefresh": "点「刷新」再试一次。",
+      "loadFailedTitle": "我们无法加载目录。",
+      "loadFailedMessage": "服务器目录暂时不可用。请稍后再试；这并不能说明各个服务器是否在线。",
+      "versionNotSpecified": "未说明版本",
+      "history": {
+        "title": "近期活动",
+        "unavailable": "活动历史不可用。刷新后再试。",
+        "none": "还没有按小时的历史。主机方上报后，活动会显示在这里。",
+        "note": "最近 30 天的每小时样本。空缺表示未知，而不是零。时间按你本地的时区显示。",
+        "players": {
+          "title": "玩家",
+          "unit": "玩家",
+          "description": "每小时的玩家数。空缺表示没有测量。确切数值见下方的历史表格。",
+          "none": "此历史中没有玩家数的测量。"
+        },
+        "latency": {
+          "title": "主机延迟中位数",
+          "unit": "毫秒",
+          "description": "每小时的主机延迟中位数。空缺表示没有测量。确切数值见下方的历史表格。",
+          "none": "此历史中没有主机延迟中位数的测量。"
+        },
+        "viewValues": "查看每小时的数值",
+        "caption": "每小时的服务器历史",
+        "time": "时间",
+        "hostLatency": "主机延迟",
+        "onlineSeconds": "在线秒数"
+      },
+      "lastReport": "主机最近一次上报：{time}。主机延迟反映的是已连接玩家的情况，而不是你自己的网络。",
+      "openInManager": "在 Manager 中打开",
+      "noJoinTarget": "主机方没有提供加入目标。",
+      "offlineNoJoin": "此服务器已离线，无法加入。",
+      "permalink": "服务器永久链接 ↗",
+      "joinNote": "点「加入」会打开 Modstoke Manager 0.3.0 或更新版本，它会显示最新的详情供你确认。本页面不会下载任何模组。",
+      "components": "组件",
+      "noComponents": "主机方没有上报任何组件。",
+      "requiredModsTitle": "必需模组",
+      "noRequiredMods": "主机方没有上报任何必需模组。",
+      "settings": "主机方上报的设置",
+      "difficulty": "难度",
+      "pvp": "PvP",
+      "friendlyFire": "友军伤害",
+      "passwordRequired": "需要密码",
+      "loadingTitle": "正在加载服务器…",
+      "loadingMessage": "正在读取最新的主机报告和活动。",
+      "goneTitle": "服务器已不在列表中。",
+      "detailUnavailableTitle": "服务器详情不可用。",
+      "goneMessage": "主机方可能已移除了它的条目，或者目录暂时不可用。请关闭此面板，点「刷新」再试一次。",
+      "unsupportedReport": "目录返回了不受支持的报告。请稍后再试。",
+      "invalidTitle": "服务器链接无效。",
+      "invalidMessage": "此链接不包含有效的服务器 ID。请关闭此面板，去浏览目录。"
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "一台野外平板、一块腕表、一架勘测无人机，以及三座小型飞机 Kestrel K3。规划补给行程，在地图上标记地点，从空中侦察，或载着朋友环游全岛。",
+        "description": "Client 添加了你可以随身携带的装备：野外平板、腕表、勘测无人机，以及三座小型飞机 Kestrel K3。它的目标是让人觉得是装备，而不是硬贴在游戏上的菜单。\n\n平板里有可以放置你自己标记的地图、笔记本、时钟，以及 Pack。Pack 可以搜索物品和弹药，并为某个配方草拟一份购物清单。它只负责规划，制作仍然要你自己来。\n\n- 勘测无人机：从平板上操控，在看到的任何东西上放置地图标记，电量不足时会自行降落。\n- Kestrel K3：从平板的 Hangar 应用中部署，前方需要约 18 米的开阔平地。一名飞行员，两名乘客。\n- 角色：选择你的体型、肤色和身形，每次加入时都保持同样的外观。\n\n部落、打印机、共享路标和同伴需要运行着 Admin 的主机。主机和所有一起飞行的人需要相同的 Client 版本，所以请先在你世界的副本上试一试。",
+        "inTesting": "太空飞行正在测试中：一艘从大片空地上发射的飞船、一座轨道空间站，以及一个可以与队友一起降落并勘测的新世界。当前的下载里还没有它。",
+        "changelog": {
+          "0.2.4": "角色创建器：Mods > Character > Customise character 会打开带旋转预览的全屏编辑器。选择体型、肤色、眼睛和内衣的颜色，并用滑块调整形体。\n每次加入时都保持同样的外观，并且和没有安装 Modstoke 的玩家一起玩也没问题。\n服务器兼容性取代了「Mods」菜单中重复的 Modstoke Client 页面。\n需要 Modstoke Loader 0.4.0 及其 Modstoke 文件夹。"
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "从勘测无人机视角看到的、停在海滩上的 Kestrel K3"
+          },
+          "trailer": {
+            "alt": "Client 预告片：Kestrel K3 飞过积雪的山峰"
+          },
+          "tablet-home": {
+            "alt": "在森林里举起的野外平板主屏幕"
+          },
+          "tablet-apps": {
+            "alt": "海滩上的野外平板应用列表"
+          },
+          "drone-camera": {
+            "alt": "海岸线上空的勘测无人机相机控制"
+          },
+          "kestrel-cockpit": {
+            "alt": "Kestrel K3 的驾驶座"
+          },
+          "spacecraft-test": {
+            "alt": "降落在另一个世界的宇宙飞船",
+            "caption": "测试版。目前的下载中还没有。"
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "在一小块户外区域里挖出泥土和岩石，把坑填回去，并撤销错误。目前仅限存档副本的离线单人游戏。",
+        "description": "Terraforming 让你在岛上的一小块地方向下挖掘，再把泥土放到你想放的地方。挖一个坑，填回一部分，出错了还能撤销。\n\n目前只有一块户外区域，并且在存档的离线单人副本中。多人游戏，以及在挖过的地面上建造，暂时还不行。\n\n- 在开阔的平地上，从「Mods」菜单中创建区域\n- 用铲子或镐挖，用铲子填\n- 挖出的泥土进入储备，填土时会消耗它\n- 撤销会同时恢复地面和泥土\n\n卸载之前，请先爬出所有的坑，因为没有这个模组，挖出来的形状就不存在了。",
+        "inTesting": "全岛挖掘正在测试中：用铲子在岛上任何地方挖掘、填埋、整平和抚平，并随你的世界一起保存。当前的下载里还没有它。",
+        "changelog": {
+          "0.2.2": "创建、加载、移除和恢复地形时，现在会要求你确认，无论是在控制台还是「Mods」菜单中。\n适用于 Modstoke Loader 0.4.0 及其 Modstoke 文件夹。"
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "在 Terraforming 地块的沙地上挖出的坑"
+          },
+          "mods-page": {
+            "alt": "Mods 菜单中的 Terraforming 页面"
+          },
+          "mound-test": {
+            "alt": "Kelvin 走过一个填土堆成的土丘",
+            "caption": "测试版。目前的下载中还没有。"
+          }
+        }
+      },
+      "virginia": {
+        "summary": "为 Virginia 的服装换色，并添加几种可选的与她相处的方式：问候、感谢和安静的共处时光。",
+        "description": "为 Virginia 提供的几个可选附加内容：服装颜色，以及问候她、表达感谢或只是安静相伴的几种方式。一切默认关闭。\n\n- 服装颜色：Original、Crimson、Forest、Ocean、Charcoal 或 Ivory，仅在你自己的屏幕上生效\n- 问候、感谢和安静共处，前提是主机允许\n- 一个独立的羁绊，可以在菜单中查看，随你的世界一起保存\n\n她的模型、贴图和动画都是游戏自带的。羁绊不会改变她去哪里、有多喜欢你，或者给你带来什么。",
+        "changelog": {
+          "0.1.2": "你们的关系进度现在会随游戏一起保存。\n适用于 Modstoke Loader 0.4.0 及其 Modstoke 文件夹。"
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia 走在森林小路上"
+          },
+          "trailer": {
+            "alt": "森林背景上的 Virginia 预告片标题画面"
+          },
+          "settings": {
+            "alt": "Mods 菜单中的 Virginia 设置"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Sons of the Forest 的主机工具。查看谁在你的世界里，查看他们做过什么，并且不必离开游戏就能关押、禁言、踢出或封禁。",
+            "description": "如果你开服，Admin 会把玩家列表和你的管理工具放进游戏内的同一个菜单。选中一名玩家，就能看到他的 Steam ID 和模组注意到的情况，然后当场处理。\n\n- 名单，可关押、禁言、踢出和封禁\n- 证据按移动、物品、建造、服务器和操作分类\n- 有各自权限的管理员身份组，包括专用服务器上的远程管理员\n- 主机用的时间、天气和世界设置控制\n\n这些证据是帮你调查问题的。它不是完整的反作弊，也不会自动封禁或踢人。玩家加入时不需要安装 Admin。",
+            "changelog": {
+              "0.5.221": "管理员身份组：有等级的身份组，各有自己的允许和拒绝权限，另有带有效期的 Steam64 管理员名单。\n远程管理员可以在监听主机和专用服务器上使用 F7。主机会检查每个请求。\nF7 菜单：修复了焦点和光标卡住的问题，新增皮肤，以及简易和高级两种布局。\n未装模组的玩家：速度限制只对主机能确认的交通工具生效，并修复了拾取物品时复制的 bug。\n新增针对无敌模式、加速外挂、射速、不可能的命中和 Steam 票据的证据。"
+            },
+            "media": {
+              "overview": {
+                "alt": "森林上方打开的 Admin 菜单，使用游戏风格的皮肤"
+              },
+              "trailer": {
+                "alt": "森林背景上的 Admin 预告片标题画面"
+              },
+              "overview-classic": {
+                "alt": "经典皮肤下的 Admin 概览页面"
+              },
+              "world": {
+                "alt": "Admin 菜单中的世界控制"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "通过浏览器登录 Nexus Mods，不再需要个人 API 密钥。Manager 会跟随 Loader 新的 Modstoke 文件夹，你的 OpenACAI 模组和设置会在下次启动游戏时迁移过去。新增社区服务器浏览器，支持 modstoke:// 加入链接，另有专用服务器工具：游戏设置、管理员权限、实时控制台，以及更安全的停止和重启。新增面向游戏和服务器的 Loader 控制台，Loader 的安装现在只会修复或升级，绝不降级。可以在设置中选择皮肤：从你的游戏文件中读取的游戏原生外观，或简洁的 Modstoke 风格。启动更快，模组目录更稳固，并且对 Manager 读取、下载和安装的内容收紧了限制。",
+    "loader-0-4-2-net11-preview": "可在 Linux 主机上通过 Wine 运行，因此现在能用于托管的专用服务器。修复了每个 Wine 安装上都会出现的启动失败。支持托管面板：返回 JSON 的控制台命令、实时状态文件、干净的存档与停止、玩家、存档槽和模组列表、事件流、崩溃报告、广播，以及每个模组的性能计时。模组可以声明描述和所需的最低 Loader 版本。为模组新增的 SDK 功能：主机命令、输入焦点所有者和菜单可见性。从旧版 Modstoke 或 OpenACAI 构建升级？请先运行 Modstoke Legacy Cleanup 1.1.0。",
+    "loader-0-4-1-net11-preview": "修复了 Modstoke Manager 0.3.0 拒绝安装 Loader 的问题。其余与 0.4.0 相同：Loader 现在位于 Modstoke 文件夹中。你的模组和设置会在首次启动时从 OpenACAI 迁移过来，不会覆盖任何内容。运行在 .NET 11 RC3 上，已包含在下载中。Unity 基础库现在会在首次启动时从 modstoke.com 下载，不再随压缩包一起提供。新增与游戏自身菜单风格一致的游戏内 Mods 菜单，带有滚动条和平滑滚动。通过 SDK 保存的模组存档数据，现在会在你载入存档时恢复。修复了一个专用服务器的错误：过期的世界转移条目可能会阻止所有拾取和储物转移。启动日志会写明确切的 Loader 构建，并在 .NET 运行时不匹配时发出警告。从旧版 Modstoke 或 OpenACAI 构建升级？请先运行 Modstoke Legacy Cleanup 1.1.0，它已包含在此下载中。",
+    "loader-0-4-0-net11-preview": "Loader 现在位于 Modstoke 文件夹中。你的模组和设置会在首次启动时从 OpenACAI 迁移过来，不会覆盖任何内容。运行在 .NET 11 RC3 上，已包含在下载中。Unity 基础库现在会在首次启动时从 modstoke.com 下载，不再随压缩包一起提供。新增与游戏自身菜单风格一致的游戏内 Mods 菜单，带有滚动条和平滑滚动。通过 SDK 保存的模组存档数据，现在会在你载入存档时恢复。修复了一个专用服务器的错误：过期的世界转移条目可能会阻止所有拾取和储物转移。启动日志会写明确切的 Loader 构建，并在 .NET 运行时不匹配时发出警告。从旧版 Modstoke 或 OpenACAI 构建升级？请先运行 Modstoke Legacy Cleanup 1.1.0，它已包含在此下载中。"
+  }
+}

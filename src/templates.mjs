@@ -10,48 +10,55 @@ import { renderDocs } from './docs-view.mjs';
 import { renderHosting } from './hosting-view.mjs';
 import { renderSupport } from './support-view.mjs';
 import { renderLegal } from './legal-view.mjs';
+import { LANGUAGES, translator } from './i18n.mjs';
+import { escapeHtml as e } from '../scripts/model.mjs';
 
 const emptyCatalog = { mods: [] };
 
-const noReleases = `<section class="page-head wrap">
-  <p class="eyebrow">Releases</p>
-  <h1>No downloads yet</h1>
-  <p class="lede">Nothing has been published here yet. Each release will list its version, changes, compatibility and file hashes.</p>
+const noReleases = i => `<section class="page-head wrap">
+  <p class="eyebrow">${i.t('pages.noReleases.eyebrow')}</p>
+  <h1>${i.t('pages.noReleases.title')}</h1>
+  <p class="lede">${i.t('pages.noReleases.lede')}</p>
 </section>`;
 
-const notFound = `<section class="page-head wrap not-found">
+const notFound = i => `<section class="page-head wrap not-found">
   <p class="eyebrow">404</p>
-  <h1>Nothing here.</h1>
-  <p class="lede">That page doesn't exist, or it moved.</p>
-  <div class="actions"><a class="button" href="/">Back to Modstoke</a><a class="button button-quiet" href="/mods/">See the mods</a></div>
+  <h1>${i.t('pages.missing.title')}</h1>
+  <p class="lede">${i.t('pages.missing.lede')}</p>
+  <div class="actions"><a class="button" href="${i.href('/')}">${i.t('pages.missing.home')}</a><a class="button button-quiet" href="${i.href('/mods/')}">${i.t('pages.missing.mods')}</a></div>
 </section>`;
 
+// Every page once for each language. Paths are given in English and put in the language's folder.
 export function renderPages(data, assets, options = {}) {
+  return LANGUAGES.flatMap(lang => renderLanguage(data, assets, options, translator(lang.code)));
+}
+
+function renderLanguage(data, assets, options, i) {
   const files = options.screenshots || [];
   const catalog = options.catalog || emptyCatalog;
   const present = options.media || new Set();
   const releaseIndex = options.releaseIndex || { latest: { manager: null, loader: null }, releases: [] };
   const layout = createLayout({ assets, releaseIndex });
-  const page = (path, title, body, description) => [path, layout(path, title, body, description)];
+  const page = (path, title, body, description) => [i.href(path), layout(path, title, body, description, i)];
   // Views written for the old layout bring no page width of their own.
   const wrapped = body => `<div class="wrap">${body}</div>`;
 
-  const releasePage = renderReleasePage(releaseIndex, data.games[0].name);
+  const releasePage = renderReleasePage(releaseIndex, data.games[0].name, i);
   const modPages = catalog.mods
     .filter(mod => mod.status === 'listed')
-    .map(mod => page(modPath(mod), mod.name.replace(/^Modstoke /, ''), renderModPage(mod, present), mod.summary));
+    .map(mod => page(modPath(mod), e(mod.name.replace(/^Modstoke /, '')), renderModPage(mod, present, i), i.own(`catalog.${mod.id}.summary`) || e(mod.summary)));
 
   return [
-    page('/', 'Overview', renderHome({ catalog, present, releaseIndex, showManager: files.includes('manager-catalog.png'), showHero: files.includes('home/golden-mountains-2400.jpg') })),
-    page('/mods/', 'Mods', renderModList(catalog, present)),
+    page('/', i.t('pages.overview'), renderHome({ catalog, present, releaseIndex, showManager: files.includes('manager-catalog.png'), showHero: files.includes('home/golden-mountains-2400.jpg') }, i)),
+    page('/mods/', i.t('pages.mods'), renderModList(catalog, present, i)),
     ...modPages,
-    page('/tools/', 'Tools', renderTools({ releaseIndex, files, loaderShot: options.toolShots?.includes('loader-mods-menu') })),
-    page('/docs/', 'Docs', renderDocs({ projectKnowledge: options.projectKnowledge })),
-    page('/releases/', 'Releases', releasePage ? wrapped(releasePage) : noReleases),
-    page('/servers/', 'Community servers', wrapped(renderServers())),
-    page('/hosting/', 'Server hosting', renderHosting()),
-    page('/support/', 'Support Modstoke', renderSupport()),
-    ...[...renderGuides(options.releaseIndex), ...renderAppPolicies(), ...renderLegal()].map(([path, title, description, body]) => page(path, title, wrapped(body), description)),
-    page('/404/', 'Page not found', notFound),
+    page('/tools/', i.t('pages.tools'), renderTools({ releaseIndex, files, loaderShot: options.toolShots?.includes('loader-mods-menu') }, i)),
+    page('/docs/', i.t('pages.docs'), renderDocs({ projectKnowledge: options.projectKnowledge, releaseIndex }, i)),
+    page('/releases/', i.t('pages.releases'), releasePage ? wrapped(releasePage) : noReleases(i)),
+    page('/servers/', i.t('pages.servers'), wrapped(renderServers(i))),
+    page('/hosting/', i.t('pages.hosting'), renderHosting(i)),
+    page('/support/', i.t('pages.support'), renderSupport(i)),
+    ...[...renderGuides(options.releaseIndex, i), ...renderAppPolicies(i), ...renderLegal(i)].map(([path, title, description, body]) => page(path, title, wrapped(body), description)),
+    page('/404/', i.t('pages.notFound'), notFound(i)),
   ];
 }

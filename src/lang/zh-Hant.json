@@ -1,0 +1,1146 @@
+{
+  "_about": "modstoke.com 的文字（繁體中文，臺灣用語）。由 en.json 翻譯而來，歡迎母語人士審校。{ } 中的內容由網站填入，請保持原樣。",
+  "seo": {
+    "home": {
+      "title": "Modstoke：Sons of the Forest 模組、模組管理器與 Loader",
+      "description": "免費的 Sons of the Forest 模組，以及執行它們的工具：Windows 版 Modstoke Manager、Modstoke Loader，還有 Client、Admin、Terraforming、Virginia 等模組。"
+    },
+    "mods": {
+      "title": "Sons of the Forest 模組 | Modstoke",
+      "description": "Sons of the Forest 的 Modstoke 模組：Client（平板、無人機和 Kestrel 飛機）、主機用的 Admin、Terraforming 和 Virginia。版本、需求與多人遊戲說明。"
+    },
+    "tools": {
+      "title": "Sons of the Forest 的 Modstoke Manager、Loader 與 SDK",
+      "description": "下載 Windows 版 Modstoke Manager，把 Modstoke Loader 裝進 Sons of the Forest，再用隨附的 SDK 開發模組。"
+    },
+    "docs": {
+      "title": "給玩家與模組作者的 Modstoke 文件",
+      "description": "Modstoke Manager、Loader 與模組如何搭配、遊戲相容性，以及開發 Sons of the Forest 模組前該知道的事。"
+    },
+    "releases": {
+      "title": "下載 Modstoke Manager 與 Loader | 發布",
+      "description": "下載 Windows 版 Modstoke Manager 和 Modstoke Loader。每個發布版本都列出版本號、更新內容、大小、簽章狀態和 SHA-256。"
+    },
+    "hosting": {
+      "title": "Sons of the Forest 伺服器代管 | Modstoke",
+      "description": "向非營利組織 OpenACAI 租用 Sons of the Forest 專用伺服器：獨佔核心、每日備份，Modstoke Loader 已就緒。"
+    },
+    "support": {
+      "title": "支持 Modstoke | OpenACAI",
+      "description": "捐款讓 Modstoke 保持免費。捐款交給 501(c)(3) 非營利組織 OpenACAI，以及它透過遊戲促進心理健康與社交連結的計畫 GAMHON。"
+    },
+    "servers": {
+      "title": "Sons of the Forest 社群伺服器 | Modstoke",
+      "description": "尋找主機方選擇公開的 Sons of the Forest 伺服器，查看玩家數、所需模組與設定，也可以了解如何公開你自己的伺服器。"
+    },
+    "notFound": {
+      "title": "找不到頁面 | Modstoke",
+      "description": "找不到這個頁面。回到 Modstoke，看看 Sons of the Forest 的模組、工具與指南。"
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke，Sons of the Forest 的模組與工具",
+    "organization": "OpenACAI 為 Sons of the Forest 打造的免費模組工具與社群。"
+  },
+  "nav": {
+    "mods": "模組",
+    "tools": "工具",
+    "servers": "伺服器",
+    "hosting": "代管",
+    "guides": "指南",
+    "docs": "文件",
+    "releases": "發布"
+  },
+  "layout": {
+    "skip": "跳到內容",
+    "current": "目前",
+    "noDownloads": "尚無公開下載",
+    "support": "支持 Modstoke",
+    "home": "Modstoke 首頁",
+    "menu": "選單",
+    "mainNav": "主要導覽",
+    "download": "下載 Manager",
+    "language": "語言",
+    "languageNote": "選擇本站的語言，你的選擇會被記住。",
+    "translated": "譯自英文，歡迎到我們的 Discord 指正。"
+  },
+  "footer": {
+    "about": "Sons of the Forest 的免費模組與工具，由非營利組織 OpenACAI 製作，是其透過遊戲促進心理健康與社交連結的計畫 {gamhon} 的一部分。與 Endnight Games 無關。",
+    "label": "頁尾",
+    "play": "遊玩",
+    "build": "開發",
+    "community": "社群",
+    "mods": "模組",
+    "servers": "伺服器",
+    "rent": "租用伺服器",
+    "panel": "伺服器面板",
+    "install": "安裝指南",
+    "troubleshooting": "疑難排解",
+    "tools": "Manager、Loader 與 SDK",
+    "makeMod": "開發模組",
+    "releases": "發布",
+    "discord": "Discord",
+    "support": "支持 Modstoke",
+    "apps": "Discord 應用程式",
+    "privacy": "隱私權",
+    "terms": "條款"
+  },
+  "pages": {
+    "overview": "總覽",
+    "mods": "模組",
+    "tools": "工具",
+    "docs": "文件",
+    "releases": "發布",
+    "servers": "社群伺服器",
+    "hosting": "伺服器代管",
+    "support": "支持 Modstoke",
+    "notFound": "找不到頁面",
+    "noReleases": {
+      "eyebrow": "發布",
+      "title": "尚無下載",
+      "lede": "這裡還沒有發布任何內容。每個發布版本都會列出版本號、更新內容、相容性和檔案雜湊值。"
+    },
+    "missing": {
+      "title": "這裡什麼也沒有。",
+      "lede": "這個頁面不存在，或是已經搬走了。",
+      "home": "回到 Modstoke",
+      "mods": "看看模組"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "傍晚的光線灑在島上松林之上的雪峰",
+      "title": "像遊戲本身一樣自然的模組。",
+      "lede": "Modstoke 是一個模組載入器、一個桌面管理器，以及目前四個我們自己做的模組：Client、Admin、Terraforming 和 Virginia。全部免費，由非營利組織 OpenACAI 製作。",
+      "download": "下載 Manager {version}",
+      "seeMods": "看看模組",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · OpenACAI 簽章"
+    },
+    "mods": {
+      "title": "我們的模組",
+      "all": "所有模組"
+    },
+    "setup": {
+      "title": "開始使用",
+      "manager": {
+        "title": "安裝 Manager。",
+        "body": "指向你的 Sons of the Forest 資料夾，它就會找到你的遊戲與存檔。"
+      },
+      "loader": {
+        "title": "加入 Loader。",
+        "body": "由 Manager 來安裝。它會在標題畫面和暫停畫面加上「Mods」選單。"
+      },
+      "mods": {
+        "title": "挑選模組。",
+        "body": "大多數人會想要 Client。如果你要開伺服器，再加上 Admin。"
+      },
+      "backup": "先備份你的存檔。{guide}會一步步帶你完成。",
+      "guideLink": "安裝指南",
+      "shotAlt": "Modstoke Manager 顯示 Sons of the Forest 的模組清單",
+      "shotCaption": "Manager 的模組清單。所示項目來自 SOTF Mods，而不是本站。"
+    },
+    "releases": {
+      "title": "最新發布",
+      "all": "所有發布"
+    },
+    "ledger": {
+      "manager": "Windows 安裝程式，已簽章",
+      "loader": "Loader 與 SDK，預覽版"
+    },
+    "together": {
+      "title": "一起玩",
+      "body": "{servers}列出主機方選擇公開的 Sons of the Forest 世界，以及每個世界所需的模組。想找隊友、回報錯誤、第一時間得知新版本，就來我們的 {discord}。這一切都屬於 {gamhon}，也就是 OpenACAI 透過遊戲促進心理健康與社交連結的計畫。",
+      "serversLink": "伺服器清單",
+      "browse": "瀏覽伺服器",
+      "join": "加入 Discord"
+    }
+  },
+  "hosting": {
+    "eyebrow": "伺服器代管",
+    "title": "租用 Sons of the Forest 伺服器",
+    "lede": "執行在我們自有硬體上的專用伺服器，Modstoke Loader 和我們的模組已就緒。OpenACAI 以非營利方式營運，你支付的費用用來維持伺服器與模組的運作。",
+    "status": "即將開放，先從面向 Discord 成員的小規模測試開始。",
+    "plans": {
+      "heading": "方案",
+      "small": "Small",
+      "standard": "Standard",
+      "price": "每月 {price}，也可以多付一些",
+      "players": "玩家",
+      "upTo": "最多 {count} 人",
+      "cpu": "CPU",
+      "cores": "{cores} 個獨佔核心",
+      "memory": "記憶體",
+      "memorySize": "{memory} GB",
+      "storage": "儲存空間",
+      "storageSize": "{disk} GB NVMe",
+      "note": "每個方案都有最低價。結帳時你可以選擇多付。超出最低價的部分視為對 OpenACAI 的捐款，並在收據上單獨列出。16 人方案會在我們好好測試之後推出。"
+    },
+    "get": {
+      "title": "你會得到什麼",
+      "cores": {
+        "title": "獨佔的核心。",
+        "body": "你伺服器的 CPU 核心不與任何人共用。"
+      },
+      "modstoke": {
+        "title": "已設定好 Modstoke。",
+        "body": "Loader 已安裝並保持最新，我們的模組一鍵即可加入。"
+      },
+      "find": {
+        "title": "容易被找到。",
+        "body": "它會出現在遊戲的伺服器瀏覽器中；如果你願意公開，也會出現在我們的{servers}上，並附帶 Manager 加入連結。",
+        "link": "伺服器頁面"
+      },
+      "admin": {
+        "title": "Admin 工具。",
+        "body": "Modstoke Admin 透過你的 Steam 帳號認出你是伺服器擁有者。"
+      },
+      "panel": {
+        "title": "簡單的控制面板。",
+        "body": "直接拖入檔案與資料夾，查看主控台，看誰在玩，執行指令，全都在同一個畫面裡。"
+      },
+      "world": {
+        "title": "你的世界，由你保管。",
+        "body": "每天備份，保留一週，還可以一鍵把你的世界下載到自己的電腦上。"
+      },
+      "discord": {
+        "title": "在我們的 Discord 裡有個家。",
+        "body": "你的伺服器有自己的公告頻道和聊天頻道，你的工作人員還會收到管理提醒。"
+      },
+      "coast": {
+        "title": "靠近美國東岸。",
+        "body": "代管於紐澤西，使用 1 Gbps 線路。"
+      }
+    },
+    "how": {
+      "title": "如何運作",
+      "apply": {
+        "title": "申請。",
+        "body": "用 Discord 登入，連結你的 Steam 帳號，告訴我們伺服器的用途。"
+      },
+      "review": {
+        "title": "我們審核。",
+        "body": "每份申請都由我們團隊的人來看。"
+      },
+      "pay": {
+        "title": "用 PayPal 付款。",
+        "body": "選擇方案和你想付的金額。按月續訂，隨時可以取消。"
+      },
+      "play": {
+        "title": "開玩。",
+        "body": "你的伺服器幾分鐘內啟動，你可以在{panel}中管理它。",
+        "link": "面板"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "players": {
+        "q": "可以超過 8 位玩家嗎？",
+        "a": "暫時不行。8 人是遊戲本身的上限。我們的 Loader 可以突破這個上限，等我們用真實玩家跑過之後，會推出 16 人方案。"
+      },
+      "mods": {
+        "q": "可以加入我自己的模組嗎？",
+        "a": "可以，透過檔案管理員加入。你的伺服器執行在獨立的空間裡，與其他人的互不相干。"
+      },
+      "payment": {
+        "q": "付款失敗會怎樣？",
+        "a": "寬限幾天後，你的伺服器會暫停。我們會保留它的檔案 14 天，你可以接著之前的進度繼續。"
+      },
+      "apply": {
+        "q": "為什麼要申請？",
+        "a": "我們是一個小型非營利組織，大家共用一台機器，所以想知道有誰在使用。這樣對所有人都公平、安全。"
+      },
+      "rules": {
+        "q": "有哪些規則？",
+        "a": "{terms}涵蓋代管相關的內容，包括退款，以及伺服器結束後你的檔案會如何處理。{privacy}說明我們會保存什麼。",
+        "termsLink": "服務條款",
+        "privacyLink": "隱私權政策"
+      }
+    },
+    "beta": {
+      "title": "想參加測試嗎？",
+      "body": "到我們的 Discord 說一聲，我們會把你加進名單。代管是 {gamhon} 的一部分，也就是 OpenACAI 透過遊戲促進心理健康與社交連結的計畫。",
+      "have": "已經有伺服器了？{panel}來管理它。",
+      "panelLink": "開啟面板",
+      "ask": "到 Discord 詢問",
+      "code": "我有測試碼",
+      "servers": "社群伺服器"
+    }
+  },
+  "support": {
+    "eyebrow": "支持",
+    "title": "讓 Modstoke 繼續下去",
+    "lede": "我們的模組和工具都是免費的。它們由 501(c)(3) 非營利組織 OpenACAI 製作，捐款用來支付本站背後的伺服器、我們的 Discord 機器人和社群伺服器。",
+    "donate": {
+      "title": "捐款",
+      "often": "頻率",
+      "once": "單次",
+      "monthly": "每月",
+      "amount": "金額（美元）",
+      "otherLabel": "其他金額",
+      "otherPlaceholder": "其他 $",
+      "closed": "線上捐款即將開放。在此之前，可以到我們的 {discord} 詢問如何幫忙。",
+      "note": "付款透過 PayPal 進行，它會用電子郵件把收據寄給你。我們看不到你的信用卡資料。"
+    },
+    "roles": {
+      "title": "支持者身分組",
+      "intro": "捐款者會在我們的 Discord 獲得一個身分組，作為感謝：",
+      "supporter": {
+        "name": "Supporter",
+        "text": "所有捐過款的人"
+      },
+      "monthly": {
+        "name": "Monthly supporter",
+        "text": "每月捐款持續期間"
+      },
+      "host": {
+        "name": "Server host",
+        "text": "所有租用{hosting}的人",
+        "link": "我們的伺服器"
+      },
+      "note": "在帳號功能開放之前，請在 Discord 裡私訊版主，附上你的 PayPal 收據編號，他們會為你加上身分組。身分組只是一份謝意，無論你是否捐款，模組對所有人都保持免費。"
+    },
+    "gamhon": {
+      "title": "GAMHON 的一部分",
+      "what": "Modstoke 是 GAMHON（Game and Mental Health Online Network）的一部分。OpenACAI 營運它，希望透過遊戲給人們一個沒有壓力的社交出口，包括那些沒有太多其他地方可以交流的人。",
+      "modding": "做模組正合適。和任何興趣一樣，它讓你有事可做、有所期待，還附帶一群一起創作的人。我們的免費工具、我們的 Discord 和我們代管的伺服器，都是其中的一部分。",
+      "money": "在這裡的捐款和{hosting}的費用都歸 OpenACAI，用於支持這個計畫。",
+      "hostingLink": "伺服器代管",
+      "crisis": "GAMHON 著重的是休閒與友誼，不是心理諮商。如果你在美國並處於危機中，請撥打或傳簡訊到 988。",
+      "more": "在 openacai.com 了解更多關於 GAMHON 的資訊"
+    },
+    "where": {
+      "title": "錢用在哪裡",
+      "body": "首先是伺服器。紐澤西的一台機器運作著本站、Sentinel（我們的 Discord 機器人）及其本機 AI，還有我們代管的遊戲伺服器。除此之外的部分，交給 GAMHON 的其餘工作。",
+      "ask": "有問題？來 Discord 問"
+    }
+  },
+  "servers": {
+    "eyebrow": "社群伺服器",
+    "title": "找一台伺服器",
+    "intro": "主機方選擇在此公開的 Sons of the Forest 世界，以及每個世界所需的模組。",
+    "listYours": "公開你的伺服器",
+    "directoryLabel": "伺服器目錄",
+    "filters": {
+      "find": "尋找伺服器",
+      "placeholder": "伺服器、主機、地區或模組…",
+      "status": "狀態",
+      "allStatuses": "所有狀態",
+      "online": "線上",
+      "offline": "離線",
+      "kind": "連線類型",
+      "allSessions": "所有連線",
+      "dedicated": "專用伺服器",
+      "playerHosted": "玩家開房",
+      "refresh": "重新整理"
+    },
+    "loading": "正在載入目錄…",
+    "refreshes": "頁面可見時每 60 秒重新整理一次。",
+    "noscript": {
+      "title": "需要 JavaScript 才能載入伺服器。",
+      "body": "請啟用 JavaScript 以查看即時目錄。本頁面不儲存任何伺服器資訊。"
+    },
+    "measureNote": "標有「—」的玩家數表示未知。主機延遲是主機方測得的已連線玩家來回時間的中位數，你自己的網路狀況可能不同。",
+    "join": {
+      "eyebrow": "加入之前",
+      "title": "你下一場遊戲的去處。",
+      "review": "開啟伺服器可查看它所需的模組、部分設定和近期活動。這些需求僅供你檢視；本頁面不會下載或安裝模組。",
+      "manager": "按「加入」會開啟 Modstoke Manager 0.3.0 或更新版本，在任何動作開始之前，它會再次顯示伺服器詳細資料供你確認。"
+    },
+    "host": {
+      "eyebrow": "給主機方",
+      "title": "分享你的伺服器，出於你的選擇。",
+      "ask": "請在 {discord} 裡請目錄營運者核准你的公開申請並發放發布金鑰。在代管元件中設定該金鑰，然後明確啟用發布。不要在聊天中貼出金鑰，也不要在本網站上輸入它。",
+      "discordLink": "我們的 Discord",
+      "privacy": "只有選擇加入的主機方才會回報。公開的內容包括伺服器資訊、部分設定和彙總的活動資料，不含玩家名稱、聊天、密碼或私人的 Admin 資料。要移除公開資訊或撤銷金鑰，請聯絡營運者。"
+    },
+    "detail": {
+      "eyebrow": "伺服器詳細資料",
+      "close": "關閉",
+      "loading": "正在載入伺服器…"
+    }
+  },
+  "tools": {
+    "eyebrow": "工具",
+    "title": "Manager、Loader 與 SDK",
+    "lede": "玩家需要 Manager 和 Loader。模組作者以 SDK 為基礎開發，SDK 隨 Loader 一起提供。",
+    "installGuide": "安裝指南",
+    "trailer": {
+      "watch": "在 YouTube 上觀看 {name} 預告片",
+      "alt": "{name} 預告片的標題畫面",
+      "caption": "{name} 預告片，在 YouTube 上播放"
+    },
+    "file": {
+      "none": "尚無公開下載。",
+      "signed": "已簽章",
+      "unsigned": "未簽章",
+      "preview": "預覽版"
+    },
+    "manager": {
+      "what": "一款管理 Sons of the Forest 模組的 Windows 應用程式。它會找到你的遊戲、安裝 Loader，並把你的模組集中在一處。你可以在其中瀏覽 SOTF Mods 和 Nexus Mods，找一台伺服器加入，或是架設你自己的專用伺服器。",
+      "store": "等 Modstoke 商店開放後，你會透過 Manager 從中安裝：在解壓縮任何內容之前，它都會對照已簽章的目錄檢查每個檔案。",
+      "download": "下載 Manager"
+    },
+    "loader": {
+      "what": "每個 Modstoke 模組背後的載入器。裝一次，再加入你想要的模組。它會在標題畫面和暫停畫面加上「Mods」選單，每個模組的設定都在那裡，並且自帶它所需的 .NET 執行環境。",
+      "legacy": "較早的 RedLoader 和 BepInEx 模組可以繼續與它一起使用。",
+      "onReleases": "發布頁上的 Loader",
+      "nexus": "Nexus 頁面",
+      "shotAlt": "遊戲內 Loader 的「Mods」選單",
+      "shotCaption": "Loader 為遊戲加入的「Mods」選單"
+    },
+    "sdk": {
+      "what": "模組所依據的介面。它們包含在 Loader 裡，所以沒有需要另外下載的東西：在你的專案中參照 Loader 組件，並用與玩家相同版本的 Loader 來測試。",
+      "notes": "{notes}介紹了套件的結構、資訊清單，以及如何在遊戲的另一份副本上測試。",
+      "notesLink": "作者說明"
+    }
+  },
+  "guides": {
+    "home": "首頁",
+    "guides": "指南",
+    "breadcrumb": "導覽路徑",
+    "eyebrow": "玩家指南",
+    "onThisPage": "本頁內容",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "Manager 預覽版",
+    "backup": {
+      "exit": "結束 Sons Of The Forest，並關閉所有可能更動其檔案的模組工具。若有 Steam 雲端同步，請等它完成。",
+      "find": "在檔案總管的網址列中貼上 {path}。對於一般的本機玩家安裝，{saves} 資料夾就在這裡。如果沒有找到，請先確認 Windows 帳號和你的安裝所用的存檔位置，再繼續。",
+      "copy": "把整個 {saves} 資料夾複製到遊戲及其存檔目錄之外一個獨立的、帶日期的備份資料夾中。是複製，不要移動或刪除原件。帳號和世界的所有子資料夾都要保留。",
+      "verify": "開啟備份，確認應有的子資料夾和檔案都在。進行修改期間，不要動這份副本。Steam 雲端存檔不能取代獨立的備份。",
+      "note": "如果是專用伺服器，或存檔存放在別處，請另外備份該伺服器所設定的存檔位置。在還原較舊的副本之前，也請保留目前的存檔，這樣才能復原這次還原。"
+    },
+    "checksum": {
+      "open": "選用：在存放已下載安裝程式的資料夾中開啟 PowerShell，執行：",
+      "compare": "把傳回的{hash}與{release}上同一版本的 SHA-256 比對。{manager}的記錄值是：",
+      "releasePage": "發布頁面",
+      "differs": "如果不一致，請不要執行該檔案。請從發布頁面重新下載，再檢查一次。雜湊值一致只能說明位元組與發布的檢查碼相同，並不能證明發布者身分，也不會讓未簽章的安裝程式變成已簽章。另請參閱 Microsoft 的{reference}。",
+      "reference": "Get-FileHash 參考文件",
+      "none": "目前沒有選定的 Manager 檔案。繼續之前，請到{releases}查看是否有已發布的安裝程式及其檢查碼。",
+      "releases": "發布"
+    },
+    "index": {
+      "title": "Sons Of The Forest 模組指南",
+      "description": "在 Windows 上安裝 Modstoke Manager，備份你的存檔，並解決 Sons Of The Forest 的模組問題。",
+      "statusTitle": "先看現在有什麼",
+      "statusManager": "{manager}已提供 Windows 版。",
+      "statusManagerPreview": "{manager}已提供 Windows 預覽版。",
+      "statusNoManager": "請到發布頁查看 Manager 目前是否可用。",
+      "statusLoader": "附 SDK 的 Loader {version} 也在發布頁上，Manager 可以替你安裝。Client 等模組有各自的下載，Modstoke 目前還沒有代管的模組目錄。",
+      "statusNoLoader": "完整的 Modstoke Loader、SDK 和 Client 整合包尚未發布，因此無法自動安裝該整合包。Modstoke 目前也還沒有代管的模組目錄。",
+      "reviewReleases": "查看目前的發布",
+      "cardsLabel": "可用的指南",
+      "installEyebrow": "WINDOWS 安裝",
+      "installTitle": "安裝 Modstoke Manager",
+      "installText": "備份存檔，找到官方安裝程式，檢查它的檢查碼，並選擇你的遊戲安裝位置。",
+      "installLink": "閱讀安裝指南",
+      "troubleEyebrow": "疑難排解",
+      "troubleTitle": "排除遊戲模組問題",
+      "troubleText": "區分 Manager 安裝問題與 Loader、模組問題，核對需求，並準備一份有用的問題回報。",
+      "troubleLink": "閱讀疑難排解指南",
+      "footer": "專案資訊和作者準備工作，請見{docs}。",
+      "docs": "文件"
+    },
+    "install": {
+      "title": "如何在 Windows 上安裝 Modstoke Manager",
+      "description": "Modstoke Manager 的逐步安裝指南：備份存檔、官方下載、選用的 SHA-256 檢查，以及選擇遊戲。",
+      "crumb": "安裝 Modstoke Manager",
+      "toc": {
+        "before": "開始之前",
+        "backup": "備份存檔",
+        "download": "下載 Manager",
+        "check": "檢查下載的檔案",
+        "install": "安裝並選擇遊戲",
+        "next": "接下來做什麼"
+      },
+      "before": {
+        "title": "開始之前",
+        "intro": "本指南介紹 Windows 版 Modstoke Manager。請準備好你的 Steam 版 Sons Of The Forest，並在安裝前關閉遊戲。目前的下載是{manager}。",
+        "signed": "安裝程式由{publisher}簽章。如果 Windows 顯示的是未知的發行者，請不要執行它，並從發布頁重新下載。",
+        "unsigned": "已發布的預覽版安裝程式未簽章。由於無法驗證發行者簽章，Windows 可能會顯示警告。請先查看原始碼和發布詳細資料，再決定是否執行。不要為了安裝它而關閉 Windows 的安全防護。如果拿不準，請取消，等有簽章的版本。",
+        "scope": "安裝 Manager 並不會安裝遊戲，也不能說明模組可以正常運作。",
+        "scopeLoader": "設定好之後，Manager 可以從它的「Loaders」頁面安裝 Loader。",
+        "scopeNoLoader": "完整的 Modstoke Loader、SDK 和 Client 整合包尚未發布，因此無法自動安裝整合包。"
+      },
+      "backupTitle": "1. 備份你的存檔",
+      "download": {
+        "title": "2. 取得官方下載",
+        "open": "開啟{releases}，找到 Manager 的下載。",
+        "releases": "Modstoke 發布頁",
+        "read": "閱讀版本、簽章資訊和已記錄的檢查結果。",
+        "filename": "在本指南中，安裝程式的檔名是 {file}。",
+        "noFile": "只有在列出了 Manager 安裝程式時才繼續。",
+        "get": "使用該頁面上的連結下載安裝程式。如果想比對檢查碼，請保持發布頁面開啟。",
+        "note": "Manager 的安裝檢查並不是遊戲或多人遊戲的相容性結果。對這個 Manager 發布版本，這些檢查標為不適用。"
+      },
+      "checkTitle": "3. 如果你想，可以檢查下載的檔案",
+      "setup": {
+        "title": "4. 安裝 Manager 並選擇遊戲",
+        "runSigned": "執行已下載的安裝程式",
+        "runUnsigned": "如果你決定使用未簽章的預覽版，請執行已下載的安裝程式",
+        "run": "{run}，並依安裝提示操作。如果安裝中途停止，請記下錯誤訊息。",
+        "open": "安裝完成後，開啟 Modstoke Manager。",
+        "select": "如果 Manager 要求選擇遊戲執行檔，請從你實際的 Steam 遊戲安裝目錄中選擇 {exe}。你可以透過 Steam 中遊戲的本機檔案找到安裝資料夾。要選的是遊戲的執行檔，而不是 Manager 的安裝程式或捷徑。",
+        "status": "查看該安裝位置顯示的狀態。如果找不到遊戲，請確認所選檔案仍然存在，並且屬於你想用的那個 Steam 安裝。",
+        "note": "不同版本的畫面文字可能有差異。請依你所安裝版本裡顯示的提示操作，不要去猜找不到的控制項。"
+      },
+      "next": {
+        "title": "5. 加入模組前先確認需求",
+        "loader": "Modstoke 目前還沒有代管的模組目錄。請先透過 Manager 安裝 Loader，再從各個模組自己的頁面加入模組。",
+        "noLoader": "Modstoke 目前既沒有代管的模組目錄，也沒有發布完整的 Loader、SDK 和 Client 整合包。缺少整合包是發布方面的限制，重新安裝 Manager 解決不了。",
+        "elsewhere": "對於從別處取得的模組，請閱讀作者針對該確切版本給出的需求和安裝說明。修改檔案之前，先確認所支援的遊戲版本和 Loader。不要以為為別的 Loader 寫的模組也能在 Modstoke 上運作。",
+        "continue": "遇到問題時請繼續看{troubleshooting}，或閱讀{docs}。",
+        "troubleshooting": "Sons Of The Forest 模組疑難排解",
+        "docs": "玩家文件"
+      }
+    },
+    "trouble": {
+      "title": "Sons Of The Forest 模組疑難排解",
+      "description": "診斷 Manager 安裝、Loader 需求和遊戲模組問題，附帶存檔備份、謹慎的還原步驟和實用的問題回報清單。",
+      "crumb": "模組疑難排解",
+      "toc": {
+        "identify": "找出問題",
+        "protect": "保護存檔",
+        "manager": "Manager 安裝",
+        "loader": "Loader 與模組需求",
+        "restore": "還原為未更動的遊戲",
+        "report": "回報問題"
+      },
+      "identify": {
+        "title": "找出問題出在哪裡",
+        "intro": "從第一個出錯的步驟開始。安裝程式出錯、找不到 Loader 下載、載入模組後當機，原因各不相同。",
+        "managerTerm": "Manager 安裝",
+        "manager": "安裝程式失敗、Manager 打不開，或所選的遊戲路徑不對。請從{link}開始。",
+        "managerLink": "Manager 安裝",
+        "loaderTerm": "Loader 是否可用",
+        "loader": "完整的 Modstoke Loader、SDK 和 Client 整合包沒有發布。無法自動安裝整合包，重新安裝 Manager 也提供不了。",
+        "gameTerm": "遊戲或模組的行為",
+        "game": "遊戲無法啟動、模組沒有出現，或世界表現異常。在修改檔案之前，請先確認確切的{link}。",
+        "gameLink": "Loader 與模組需求",
+        "catalog": "Modstoke 目前還沒有代管的模組目錄。目錄是空的，並不能證明你的遊戲檔案已損壞。"
+      },
+      "protect": {
+        "title": "修改前先保護存檔",
+        "note": "在查是不是移除或更改的模組造成問題時，不要覆蓋你珍視的世界。如果需要比對行為，請另用一個暫時的世界。"
+      },
+      "manager": {
+        "title": "解決 Manager 安裝問題",
+        "version": "把你的 Manager 版本與{releases}比對。以該頁面的安裝程式和簽章資訊為準，不要以為更舊的或品牌不同的套件會有相同的行為。",
+        "releases": "發布頁",
+        "publisher": "如果 Windows 提示未知的發行者，請確認安裝程式來自發布頁。保持安全防護開啟。如果無法確定這就是你想下載的檔案，請取消安裝。",
+        "incomplete": "如果下載似乎不完整，請在重試安裝之前使用{check}。",
+        "checkLink": "選用的檢查碼檢查",
+        "find": "如果 Manager 找不到遊戲，請確認所選的 {exe} 位於目前的 Steam 安裝目錄中，尤其是在把遊戲移到另一個磁碟之後。",
+        "error": "遇到安裝程式或啟動錯誤時，請保存確切的錯誤訊息，並記下它發生在 Manager 開啟之前還是之後。不要為了修復原因不明的 Manager 啟動錯誤而更動遊戲檔案。"
+      },
+      "loader": {
+        "title": "核對 Loader 與模組需求",
+        "read": "閱讀模組作者針對該確切模組版本的頁面。記下它需要的 Loader、相依項目、支援的遊戲版本和安裝位置。",
+        "compare": "把這些需求與實際安裝的內容比對。名稱相似的 Loader，或是一個裝著 DLL 的資料夾，不足以證明相容。",
+        "update": "檢查問題是不是在遊戲、Loader 或模組更新之後才出現的。把先前的版本和第一則錯誤訊息記在筆記裡。",
+        "isolate": "依模組作者支援的停用或解除安裝方式來隔離可疑的模組，同時留意它所需的相依項目。一次只改一處，並在備份好存檔的前提下使用一個獨立的世界。",
+        "combine": "除非相關作者明確支援這種做法，否則不要把多個 Loader 裝在一起，也不要在 Loader 資料夾之間移動外掛。對於多人遊戲，請分別核對模組聲明的主機、用戶端和伺服器需求；單人遊戲能運作，並不代表支援多人遊戲。",
+        "notes": "在看模組作者說明的同時，也請閱讀本專案的{link}。",
+        "notesLink": "相容性說明"
+      },
+      "restore": {
+        "title": "謹慎地還原為未更動的遊戲",
+        "close": "關閉遊戲。完成{backup}，並保留模組設定檔和已安裝套件的記錄。",
+        "backupLink": "存檔備份",
+        "remove": "依每個已安裝模組和 Loader 文件中的移除方式操作。對於由其他工具管理的部署，請使用該工具支援的移除方式。不要靠猜哪些檔案屬於某個模組就去刪除不熟悉的檔案。",
+        "verify": "在 Steam 中開啟遊戲的{properties}，選擇{installed}，再選擇{integrity}。等待驗證完成。這些步驟在{support}中有記載。",
+        "properties": "內容",
+        "installed": "已安裝的檔案",
+        "integrity": "驗證遊戲檔案完整性",
+        "support": "Steam 客服",
+        "leftover": "對照 Loader 和模組的移除說明，檢查是否有遺留的檔案。Steam 的驗證修復的是由 Steam 管理的遊戲檔案，不應把它當作移除模組加入的所有檔案。",
+        "launch": "透過 Steam 啟動遊戲，並用一個獨立的暫時世界來比對行為。備份好的世界保持原樣不動。如果問題依舊，請把這個結果寫進你的回報。",
+        "stop": "如果你無法確定某個新增檔案及其所屬者，請停止刪除檔案，並向相關的模組或 Loader 維護者求助。"
+      },
+      "report": {
+        "title": "準備一份有用的問題回報",
+        "intro": "透過出問題的元件所屬的專案或模組作者提供的支援管道送出回報。請包含：",
+        "versions": "你的 Windows 版本、遊戲版本或組建編號、Manager 版本、Loader 的名稱和版本，以及相關模組的版本。",
+        "error": "確切的錯誤文字和相關的記錄檔片段，包括第一則錯誤及其前後幾行。分享之前，請去掉個人路徑、帳號資訊和機密內容。",
+        "steps": "能重現問題的簡短步驟、你預期的結果和實際發生的情況。",
+        "scope": "它影響的是啟動、某個特定世界、單人遊戲、開伺服器還是加入；以及依支援的方式移除之後問題是否依然存在。",
+        "last": "上一次正常運作的設定、最近的更動，以及你已經試過的步驟。",
+        "outro": "如需 Manager 安裝方面的協助，請回到{guide}。在問題解決之前，請保留原始備份。",
+        "guideLink": "Windows 安裝指南"
+      }
+    }
+  },
+  "apps": {
+    "home": "首頁",
+    "breadcrumb": "導覽路徑",
+    "eyebrow": "MODSTOKE DISCORD 應用程式",
+    "onThisPage": "本頁內容",
+    "effective": "自 {date} 起生效",
+    "effectiveDate": "2026 年 10 月 19 日",
+    "contactPage": "OpenACAI 聯絡頁面",
+    "index": {
+      "title": "Modstoke Discord 應用程式",
+      "description": "加入用於管理與社群工具的 Sentinel，或用於共享語音播放的 Radio。由 OpenACAI 營運的公開預覽版。",
+      "sentinel": {
+        "heading": "Sentinel：管理與社群",
+        "intro": "為你的 Discord 伺服器帶來管理輔助、歡迎訊息、自助身分組、找隊友、社群統計和說明工具。Sentinel 是由 OpenACAI 營運的公開預覽版。",
+        "add": "把 Sentinel 加入你的伺服器",
+        "install": "伺服器擁有者把 Sentinel 作為伺服器應用程式安裝。不支援安裝到個人帳號。在擁有者執行 {configure} 並指定歡迎頻道、版主記錄頻道和更新頻道之前，Sentinel 保持未啟用狀態。綜合頻道、找隊友頻道和說明論壇頻道是選用的。接著執行 {setup} 來設定自助身分組。封鎖和對話功能預設關閉。",
+        "permissions": "安裝時會要求以下權限：檢視頻道、傳送訊息、讀取訊息歷史記錄、嵌入連結、管理訊息、管理身分組、管理成員（禁言）、踢出成員和封鎖成員。請查看 Discord 的權限畫面，只給 Sentinel 你所設定的功能需要的頻道和身分組的存取權限。安裝不會要求管理員權限或伺服器範圍的管理頻道權限。進階的陷阱和統計功能需要營運者設定，以及限定在相關頻道的權限。"
+      },
+      "radio": {
+        "heading": "Radio：一起聽",
+        "intro": "用斜線指令在語音頻道中播放受支援的 YouTube 連結和獲准的 Discord CDN 媒體。Spotify 請求會產生開啟 Spotify 的連結卡片，不會在語音中完整播放 Spotify 曲目。只請求你有權分享或播放的媒體。",
+        "add": "把 Radio 加入你的伺服器",
+        "install": "伺服器擁有者把 Radio 作為伺服器應用程式安裝，而不是個人帳號應用程式。請允許它存取指令頻道，並在目標語音頻道中擁有連線和說話權限。Radio 處於自我拒聽狀態，不會錄製語音音訊。",
+        "limits": "每個伺服器有自己的佇列，最多 10 首曲目。每首曲目限 10 分鐘和 32 MiB。沒有聽眾 60 秒後，Radio 會離開。該服務在所有伺服器上最多同時支援兩個作用中的音訊連線，因此可能暫時沒有空位。"
+      },
+      "support": {
+        "heading": "預覽版支援與政策",
+        "preview": "這些應用程式是公開預覽版：可用性和自動處理的結果可能會有變化。每個伺服器的儲存資料、對話脈絡和播放佇列都是獨立的。Sentinel 在各伺服器之間共用一個本機模型工作程序，一次處理一個請求，不使用雲端 AI。",
+        "read": "安裝前請閱讀{privacy}和{terms}。需要安裝協助，請加入{community}。對管理決定有異議，請向採取該動作的伺服器的版主申訴。",
+        "privacy": "應用程式隱私權政策",
+        "terms": "應用程式條款",
+        "community": "Modstoke 支援社群"
+      }
+    },
+    "privacy": {
+      "title": "Discord 應用程式隱私權",
+      "description": "OpenACAI 如何處理安裝了 Modstoke Sentinel 和 Modstoke Radio 的 Discord 伺服器中所用到的資訊。",
+      "scope": {
+        "heading": "這些應用程式由誰營運",
+        "operator": "OpenACAI 把 Modstoke Sentinel 和 Modstoke Radio 作為面向 Discord 伺服器的公開預覽版應用程式來營運。伺服器擁有者把它們作為伺服器應用程式安裝，不支援安裝到個人帳號。每個伺服器的儲存資料、脈絡和播放佇列都是獨立的。",
+        "supplement": "這份針對機器人的補充說明，與{privacy}一起，描述它們的資料處理方式。另請參閱{terms}和{apps}。",
+        "privacyLink": "Modstoke 隱私權政策",
+        "termsLink": "Discord 應用程式條款",
+        "appsLink": "應用程式設定資訊"
+      },
+      "sentinel": {
+        "heading": "Sentinel：管理與社群功能",
+        "inactive": "在新伺服器中，Sentinel 保持未啟用，直到其擁有者設定好所需的頻道。設定之後，它可以看到它有權限存取的 Discord 頻道中的訊息和成員事件。它把這些用於管理、彙總的社群統計、自助身分組、找隊友和說明。封鎖和對話功能預設關閉。",
+        "model": "模型處理在代管伺服器上透過本機迴路連線在本機執行，不經過雲端 AI 處理。各伺服器共用一個模型工作程序，一次處理一個請求；它們的脈絡彼此獨立。近期的管理脈絡存放在記憶體中，每個頻道最多保存六段訊息摘錄，約三分鐘。這些機器人處理的資訊不會被販售用於廣告，也不會用於 AI 訓練。",
+        "ledger": "本機管理台帳保留使用者 ID、頻道 ID 和訊息 ID、時間戳記、指紋、證據標籤、動作和審核者資訊，最長七天，上限 1,000 筆。另有一份獨立的移除台帳保留七天。發布到 Discord 的管理記錄訊息，有由 Discord 和伺服器控制的另外的保留期限。"
+      },
+      "crew": {
+        "heading": "找隊友的貼文、偏好設定與統計",
+        "records": "作用中的找隊友記錄包括原始的徵求文字、顯示名稱、主機 ID、地區、需求和時間。它們會保留到該徵求關閉或過期為止，過期期限為一到 24 小時。如果機器人無法存取對應的 Discord 貼文，清理可能會延遲。已關閉的貼文可能仍留在 Discord 上。",
+        "alerts": "找隊友通知的訂閱和選擇退出的使用者 ID 會持續保留。用 {alerts} 停止找隊友通知；{quiet} 讓你退出陪伴互動。這些操作不會刪除所有管理記錄。",
+        "leave": "成員離開時，Sentinel 會清理他們的找隊友訂閱，並關閉由他們建立的徵求；離開並不等於全面刪除所有記錄。社群統計是彙總的。已設定的頻道和身分組 ID 在機器人運作期間保留。"
+      },
+      "radio": {
+        "heading": "Radio：請求與語音播放",
+        "intents": "Radio 使用 Discord 的伺服器和語音狀態 intent，不要求訊息內容 intent。它把斜線指令請求的 URL 和產生的曲目編號存放在記憶體中用於播放。Radio 在語音頻道中處於自我拒聽狀態，不會錄製語音音訊。",
+        "media": "下載的媒體是暫時的，曲目播放完後會被清理；啟動時的清理也會刪除遺留的下載檔案。停止佇列會清空其記憶體中的內容。",
+        "fetch": "從 Discord 的 CDN 或 YouTube 取得媒體時，會從代管伺服器向這些提供方送出請求。Spotify 連結卡片會開啟原網站；Radio 不提供 Spotify 的完整語音播放。"
+      },
+      "hosting": {
+        "heading": "代管與其他服務",
+        "vps": "這些機器人執行在 InterServer 代管的 VPS 上。Sentinel 的本機 JSON 設定、偏好設定和案件記錄使用 AES-256-GCM 加密，金鑰透過受保護的系統憑證另外保管。Radio 的暫存媒體使用私人的、以記憶體為基礎的執行階段目錄。兩個機器人服務和本機模型服務都已停用交換空間。營運記錄也作為服務運作的一部分被保留。上述較短的保留期限針對的是指定的機器人記錄，而不是所有營運記錄或 Discord 訊息。",
+        "discord": "Discord 依據其自身的政策和伺服器設定，獨立處理並保留訊息、貼文、互動和其他平台資訊。媒體提供方也依據其自身政策處理請求。刪除本機的機器人記錄，並不會刪除 Discord 或這些提供方保存的副本。"
+      },
+      "removal": {
+        "heading": "從伺服器中移除 Sentinel",
+        "purge": "當 Sentinel 從其 Modstoke 主要部署之外的伺服器中被移除時，它會關閉該伺服器的本機狀態，並清除其本機伺服器資料資料夾。Discord 上的貼文、管理記錄和 Discord 保留的其他副本，仍受 Discord 和伺服器的控制。清理該資料夾並不保證刪除所有營運記錄或另行保留的副本。",
+        "home": "Modstoke 主要部署及其設定仍由營運者控制。超出自動控制範圍的刪除請求，請聯絡 OpenACAI。"
+      },
+      "requests": {
+        "heading": "隱私權問題與刪除請求",
+        "contact": "有隱私權問題或刪除請求，請透過 {email} 或{page}聯絡 OpenACAI。請說明是哪個機器人、你的 Discord 使用者 ID 以及相關的伺服器或記錄，以便團隊找到這些資訊。不要傳送密碼或帳號權杖。",
+        "different": "選擇退出、離開伺服器和刪除資料是不同的操作。要請求上述控制之外的刪除，請使用這個聯絡管道。涉及 Discord 獨立保留的資訊的請求，可能還需要送交 Discord 或伺服器版主。"
+      }
+    },
+    "terms": {
+      "title": "Discord 應用程式條款",
+      "description": "在 Discord 伺服器中安裝和使用 Modstoke Sentinel 與 Modstoke Radio 公開預覽版的條款。",
+      "scope": {
+        "heading": "針對機器人的補充條款",
+        "operator": "OpenACAI 把 Modstoke Sentinel 和 Modstoke Radio 作為面向 Discord 伺服器的公開預覽版應用程式來營運。這些條款是對{terms}的針對機器人的補充。{privacy}說明機器人處理的資訊。",
+        "termsLink": "Modstoke 服務條款",
+        "privacyLink": "Discord 應用程式隱私權頁面",
+        "install": "伺服器擁有者把機器人作為伺服器應用程式安裝。不支援安裝到個人帳號。目前的功能和限制，請見{apps}。",
+        "appsLink": "安裝與設定資訊"
+      },
+      "use": {
+        "heading": "可接受的使用方式",
+        "rules": "請依法使用這些機器人，並遵守你所在伺服器的規則、Discord 的條款以及適用的媒體提供方條款。不要將其用於垃圾訊息、騷擾、惡意軟體、規避管理或其他濫用行為。不要試圖繞過機器人的權限、存取控制或使用限制。",
+        "media": "只提交你有權在相關場合分享或播放的媒體。URL 受支援或播放成功，並不代表你取得了使用該素材的許可。原提供方的條款仍然適用。"
+      },
+      "features": {
+        "heading": "預覽功能與可用性",
+        "besteffort": "這些機器人作為盡力而為的預覽工具提供。隨著團隊的維護，功能、回應和播放可能無法使用、延遲、出錯或有所變動。不要把機器人當作重要資訊的唯一來源，也不要把它當作管理涵蓋範圍的保證。",
+        "radio": "Radio 依賴於 Discord、代管服務和媒體提供方的可用性。Spotify 卡片連結到原網站；它們不提供在語音頻道中完整播放 Spotify 的功能。"
+      },
+      "moderation": {
+        "heading": "管理與申訴",
+        "appeals": "Sentinel 支援管理和社群功能，但自動判斷可能出錯。如要詢問某項動作或對其申訴，請聯絡採取該動作的伺服器的版主。請附上相關的訊息或動作詳細資料，以便他們複核。",
+        "owners": "伺服器擁有者負責最初的安裝和設定。在擁有者設定好歡迎頻道、版主記錄頻道和更新頻道之前，Sentinel 保持未啟用；選用頻道和身分組設定會啟用更多功能。封鎖和對話功能預設關閉。管理員控制機器人的存取權限和權限。進階的陷阱和統計功能需要營運者設定以及限定範圍的權限。",
+        "removal": "從伺服器中移除機器人需要具備相應權限的管理員。Sentinel 在被移除時的本機清理，在{privacy}中有說明；它不會刪除 Discord 的副本。",
+        "privacyLink": "隱私權政策"
+      },
+      "controls": {
+        "heading": "成員控制與聯絡方式",
+        "controls": "用 {alerts} 停止找隊友通知，用 {quiet} 退出陪伴互動。這些操作不會清除所有管理資料。關於資料處理和刪除請求，請依{contact}辦理。",
+        "contactLink": "隱私權聯絡說明",
+        "questions": "對這些條款有疑問，請聯絡 {email} 或使用{page}。"
+      }
+    }
+  },
+  "mods": {
+    "notStated": "未說明",
+    "loaderOrNewer": "Loader {version} 或更新版本",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "只有你自己安裝也能用",
+      "host": "只有主機或伺服器需要",
+      "allPlayers": "主機和玩家需要相同的版本",
+      "solo": "僅限單人遊戲",
+      "notStated": "未說明"
+    },
+    "dedicated": {
+      "supported": "支援",
+      "unsupported": "不支援",
+      "notStated": "未說明"
+    },
+    "settings": {
+      "hostSynced": "由主機決定",
+      "perPlayer": "每位玩家自己決定",
+      "none": "無設定",
+      "notStated": "未說明"
+    },
+    "status": {
+      "preview": "預覽版",
+      "experimental": "實驗性",
+      "stable": "穩定版"
+    },
+    "label": {
+      "needs": "需要",
+      "multiplayer": "多人遊戲",
+      "updated": "更新於",
+      "version": "版本",
+      "status": "狀態",
+      "dedicatedServer": "專用伺服器",
+      "settings": "設定",
+      "madeBy": "作者",
+      "licence": "授權",
+      "source": "原始碼",
+      "aiAssistance": "AI 輔助"
+    },
+    "list": {
+      "title": "模組",
+      "lede": "這些是我們自己做的模組。它們都執行在 Modstoke Loader 上，目前需要從 Nexus Mods 下載。等 Modstoke 商店開放後，Manager 會替你安裝它們，其他作者的模組也會列在這裡。",
+      "search": "搜尋模組",
+      "anyMultiplayer": "任何多人遊戲方式",
+      "count": {
+        "other": "{count} 個模組"
+      },
+      "note": "這裡的每個模組都需要{loader}。{guide}介紹了如何用 Manager 來安裝它。",
+      "installGuide": "安裝指南",
+      "details": "詳細資料",
+      "nexusPage": "Nexus 頁面"
+    },
+    "page": {
+      "breadcrumb": "導覽路徑",
+      "gallery": "截圖與影片",
+      "watchTrailer": "在 YouTube 上觀看預告片",
+      "openFullSize": "檢視原始大小",
+      "trailerCaption": "預告片，在 YouTube 上播放",
+      "details": "詳細資料",
+      "sourceNotPublic": "尚未公開",
+      "aiYes": "有，已在 Nexus 上說明",
+      "aiNo": "無",
+      "downloadOnNexus": "在 Nexus 下載",
+      "storeNote": "從 Manager 一鍵安裝，將隨 Modstoke 商店一起提供。",
+      "meta": "{version} · 更新於 {date} · 作者 OpenACAI",
+      "whatsNew": "{version} 的新內容",
+      "about": "簡介",
+      "inTesting": "測試中",
+      "install": "安裝",
+      "installStep1": "安裝{loader}，或者讓{manager}替你完成。",
+      "managerLink": "Manager",
+      "installStep2": "關閉遊戲。從 Nexus 下載 {name}，把其中的 Modstoke 資料夾解壓縮到 {exe} 旁邊。",
+      "installStep3": "啟動遊戲，在標題畫面開啟「Mods」選單，確認它已載入。",
+      "installNote": "試用預覽版之前，請先備份你的存檔。如果出了問題，可以看{guide}，或到我們的 {discord} 提問。",
+      "troubleshootingGuide": "疑難排解指南"
+    }
+  },
+  "release": {
+    "eyebrow": "發布",
+    "headingPreview": "下載，包括預覽版。",
+    "headingVerified": "經過驗證的下載。",
+    "lede": "安裝之前，請選擇目前的發布版本，或查看保留的舊版本。",
+    "previewDownloads": "預覽版下載是測試組建。安裝之前，請先查看簽章和驗證詳細資料。",
+    "managerOnly": "Manager 已提供，但完整的 Loader、SDK 和 Client 整合包尚未發布。無法自動安裝 Loader、SDK 和 Client 整合包。",
+    "historyTitle": "發布詳細資料與回復",
+    "historyNote": "帶版本號的檔案 URL 保持不變。目前的選擇改變後，較早的發布記錄仍可能保留。",
+    "playerBundle": "玩家整合包",
+    "loaderWithClient": "放入遊戲根目錄的整合包，含 Loader、其內建的 SDK，以及另外組建的 Client 配套元件。",
+    "loaderOnly": "放入遊戲根目錄的整合包，含 Loader 及其內建的 SDK。Client 等模組有各自的下載。",
+    "managerPackage": "Modstoke Manager 的 Windows 桌面安裝套件。",
+    "download": "下載 {file}",
+    "size": "大小",
+    "bytes": "{size} 位元組",
+    "published": "發布於",
+    "details": "發布詳細資料",
+    "current": "目前",
+    "previous": "先前",
+    "noNotes": "此版本未提供發行說明。下面的檔案和驗證中繼資料不是更新記錄。",
+    "publishedCommit": "發布於 {date}。原始碼提交 {commit}。",
+    "packageLine": "套件：{file}（{size} 位元組）。SHA-256：{hash}。",
+    "testedBuilds": "已測試的 {game} 組建：{builds}。",
+    "noTestedBuilds": "尚未測試任何遊戲組建。遊戲相容性未知。",
+    "requiresManager": "需要 Manager {version} 或更新版本。",
+    "guidedLoader": "引導式 Loader 整合包：{id}。",
+    "noGuidedLoader": "此 Manager 發布版本沒有選定與之相符的引導式 Loader 整合包。",
+    "listSeparator": "、",
+    "previewBuild": "預覽版測試組建。",
+    "packageUnsigned": "此套件未簽章：{reason}。",
+    "pendingChecks": "待完成的檢查：{checks}。",
+    "reviewDetails": "安裝之前，請先查看發布詳細資料。",
+    "pending": {
+      "game": "遊戲啟動",
+      "multiplayer": "多人遊戲"
+    },
+    "signatureReviewedFor": "已記錄對 {publisher} 的簽章審查。",
+    "signatureReviewed": "已記錄簽章審查。",
+    "previewUnsigned": "此預覽版安裝套件未簽章：{reason}。尚未記錄簽章驗證。",
+    "signatureNotRecorded": "尚未記錄簽章驗證。",
+    "checksumNote": "SHA-256 檢查碼用於識別檔案的位元組；它不能驗證更新資訊清單的真實性。",
+    "validation": "{checks}。",
+    "checkLine": "{label}：{state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "原始碼乾淨",
+      "licenses": "授權",
+      "build": "組建",
+      "install": "安裝",
+      "game": "遊戲啟動",
+      "multiplayer": "多人遊戲",
+      "hostedFetch": "代管檔案檢查"
+    },
+    "state": {
+      "passed": "通過",
+      "pending": "待定",
+      "notApplicable": "不適用",
+      "notRecorded": "未記錄"
+    }
+  },
+  "docs": {
+    "eyebrow": "文件",
+    "title": "給玩家和模組作者的說明",
+    "lede": "安裝方面的協助在{guides}裡。本頁介紹各部分如何搭配，以及開發模組之前該知道的事。",
+    "guidesLink": "指南",
+    "onThisPage": "本頁內容",
+    "nav": {
+      "project": "關於專案",
+      "players": "給玩家",
+      "compatibility": "遊戲相容性",
+      "authors": "給模組作者",
+      "sdk": "SDK 開發",
+      "play": "一起玩",
+      "downloads": "下載與更新"
+    },
+    "project": {
+      "title": "關於專案",
+      "about": "Modstoke 是非營利組織 OpenACAI 的模組專案。它包括一個模組載入器、一個桌面管理器，以及一批 Sons of the Forest 的模組，在 Discord 上還有圍繞它們的社群。一切都是免費的，使用本站不需要帳號。",
+      "endnight": "我們與 Endnight Games 沒有關係。請不要把 Modstoke 的問題拿去找他們的客服。"
+    },
+    "players": {
+      "title": "給玩家",
+      "start": "先從{manager}開始。它會找到你的遊戲，安裝{loader}，並記錄你裝了什麼。然後從{mods}中挑選；目前它們從 Nexus Mods 下載。",
+      "managerLink": "Manager",
+      "loaderLink": "Loader",
+      "modsLink": "模組",
+      "guides": "{install}介紹了如何先備份你的存檔，{troubleshooting}能幫你縮小問題的範圍。",
+      "installGuide": "安裝指南",
+      "troubleshootingGuide": "疑難排解指南"
+    },
+    "compatibility": {
+      "title": "遊戲相容性",
+      "supported": "支援",
+      "note": "每個發布版本都列出它測試過的遊戲組建。如果某個版本沒有列出，說明它還沒有針對特定組建檢查過，請先在你存檔的副本上試一試。"
+    },
+    "authors": {
+      "title": "給模組作者",
+      "intro": "這是目前的 Loader 尋找並啟動原生模組的方式。請對照你用來組建的 Loader 原始碼核實；資訊清單還不是固定的結構。",
+      "build": {
+        "title": "針對你用於測試的 Loader 來組建。",
+        "text": "SDK 介面在 Loader 裡。在你的專案中參照它的組件，並記下你測試所用的 Loader 版本和遊戲組建。"
+      },
+      "folder": {
+        "title": "使用一個套件資料夾。",
+        "text": "Loader 會在 {path} 下尋找，最多四層資料夾深。更名之前的 {legacy} 仍然可用。把資訊清單放在它的組件旁邊。"
+      },
+      "entry": {
+        "title": "描述進入點。",
+        "text": "資訊清單可以是 {first}、{second} 或 {third}，包含 id、name、version、author、assembly、entryType 和 entryMethod。當進入點型別有公開的無參數建構函式時，可以省略 entryMethod。"
+      },
+      "test": {
+        "title": "在遊戲的另一份副本上測試。",
+        "text": "不要讓你真正的存檔牽涉其中。記下遊戲組建、Loader 版本、相依項目，以及任何還不能用的地方。"
+      },
+      "ship": {
+        "title": "檔案附上說明一起發布。",
+        "text": "版本說明、安裝和移除步驟、授權，以及檔案雜湊值。這裡目前還沒有上傳表單；商店將接受來自 GitHub 發布的提交。"
+      }
+    },
+    "downloads": {
+      "title": "下載與更新",
+      "releases": "{releases}頁面上的每個發布版本都列出版本號、更新內容、相容性、大小和 SHA-256，這樣你可以核對下載的檔案就是我們發布的那個。",
+      "releasesLink": "發布",
+      "checksum": "檢查碼只能告訴你位元組一致，不能證明是誰發布的。Modstoke 商店將為此加入簽章，這樣 Manager 就可以拒絕任何不是由我們或經過審核的作者發布的內容。"
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "SDK 開發",
+    "playEyebrow": "一起玩",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "查看發布狀態",
+    "gameInfo": "遊戲資訊：{link}",
+    "steamLink": "Steam 上的 Sons of the Forest",
+    "findCrew": "在 Discord 上找隊友",
+    "visitTithewood": "造訪 Tithewood 了解目前的存取資訊",
+    "status": {
+      "manager": "Manager {version} 已可使用。",
+      "managerPreview": "Manager {version} 已作為 Windows 預覽版提供。",
+      "unsigned": "該預覽版未簽章。",
+      "noManager": "目前沒有已發布的 Manager 安裝包。",
+      "loader": "Loader {version} 已列在「發布」頁面上。請查看它的套件內容、相容性和驗證狀態。",
+      "noLoader": "完整的 Loader、SDK 和 Client 套件尚未公開發布。",
+      "check": "下載前請先查看「發布」頁面。"
+    },
+    "topics": {
+      "sdk": {
+        "title": "SDK 正在開發中的功能",
+        "summary": "目前的開發原始碼提供有型別的遊戲觀測資料和模組服務。這些只是原始碼層面的約定，不是已發布的 SDK 套件，也不能證明已在遊戲中驗證通過。",
+        "facts": "物品欄和裝備快照；製作配方的所需材料和缺口；本機玩家的生存狀態數值；季節、天氣和溫度觀測。\n伺服器世界中的玩家和載具觀測、NPC 狀態和建造需求；有範圍限制的碰撞查詢，以及已載入地形的高度和法線讀取。這些並不能保證完整涵蓋洞穴碰撞或可行走區域。\n自有音訊和已載入資源包的檢查輔助工具、協同程式完成的觀測、介面草稿欄位和遠端指令回應。伺服器授權和世界就緒檢查仍然適用。\n原生模組資訊清單可以宣告確切需要的 ID 和版本。執行階段會安排回呼順序，阻止缺少或循環的相依需求，並在前置模組失敗後停止依賴它的模組。專用伺服器初始化會略過用戶端選單和輸入。\n不要假定有穩定的公開 API、通用相容性、更高的玩家上限、對結果不確定的指令自動重試，也不要認為原始碼或組建成功就能證明多人遊戲中的行為。"
+      },
+      "play": {
+        "title": "找到你的下一支隊伍",
+        "summary": "Sons of the Forest 是一款開放世界生存恐怖遊戲，包含製作、建造、探索、單人遊玩和線上合作。Modstoke 幫助成員安排自己的遊戲場次。",
+        "facts": "使用 /crew list，可選擇性地加上地區、風格和 when 關鍵字篩選。時間比對搜尋的是主辦人寫下的場次時間，不會計算重疊的行程，也不會換算時區。\n使用 /crew create 發布一場遊戲，寫明地區、時間加時區、玩法風格、空位和可選的要求。每人同時只能有一則有效貼文；貼文預設六小時後過期，也可以選擇一到 24 小時。\n用 /roles 選擇你的地區和玩法風格。這些是自己選擇的興趣，不保證一定能配對到人。/crew alerts 表示你明確選擇接收私訊；可選的地區篩選和每兩小時一則提醒的限制都會生效。你隨時可以關閉。\n使用 /servers 查看自願公開的伺服器列表。隊伍貼文只是成員的計畫，不是預訂，不代表已驗證相容，不顯示即時在線玩家，也不會自動加入遊戲。請與主辦人商定遊戲和模組版本，以及對存檔的預期。"
+      },
+      "tithewood": {
+        "title": "Tithewood · BYOND 上的中世紀角色扮演",
+        "summary": "Tithewood 是我們獨立營運的、以 Ratwood 為基礎製作的 BYOND 中世紀角色扮演遊戲。它的社群是 Modstoke Discord 的一部分。",
+        "facts": "玩家在共享世界中扮演角色，可以經商、務農、擔任城市守衛或外出冒險。部分職業有進入條件，取決於遊戲的設定。\n公開網站用沿用的設定插畫來介紹 Grimoria。它是這個設定的世界地圖，不是遊戲中的即時地圖。\n2026-10-20 查看的公開網站表示，目前不對公眾開放，也沒有公布上線日期。請到 tithewood.com 查看目前的開放情況；不要因為服務連得上，就以為有可玩的公開場次。\n開放之後，請關注網站上的 BYOND 用戶端和連線說明。請使用官方的 BYOND Windows 用戶端和你自己的 BYOND 帳號；不要在 Discord 中分享你的密碼或私人記錄檔。\n在專案角色選單中選擇 Tithewood，使用它專屬的討論和開發頻道。可以分享想法，附上已去識別的錯誤訊息回報清晰的重現步驟；只有在確實公布了場次時，才約定遊玩。"
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "導覽路徑",
+    "home": "首頁",
+    "effective": "自 {date} 起生效",
+    "onThisPage": "本頁內容",
+    "translationNote": "此為方便閱讀而提供的譯文。以本文件的英文版本為準。",
+    "untranslated": "本文件尚未翻譯，因此以英文顯示。"
+  },
+  "client": {
+    "app": {
+      "count": {
+        "other": "{count} 個模組"
+      },
+      "countOf": {
+        "other": "{count} 個模組中的 {shown} 個"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal 沒有載入。請檢查網路連線，或稍後再試。",
+      "pickAmount": "請選擇 ${min} 到 ${max} 之間的金額，須為整數美元。",
+      "cancelled": "沒有產生任何付款。",
+      "error": "PayPal 出了點問題。沒有產生任何付款。",
+      "monthlyThanks": "謝謝！你每月 ${amount} 的捐款已設定好。",
+      "thanks": "謝謝！你 ${amount} 的捐款已完成。",
+      "processing": "PayPal 仍在處理你的付款。"
+    },
+    "servers": {
+      "unknown": "未知",
+      "yes": "是",
+      "no": "否",
+      "dedicated": "專用伺服器",
+      "playerHosted": "玩家開房",
+      "online": "線上",
+      "offline": "離線",
+      "eyebrow": "社群目錄",
+      "hostNotSpecified": "未說明主機",
+      "regionNotSpecified": "未說明地區",
+      "noDescription": "主機方沒有提供說明。",
+      "playersCapacity": "玩家數 / 容量",
+      "hostLatency": "主機延遲中位數",
+      "gameBuild": "遊戲組建",
+      "moreComponents": {
+        "other": "另有 {count} 個元件"
+      },
+      "requiredMods": {
+        "other": "{count} 個必要模組"
+      },
+      "viewServer": "查看伺服器與需求 ↗",
+      "viewServerLabel": "查看 {name} 與需求",
+      "count": "{total} 台伺服器中的 {shown} 台 · {online} 台在線上",
+      "noneTitle": "下一個社群從這裡開始。",
+      "noneMessage": "目前還沒有公開的伺服器。主機方可以透過我們的 Discord 申請公開。重新整理可查看新分享的連線。",
+      "noMatchTitle": "沒有符合的伺服器。",
+      "noMatchMessage": "試試別的名稱、地區或模組，或是更改狀態和連線篩選。",
+      "refreshing": "正在重新整理目錄…",
+      "updated": "更新於 {time} · 每 60 秒重新整理一次",
+      "unavailable": "目錄無法使用",
+      "tryRefresh": "按「重新整理」再試一次。",
+      "loadFailedTitle": "我們無法載入目錄。",
+      "loadFailedMessage": "伺服器目錄暫時無法使用。請稍後再試；這並不能說明各個伺服器是否在線上。",
+      "versionNotSpecified": "未說明版本",
+      "history": {
+        "title": "近期活動",
+        "unavailable": "活動歷史記錄無法使用。重新整理後再試。",
+        "none": "還沒有每小時的歷史記錄。主機方回報後，活動會顯示在這裡。",
+        "note": "最近 30 天的每小時樣本。空缺表示未知，而不是零。時間以你本地的時區顯示。",
+        "players": {
+          "title": "玩家",
+          "unit": "玩家",
+          "description": "每小時的玩家數。空缺表示沒有測量。確切數值見下方的歷史記錄表格。",
+          "none": "此歷史記錄中沒有玩家數的測量。"
+        },
+        "latency": {
+          "title": "主機延遲中位數",
+          "unit": "毫秒",
+          "description": "每小時的主機延遲中位數。空缺表示沒有測量。確切數值見下方的歷史記錄表格。",
+          "none": "此歷史記錄中沒有主機延遲中位數的測量。"
+        },
+        "viewValues": "查看每小時的數值",
+        "caption": "每小時的伺服器歷史記錄",
+        "time": "時間",
+        "hostLatency": "主機延遲",
+        "onlineSeconds": "線上秒數"
+      },
+      "lastReport": "主機最近一次回報：{time}。主機延遲反映的是已連線玩家的狀況，而不是你自己的網路。",
+      "openInManager": "在 Manager 中開啟",
+      "noJoinTarget": "主機方沒有提供加入目標。",
+      "offlineNoJoin": "此伺服器已離線，無法加入。",
+      "permalink": "伺服器永久連結 ↗",
+      "joinNote": "按「加入」會開啟 Modstoke Manager 0.3.0 或更新版本，它會顯示最新的詳細資料供你確認。本頁面不會下載任何模組。",
+      "components": "元件",
+      "noComponents": "主機方沒有回報任何元件。",
+      "requiredModsTitle": "必要模組",
+      "noRequiredMods": "主機方沒有回報任何必要模組。",
+      "settings": "主機方回報的設定",
+      "difficulty": "難度",
+      "pvp": "PvP",
+      "friendlyFire": "友軍傷害",
+      "passwordRequired": "需要密碼",
+      "loadingTitle": "正在載入伺服器…",
+      "loadingMessage": "正在讀取最新的主機回報和活動。",
+      "goneTitle": "伺服器已不在清單中。",
+      "detailUnavailableTitle": "伺服器詳細資料無法使用。",
+      "goneMessage": "主機方可能已移除了它的項目，或是目錄暫時無法使用。請關閉此面板，按「重新整理」再試一次。",
+      "unsupportedReport": "目錄傳回了不受支援的回報。請稍後再試。",
+      "invalidTitle": "伺服器連結無效。",
+      "invalidMessage": "此連結不包含有效的伺服器 ID。請關閉此面板，去瀏覽目錄。"
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "一台野外平板、一支腕錶、一架勘測無人機，以及三座小型飛機 Kestrel K3。規劃補給行程，在地圖上標記地點，從空中偵察，或載著朋友環遊全島。",
+        "description": "Client 加入了你可以隨身攜帶的裝備：野外平板、腕錶、勘測無人機，以及三座小型飛機 Kestrel K3。它的目標是讓人覺得是裝備，而不是硬貼在遊戲上的選單。\n\n平板裡有可以放置你自己標記的地圖、筆記本、時鐘，以及 Pack。Pack 可以搜尋物品和彈藥，並為某個配方擬一份購物清單。它只負責規劃，製作仍然要你自己來。\n\n- 勘測無人機：從平板上操控，在看到的任何東西上放置地圖標記，電量不足時會自行降落。\n- Kestrel K3：從平板的 Hangar 應用程式中部署，前方需要約 18 公尺的開闊平地。一名飛行員，兩名乘客。\n- 角色：選擇你的體型、膚色和身形，每次加入時都保持同樣的外觀。\n\n部落、印表機、共享路標和同伴需要執行著 Admin 的主機。主機和所有一起飛行的人需要相同的 Client 版本，所以請先在你世界的副本上試一試。",
+        "inTesting": "太空飛行正在測試中：一艘從大片空地上發射的太空船、一座軌道太空站，以及一個可以與隊友一起降落並勘測的新世界。目前的下載裡還沒有它。",
+        "changelog": {
+          "0.2.4": "角色建立器：Mods > Character > Customise character 會開啟帶旋轉預覽的全螢幕編輯器。選擇體型、膚色、眼睛和內衣的顏色，並用滑桿調整形體。\n每次加入時都保持同樣的外觀，而且和沒有安裝 Modstoke 的玩家一起玩也沒問題。\n伺服器相容性取代了「Mods」選單中重複的 Modstoke Client 頁面。\n需要 Modstoke Loader 0.4.0 及其 Modstoke 資料夾。"
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "從勘測無人機視角看到的、停在海灘上的 Kestrel K3"
+          },
+          "trailer": {
+            "alt": "Client 預告片：Kestrel K3 飛過積雪的山峰"
+          },
+          "tablet-home": {
+            "alt": "在森林裡舉起的野外平板主畫面"
+          },
+          "tablet-apps": {
+            "alt": "海灘上的野外平板應用程式列表"
+          },
+          "drone-camera": {
+            "alt": "海岸線上空的勘測無人機相機控制"
+          },
+          "kestrel-cockpit": {
+            "alt": "Kestrel K3 的駕駛座"
+          },
+          "spacecraft-test": {
+            "alt": "降落在另一個世界的太空船",
+            "caption": "測試版。目前的下載中還沒有。"
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "在一小塊戶外區域裡挖出泥土和岩石，把坑填回去，並復原錯誤。目前僅限存檔副本的離線單人遊戲。",
+        "description": "Terraforming 讓你在島上的一小塊地方向下挖掘，再把泥土放到你想放的地方。挖一個坑，填回一部分，出錯了還能復原。\n\n目前只有一塊戶外區域，並且在存檔的離線單人副本中。多人遊戲，以及在挖過的地面上建造，暫時還不行。\n\n- 在開闊的平地上，從「Mods」選單中建立區域\n- 用鏟子或鎬挖，用鏟子填\n- 挖出的泥土進入儲備，填土時會消耗它\n- 復原會同時恢復地面和泥土\n\n解除安裝之前，請先爬出所有的坑，因為沒有這個模組，挖出來的形狀就不存在了。",
+        "inTesting": "全島挖掘正在測試中：用鏟子在島上任何地方挖掘、填埋、整平和抹平，並隨你的世界一起儲存。目前的下載裡還沒有它。",
+        "changelog": {
+          "0.2.2": "建立、載入、移除和還原地形時，現在會要求你確認，無論是在主控台還是「Mods」選單中。\n適用於 Modstoke Loader 0.4.0 及其 Modstoke 資料夾。"
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "在 Terraforming 地塊的沙地上挖出的坑"
+          },
+          "mods-page": {
+            "alt": "Mods 選單中的 Terraforming 頁面"
+          },
+          "mound-test": {
+            "alt": "Kelvin 走過一個填土堆成的土丘",
+            "caption": "測試版。目前的下載中還沒有。"
+          }
+        }
+      },
+      "virginia": {
+        "summary": "為 Virginia 的服裝換色，並加入幾種選用的與她相處的方式：問候、感謝和安靜的共處時光。",
+        "description": "為 Virginia 提供的幾個選用附加內容：服裝顏色，以及問候她、表達感謝或只是安靜相伴的幾種方式。一切預設關閉。\n\n- 服裝顏色：Original、Crimson、Forest、Ocean、Charcoal 或 Ivory，僅在你自己的畫面上生效\n- 問候、感謝和安靜共處，前提是主機允許\n- 一個獨立的羈絆，可以在選單中查看，隨你的世界一起儲存\n\n她的模型、貼圖和動畫都是遊戲內建的。羈絆不會改變她去哪裡、有多喜歡你，或是給你帶來什麼。",
+        "changelog": {
+          "0.1.2": "你們的關係進度現在會隨遊戲一起儲存。\n適用於 Modstoke Loader 0.4.0 及其 Modstoke 資料夾。"
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia 走在森林小徑上"
+          },
+          "trailer": {
+            "alt": "森林背景上的 Virginia 預告片標題畫面"
+          },
+          "settings": {
+            "alt": "Mods 選單中的 Virginia 設定"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Sons of the Forest 的主機工具。查看誰在你的世界裡，查看他們做過什麼，而且不必離開遊戲就能關押、禁言、踢出或封鎖。",
+            "description": "如果你開伺服器，Admin 會把玩家清單和你的管理工具放進遊戲內的同一個選單。選中一位玩家，就能看到他的 Steam ID 和模組注意到的情況，然後當場處理。\n\n- 名單，可關押、禁言、踢出和封鎖\n- 證據依移動、物品、建造、伺服器和動作分類\n- 有各自權限的工作人員身分組，包括專用伺服器上的遠端工作人員\n- 主機用的時間、天氣和世界設定控制\n\n這些證據是幫你調查問題的。它不是完整的防作弊，也不會自動封鎖或踢人。玩家加入時不需要安裝 Admin。",
+            "changelog": {
+              "0.5.221": "工作人員身分組：有階級的身分組，各有自己的允許和拒絕權限，另有附有效期限的 Steam64 管理員清單。\n遠端工作人員可以在監聽主機和專用伺服器上使用 F7。主機會檢查每個請求。\nF7 選單：修復了焦點和游標卡住的問題，新增外觀，以及簡易和進階兩種版面配置。\n未裝模組的玩家：速度限制只對主機能確認的載具生效，並修復了撿取物品時複製的錯誤。\n新增針對無敵模式、加速外掛、射速、不可能的命中和 Steam 票證的證據。"
+            },
+            "media": {
+              "overview": {
+                "alt": "森林上方開啟的 Admin 選單，使用遊戲風格的外觀"
+              },
+              "trailer": {
+                "alt": "森林背景上的 Admin 預告片標題畫面"
+              },
+              "overview-classic": {
+                "alt": "經典外觀下的 Admin 概覽頁面"
+              },
+              "world": {
+                "alt": "Admin 選單中的世界控制"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "透過瀏覽器登入 Nexus Mods，不再需要個人 API 金鑰。Manager 會跟隨 Loader 新的 Modstoke 資料夾，你的 OpenACAI 模組和設定會在下次啟動遊戲時移轉過去。新增社群伺服器瀏覽器，支援 modstoke:// 加入連結，另有專用伺服器工具：遊戲設定、管理人員權限、即時主控台，以及更安全的停止與重新啟動。新增適用於遊戲和伺服器的 Loader 主控台，Loader 的安裝現在只會修復或升級，絕不降級。可以在設定中選擇外觀：從你的遊戲檔案中讀取的遊戲原生外觀，或簡潔的 Modstoke 風格。啟動更快，模組目錄更穩固，並且對 Manager 讀取、下載和安裝的內容收緊了限制。",
+    "loader-0-4-2-net11-preview": "可在 Linux 主機上透過 Wine 執行，因此現在能用於代管的專用伺服器。修復了每個 Wine 安裝上都會出現的啟動失敗。支援代管面板：回傳 JSON 的主控台指令、即時狀態檔、乾淨的存檔與停止、玩家、存檔欄位和模組列表、事件串流、當機報告、廣播，以及每個模組的效能計時。模組可以宣告描述和所需的最低 Loader 版本。為模組新增的 SDK 功能：主機指令、輸入焦點擁有者和選單可見性。從舊版 Modstoke 或 OpenACAI 組建升級？請先執行 Modstoke Legacy Cleanup 1.1.0。",
+    "loader-0-4-1-net11-preview": "修復了 Modstoke Manager 0.3.0 拒絕安裝 Loader 的問題。其餘與 0.4.0 相同：Loader 現在位於 Modstoke 資料夾中。你的模組和設定會在首次啟動時從 OpenACAI 移轉過來，不會覆蓋任何內容。執行在 .NET 11 RC3 上，已包含在下載中。Unity 基礎程式庫現在會在首次啟動時從 modstoke.com 下載，不再隨壓縮檔一起提供。新增與遊戲本身選單風格一致的遊戲內 Mods 選單，附有捲軸和平滑捲動。透過 SDK 儲存的模組存檔資料，現在會在你載入存檔時還原。修復了一個專用伺服器的錯誤：過期的世界轉移項目可能會阻止所有拾取和儲物轉移。啟動記錄會寫明確切的 Loader 組建，並在 .NET 執行階段不相符時發出警告。從舊版 Modstoke 或 OpenACAI 組建升級？請先執行 Modstoke Legacy Cleanup 1.1.0，它已包含在此下載中。",
+    "loader-0-4-0-net11-preview": "Loader 現在位於 Modstoke 資料夾中。你的模組和設定會在首次啟動時從 OpenACAI 移轉過來，不會覆蓋任何內容。執行在 .NET 11 RC3 上，已包含在下載中。Unity 基礎程式庫現在會在首次啟動時從 modstoke.com 下載，不再隨壓縮檔一起提供。新增與遊戲本身選單風格一致的遊戲內 Mods 選單，附有捲軸和平滑捲動。透過 SDK 儲存的模組存檔資料，現在會在你載入存檔時還原。修復了一個專用伺服器的錯誤：過期的世界轉移項目可能會阻止所有拾取和儲物轉移。啟動記錄會寫明確切的 Loader 組建，並在 .NET 執行階段不相符時發出警告。從舊版 Modstoke 或 OpenACAI 組建升級？請先執行 Modstoke Legacy Cleanup 1.1.0，它已包含在此下載中。"
+  }
+}

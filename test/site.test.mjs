@@ -4,19 +4,27 @@ import { spawnSync } from 'node:child_process';
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { LANGUAGES, translator } from '../src/i18n.mjs';
 const root = new URL('../',import.meta.url);
 const build = spawnSync(process.execPath,['scripts/build.mjs'],{cwd:root,encoding:'utf8'});
 assert.equal(build.status,0,build.stderr);
 const catalog=JSON.parse(await readFile(new URL('../data/store/catalog.json',import.meta.url),'utf8'));
-const pages=['index.html','mods/index.html',...catalog.mods.map(mod=>`mods/${mod.slug}/index.html`),'tools/index.html','docs/index.html','releases/index.html','servers/index.html','hosting/index.html','support/index.html','404/index.html'];
+const english=['index.html','mods/index.html',...catalog.mods.map(mod=>`mods/${mod.slug}/index.html`),'tools/index.html','docs/index.html','releases/index.html','servers/index.html','hosting/index.html','support/index.html','404/index.html'];
+// Every page is built once per language, English at the root and the others in a folder each.
+const languages=[['','en'],...LANGUAGES.filter(l=>l.slug).map(l=>[l.slug+'/',l.code])];
+const pages=languages.flatMap(([folder])=>english.map(page=>folder+page));
 test('all pages contain accessible navigation and unique main heading',async()=>{
- for(const page of pages){
-  const html=await readFile(new URL('../dist/'+page,import.meta.url),'utf8');
-  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,page);
-  assert.match(html,/lang="en"/);
-  assert.match(html,/<main id="main"/);
-  assert.match(html,/name="viewport"/);
-  assert.match(html,/Skip to content/);
+ for(const [folder,code] of languages){
+  const i=translator(code);
+  for(const page of english){
+   const html=await readFile(new URL('../dist/'+folder+page,import.meta.url),'utf8');
+   assert.equal((html.match(/<h1[ >]/g)||[]).length,1,folder+page);
+   assert.match(html,new RegExp(`<html lang="${code}">`),folder+page);
+   assert.match(html,/<main id="main"/);
+   assert.match(html,/name="viewport"/);
+   assert.ok(html.includes(`>${i.t('layout.skip')}</a>`),folder+page);
+   assert.ok(html.includes('hreflang="x-default"')||page==='404/index.html',folder+page);
+  }
  }
 });
 test('all local links and fragments resolve',async()=>{

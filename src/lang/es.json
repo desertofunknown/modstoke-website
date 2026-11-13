@@ -1,0 +1,1151 @@
+{
+  "_about": "Textos de modstoke.com en español, traducidos desde en.json. El texto entre {llaves} lo rellena el sitio y debe quedar tal cual. Las reglas son las del Modstoke Loader. Se agradece que lo revise un hablante nativo.",
+  "seo": {
+    "home": {
+      "title": "Modstoke: mods de Sons of the Forest, gestor de mods y Loader",
+      "description": "Mods gratis para Sons of the Forest y sus herramientas: Modstoke Manager para Windows, el Modstoke Loader y mods como Client, Admin, Terraforming y Virginia."
+    },
+    "mods": {
+      "title": "Mods de Sons of the Forest | Modstoke",
+      "description": "Mods de Modstoke para Sons of the Forest: Client (tableta, dron, avioneta Kestrel), Admin para anfitriones, Terraforming y Virginia. Versiones y requisitos."
+    },
+    "tools": {
+      "title": "Modstoke Manager, Loader y SDK para Sons of the Forest",
+      "description": "Descarga Modstoke Manager para Windows, añade el Modstoke Loader a Sons of the Forest y crea mods con el SDK que viene incluido."
+    },
+    "docs": {
+      "title": "Documentación de Modstoke para jugadores y autores de mods",
+      "description": "Cómo encajan Modstoke Manager, el Loader y los mods, la compatibilidad con el juego y qué saber antes de crear un mod de Sons of the Forest."
+    },
+    "releases": {
+      "title": "Descargar Modstoke Manager y Loader | Versiones",
+      "description": "Descarga Modstoke Manager para Windows y el Modstoke Loader. Cada versión indica su número, cambios, tamaño, firma y SHA-256."
+    },
+    "hosting": {
+      "title": "Hosting de servidores de Sons of the Forest | Modstoke",
+      "description": "Alquila un servidor dedicado de Sons of the Forest a OpenACAI, una organización sin ánimo de lucro: núcleos propios, copias diarias y el Modstoke Loader listo."
+    },
+    "support": {
+      "title": "Apoya Modstoke | OpenACAI",
+      "description": "Dona para que Modstoke siga siendo gratis. Las donaciones van a OpenACAI, organización 501(c)(3), y a GAMHON, su programa de salud mental con juegos."
+    },
+    "servers": {
+      "title": "Servidores de la comunidad de Sons of the Forest | Modstoke",
+      "description": "Encuentra servidores de Sons of the Forest cuyos anfitriones eligieron listarlos, con jugadores, mods y ajustes requeridos, o aprende a listar el tuyo."
+    },
+    "notFound": {
+      "title": "Página no encontrada | Modstoke",
+      "description": "No se encontró esta página. Vuelve a Modstoke para ver mods, herramientas y guías de Sons of the Forest."
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke, mods y herramientas para Sons of the Forest",
+    "organization": "Herramientas de mods gratis y una comunidad para Sons of the Forest, por OpenACAI."
+  },
+  "nav": {
+    "mods": "Mods",
+    "tools": "Herramientas",
+    "servers": "Servidores",
+    "hosting": "Hosting",
+    "guides": "Guías",
+    "docs": "Docs",
+    "releases": "Versiones"
+  },
+  "layout": {
+    "skip": "Saltar al contenido",
+    "current": "Actual",
+    "noDownloads": "Aún no hay descargas públicas",
+    "support": "Apoya Modstoke",
+    "home": "Inicio de Modstoke",
+    "menu": "Menú",
+    "mainNav": "Navegación principal",
+    "download": "Descargar el Manager",
+    "language": "Idioma",
+    "languageNote": "Elige el idioma de este sitio. Se recordará tu elección.",
+    "translated": "Traducido del inglés. Las correcciones son bienvenidas en nuestro Discord."
+  },
+  "footer": {
+    "about": "Mods y herramientas gratis para Sons of the Forest, hechos por OpenACAI, una organización sin ánimo de lucro, como parte de {gamhon}, su programa de salud mental y conexión social con juegos. Sin relación con Endnight Games.",
+    "label": "Pie de página",
+    "play": "Jugar",
+    "build": "Crear",
+    "community": "Comunidad",
+    "mods": "Mods",
+    "servers": "Servidores",
+    "rent": "Alquilar un servidor",
+    "panel": "Panel del servidor",
+    "install": "Guía de instalación",
+    "troubleshooting": "Solución de problemas",
+    "tools": "Manager, Loader y SDK",
+    "makeMod": "Crear un mod",
+    "releases": "Versiones",
+    "discord": "Discord",
+    "support": "Apoya Modstoke",
+    "apps": "Apps de Discord",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "pages": {
+    "overview": "Resumen",
+    "mods": "Mods",
+    "tools": "Herramientas",
+    "docs": "Docs",
+    "releases": "Versiones",
+    "servers": "Servidores de la comunidad",
+    "hosting": "Hosting de servidores",
+    "support": "Apoya Modstoke",
+    "notFound": "Página no encontrada",
+    "noReleases": {
+      "eyebrow": "Versiones",
+      "title": "Aún no hay descargas",
+      "lede": "Todavía no se ha publicado nada aquí. Cada versión indicará su número, cambios, compatibilidad y hashes de archivos."
+    },
+    "missing": {
+      "title": "Aquí no hay nada.",
+      "lede": "Esa página no existe, o se ha movido.",
+      "home": "Volver a Modstoke",
+      "mods": "Ver los mods"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "La luz del atardecer sobre las cumbres nevadas por encima del pinar de la isla",
+      "title": "Mods que se sienten parte del juego.",
+      "lede": "Modstoke es un cargador de mods, un gestor de escritorio y, por ahora, cuatro mods propios: Client, Admin, Terraforming y Virginia. Todo es gratis, hecho por OpenACAI, una organización sin ánimo de lucro.",
+      "download": "Descargar el Manager {version}",
+      "seeMods": "Ver los mods",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · firmado por OpenACAI"
+    },
+    "mods": {
+      "title": "Nuestros mods",
+      "all": "Todos los mods"
+    },
+    "setup": {
+      "title": "Cómo empezar",
+      "manager": {
+        "title": "Instala el Manager.",
+        "body": "Indícale tu carpeta de Sons of the Forest y encuentra tu juego y tus partidas."
+      },
+      "loader": {
+        "title": "Añade el Loader.",
+        "body": "El Manager lo instala. Pone un menú Mods en las pantallas de título y de pausa."
+      },
+      "mods": {
+        "title": "Elige tus mods.",
+        "body": "La mayoría quiere Client. Si eres anfitrión, añade también Admin."
+      },
+      "backup": "Haz antes una copia de seguridad de tus partidas. La {guide} te lo explica paso a paso.",
+      "guideLink": "guía de instalación",
+      "shotAlt": "Modstoke Manager mostrando su lista de mods para Sons of the Forest",
+      "shotCaption": "La lista de mods del Manager. Las entradas que se ven vienen de SOTF Mods, no de este sitio."
+    },
+    "releases": {
+      "title": "Últimas versiones",
+      "all": "Todas las versiones"
+    },
+    "ledger": {
+      "manager": "Instalador de Windows, firmado",
+      "loader": "Loader y SDK, versión preliminar"
+    },
+    "together": {
+      "title": "Juega en compañía",
+      "body": "La {servers} muestra mundos de Sons of the Forest cuyos anfitriones eligieron listarlos, con los mods que necesita cada uno. Nuestro {discord} es el sitio para encontrar equipo, avisar de errores y enterarte antes de las nuevas versiones. Todo forma parte de {gamhon}, el programa de OpenACAI de salud mental y conexión social con juegos.",
+      "serversLink": "lista de servidores",
+      "browse": "Explorar servidores",
+      "join": "Unirte al Discord"
+    }
+  },
+  "hosting": {
+    "eyebrow": "Hosting de servidores",
+    "title": "Alquila un servidor de Sons of the Forest",
+    "lede": "Un servidor dedicado en nuestro propio hardware, con el Modstoke Loader y nuestros mods listos. OpenACAI lo gestiona sin ánimo de lucro, y lo que pagas mantiene los servidores y los mods.",
+    "status": "Abre pronto, empezando con una pequeña beta para miembros de nuestro Discord.",
+    "plans": {
+      "heading": "Planes",
+      "small": "Pequeño",
+      "standard": "Estándar",
+      "price": "{price} al mes, o más si quieres",
+      "players": "Jugadores",
+      "upTo": "Hasta {count}",
+      "cpu": "CPU",
+      "cores": "{cores} núcleos dedicados",
+      "memory": "Memoria",
+      "memorySize": "{memory} GB",
+      "storage": "Almacenamiento",
+      "storageSize": "{disk} GB en NVMe",
+      "note": "Cada plan tiene un mínimo. Al pagar puedes dar más si quieres. Lo que pase del mínimo cuenta como donación a OpenACAI y aparece en una línea aparte de tu recibo. Un plan de 16 jugadores llegará más adelante, cuando hayamos probado uno como es debido."
+    },
+    "get": {
+      "title": "Qué obtienes",
+      "cores": {
+        "title": "Núcleos solo para ti.",
+        "body": "Los núcleos de CPU de tu servidor no se comparten con los de nadie más."
+      },
+      "modstoke": {
+        "title": "Modstoke ya configurado.",
+        "body": "El Loader viene instalado y actualizado, y nuestros mods están a un clic."
+      },
+      "find": {
+        "title": "Fácil de encontrar.",
+        "body": "Aparece en el buscador de servidores del juego, y en nuestra {servers} con un enlace para unirse desde el Manager si quieres que figure.",
+        "link": "página de Servidores"
+      },
+      "admin": {
+        "title": "Herramientas de administración.",
+        "body": "Modstoke Admin te reconoce como propietario a través de tu cuenta de Steam."
+      },
+      "panel": {
+        "title": "Un panel de control sencillo.",
+        "body": "Arrastra archivos y carpetas directamente, mira la consola, ve quién está jugando y ejecuta comandos, todo desde una sola pantalla."
+      },
+      "world": {
+        "title": "Tu mundo, para ti.",
+        "body": "Una copia cada día, guardada una semana, y un clic para descargar tu mundo a tu propio PC."
+      },
+      "discord": {
+        "title": "Un hogar en nuestro Discord.",
+        "body": "Tu servidor tiene sus propios canales de anuncios y de chat, y tu equipo recibe alertas de moderación."
+      },
+      "coast": {
+        "title": "Cerca de la Costa Este.",
+        "body": "Alojado en Nueva Jersey con una línea de 1 Gbps."
+      }
+    },
+    "how": {
+      "title": "Cómo funciona",
+      "apply": {
+        "title": "Solicítalo.",
+        "body": "Inicia sesión con Discord, vincula tu cuenta de Steam y cuéntanos para qué es el servidor."
+      },
+      "review": {
+        "title": "Lo revisamos.",
+        "body": "Una persona de nuestro equipo lee cada solicitud."
+      },
+      "pay": {
+        "title": "Paga con PayPal.",
+        "body": "Elige un plan y cuánto quieres pagar. Se renueva cada mes y puedes cancelar cuando quieras."
+      },
+      "play": {
+        "title": "Juega.",
+        "body": "Tu servidor arranca en minutos y lo gestionas desde {panel}.",
+        "link": "el panel"
+      }
+    },
+    "faq": {
+      "title": "Preguntas",
+      "players": {
+        "q": "¿Puedo tener más de 8 jugadores?",
+        "a": "Todavía no. Ocho es el límite del propio juego. Nuestro Loader puede subirlo, y añadiremos un plan de 16 jugadores cuando hayamos probado uno con jugadores de verdad."
+      },
+      "mods": {
+        "q": "¿Puedo añadir mis propios mods?",
+        "a": "Sí, con el gestor de archivos. Tu servidor funciona en su propio espacio, aparte del de todos los demás."
+      },
+      "payment": {
+        "q": "¿Qué pasa si falla un pago?",
+        "a": "Tras unos días de gracia, tu servidor se pausa. Guardamos sus archivos 14 días, así que puedes retomarlo donde lo dejaste."
+      },
+      "apply": {
+        "q": "¿Por qué tengo que solicitarlo?",
+        "a": "Somos una pequeña organización sin ánimo de lucro que comparte una sola máquina, así que queremos saber quién está en ella. Así todo es justo y seguro para todos."
+      },
+      "rules": {
+        "q": "¿Cuáles son las normas?",
+        "a": "Los {terms} cubren el hosting, incluidos los reembolsos y lo que pasa con tus archivos cuando termina un servidor. La {privacy} explica qué guardamos.",
+        "termsLink": "Términos del servicio",
+        "privacyLink": "Política de privacidad"
+      }
+    },
+    "beta": {
+      "title": "¿Quieres entrar en la beta?",
+      "body": "Pregunta en nuestro Discord y te añadiremos a la lista. El hosting forma parte de {gamhon}, el programa de OpenACAI de salud mental y conexión social con juegos.",
+      "have": "¿Ya tienes un servidor? {panel} para gestionarlo.",
+      "panelLink": "Abre el panel",
+      "ask": "Preguntar en Discord",
+      "code": "Tengo un código de la beta",
+      "servers": "Servidores de la comunidad"
+    }
+  },
+  "support": {
+    "eyebrow": "Apoyo",
+    "title": "Ayuda a que Modstoke siga",
+    "lede": "Nuestros mods y herramientas son gratis. Los hace OpenACAI, una organización sin ánimo de lucro 501(c)(3), y las donaciones pagan el servidor detrás de este sitio, nuestro bot de Discord y los servidores de la comunidad.",
+    "donate": {
+      "title": "Donar",
+      "often": "Con qué frecuencia",
+      "once": "Una vez",
+      "monthly": "Cada mes",
+      "amount": "Importe en dólares estadounidenses",
+      "otherLabel": "Otro importe",
+      "otherPlaceholder": "Otro $",
+      "closed": "Las donaciones en línea abrirán pronto. Hasta entonces, pregunta en nuestro {discord} cómo ayudar.",
+      "note": "Los pagos pasan por PayPal, que te envía un recibo por correo. Nunca vemos los datos de tu tarjeta."
+    },
+    "roles": {
+      "title": "Roles de apoyo",
+      "intro": "Quienes donan reciben un rol en nuestro Discord como agradecimiento:",
+      "supporter": {
+        "name": "Supporter",
+        "text": "Cualquiera que haya donado"
+      },
+      "monthly": {
+        "name": "Supporter mensual",
+        "text": "Mientras haya una donación mensual activa"
+      },
+      "host": {
+        "name": "Anfitrión de servidor",
+        "text": "Cualquiera que alquile un {hosting}",
+        "link": "servidor con nosotros"
+      },
+      "note": "Hasta que abran las cuentas, escribe a un moderador en Discord con el número de tu recibo de PayPal y te añadirá el rol. Los roles son solo un agradecimiento. Los mods siguen siendo gratis para todos de cualquier forma."
+    },
+    "gamhon": {
+      "title": "Parte de GAMHON",
+      "what": "Modstoke forma parte de GAMHON, la Game and Mental Health Online Network. OpenACAI la gestiona para ofrecer una vía social sin presión a través de los juegos, también a personas que no tienen muchos otros sitios donde conectar.",
+      "modding": "Los mods encajan muy bien. Como cualquier afición, te da algo en lo que trabajar y algo que esperar con ganas, y viene con una comunidad de gente que construye cosas junta. Nuestras herramientas gratis, nuestro Discord y los servidores que alojamos son parte de eso.",
+      "money": "Las donaciones hechas aquí y las cuotas del {hosting} van a OpenACAI y ayudan a financiar el programa.",
+      "hostingLink": "hosting de servidores",
+      "crisis": "GAMHON trata de ocio y amistad, no de terapia. Si estás en una crisis en EE. UU., llama o envía un mensaje al 988.",
+      "more": "Más sobre GAMHON en openacai.com"
+    },
+    "where": {
+      "title": "Adónde va el dinero",
+      "body": "Primero va el servidor. Una máquina en Nueva Jersey ejecuta este sitio, Sentinel (nuestro bot de Discord) y su IA local, y los servidores de juego que alojamos. Lo que sobre va al resto de GAMHON.",
+      "ask": "¿Preguntas? Pregunta en Discord"
+    }
+  },
+  "servers": {
+    "eyebrow": "Servidores de la comunidad",
+    "title": "Encuentra un servidor",
+    "intro": "Mundos de Sons of the Forest cuyos anfitriones eligieron listarlos aquí, con los mods que necesita cada uno.",
+    "listYours": "Lista tu servidor",
+    "directoryLabel": "Directorio de servidores",
+    "filters": {
+      "find": "Buscar un servidor",
+      "placeholder": "Servidor, anfitrión, región o mod…",
+      "status": "Estado",
+      "allStatuses": "Todos los estados",
+      "online": "En línea",
+      "offline": "Sin conexión",
+      "kind": "Tipo de sesión",
+      "allSessions": "Todas las sesiones",
+      "dedicated": "Dedicado",
+      "playerHosted": "Alojado por un jugador",
+      "refresh": "Actualizar"
+    },
+    "loading": "Cargando el directorio…",
+    "refreshes": "Se actualiza cada 60 segundos mientras esté visible.",
+    "noscript": {
+      "title": "Hace falta JavaScript para cargar los servidores.",
+      "body": "Activa JavaScript para leer el directorio en vivo. En esta página no se guarda información de servidores."
+    },
+    "measureNote": "Los recuentos de jugadores marcados con — son desconocidos. La latencia del anfitrión es la mediana del tiempo de ida y vuelta de los jugadores conectados, medida por el anfitrión; tu conexión puede ser distinta.",
+    "join": {
+      "eyebrow": "ANTES DE UNIRTE",
+      "title": "Un sitio para tu próxima sesión.",
+      "review": "Abre un servidor para ver sus mods requeridos, algunos ajustes y su actividad reciente. Los requisitos se muestran para que los revises; esta página no descarga ni instala mods.",
+      "manager": "Unirse abre Modstoke Manager 0.3.0 o posterior, que vuelve a mostrar los detalles del servidor para que los confirmes antes de que empiece nada."
+    },
+    "host": {
+      "eyebrow": "PARA ANFITRIONES",
+      "title": "Comparte tu servidor, si quieres.",
+      "ask": "Pide al operador del directorio en {discord} que apruebe tu ficha y te dé una clave de publicador. Configura esa clave en el componente de hosting y activa la publicación de forma explícita. No publiques la clave en un chat ni la escribas en este sitio.",
+      "discordLink": "nuestro Discord",
+      "privacy": "Solo informan los anfitriones que lo han aceptado. Las fichas incluyen información del servidor, algunos ajustes y actividad agregada, sin nombres de jugadores, chat, contraseñas ni datos privados de Admin. Contacta con el operador para retirar una ficha o revocar su clave."
+    },
+    "detail": {
+      "eyebrow": "DETALLES DEL SERVIDOR",
+      "close": "Cerrar",
+      "loading": "Cargando el servidor…"
+    }
+  },
+  "tools": {
+    "eyebrow": "Herramientas",
+    "title": "Manager, Loader y SDK",
+    "lede": "Los jugadores necesitan el Manager y el Loader. Quienes crean mods los hacen contra el SDK, que viene con el Loader.",
+    "installGuide": "Guía de instalación",
+    "trailer": {
+      "watch": "Ver el tráiler de {name} en YouTube",
+      "alt": "Imagen de título del tráiler de {name}",
+      "caption": "Tráiler de {name}, se reproduce en YouTube"
+    },
+    "file": {
+      "none": "Aún no hay descarga pública.",
+      "signed": "firmado",
+      "unsigned": "sin firmar",
+      "preview": "preliminar"
+    },
+    "manager": {
+      "what": "Una app de Windows para tus mods de Sons of the Forest. Encuentra tu juego, instala el Loader y mantiene tus mods en un solo sitio. Desde ella puedes explorar SOTF Mods y Nexus Mods, buscar un servidor al que unirte o montar tu propio servidor dedicado.",
+      "store": "Cuando abra la tienda de Modstoke, el Manager será la forma de instalar desde ella: comprueba cada archivo con el catálogo firmado antes de extraer nada.",
+      "download": "Descargar el Manager"
+    },
+    "loader": {
+      "what": "El cargador detrás de cada mod de Modstoke. Instálalo una vez y añade los mods que quieras. Pone un menú Mods en las pantallas de título y de pausa, donde cada mod guarda sus ajustes, y viene con el runtime de .NET que necesita.",
+      "legacy": "Los mods antiguos de RedLoader y BepInEx siguen funcionando junto a él.",
+      "onReleases": "Loader en Versiones",
+      "nexus": "Página de Nexus",
+      "shotAlt": "El menú Mods del Loader en el juego",
+      "shotCaption": "El menú Mods que el Loader añade al juego"
+    },
+    "sdk": {
+      "what": "Las interfaces contra las que se crean los mods. Vienen dentro del Loader, así que no hay nada aparte que descargar: referencia el ensamblado del Loader desde tu proyecto y prueba con la misma versión del Loader que usan tus jugadores.",
+      "notes": "Las {notes} cubren la estructura del paquete, el manifiesto y las pruebas en una copia aparte del juego.",
+      "notesLink": "notas para creadores"
+    }
+  },
+  "guides": {
+    "home": "Inicio",
+    "guides": "Guías",
+    "breadcrumb": "Ruta de navegación",
+    "eyebrow": "GUÍAS PARA JUGADORES",
+    "onThisPage": "En esta página",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "la versión preliminar del Manager",
+    "backup": {
+      "exit": "Cierra Sons Of The Forest y cualquier herramienta de mods que pueda cambiar sus archivos. Deja que termine cualquier sincronización pendiente de Steam Cloud.",
+      "find": "En el Explorador de archivos, pega {path} en la barra de direcciones. En una instalación local normal, ahí está la carpeta {saves}. Si no está, confirma la cuenta de Windows y la ubicación de guardado que usa tu instalación antes de continuar.",
+      "copy": "Copia toda la carpeta {saves} a una carpeta de copia de seguridad aparte y con fecha, fuera del juego y de su carpeta de partidas. Cópiala; no muevas ni borres el original. Conserva todas las subcarpetas de cuenta y de mundo.",
+      "verify": "Abre la copia y confirma que están las subcarpetas y los archivos esperados. No toques esta copia mientras haces cambios. Steam Cloud no sustituye a una copia de seguridad aparte.",
+      "note": "Para un servidor dedicado o partidas guardadas en otro sitio, haz copia por separado de la ubicación de guardado configurada de ese servidor. Antes de restaurar una copia antigua, conserva también las partidas actuales para poder deshacer la restauración."
+    },
+    "checksum": {
+      "open": "Opcional: abre PowerShell en la carpeta que contiene el instalador descargado y ejecuta:",
+      "compare": "Compara el valor devuelto ({hash}) con el SHA-256 de {release} para la misma versión. Para {manager}, el valor registrado es:",
+      "releasePage": "la página de la versión",
+      "differs": "Si es distinto, no ejecutes el archivo. Vuelve a descargarlo desde la página de la versión y comprueba de nuevo. Un hash que coincide confirma que los bytes coinciden con la suma de comprobación publicada; no demuestra la identidad del editor ni hace que un instalador sin firmar esté firmado. Consulta la {reference} de Microsoft.",
+      "reference": "referencia de Get-FileHash",
+      "none": "Ahora mismo no hay ningún archivo del Manager seleccionado. Mira {releases} para ver si hay un instalador publicado y su suma de comprobación antes de continuar.",
+      "releases": "Versiones"
+    },
+    "index": {
+      "title": "Guías de mods de Sons Of The Forest",
+      "description": "Instala Modstoke Manager en Windows, haz copia de tus partidas y resuelve problemas con mods de Sons Of The Forest.",
+      "statusTitle": "Empieza por lo que hay disponible",
+      "statusManager": "{manager} está disponible para Windows.",
+      "statusManagerPreview": "{manager} está disponible para Windows como versión preliminar.",
+      "statusNoManager": "Mira Versiones para saber si el Manager está disponible.",
+      "statusLoader": "El Loader {version} con el SDK también está en Versiones, y el Manager puede instalarlo por ti. Mods como Client tienen sus propias descargas, y Modstoke aún no tiene un catálogo de mods alojado.",
+      "statusNoLoader": "El paquete completo de Modstoke Loader, SDK y client no está publicado. La instalación automática de ese paquete no está disponible, y Modstoke aún no tiene un catálogo de mods alojado.",
+      "reviewReleases": "Ver las versiones actuales",
+      "cardsLabel": "Guías disponibles",
+      "installEyebrow": "CONFIGURACIÓN EN WINDOWS",
+      "installTitle": "Instalar Modstoke Manager",
+      "installText": "Haz copia de tus partidas, encuentra el instalador oficial, comprueba su suma de comprobación y elige tu instalación del juego.",
+      "installLink": "Leer la guía de instalación",
+      "troubleEyebrow": "SOLUCIÓN DE PROBLEMAS",
+      "troubleTitle": "Resolver problemas con los mods del juego",
+      "troubleText": "Separa la configuración del Manager de los problemas del Loader y de los mods, comprueba los requisitos y prepara un informe de problema útil.",
+      "troubleLink": "Leer la guía de solución de problemas",
+      "footer": "Para información del proyecto y preparación de autores, consulta las {docs}.",
+      "docs": "docs"
+    },
+    "install": {
+      "title": "Cómo instalar Modstoke Manager en Windows",
+      "description": "Guía paso a paso para instalar Modstoke Manager: copia de las partidas, descarga oficial, comprobación SHA-256 opcional y elección del juego.",
+      "crumb": "Instalar Modstoke Manager",
+      "toc": {
+        "before": "Antes de empezar",
+        "backup": "Copia de las partidas",
+        "download": "Descargar el Manager",
+        "check": "Comprobar la descarga",
+        "install": "Instalar y elegir el juego",
+        "next": "Qué hacer después"
+      },
+      "before": {
+        "title": "Antes de empezar",
+        "intro": "Esta guía trata de Modstoke Manager para Windows. Ten a mano tu instalación de Sons Of The Forest en Steam y cierra el juego antes de instalar. La descarga actual es {manager}.",
+        "signed": "El instalador está firmado por {publisher}. Si Windows muestra un editor desconocido, no lo ejecutes y vuelve a descargarlo desde Versiones.",
+        "unsigned": "El instalador de la versión preliminar publicada no está firmado. Windows puede mostrar una advertencia porque no puede verificar la firma de un editor. Revisa el código fuente y los detalles de la versión antes de decidir si lo ejecutas. No desactives las protecciones de seguridad de Windows para instalarlo. Si tienes dudas, cancela y espera a una versión firmada.",
+        "scope": "Instalar el Manager no instala el juego ni garantiza que los mods funcionen.",
+        "scopeLoader": "Una vez configurado, el Manager puede instalar el Loader desde su página Loaders.",
+        "scopeNoLoader": "El paquete completo de Modstoke Loader, SDK y client aún no está publicado, así que la instalación automática del paquete no está disponible."
+      },
+      "backupTitle": "1. Haz copia de tus partidas",
+      "download": {
+        "title": "2. Consigue la descarga oficial",
+        "open": "Abre {releases} y localiza la descarga del Manager.",
+        "releases": "Versiones de Modstoke",
+        "read": "Lee la versión, la información de firma y las comprobaciones registradas.",
+        "filename": "En esta guía, el nombre del archivo del instalador es {file}.",
+        "noFile": "Continúa solo cuando haya un instalador del Manager en la lista.",
+        "get": "Descarga el instalador con el enlace de esa página. Deja abierta la página de la versión si quieres comparar su suma de comprobación.",
+        "note": "Una comprobación de la instalación del Manager no es un resultado de compatibilidad con el juego ni con el multijugador. Esas comprobaciones están marcadas como no aplicables para esta versión del Manager."
+      },
+      "checkTitle": "3. Comprueba la descarga, si quieres",
+      "setup": {
+        "title": "4. Instala el Manager y elige el juego",
+        "runSigned": "Ejecuta el instalador descargado",
+        "runUnsigned": "Si decides seguir adelante con la versión preliminar sin firmar, ejecuta el instalador descargado",
+        "run": "{run} y sigue los pasos de la instalación. Anota cualquier mensaje de error si la instalación se detiene.",
+        "open": "Abre Modstoke Manager después de instalarlo.",
+        "select": "Si el Manager pide el ejecutable del juego, elige {exe} de tu instalación real de Steam. Puedes encontrar la carpeta instalada desde los archivos locales del juego en Steam. Elige el ejecutable del juego, no el instalador del Manager ni un acceso directo.",
+        "status": "Lee el estado que se muestra para esa instalación. Si no se encuentra el juego, confirma que el archivo elegido sigue existiendo y pertenece a la instalación de Steam que querías.",
+        "note": "El texto de las pantallas puede variar entre versiones. Sigue lo que veas en tu versión instalada en lugar de adivinar un control que falta."
+      },
+      "next": {
+        "title": "5. Comprueba los requisitos antes de añadir mods",
+        "loader": "Modstoke aún no aloja un catálogo de mods. Instala primero el Loader desde el Manager y luego añade los mods desde sus propias páginas.",
+        "noLoader": "Modstoke no aloja ahora mismo un catálogo de mods ni publica un paquete completo de Loader, SDK y client. Que falte el paquete es un límite de publicación, no algo que arregle reinstalar el Manager.",
+        "elsewhere": "Si has conseguido un mod en otro sitio, lee los requisitos y las instrucciones de instalación de su autor para esa versión exacta. Confirma la versión del juego y el Loader compatibles antes de cambiar archivos. No des por hecho que un mod escrito para otro Loader funcionará con Modstoke.",
+        "continue": "Sigue con {troubleshooting} si tienes un problema, o lee la {docs}.",
+        "troubleshooting": "solución de problemas de mods de Sons Of The Forest",
+        "docs": "documentación para jugadores"
+      }
+    },
+    "trouble": {
+      "title": "Solución de problemas de mods de Sons Of The Forest",
+      "description": "Diagnostica problemas de configuración del Manager, requisitos del Loader y mods del juego, con copias de partidas, pasos de recuperación prudentes y una lista para un informe útil.",
+      "crumb": "Problemas con mods",
+      "toc": {
+        "identify": "Identificar el problema",
+        "protect": "Proteger las partidas",
+        "manager": "Configuración del Manager",
+        "loader": "Requisitos del Loader y de los mods",
+        "restore": "Volver a un juego sin mods",
+        "report": "Informar del problema"
+      },
+      "identify": {
+        "title": "Identifica dónde ocurre el problema",
+        "intro": "Empieza por el primer paso que falla. Un error del instalador, una descarga del Loader que falta y un cierre inesperado tras cargar un mod tienen causas distintas.",
+        "managerTerm": "Configuración del Manager",
+        "manager": "El instalador falla, el Manager no abre o la ruta del juego elegida es incorrecta. Empieza por {link}.",
+        "managerLink": "la configuración del Manager",
+        "loaderTerm": "Disponibilidad del Loader",
+        "loader": "El paquete completo de Modstoke Loader, SDK y client no está publicado. La instalación automática del paquete no está disponible; reinstalar el Manager no puede aportarlo.",
+        "gameTerm": "Comportamiento del juego o de un mod",
+        "game": "El juego no arranca, un mod no aparece o un mundo se comporta de forma inesperada. Comprueba exactamente {link} antes de cambiar archivos.",
+        "gameLink": "los requisitos del Loader y de los mods",
+        "catalog": "Modstoke aún no tiene un catálogo de mods alojado. Un catálogo vacío no es prueba de que los archivos de tu juego estén dañados."
+      },
+      "protect": {
+        "title": "Protege las partidas antes de hacer cambios",
+        "note": "No sobrescribas un mundo que te importe mientras compruebas si la causa fueron mods quitados o cambiados. Usa un mundo temporal aparte si necesitas comparar el comportamiento."
+      },
+      "manager": {
+        "title": "Resolver problemas de configuración del Manager",
+        "version": "Compara la versión de tu Manager con {releases}. Usa el instalador y la información de firma de esa página; no des por hecho que un paquete más antiguo o de otra marca se comporte igual.",
+        "releases": "Versiones",
+        "publisher": "Si Windows avisa de un editor desconocido, comprueba que el instalador viene de Versiones. Mantén activadas las protecciones de seguridad. Cancela la instalación si no puedes establecer que es el archivo que querías descargar.",
+        "incomplete": "Si una descarga parece incompleta, usa la {check} antes de reintentar la instalación.",
+        "checkLink": "comprobación opcional de la suma de comprobación",
+        "find": "Si el Manager no encuentra el juego, confirma que el {exe} elegido está en la instalación actual de Steam, sobre todo si has movido el juego a otro disco.",
+        "error": "Ante un error del instalador o de arranque, guarda el mensaje exacto y anota si ocurrió antes o después de abrirse el Manager. No cambies archivos del juego para arreglar un error de arranque del Manager sin explicación."
+      },
+      "loader": {
+        "title": "Comprueba los requisitos del Loader y de los mods",
+        "read": "Lee la página del autor del mod para la versión exacta del mod. Anota su Loader requerido, dependencias, versión del juego compatible y ubicación de instalación.",
+        "compare": "Compara esos requisitos con lo que está realmente instalado. Un Loader de nombre parecido o una carpeta con una DLL no bastan para establecer la compatibilidad.",
+        "update": "Mira si el problema empezó tras una actualización del juego, del Loader o de un mod. Conserva en tus notas las versiones anteriores y el primer mensaje de error.",
+        "isolate": "Usa el proceso de desactivación o desinstalación que admita el autor del mod para aislar un mod sospechoso, sin olvidar sus dependencias requeridas. Cambia una sola cosa cada vez y usa un mundo aparte, con tus partidas respaldadas.",
+        "combine": "No combines instalaciones de Loader ni muevas plugins entre carpetas de Loader a menos que los autores correspondientes admitan expresamente esa configuración. En multijugador, comprueba por separado los requisitos de anfitrión, cliente y servidor que indique el mod; que funcione una sesión de un jugador no demuestra que admita multijugador.",
+        "notes": "Lee las {link} del proyecto junto con las instrucciones del autor del mod.",
+        "notesLink": "notas de compatibilidad"
+      },
+      "restore": {
+        "title": "Vuelve con cuidado a un juego sin mods",
+        "close": "Cierra el juego. Haz la {backup} y conserva los archivos de configuración de los mods y un registro de los paquetes instalados.",
+        "backupLink": "copia de las partidas",
+        "remove": "Sigue el proceso de eliminación documentado de cada mod y Loader instalado. Para instalaciones gestionadas por otra herramienta, usa el proceso de eliminación que esa herramienta admita. No borres archivos desconocidos adivinando cuáles pertenecen a un mod.",
+        "verify": "En Steam, abre las {properties} del juego, elige {installed} y selecciona {integrity}. Deja que termine la verificación. Estos pasos están documentados por el {support}.",
+        "properties": "Propiedades",
+        "installed": "Archivos instalados",
+        "integrity": "Verificar integridad de los archivos del juego",
+        "support": "Soporte de Steam",
+        "leftover": "Consulta las instrucciones de eliminación del Loader y de los mods para ver si quedan archivos. La verificación de Steam repara los archivos del juego que gestiona Steam; no debe tomarse como la eliminación de todos los archivos que añadió un mod.",
+        "launch": "Inicia el juego desde Steam y usa un mundo temporal aparte para comparar el comportamiento. No toques los mundos respaldados. Si el problema sigue, incluye ese resultado en tu informe.",
+        "stop": "Si no puedes identificar un archivo añadido o a quién pertenece, deja de eliminar archivos y pide orientación al responsable del mod o del Loader correspondiente."
+      },
+      "report": {
+        "title": "Prepara un informe de problema útil",
+        "intro": "Envía el informe por la vía de soporte que enlace el proyecto o el autor del mod responsable del componente que falla. Incluye:",
+        "versions": "Tu versión de Windows, la versión o build del juego, la versión del Manager, el nombre y la versión del Loader y las versiones de los mods relevantes.",
+        "error": "El texto exacto del error y el fragmento relevante del registro, con el primer error y las líneas cercanas. Quita rutas personales, datos de cuenta y secretos antes de compartirlo.",
+        "steps": "Pasos cortos para reproducir el problema, lo que esperabas y lo que ocurrió.",
+        "scope": "Si afecta al arranque, a un mundo concreto, al modo de un jugador, a alojar o a unirse; y si persiste tras los pasos de eliminación admitidos.",
+        "last": "La última configuración que funcionaba, los cambios recientes y lo que ya has probado.",
+        "outro": "Para ayuda con la instalación del Manager, vuelve a la {guide}. Conserva la copia de seguridad original hasta que se resuelva el problema.",
+        "guideLink": "guía de instalación para Windows"
+      }
+    }
+  },
+  "apps": {
+    "home": "Inicio",
+    "breadcrumb": "Ruta de navegación",
+    "eyebrow": "APPS DE DISCORD DE MODSTOKE",
+    "onThisPage": "En esta página",
+    "effective": "En vigor desde el {date}",
+    "effectiveDate": "19 de octubre de 2026",
+    "contactPage": "página de contacto de OpenACAI",
+    "index": {
+      "title": "Apps de Discord de Modstoke",
+      "description": "Añade Sentinel para moderación y herramientas de comunidad, o Radio para reproducción de voz compartida. Versiones preliminares públicas gestionadas por OpenACAI.",
+      "sentinel": {
+        "heading": "Sentinel: moderación y comunidad",
+        "intro": "Lleva a tu servidor de Discord ayuda con la moderación, mensajes de bienvenida, roles que se asignan uno mismo, búsqueda de equipo, estadísticas de la comunidad y herramientas de ayuda. Sentinel es una versión preliminar pública gestionada por OpenACAI.",
+        "add": "Añadir Sentinel a tu servidor",
+        "install": "El propietario del servidor instala Sentinel como app de servidor. No se admite la instalación en una cuenta personal. Sentinel permanece inactivo hasta que el propietario ejecute {configure} con los canales de bienvenida, de registro de moderadores y de novedades. Los canales general, de equipos y del foro de ayuda son opcionales. Después ejecuta {setup} para configurar los roles que se asignan uno mismo. Los baneos y las funciones de conversación están desactivados por defecto.",
+        "permissions": "La instalación solicita Ver canales, Enviar mensajes, Leer el historial de mensajes, Insertar enlaces, Gestionar mensajes, Gestionar roles, Aislar temporalmente a miembros (timeouts), Expulsar miembros y Banear miembros. Revisa la pantalla de permisos de Discord y da a Sentinel acceso a los canales y roles necesarios para las funciones que configures. La instalación no solicita Administrador ni Gestionar canales en todo el servidor. Las funciones avanzadas de trampas y estadísticas necesitan configuración del operador y permisos limitados a los canales correspondientes."
+      },
+      "radio": {
+        "heading": "Radio: escuchar juntos",
+        "intro": "Reproduce enlaces de YouTube admitidos y contenido aprobado de la CDN de Discord en un canal de voz con comandos de barra. Las peticiones de Spotify generan tarjetas de enlace que abren Spotify; no reproducen pistas completas de Spotify en voz. Pide solo contenido que estés autorizado a compartir o reproducir.",
+        "add": "Añadir Radio a tu servidor",
+        "install": "El propietario del servidor instala Radio como app de servidor, no como app de cuenta personal. Permite el acceso al canal de comandos y Conectar y Hablar en el canal de voz previsto. Radio se ensordece a sí mismo y no graba el audio de voz.",
+        "limits": "Cada servidor tiene su propia cola, de hasta 10 pistas. Las pistas están limitadas a 10 minutos y 32 MiB cada una. Radio se va tras 60 segundos sin oyentes. El servicio admite hasta dos sesiones de audio activas entre todos los servidores, así que puede que no haya capacidad."
+      },
+      "support": {
+        "heading": "Soporte de la versión preliminar y políticas",
+        "preview": "Estas apps son versiones preliminares públicas: la disponibilidad y los resultados automáticos pueden variar. Cada servidor tiene sus propios datos guardados, contexto de conversación y colas de reproducción. Sentinel comparte un único proceso de modelo local entre servidores, que procesa una petición a la vez y sin IA en la nube.",
+        "read": "Lee la {privacy} y los {terms} antes de instalar. Para ayuda con la configuración, únete a la {community}. Apela las decisiones de moderación ante los moderadores del servidor donde ocurrió la acción.",
+        "privacy": "política de privacidad de las apps",
+        "terms": "términos de las apps",
+        "community": "comunidad de soporte de Modstoke"
+      }
+    },
+    "privacy": {
+      "title": "Privacidad de las apps de Discord",
+      "description": "Cómo trata OpenACAI la información que usan Modstoke Sentinel y Modstoke Radio en los servidores de Discord que los instalan.",
+      "scope": {
+        "heading": "Quién gestiona estas apps",
+        "operator": "OpenACAI gestiona Modstoke Sentinel y Modstoke Radio como apps en versión preliminar pública para servidores de Discord. Los propietarios de servidores las instalan como apps de servidor; no se admite la instalación en una cuenta personal. Los datos guardados, el contexto y las colas de reproducción de cada servidor están separados.",
+        "supplement": "Este suplemento específico de los bots describe cómo tratan los datos, junto con la {privacy}. Consulta también los {terms} y {apps}.",
+        "privacyLink": "Política de privacidad de Modstoke",
+        "termsLink": "términos de las apps de Discord",
+        "appsLink": "la información de configuración de las apps"
+      },
+      "sentinel": {
+        "heading": "Sentinel: funciones de moderación y comunidad",
+        "inactive": "Sentinel permanece inactivo en un servidor nuevo hasta que su propietario configure los canales requeridos. Una vez configurado, puede ver mensajes y eventos de miembros en los canales de Discord a los que tiene permiso de acceso. Los usa para moderación, estadísticas agregadas de la comunidad, roles que se asignan uno mismo, búsqueda de equipo y ayuda. Los baneos y las funciones de conversación están desactivados por defecto.",
+        "model": "El procesamiento del modelo se ejecuta en local en el servidor de hosting mediante una conexión de bucle local, sin procesamiento de IA en la nube. Los servidores comparten un único proceso de modelo, que procesa una petición a la vez; sus contextos permanecen separados. El contexto reciente de moderación guarda en memoria hasta seis fragmentos de mensajes por canal durante unos tres minutos. La información que tratan estos bots no se vende para publicidad ni se usa para entrenar IA.",
+        "ledger": "El registro local de moderación conserva los ID de usuario, canal y mensaje, marcas de tiempo, huellas, etiquetas de pruebas, acciones e información del revisor hasta siete días, con un máximo de 1000 entradas. Un registro de eliminaciones aparte se conserva siete días. Los mensajes del registro de moderación publicados en Discord tienen una retención distinta, controlada por Discord y por el servidor."
+      },
+      "crew": {
+        "heading": "Anuncios de equipo, preferencias y estadísticas",
+        "records": "Los registros de equipo activos incluyen el texto original del equipo, nombres visibles, ID de anfitrión, regiones, requisitos y horario. Permanecen hasta que el equipo se cierra o caduca, con plazos de caducidad de una a 24 horas. La limpieza puede retrasarse si el bot no puede acceder a la publicación de Discord. Las publicaciones cerradas pueden permanecer en Discord.",
+        "alerts": "Las suscripciones a alertas de equipo y los ID de usuario que se han dado de baja se conservan. Usa {alerts} para dejar de recibir alertas de equipo; {quiet} te excluye de las interacciones de compañía. Estos controles no borran todos los registros de moderación.",
+        "leave": "Cuando un miembro se va, Sentinel limpia sus suscripciones de equipo y cierra los equipos que le pertenecen; la salida no implica el borrado general de todos los registros. Las estadísticas de la comunidad son agregadas. Los ID de canales y roles configurados permanecen mientras los bots funcionan."
+      },
+      "radio": {
+        "heading": "Radio: peticiones y reproducción de voz",
+        "intents": "Radio usa los intents de servidor y de estado de voz de Discord y no solicita el intent Message Content. Guarda en memoria las URL de las peticiones por comando de barra y los números de pista generados para la reproducción. Radio se ensordece a sí mismo en los canales de voz y no graba el audio de voz.",
+        "media": "El contenido descargado es temporal y se limpia tras cada pista; la limpieza al arrancar también elimina descargas sobrantes. Detener la cola vacía su contenido en memoria.",
+        "fetch": "Obtener contenido de la CDN de Discord o de YouTube envía peticiones desde el servidor de hosting a esos proveedores. Las tarjetas de enlace de Spotify abren el sitio original; Radio no ofrece reproducción completa de Spotify en voz."
+      },
+      "hosting": {
+        "heading": "Hosting y otros servicios",
+        "vps": "Los bots funcionan en un VPS alojado por InterServer. La configuración JSON local, las preferencias y los registros de casos de Sentinel se cifran con AES-256-GCM, y la clave se guarda aparte mediante credenciales protegidas del sistema. El contenido temporal de Radio usa un directorio de ejecución privado en memoria. El swap está desactivado en los dos servicios de bots y en el servicio del modelo local. También se guardan registros operativos como parte del funcionamiento del servicio. Los plazos de retención cortos indicados arriba describen los registros de los bots que se han especificado, no todos los registros operativos ni todos los mensajes de Discord.",
+        "discord": "Discord trata y conserva de forma independiente mensajes, publicaciones, interacciones y otra información de la plataforma según sus propias políticas y los ajustes del servidor. Los proveedores de contenido también tratan las peticiones según sus propias políticas. Borrar un registro local de un bot no elimina las copias que tengan Discord o esos proveedores."
+      },
+      "removal": {
+        "heading": "Quitar Sentinel de un servidor",
+        "purge": "Cuando se quita Sentinel de un servidor que no sea su despliegue principal de Modstoke, cierra el estado local de ese servidor y purga su carpeta local de datos. Las publicaciones de Discord, los registros de moderación y otras copias que conserve Discord siguen sujetos a los controles de Discord y del servidor. Esta limpieza de carpeta no promete el borrado de todos los registros operativos ni de todas las copias conservadas de forma independiente.",
+        "home": "El despliegue principal de Modstoke y su configuración siguen bajo el control del operador. Contacta con OpenACAI para solicitudes de eliminación que vayan más allá de los controles automáticos."
+      },
+      "requests": {
+        "heading": "Preguntas de privacidad y solicitudes de eliminación",
+        "contact": "Contacta con OpenACAI en {email} o a través de la {page} para preguntas de privacidad o solicitudes de eliminación. Indica el bot, tu ID de usuario de Discord y el servidor o registro correspondiente para que el equipo pueda localizar la información. No envíes contraseñas ni tokens de cuenta.",
+        "different": "Darse de baja, salir del servidor y borrar datos son acciones distintas. Usa esta vía de contacto para solicitar una eliminación más allá de los controles descritos arriba. Las solicitudes sobre información que Discord conserva de forma independiente quizá también deban dirigirse a Discord o a los moderadores del servidor."
+      }
+    },
+    "terms": {
+      "title": "Términos de las apps de Discord",
+      "description": "Términos para instalar y usar las versiones preliminares públicas de Modstoke Sentinel y Modstoke Radio en servidores de Discord.",
+      "scope": {
+        "heading": "Suplemento específico de los bots",
+        "operator": "OpenACAI gestiona Modstoke Sentinel y Modstoke Radio como apps en versión preliminar pública para servidores de Discord. Estos términos son un suplemento específico de los bots a los {terms}. La {privacy} explica la información que tratan los bots.",
+        "termsLink": "Términos del servicio de Modstoke",
+        "privacyLink": "página de privacidad de las apps de Discord",
+        "install": "Los propietarios de servidores instalan los bots como apps de servidor. No se admite la instalación en una cuenta personal. Consulta {apps} para ver las funciones y límites actuales.",
+        "appsLink": "la información de instalación y configuración"
+      },
+      "use": {
+        "heading": "Uso aceptable",
+        "rules": "Usa los bots de forma legal y respeta las normas de tu servidor, los términos de Discord y los de los proveedores de contenido que correspondan. No los uses para spam, acoso, malware, eludir la moderación ni otros abusos. No intentes saltarte los permisos de los bots, los controles de acceso ni las restricciones de uso.",
+        "media": "Envía solo contenido que estés autorizado a compartir o reproducir en el entorno correspondiente. Que una URL sea admitida o que la reproducción funcione no demuestra que tengas permiso para usar el material. Siguen aplicándose los términos del proveedor original."
+      },
+      "features": {
+        "heading": "Funciones preliminares y disponibilidad",
+        "besteffort": "Los bots se ofrecen como herramientas preliminares, con el mejor esfuerzo posible. Las funciones, las respuestas y la reproducción pueden no estar disponibles, retrasarse, ser incorrectas o cambiar mientras el equipo las mantiene. No dependas de un bot como única fuente de información importante ni como garantía de cobertura de moderación.",
+        "radio": "Radio depende de la disponibilidad de Discord, del hosting y de los proveedores de contenido. Las tarjetas de Spotify enlazan al sitio original; no ofrecen reproducción completa de Spotify en los canales de voz."
+      },
+      "moderation": {
+        "heading": "Moderación y apelaciones",
+        "appeals": "Sentinel admite funciones de moderación y comunidad, pero los juicios automáticos pueden equivocarse. Contacta con los moderadores del servidor donde ocurrió una acción para preguntar por ella o apelarla. Incluye los detalles del mensaje o la acción para que puedan revisarla.",
+        "owners": "Los propietarios de servidores hacen la instalación y configuración iniciales. Sentinel permanece inactivo hasta que el propietario configure los canales de bienvenida, de registro de moderadores y de novedades; los canales opcionales y la configuración de roles activan funciones adicionales. Los baneos y las funciones de conversación están desactivados por defecto. Los administradores controlan el acceso y los permisos de los bots. Las funciones avanzadas de trampas y estadísticas requieren configuración del operador y permisos limitados.",
+        "removal": "Quitar un bot del servidor requiere un administrador con los permisos necesarios. La limpieza local de Sentinel al quitarlo se describe en la {privacy}; no borra las copias de Discord.",
+        "privacyLink": "política de privacidad"
+      },
+      "controls": {
+        "heading": "Controles de los miembros y contacto",
+        "controls": "Usa {alerts} para dejar de recibir alertas de equipo y {quiet} para excluirte de las interacciones de compañía. Estos controles no borran todos los datos de moderación. Para el tratamiento de datos y las solicitudes de eliminación, sigue las {contact}.",
+        "contactLink": "instrucciones de contacto de privacidad",
+        "questions": "Para preguntas sobre estos términos, contacta con {email} o usa la {page}."
+      }
+    }
+  },
+  "mods": {
+    "notStated": "No indicado",
+    "loaderOrNewer": "Loader {version} o posterior",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "Funciona aunque solo lo tengas tú",
+      "host": "Solo lo necesita el anfitrión o el servidor",
+      "allPlayers": "El anfitrión y los jugadores necesitan la misma versión",
+      "solo": "Solo para un jugador",
+      "notStated": "No indicado"
+    },
+    "dedicated": {
+      "supported": "Compatible",
+      "unsupported": "No compatible",
+      "notStated": "No indicado"
+    },
+    "settings": {
+      "hostSynced": "Decide el anfitrión",
+      "perPlayer": "Decide cada jugador",
+      "none": "Sin ajustes",
+      "notStated": "No indicado"
+    },
+    "status": {
+      "preview": "Preliminar",
+      "experimental": "Experimental",
+      "stable": "Estable"
+    },
+    "label": {
+      "needs": "Requiere",
+      "multiplayer": "Multijugador",
+      "updated": "Actualizado",
+      "version": "Versión",
+      "status": "Estado",
+      "dedicatedServer": "Servidor dedicado",
+      "settings": "Ajustes",
+      "madeBy": "Hecho por",
+      "licence": "Licencia",
+      "source": "Código fuente",
+      "aiAssistance": "Ayuda de IA"
+    },
+    "list": {
+      "title": "Mods",
+      "lede": "Estos son los mods que hacemos nosotros. Todos funcionan con el Modstoke Loader y, por ahora, se descargan de Nexus Mods. Cuando abra la tienda de Modstoke, el Manager los instalará por ti y aquí también aparecerán mods de otros autores.",
+      "search": "Buscar mods",
+      "anyMultiplayer": "Cualquier configuración multijugador",
+      "count": {
+        "one": "{count} mod",
+        "other": "{count} mods"
+      },
+      "note": "Todos los mods de aquí necesitan el {loader}. La {guide} explica cómo configurarlo con el Manager.",
+      "installGuide": "guía de instalación",
+      "details": "Detalles",
+      "nexusPage": "Página de Nexus"
+    },
+    "page": {
+      "breadcrumb": "Ruta de navegación",
+      "gallery": "Capturas y vídeo",
+      "watchTrailer": "Ver el tráiler en YouTube",
+      "openFullSize": "Abrir a tamaño completo",
+      "trailerCaption": "Tráiler, se reproduce en YouTube",
+      "details": "Detalles",
+      "sourceNotPublic": "Aún no es público",
+      "aiYes": "Sí, indicado en Nexus",
+      "aiNo": "No",
+      "downloadOnNexus": "Descargar en Nexus",
+      "storeNote": "Las instalaciones con un clic desde el Manager llegarán con la tienda de Modstoke.",
+      "meta": "{version} · actualizado el {date} · por OpenACAI",
+      "whatsNew": "Novedades de la versión {version}",
+      "about": "Acerca de",
+      "inTesting": "En pruebas",
+      "install": "Instalación",
+      "installStep1": "Instala el {loader}, o deja que el {manager} lo haga por ti.",
+      "managerLink": "Manager",
+      "installStep2": "Cierra el juego. Descarga {name} de Nexus y extrae su carpeta Modstoke junto a {exe}.",
+      "installStep3": "Inicia el juego y abre el menú Mods desde la pantalla de título para comprobar que se cargó.",
+      "installNote": "Haz copia de tus partidas antes de probar una versión preliminar. Si algo falla, la {guide} o nuestro {discord} es el sitio para preguntar.",
+      "troubleshootingGuide": "guía de solución de problemas"
+    }
+  },
+  "release": {
+    "eyebrow": "VERSIONES",
+    "headingPreview": "Descargas, incluidas versiones preliminares.",
+    "headingVerified": "Descargas verificadas.",
+    "lede": "Selecciona una versión actual o consulta una versión conservada antes de instalar.",
+    "previewDownloads": "Las descargas preliminares son versiones de prueba. Comprueba los detalles de firma y validación antes de instalar.",
+    "managerOnly": "El Manager está disponible, pero el paquete completo de Loader, SDK y client aún no está publicado. La instalación automática del Loader, el SDK y el paquete client no está disponible.",
+    "historyTitle": "Detalles de versiones y vuelta atrás",
+    "historyNote": "Las URL de archivos con versión no cambian. Un registro de una versión anterior puede seguir disponible cuando cambia la selección actual.",
+    "playerBundle": "Paquete para jugadores",
+    "loaderWithClient": "Paquete para la raíz del juego con el Loader, su SDK incluido y un complemento client compilado aparte.",
+    "loaderOnly": "Paquete para la raíz del juego con el Loader y su SDK incluido. Mods como Client tienen sus propias descargas.",
+    "managerPackage": "Paquete de escritorio de Windows para Modstoke Manager.",
+    "download": "Descargar {file}",
+    "size": "Tamaño",
+    "bytes": "{size} bytes",
+    "published": "Publicado",
+    "details": "Detalles de la versión",
+    "current": "ACTUAL",
+    "previous": "ANTERIOR",
+    "noNotes": "No se han aportado notas de versión para esta versión. El archivo y los metadatos de validación de abajo no son un registro de cambios.",
+    "publishedCommit": "Publicada el {date}. Commit de origen {commit}.",
+    "packageLine": "Paquete: {file} ({size} bytes). SHA-256: {hash}.",
+    "testedBuilds": "Builds de {game} probados: {builds}.",
+    "noTestedBuilds": "Todavía no se ha probado ningún build del juego. Se desconoce la compatibilidad con el juego.",
+    "requiresManager": "Requiere el Manager {version} o posterior.",
+    "guidedLoader": "Paquete guiado del Loader: {id}.",
+    "noGuidedLoader": "No hay seleccionado un paquete guiado del Loader equivalente para esta versión del Manager.",
+    "listSeparator": ", ",
+    "previewBuild": "Build preliminar de prueba.",
+    "packageUnsigned": "Este paquete no está firmado: {reason}.",
+    "pendingChecks": "Comprobaciones pendientes: {checks}.",
+    "reviewDetails": "Revisa los detalles de la versión antes de instalar.",
+    "pending": {
+      "game": "inicio del juego",
+      "multiplayer": "multijugador"
+    },
+    "signatureReviewedFor": "Revisión de la firma registrada para {publisher}.",
+    "signatureReviewed": "Revisión de la firma registrada.",
+    "previewUnsigned": "Este paquete preliminar no está firmado: {reason}. No se ha registrado la verificación de la firma.",
+    "signatureNotRecorded": "No se ha registrado la verificación de la firma.",
+    "checksumNote": "Una suma de comprobación SHA-256 identifica los bytes de un archivo; no autentica un manifiesto de actualización.",
+    "validation": "{checks}.",
+    "checkLine": "{label}: {state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "Código fuente limpio",
+      "licenses": "Licencias",
+      "build": "Compilación",
+      "install": "Instalación",
+      "game": "Inicio del juego",
+      "multiplayer": "Multijugador",
+      "hostedFetch": "Comprobación del archivo alojado"
+    },
+    "state": {
+      "passed": "superada",
+      "pending": "pendiente",
+      "notApplicable": "no aplicable",
+      "notRecorded": "no registrada"
+    }
+  },
+  "docs": {
+    "eyebrow": "Docs",
+    "title": "Notas para jugadores y autores de mods",
+    "lede": "La ayuda para empezar está en las {guides}. Esta página explica cómo encajan las piezas y qué saber antes de crear un mod.",
+    "guidesLink": "guías",
+    "onThisPage": "En esta página",
+    "nav": {
+      "project": "El proyecto",
+      "players": "Para jugadores",
+      "compatibility": "Compatibilidad con el juego",
+      "authors": "Para autores de mods",
+      "sdk": "Desarrollo con el SDK",
+      "play": "Juega en compañía",
+      "downloads": "Descargas y actualizaciones"
+    },
+    "project": {
+      "title": "El proyecto",
+      "about": "Modstoke es un proyecto de mods de OpenACAI, una organización sin ánimo de lucro. Es un cargador de mods, un gestor de escritorio y un conjunto de mods para Sons of the Forest, con una comunidad alrededor en Discord. Todo es gratis y no necesitas cuenta para usar este sitio.",
+      "endnight": "No tenemos relación con Endnight Games. Por favor, no lleves problemas de Modstoke a su soporte."
+    },
+    "players": {
+      "title": "Para jugadores",
+      "start": "Empieza por el {manager}. Encuentra tu juego, instala el {loader} y lleva la cuenta de lo que has instalado. Luego elige entre los {mods}; por ahora se descargan de Nexus Mods.",
+      "managerLink": "Manager",
+      "loaderLink": "Loader",
+      "modsLink": "mods",
+      "guides": "La {install} explica cómo hacer antes copia de tus partidas, y la {troubleshooting} ayuda a acotar un problema.",
+      "installGuide": "guía de instalación",
+      "troubleshootingGuide": "guía de solución de problemas"
+    },
+    "compatibility": {
+      "title": "Compatibilidad con el juego",
+      "supported": "Compatible",
+      "note": "Cada versión indica los builds del juego con los que se probó. Si una versión no indica ninguno, aún no se ha comprobado con un build concreto, así que pruébala en una copia de tu partida."
+    },
+    "authors": {
+      "title": "Para autores de mods",
+      "intro": "Así es como el Loader actual encuentra y arranca un mod nativo. Compruébalo con el código fuente del Loader con el que compilas; el manifiesto aún no es un esquema fijo.",
+      "build": {
+        "title": "Compila contra el Loader con el que pruebas.",
+        "text": "Las interfaces del SDK están en el Loader. Referencia su ensamblado desde tu proyecto y anota la versión del Loader y el build del juego con los que probaste."
+      },
+      "folder": {
+        "title": "Usa una sola carpeta de paquete.",
+        "text": "El Loader busca bajo {path}, hasta cuatro carpetas de profundidad. {legacy} de antes del cambio de nombre sigue funcionando. Deja el manifiesto junto a su ensamblado."
+      },
+      "entry": {
+        "title": "Describe el punto de entrada.",
+        "text": "El manifiesto puede ser {first}, {second} o {third}, con id, name, version, author, assembly, entryType y entryMethod. entryMethod puede omitirse cuando el tipo de entrada tiene un constructor público sin parámetros."
+      },
+      "test": {
+        "title": "Prueba en una copia aparte del juego.",
+        "text": "Deja fuera tus partidas de verdad. Anota el build del juego, la versión del Loader, las dependencias y lo que aún no funcione."
+      },
+      "ship": {
+        "title": "Entrega notas junto con los archivos.",
+        "text": "Notas de versión, pasos de instalación y eliminación, la licencia y los hashes de los archivos. Aquí aún no hay formulario de envío; la tienda aceptará envíos desde versiones de GitHub."
+      }
+    },
+    "downloads": {
+      "title": "Descargas y actualizaciones",
+      "releases": "Cada versión de la página {releases} indica su número, cambios, compatibilidad, tamaño y SHA-256, para que puedas comprobar que un archivo que descargaste es el que publicamos.",
+      "releasesLink": "Versiones",
+      "checksum": "Una suma de comprobación te dice que los bytes coinciden; no demuestra quién los publicó. La tienda de Modstoke añadirá firmas para eso, de modo que el Manager pueda rechazar todo lo que no hayamos publicado nosotros o un autor revisado."
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "DESARROLLO CON EL SDK",
+    "playEyebrow": "JUEGA EN COMPAÑÍA",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "Ver el estado de las versiones",
+    "gameInfo": "Información del juego: {link}",
+    "steamLink": "Sons of the Forest en Steam",
+    "findCrew": "Encontrar un equipo en Discord",
+    "visitTithewood": "Visita Tithewood para ver la información de acceso actual",
+    "status": {
+      "manager": "Manager {version} está disponible.",
+      "managerPreview": "Manager {version} está disponible como versión preliminar para Windows.",
+      "unsigned": "La versión preliminar no está firmada.",
+      "noManager": "Ahora mismo no hay ningún paquete del Manager publicado.",
+      "loader": "Loader {version} figura en Versiones. Revisa el contenido de su paquete, su compatibilidad y su estado de validación.",
+      "noLoader": "El paquete completo de Loader, SDK y Client no se ha publicado.",
+      "check": "Consulta Versiones antes de descargar."
+    },
+    "topics": {
+      "sdk": {
+        "title": "Lo que el SDK pretende ofrecer",
+        "summary": "El código fuente de desarrollo actual ofrece observaciones tipadas del juego y servicios para mods. Son contratos en el código fuente, no un paquete de SDK publicado ni una prueba de que funcionen en el juego.",
+        "facts": "Instantáneas del inventario y el equipo; requisitos y faltantes de las recetas de fabricación; constantes vitales de supervivencia del jugador local; observaciones de estación, clima y temperatura.\nObservaciones de jugadores y vehículos del mundo del servidor, estado de los PNJ y requisitos de construcción; consultas de colisión acotadas y lecturas de altura y normal del terreno cargado. No garantizan cobertura completa de colisiones ni de transitabilidad en las cuevas.\nAyudas para el audio propio y para inspeccionar paquetes de recursos cargados, finalización observada de corrutinas, campos de borrador de la interfaz y respuestas a comandos remotos. Siguen aplicándose la autorización del servidor y las comprobaciones de que el mundo está listo.\nLos manifiestos de mods nativos pueden declarar los ID y versiones exactos que requieren. El entorno de ejecución ordena las llamadas de retorno, bloquea los requisitos ausentes o cíclicos y detiene a los dependientes si falla un requisito previo. La inicialización del servidor dedicado omite los menús y la entrada del cliente.\nNo des por hecho que haya una API pública estable, compatibilidad universal, límites de jugadores más altos ni reintentos automáticos de comandos dudosos, ni que un código fuente o una compilación correctos demuestren el comportamiento en multijugador."
+      },
+      "play": {
+        "title": "Encuentra a tu próxima tripulación",
+        "summary": "Sons of the Forest es un juego de terror y supervivencia de mundo abierto con fabricación, construcción, exploración, juego en solitario y cooperativo en línea. Modstoke ayuda a los miembros a organizar sus propias sesiones.",
+        "facts": "Usa /crew list con los filtros opcionales region, style y when. La búsqueda por hora recorre la hora de sesión escrita por el anfitrión; no calcula horarios que coincidan ni convierte zonas horarias.\nUsa /crew create para ofrecer una sesión con región, hora y zona horaria, estilo de juego, plazas libres y requisitos opcionales. Una publicación activa por persona; las publicaciones caducan a las seis horas por defecto, y puedes elegir entre una y 24 horas.\nElige tu región y tu estilo de juego con /roles. Son intereses que eliges tú, no garantías de emparejamiento. /crew alerts es aceptar expresamente los mensajes directos; se aplican un filtro de región opcional y un límite de una alerta cada dos horas. Puedes desactivarlas cuando quieras.\nUsa /servers para ver los servidores públicos que se han inscrito voluntariamente. Las publicaciones de tripulación son planes de los miembros, no reservas, ni compatibilidad verificada, ni presencia de jugadores en vivo, ni una unión automática al juego. Acuerda con el anfitrión las versiones del juego y de los mods y lo que esperáis de la partida guardada."
+      },
+      "tithewood": {
+        "title": "Tithewood · rol medieval en BYOND",
+        "summary": "Tithewood es nuestro juego de rol medieval en BYOND, que gestionamos de forma independiente y está construido a partir de Ratwood. Su comunidad forma parte del Discord de Modstoke.",
+        "facts": "Los jugadores interpretan personajes en un mundo compartido, con comercio, agricultura, tareas de guardia de la ciudad y aventuras. Algunos roles tienen requisitos de acceso que dependen de la configuración del juego.\nEl sitio web público presenta Grimoria con una ilustración heredada del escenario. Es un mapa del mundo del escenario, no un mapa de juego en vivo.\nEl sitio web público revisado el 2026-10-20 dice que el acceso público está cerrado y que no se ha anunciado fecha de lanzamiento. Consulta tithewood.com para ver el acceso actual; no des por hecho que un servicio al que se puede llegar significa una ronda pública jugable.\nCuando se abra el acceso, sigue el sitio web para la guía del cliente BYOND y de la conexión. Usa el cliente oficial de BYOND para Windows y tu cuenta de BYOND; nunca compartas tu contraseña ni registros privados en Discord.\nElige Tithewood en el menú de roles del proyecto y usa sus canales de debate y desarrollo. Comparte ideas, informa de un fallo con una reproducción clara y errores depurados, y organiza partidas solo cuando se haya anunciado una sesión de verdad."
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "Ruta de navegación",
+    "home": "Inicio",
+    "effective": "En vigor desde el {date}",
+    "onThisPage": "En esta página",
+    "translationNote": "Esta es una traducción para tu comodidad. Se aplica la versión en inglés de este documento.",
+    "untranslated": "Este documento aún no se ha traducido, así que se muestra en inglés."
+  },
+  "client": {
+    "app": {
+      "count": {
+        "one": "{count} mod",
+        "other": "{count} mods"
+      },
+      "countOf": {
+        "one": "{shown} de {count} mod",
+        "other": "{shown} de {count} mods"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal no se cargó. Comprueba tu conexión o inténtalo más tarde.",
+      "pickAmount": "Elige un importe entre ${min} y ${max}, en dólares enteros.",
+      "cancelled": "No se hizo ningún pago.",
+      "error": "Algo salió mal con PayPal. No se hizo ningún pago.",
+      "monthlyThanks": "¡Gracias! Tu donación mensual de ${amount} está configurada.",
+      "thanks": "¡Gracias! Tu donación de ${amount} se ha realizado.",
+      "processing": "PayPal sigue procesando tu pago."
+    },
+    "servers": {
+      "unknown": "Desconocido",
+      "yes": "Sí",
+      "no": "No",
+      "dedicated": "Dedicado",
+      "playerHosted": "Alojado por un jugador",
+      "online": "En línea",
+      "offline": "Sin conexión",
+      "eyebrow": "DIRECTORIO DE LA COMUNIDAD",
+      "hostNotSpecified": "Anfitrión no indicado",
+      "regionNotSpecified": "Región no indicada",
+      "noDescription": "El anfitrión no ha aportado ninguna descripción.",
+      "playersCapacity": "Jugadores / capacidad",
+      "hostLatency": "Latencia mediana del anfitrión",
+      "gameBuild": "Build del juego",
+      "moreComponents": {
+        "one": "+{count} componente",
+        "other": "+{count} componentes"
+      },
+      "requiredMods": {
+        "one": "{count} mod requerido",
+        "other": "{count} mods requeridos"
+      },
+      "viewServer": "Ver servidor y requisitos ↗",
+      "viewServerLabel": "Ver {name} y requisitos",
+      "count": "{shown} de {total} servidores · {online} en línea",
+      "noneTitle": "La próxima comunidad empieza aquí.",
+      "noneMessage": "Todavía no hay servidores listados. Los anfitriones pueden pedir una ficha en nuestro Discord. Actualiza para ver sesiones compartidas nuevas.",
+      "noMatchTitle": "Ningún servidor coincide.",
+      "noMatchMessage": "Prueba otro nombre, región o mod, o cambia los filtros de estado y de sesión.",
+      "refreshing": "Actualizando el directorio…",
+      "updated": "Actualizado {time} · Se actualiza cada 60 segundos",
+      "unavailable": "Directorio no disponible",
+      "tryRefresh": "Usa Actualizar para intentarlo de nuevo.",
+      "loadFailedTitle": "No pudimos cargar el directorio.",
+      "loadFailedMessage": "El directorio de servidores no está disponible temporalmente. Inténtalo de nuevo en un momento; esto no nos dice si cada servidor está en línea.",
+      "versionNotSpecified": "Versión no indicada",
+      "history": {
+        "title": "Actividad reciente",
+        "unavailable": "El historial de actividad no está disponible. Actualiza para intentarlo de nuevo.",
+        "none": "Aún no hay historial por horas. La actividad aparecerá cuando informe el anfitrión.",
+        "note": "Muestras por hora de los últimos 30 días. Los huecos son desconocidos, no cero. Las horas se muestran en tu zona horaria local.",
+        "players": {
+          "title": "Jugadores",
+          "unit": "Jugadores",
+          "description": "Jugadores por hora. Los huecos significan que no hubo medición. Los valores exactos están en la tabla de historial de abajo.",
+          "none": "No hay mediciones de jugadores en este historial."
+        },
+        "latency": {
+          "title": "Latencia mediana del anfitrión",
+          "unit": "Milisegundos",
+          "description": "Latencia mediana del anfitrión por hora. Los huecos significan que no hubo medición. Los valores exactos están en la tabla de historial de abajo.",
+          "none": "No hay mediciones de latencia mediana del anfitrión en este historial."
+        },
+        "viewValues": "Ver valores por hora",
+        "caption": "Historial del servidor por horas",
+        "time": "Hora",
+        "hostLatency": "Latencia del anfitrión",
+        "onlineSeconds": "Segundos en línea"
+      },
+      "lastReport": "Último informe del anfitrión: {time}. La latencia del anfitrión refleja a los jugadores conectados, no tu conexión.",
+      "openInManager": "Abrir en el Manager",
+      "noJoinTarget": "El anfitrión no ha indicado un destino al que unirse.",
+      "offlineNoJoin": "Este servidor está sin conexión. No se puede unir.",
+      "permalink": "Enlace permanente del servidor ↗",
+      "joinNote": "Unirse abre Modstoke Manager 0.3.0 o posterior, que muestra detalles actualizados para que los confirmes. Esta página no descarga ningún mod.",
+      "components": "Componentes",
+      "noComponents": "El anfitrión no ha informado de ningún componente.",
+      "requiredModsTitle": "Mods requeridos",
+      "noRequiredMods": "El anfitrión no ha informado de ningún mod requerido.",
+      "settings": "Ajustes informados por el anfitrión",
+      "difficulty": "Dificultad",
+      "pvp": "PvP",
+      "friendlyFire": "Fuego amigo",
+      "passwordRequired": "Requiere contraseña",
+      "loadingTitle": "Cargando el servidor…",
+      "loadingMessage": "Leyendo el último informe y la actividad del anfitrión.",
+      "goneTitle": "El servidor ya no está listado.",
+      "detailUnavailableTitle": "Detalles del servidor no disponibles.",
+      "goneMessage": "Puede que el anfitrión haya retirado la ficha, o que el directorio no esté disponible temporalmente. Cierra este panel y usa Actualizar para intentarlo de nuevo.",
+      "unsupportedReport": "El directorio devolvió un informe no admitido. Inténtalo de nuevo más tarde.",
+      "invalidTitle": "Enlace de servidor no válido.",
+      "invalidMessage": "Este enlace no contiene un ID de servidor válido. Cierra este panel para explorar el directorio."
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "Una tableta de campo, un reloj de pulsera, un dron de reconocimiento y el Kestrel K3, una pequeña avioneta de tres plazas. Planifica rutas de suministros, marca lugares en el mapa, explora desde el aire o lleva a tus amigos a volar por la isla.",
+        "description": "Client añade equipo que llevas contigo: una tableta de campo, un reloj de pulsera, un dron de reconocimiento y el Kestrel K3, una pequeña avioneta de tres plazas. La idea es que se sienta como equipo, no como un menú pegado encima del juego.\n\nLa tableta tiene un mapa con tus propias marcas, un cuaderno, un reloj y Pack, que busca objetos y munición y prepara una lista de la compra para una receta. Solo planifica; el crafteo lo haces tú.\n\n- Dron de reconocimiento: pilótalo desde la tableta, deja marcas en el mapa sobre lo que veas y aterriza solo cuando se queda sin batería.\n- Kestrel K3: despliégalo desde la app Hangar de la tableta con unos 18 metros de terreno despejado por delante. Un piloto y dos pasajeros.\n- Personaje: elige tu cuerpo, tono de piel y forma, y conserva el mismo aspecto cada vez que te unes.\n\nLas tribus, la impresora, los puntos de ruta compartidos y los compañeros necesitan un anfitrión con Admin. El anfitrión y todos los que vuelen necesitan la misma versión de Client, así que pruébalo antes en una copia de tu mundo.",
+        "inTesting": "El vuelo espacial está en pruebas: una nave que lanzas desde un gran claro, una estación en órbita y un mundo nuevo donde aterrizar y explorar con tu equipo. Aún no está en la descarga actual.",
+        "changelog": {
+          "0.2.4": "Creador de personajes: Mods > Character > Customise character abre un editor a pantalla completa con una vista previa giratoria. Elige un cuerpo, tono de piel, color de ojos y de ropa interior, y dale forma con los controles deslizantes.\nConservas el mismo aspecto cada vez que te unes, y funciona con jugadores que no tienen Modstoke.\nLa compatibilidad con servidores sustituye a la página duplicada de Modstoke Client en el menú Mods.\nRequiere Modstoke Loader 0.4.0 y su carpeta Modstoke."
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "El Kestrel K3 aparcado en una playa, visto desde el dron de reconocimiento"
+          },
+          "trailer": {
+            "alt": "Tráiler de Client: el Kestrel K3 volando junto a picos nevados"
+          },
+          "tablet-home": {
+            "alt": "La pantalla de inicio de la tableta de campo, en alto en el bosque"
+          },
+          "tablet-apps": {
+            "alt": "La lista de aplicaciones de la tableta de campo en la playa"
+          },
+          "drone-camera": {
+            "alt": "Controles de la cámara del dron de reconocimiento sobre la orilla"
+          },
+          "kestrel-cockpit": {
+            "alt": "El asiento del piloto del Kestrel K3"
+          },
+          "spacecraft-test": {
+            "alt": "La nave espacial aterrizada en otro mundo",
+            "caption": "Versión de prueba. Todavía no está en la descarga actual."
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "Excava tierra y roca, rellena los huecos y deshaz los errores en una pequeña parcela al aire libre. Por ahora, solo en copias de partidas sin conexión para un jugador.",
+        "description": "Terraforming te permite excavar en una pequeña zona de la isla y volver a poner la tierra donde quieras. Cava un hoyo, rellénalo en parte y deshazlo si sale mal.\n\nPor ahora es una sola parcela al aire libre en una copia sin conexión para un jugador de una partida. El multijugador y construir sobre terreno excavado todavía no funcionan.\n\n- Crea una parcela en terreno despejado desde el menú Mods\n- Cava con la pala o el pico, rellena con la pala\n- La tierra que cavas va a una reserva, y al rellenar se gasta\n- Deshacer devuelve tanto el terreno como la tierra\n\nSal de cualquier hoyo antes de desinstalar, porque la forma excavada no existirá sin el mod.",
+        "inTesting": "La excavación en toda la isla está en pruebas: cava, rellena, nivela y alisa donde quieras de la isla con la pala, y se guarda con tu mundo. Aún no está en la descarga actual.",
+        "changelog": {
+          "0.2.2": "Crear, cargar, quitar y recuperar terreno ahora pide confirmación, desde la consola o el menú Mods.\nFunciona con Modstoke Loader 0.4.0 y su carpeta Modstoke."
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "Un hoyo cavado en la arena de una parcela de Terraforming"
+          },
+          "mods-page": {
+            "alt": "La página de Terraforming en el menú Mods"
+          },
+          "mound-test": {
+            "alt": "Kelvin caminando sobre un montículo de tierra rellenada",
+            "caption": "Versión de prueba. Todavía no está en la descarga actual."
+          }
+        }
+      },
+      "virginia": {
+        "summary": "Cambia el color de los atuendos de Virginia y añade algunas formas opcionales de pasar tiempo con ella: saludos, muestras de aprecio y ratos tranquilos juntos.",
+        "description": "Unos cuantos extras opcionales para Virginia: colores de atuendo, y algunas formas de saludarla, mostrarle aprecio o simplemente pasar un rato tranquilo juntos. Todo empieza desactivado.\n\n- Colores de atuendo: Original, Carmesí, Bosque, Océano, Carbón o Marfil, solo en tu pantalla\n- Saludos, aprecio y ratos tranquilos, si el anfitrión los permite\n- Un vínculo aparte que puedes consultar en el menú, guardado con tu mundo\n\nSu modelo, texturas y animaciones son los del propio juego. El vínculo no cambia adónde va, cuánto te aprecia ni lo que te trae.",
+        "changelog": {
+          "0.1.2": "El progreso de tu relación ahora se guarda con tu partida.\nFunciona con Modstoke Loader 0.4.0 y su carpeta Modstoke."
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia caminando por un sendero del bosque"
+          },
+          "trailer": {
+            "alt": "Pantalla de título del tráiler de Virginia sobre el bosque"
+          },
+          "settings": {
+            "alt": "Los ajustes de Virginia en el menú Mods"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Herramientas de anfitrión para Sons of the Forest. Mira quién está en tu mundo, revisa qué ha estado haciendo y encarcela, silencia, expulsa o banea sin salir del juego.",
+            "description": "Si alojas un mundo, Admin reúne la lista de jugadores y tus herramientas de moderación en un solo menú dentro del juego. Elige a un jugador para ver su ID de Steam y lo que el mod ha notado sobre él, y ocúpate ahí mismo.\n\n- Lista de jugadores con cárcel, silencio, expulsión y baneo\n- Pruebas ordenadas en movimiento, objetos, construcción, servidor y acciones\n- Roles de equipo con sus propios permisos, incluido personal remoto en servidores dedicados\n- Controles de anfitrión para la hora, el clima y los ajustes del mundo\n\nLas pruebas están ahí para ayudarte a investigar un problema. No es un antitrampas completo, y nada banea ni expulsa por sí solo. Los jugadores no necesitan Admin para unirse.",
+            "changelog": {
+              "0.5.221": "Roles de equipo: roles con rango y sus propios permisos de permitir y denegar, además de una lista de admins por Steam64 con fechas de caducidad.\nEl personal remoto puede usar F7 en anfitriones de escucha y servidores dedicados. El anfitrión comprueba cada petición.\nMenú F7: arreglados los problemas de foco y de cursor atascado, nuevos aspectos y diseños Simple y Avanzado.\nJugadores sin mods: los límites de velocidad solo se aplican a transportes que el anfitrión pueda confirmar, y se ha corregido un error de duplicación al recoger objetos.\nNuevas pruebas para modo dios, speedhacks, cadencia de disparo, impactos imposibles y tickets de Steam."
+            },
+            "media": {
+              "overview": {
+                "alt": "El menú Admin abierto sobre el bosque, con el aspecto del juego"
+              },
+              "trailer": {
+                "alt": "Pantalla de título del tráiler de Admin sobre el bosque"
+              },
+              "overview-classic": {
+                "alt": "La página de resumen de Admin con el aspecto clásico"
+              },
+              "world": {
+                "alt": "Los controles del mundo en el menú Admin"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "Inicia sesión en Nexus Mods desde tu navegador; ya no hacen falta claves de API personales. El Manager sigue la nueva carpeta Modstoke del Loader, y tus mods y ajustes de OpenACAI se mueven al siguiente inicio del juego. Novedades: un navegador de servidores de la comunidad con enlaces para unirse modstoke://, y herramientas para servidores dedicados: ajustes de la partida, permisos del personal, una consola en vivo y un apagado y reinicio más seguros. Una consola del Loader para juegos y servidores, y las instalaciones del Loader ahora solo reparan o actualizan, nunca vuelven a una versión anterior. Elige un aspecto en Ajustes: el del propio juego, leído de tus archivos del juego, o el estilo sencillo de Modstoke. Inicio más rápido, un catálogo de mods más sólido y límites más estrictos sobre lo que el Manager lee, descarga e instala.",
+    "loader-0-4-2-net11-preview": "Funciona en hosts Linux con Wine, así que ya sirve en servidores dedicados alojados. Corrige un fallo de arranque en todas las instalaciones de Wine. Compatibilidad con paneles de hosting: comandos de consola con respuestas JSON, un archivo de estado en vivo, guardado y apagado limpios, listas de jugadores, ranuras de guardado y mods, un flujo de eventos, informes de fallos, anuncios y medición del rendimiento por mod. Los mods pueden declarar una descripción y una versión mínima del Loader. Nuevas funciones del SDK para mods: comandos del host, propietario del foco de entrada y visibilidad del menú. ¿Vienes de una versión anterior de Modstoke u OpenACAI? Ejecuta primero Modstoke Legacy Cleanup 1.1.0.",
+    "loader-0-4-1-net11-preview": "Corrige que Modstoke Manager 0.3.0 se negara a instalar el Loader. Por lo demás, igual que la 0.4.0: el Loader ahora está en una carpeta Modstoke. Tus mods y ajustes se mueven desde OpenACAI en el primer inicio, y no se sobrescribe nada. Funciona con .NET 11 RC3, que viene incluido en la descarga. Las bibliotecas base de Unity ahora se descargan de modstoke.com en el primer inicio en lugar de venir en el archivo. Nuevo menú Mods en el juego, a juego con los menús del propio juego, con barra de desplazamiento y desplazamiento suave. Los datos de mods guardados a través del SDK ahora se restauran al cargar una partida. Corregido un error de los servidores dedicados por el que entradas antiguas de transferencia del mundo podían bloquear todas las recogidas y transferencias de almacenamiento. El registro de inicio indica la versión exacta del loader y avisa si el entorno de ejecución de .NET no coincide. ¿Vienes de una versión anterior de Modstoke u OpenACAI? Ejecuta primero Modstoke Legacy Cleanup 1.1.0; viene incluido en esta descarga.",
+    "loader-0-4-0-net11-preview": "El Loader ahora está en una carpeta Modstoke. Tus mods y ajustes se mueven desde OpenACAI en el primer inicio, y no se sobrescribe nada. Funciona con .NET 11 RC3, que viene incluido en la descarga. Las bibliotecas base de Unity ahora se descargan de modstoke.com en el primer inicio en lugar de venir en el archivo. Nuevo menú Mods en el juego, a juego con los menús del propio juego, con barra de desplazamiento y desplazamiento suave. Los datos de mods guardados a través del SDK ahora se restauran al cargar una partida. Corregido un error de los servidores dedicados por el que entradas antiguas de transferencia del mundo podían bloquear todas las recogidas y transferencias de almacenamiento. El registro de inicio indica la versión exacta del loader y avisa si el entorno de ejecución de .NET no coincide. ¿Vienes de una versión anterior de Modstoke u OpenACAI? Ejecuta primero Modstoke Legacy Cleanup 1.1.0; viene incluido en esta descarga."
+  }
+}

@@ -36,7 +36,7 @@ createServer(async (req,res)=>{
     try { ({body,file}=await readPublicFile(root,'.'+path));res.statusCode=200; }
     catch { ({body,file}=await readPublicFile(root,'404/index.html'));res.statusCode=404; }
     res.setHeader('Content-Type',mime[extname(file)]||'application/octet-stream');
-    const fingerprinted = dirname(file)===root && /^(?:style|app|servers|guides|support)\.[a-f0-9]{16}\.(?:css|js)$/.test(basename(file));
+    const fingerprinted = dirname(file)===root && /^(?:style|app|servers|guides|support|lang)\.[a-f0-9]{16}\.(?:css|js)$/.test(basename(file));
     // Font files are renamed rather than replaced, so they can be cached like fingerprinted assets.
     const font = path.startsWith('/fonts/') && extname(file)==='.woff2';
     const download=path.startsWith('/downloads/') && res.statusCode===200;

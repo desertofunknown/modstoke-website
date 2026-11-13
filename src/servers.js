@@ -2,6 +2,13 @@
   'use strict';
   const results = document.querySelector('#server-results');
   if (!results) return;
+  const text = JSON.parse(document.getElementById('site-text')?.textContent || '{}');
+  const lang = document.documentElement.lang || undefined;
+  const t = (key, values) => String(text[key] ?? key).replace(/\{(\w+)\}/g, (all, name) => values?.[name] ?? all);
+  const counted = (key, n) => {
+    const forms = text[key];
+    return String(forms?.[new Intl.PluralRules(lang).select(n)] ?? forms?.other ?? key).replace('{count}', value(n));
+  };
   const API = 'https://modstoke.com/api/community/v1';
   const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
   const MAX_SERVERS = 1000;
@@ -83,13 +90,13 @@
     if (text !== undefined) node.textContent = text;
     return node;
   }
-  const value = n => n === null ? '—' : new Intl.NumberFormat(undefined, {maximumFractionDigits: 1}).format(n);
+  const value = n => n === null ? '—' : new Intl.NumberFormat(lang, {maximumFractionDigits: 1}).format(n);
   const players = server => `${value(server.playersCurrent)} / ${value(server.playersMax)}`;
   const latency = n => n === null ? '—' : `${value(n)} ms`;
-  const yesNo = v => v === null ? 'Unknown' : v ? 'Yes' : 'No';
-  const typeLabel = server => server.kind === 'dedicated' ? 'Dedicated' : 'Player hosted';
+  const yesNo = v => v === null ? t('client.servers.unknown') : v ? t('client.servers.yes') : t('client.servers.no');
+  const typeLabel = server => server.kind === 'dedicated' ? t('client.servers.dedicated') : t('client.servers.playerHosted');
   const sharePath = id => '/servers/?server=' + encodeURIComponent(id);
-  function stateBadge(server) { return element('span', 'server-state' + (server.online ? ' online' : ''), server.online ? 'Online' : 'Offline'); }
+  function stateBadge(server) { return element('span', 'server-state' + (server.online ? ' online' : ''), server.online ? t('client.servers.online') : t('client.servers.offline')); }
   function facts(items) {
     const list = element('dl', 'server-facts');
     for (const [label, text] of items) {
@@ -99,23 +106,23 @@
   }
   function empty(target, title, message) {
     const box = element('div', 'server-empty');
-    box.append(element('p', 'eyebrow', 'COMMUNITY DIRECTORY'), element('h2', '', title), element('p', '', message));
+    box.append(element('p', 'eyebrow', t('client.servers.eyebrow')), element('h2', '', title), element('p', '', message));
     target.replaceChildren(box);
   }
   function card(server) {
     const node = element('article', 'server-card');
     const top = element('div', 'server-card-top');
     top.append(stateBadge(server), element('span', '', typeLabel(server)));
-    node.append(top, element('h2', '', server.name), element('p', 'server-host', `${server.hostLabel || 'Host not specified'} · ${server.region || 'Region not specified'}`));
-    node.append(element('p', 'server-description', server.description || 'No description supplied by the host.'));
-    node.append(facts([['Players / capacity', players(server)], ['Host median latency', latency(server.hostMedianLatencyMs)]]));
+    node.append(top, element('h2', '', server.name), element('p', 'server-host', `${server.hostLabel || t('client.servers.hostNotSpecified')} · ${server.region || t('client.servers.regionNotSpecified')}`));
+    node.append(element('p', 'server-description', server.description || t('client.servers.noDescription')));
+    node.append(facts([[t('client.servers.playersCapacity'), players(server)], [t('client.servers.hostLatency'), latency(server.hostMedianLatencyMs)]]));
     const tags = element('div', 'server-tags');
     for (const item of server.components.slice(0, 2)) tags.append(element('span', 'server-tag', `${item.id} ${item.version}`));
-    if (server.components.length > 2) tags.append(element('span', 'server-tag', `+${server.components.length - 2} components`));
-    tags.append(element('span', 'server-tag', `${server.requiredMods.length} required mods`));
-    const link = element('a', 'inline-link', 'View server & requirements ↗');
+    if (server.components.length > 2) tags.append(element('span', 'server-tag', counted('client.servers.moreComponents', server.components.length - 2)));
+    tags.append(element('span', 'server-tag', counted('client.servers.requiredMods', server.requiredMods.length)));
+    const link = element('a', 'inline-link', t('client.servers.viewServer'));
     link.href = sharePath(server.id);
-    link.setAttribute('aria-label', `View ${server.name} and requirements`);
+    link.setAttribute('aria-label', t('client.servers.viewServerLabel', {name: server.name}));
     link.addEventListener('click', event => {
       if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
       event.preventDefault();
@@ -131,16 +138,16 @@
     const filtered = servers.filter(server => (status.value === 'all' || server.online === (status.value === 'online')) &&
       (kind.value === 'all' || server.kind === kind.value) &&
       [server.name, server.description, server.hostLabel, server.region, ...server.components.map(x => x.id), ...server.requiredMods.map(x => x.id)].join(' ').toLocaleLowerCase().includes(query));
-    count.textContent = `${filtered.length} of ${servers.length} servers · ${servers.filter(server => server.online).length} online`;
-    if (!servers.length) empty(results, 'The next community starts here.', 'No servers are listed yet. Hosts can request a listing through our Discord. Refresh to check for newly shared sessions.');
-    else if (!filtered.length) empty(results, 'No matching servers.', 'Try another name, region or mod, or change the status and session filters.');
+    count.textContent = t('client.servers.count', {shown: value(filtered.length), total: value(servers.length), online: value(servers.filter(server => server.online).length)});
+    if (!servers.length) empty(results, t('client.servers.noneTitle'), t('client.servers.noneMessage'));
+    else if (!filtered.length) empty(results, t('client.servers.noMatchTitle'), t('client.servers.noMatchMessage'));
     else results.replaceChildren(...filtered.map(card));
   }
   async function refreshList() {
     listController?.abort();
     const controller = listController = new AbortController();
     results.setAttribute('aria-busy', 'true');
-    updated.textContent = 'Refreshing directory…';
+    updated.textContent = t('client.servers.refreshing');
     try {
       const body = await request('/servers', controller.signal, 8 * 1024 * 1024);
       if (!object(body) || body.schemaVersion !== 1 || !date(body.generatedAt) || !Array.isArray(body.servers) || body.servers.length > MAX_SERVERS || !body.servers.every(validServer) || new Set(body.servers.map(s => s.id.toLowerCase())).size !== body.servers.length) throw new Error('invalid-response');
@@ -148,23 +155,23 @@
       servers = body.servers.sort((a, b) => Number(b.online) - Number(a.online) || a.name.localeCompare(b.name));
       loaded = true;
       renderList();
-      updated.textContent = `Updated ${new Date(body.generatedAt).toLocaleTimeString()} · Refreshes every 60 seconds`;
+      updated.textContent = t('client.servers.updated', {time: new Date(body.generatedAt).toLocaleTimeString(lang)});
     } catch {
       if (controller.signal.aborted) return;
       servers = []; loaded = false;
-      count.textContent = 'Directory unavailable';
-      updated.textContent = 'Use Refresh to try again.';
-      empty(results, 'We couldn’t load the directory.', 'The server directory is temporarily unavailable. Try again shortly; this does not tell us whether individual servers are online.');
+      count.textContent = t('client.servers.unavailable');
+      updated.textContent = t('client.servers.tryRefresh');
+      empty(results, t('client.servers.loadFailedTitle'), t('client.servers.loadFailedMessage'));
     } finally {
       if (listController === controller) results.setAttribute('aria-busy', 'false');
     }
   }
-  function packageList(title, items) {
+  function packageList(title, empty, items) {
     const section = element('section'); section.append(element('h3', '', title));
-    if (!items.length) section.append(element('p', '', `No ${title.toLocaleLowerCase()} reported by the host.`));
+    if (!items.length) section.append(element('p', '', empty));
     else {
       const list = element('ul', 'server-package-list');
-      for (const item of items) list.append(element('li', '', `${item.id} · ${item.version || 'Version not specified'}`));
+      for (const item of items) list.append(element('li', '', `${item.id} · ${item.version || t('client.servers.versionNotSpecified')}`));
       section.append(list);
     }
     return section;
@@ -175,9 +182,9 @@
     if (text !== undefined) node.textContent = text;
     return node;
   }
-  function chart(samples, field, title, unit) {
+  function chart(samples, field, title, unit, description) {
     const svg = svgNode('svg', {viewBox: '0 0 640 176', role: 'img', 'aria-label': title, class: 'server-chart'});
-    svg.append(svgNode('title', {}, title), svgNode('desc', {}, `Hourly ${title.toLowerCase()}. Gaps mean no measurement. Exact values are in the history table below.`));
+    svg.append(svgNode('title', {}, title), svgNode('desc', {}, description));
     const max = Math.max(1, ...samples.map(sample => sample[field] ?? 0));
     const start = Date.parse(samples[0].at), end = Date.parse(samples.at(-1).at);
     const x = sample => end === start ? 334 : 50 + (Date.parse(sample.at) - start) / (end - start) * 564;
@@ -193,33 +200,33 @@
       svg.append(svgNode('circle', {cx: x(sample), cy: y(sample), r: 2}));
     });
     flush();
-    svg.append(svgNode('text', {x: 50, y: 162}, new Date(start).toLocaleDateString()), svgNode('text', {x: 614, y: 162, 'text-anchor': 'end'}, new Date(end).toLocaleDateString()));
+    svg.append(svgNode('text', {x: 50, y: 162}, new Date(start).toLocaleDateString(lang)), svgNode('text', {x: 614, y: 162, 'text-anchor': 'end'}, new Date(end).toLocaleDateString(lang)));
     return svg;
   }
   function historySection(result, id) {
-    const section = element('section'); section.append(element('h3', '', 'Recent activity'));
+    const section = element('section'); section.append(element('h3', '', t('client.servers.history.title')));
     if (result.status !== 'fulfilled' || !validHistory(result.value, id)) {
-      section.append(element('p', '', 'Activity history is unavailable. Refresh to try again.')); return section;
+      section.append(element('p', '', t('client.servers.history.unavailable'))); return section;
     }
     const samples = result.value.samples;
-    if (!samples.length) { section.append(element('p', '', 'No hourly history yet. Activity will appear as the host reports.')); return section; }
-    section.append(element('p', 'server-history-note', 'Hourly samples from the last 30 days. Gaps are unknown, not zero. Times are shown in your local timezone.'));
-    for (const [field, title, unit] of [['players', 'Players', 'Players'], ['latencyMs', 'Host median latency', 'Milliseconds']]) {
-      if (samples.some(sample => sample[field] !== null)) section.append(chart(samples, field, title, unit));
-      else section.append(element('p', '', `No ${title.toLowerCase()} measurements in this history.`));
+    if (!samples.length) { section.append(element('p', '', t('client.servers.history.none'))); return section; }
+    section.append(element('p', 'server-history-note', t('client.servers.history.note')));
+    for (const [field, name] of [['players', 'players'], ['latencyMs', 'latency']]) {
+      if (samples.some(sample => sample[field] !== null)) section.append(chart(samples, field, t(`client.servers.history.${name}.title`), t(`client.servers.history.${name}.unit`), t(`client.servers.history.${name}.description`)));
+      else section.append(element('p', '', t(`client.servers.history.${name}.none`)));
     }
-    const details = element('details'); details.append(element('summary', '', 'View hourly values'));
+    const details = element('details'); details.append(element('summary', '', t('client.servers.history.viewValues')));
     const scroll = element('div', 'server-history-data');
     const table = element('table', 'server-history-table');
-    table.append(element('caption', 'sr-only', 'Hourly server history'));
+    table.append(element('caption', 'sr-only', t('client.servers.history.caption')));
     const head = element('thead'), row = element('tr');
     const hasOnline = samples.some(sample => sample.onlineSeconds !== undefined && sample.onlineSeconds !== null);
-    for (const title of ['Time', 'Players', 'Host latency', ...(hasOnline ? ['Online seconds'] : [])]) { const cell = element('th', '', title); cell.scope = 'col'; row.append(cell); }
+    for (const title of [t('client.servers.history.time'), t('client.servers.history.players.title'), t('client.servers.history.hostLatency'), ...(hasOnline ? [t('client.servers.history.onlineSeconds')] : [])]) { const cell = element('th', '', title); cell.scope = 'col'; row.append(cell); }
     head.append(row); table.append(head);
     const body = element('tbody');
     for (const sample of samples) {
       const row = element('tr');
-      for (const text of [new Date(sample.at).toLocaleString(), value(sample.players), latency(sample.latencyMs), ...(hasOnline ? [value(sample.onlineSeconds ?? null)] : [])]) row.append(element('td', '', text));
+      for (const text of [new Date(sample.at).toLocaleString(lang), value(sample.players), latency(sample.latencyMs), ...(hasOnline ? [value(sample.onlineSeconds ?? null)] : [])]) row.append(element('td', '', text));
       body.append(row);
     }
     table.append(body); scroll.append(table); details.append(scroll); section.append(details);
@@ -227,20 +234,20 @@
   }
   function renderDetail(server, history) {
     const title = element('h2', '', server.name); title.id = 'server-detail-title';
-    const host = element('p', 'server-host', `${typeLabel(server)} · ${server.hostLabel || 'Host not specified'} · ${server.region || 'Region not specified'}`);
-    detailBody.replaceChildren(stateBadge(server), title, host, element('p', 'server-description', server.description || 'No description supplied by the host.'));
-    detailBody.append(facts([['Players / capacity', players(server)], ['Host median latency', latency(server.hostMedianLatencyMs)], ['Game build', server.gameBuild || 'Unknown']]));
-    detailBody.append(element('p', 'server-history-note', `Last host report: ${server.lastSeen ? new Date(server.lastSeen).toLocaleString() : 'Unknown'}. Host latency reflects connected players, not your connection.`));
+    const host = element('p', 'server-host', `${typeLabel(server)} · ${server.hostLabel || t('client.servers.hostNotSpecified')} · ${server.region || t('client.servers.regionNotSpecified')}`);
+    detailBody.replaceChildren(stateBadge(server), title, host, element('p', 'server-description', server.description || t('client.servers.noDescription')));
+    detailBody.append(facts([[t('client.servers.playersCapacity'), players(server)], [t('client.servers.hostLatency'), latency(server.hostMedianLatencyMs)], [t('client.servers.gameBuild'), server.gameBuild || t('client.servers.unknown')]]));
+    detailBody.append(element('p', 'server-history-note', t('client.servers.lastReport', {time: server.lastSeen ? new Date(server.lastSeen).toLocaleString(lang) : t('client.servers.unknown')})));
     const actions = element('div', 'server-detail-actions');
     if (server.online && server.join !== null) {
-      const join = element('button', 'button', 'Open in Manager'); join.type = 'button';
+      const join = element('button', 'button', t('client.servers.openInManager')); join.type = 'button';
       join.addEventListener('click', () => { window.location.href = `modstoke://join/${server.id}`; });
       actions.append(join);
-    } else actions.append(element('p', '', server.online ? 'The host has not supplied a join target.' : 'This server is offline. Joining is unavailable.'));
-    const share = element('a', 'inline-link', 'Permanent server link ↗'); share.href = sharePath(server.id); actions.append(share);
-    detailBody.append(actions, element('p', 'server-history-note', 'Join opens Modstoke Manager 0.3.0 or newer, which shows fresh details for you to confirm. This page does not download any mods.'));
-    detailBody.append(packageList('Components', server.components), packageList('Required mods', server.requiredMods));
-    detailBody.append(element('h3', '', 'Host-reported settings'), facts([['Difficulty', server.settings.difficulty || 'Unknown'], ['PvP', yesNo(server.settings.pvp)], ['Friendly fire', yesNo(server.settings.friendlyFire)], ['Password required', yesNo(server.settings.passwordRequired)]]));
+    } else actions.append(element('p', '', server.online ? t('client.servers.noJoinTarget') : t('client.servers.offlineNoJoin')));
+    const share = element('a', 'inline-link', t('client.servers.permalink')); share.href = sharePath(server.id); actions.append(share);
+    detailBody.append(actions, element('p', 'server-history-note', t('client.servers.joinNote')));
+    detailBody.append(packageList(t('client.servers.components'), t('client.servers.noComponents'), server.components), packageList(t('client.servers.requiredModsTitle'), t('client.servers.noRequiredMods'), server.requiredMods));
+    detailBody.append(element('h3', '', t('client.servers.settings')), facts([[t('client.servers.difficulty'), server.settings.difficulty || t('client.servers.unknown')], [t('client.servers.pvp'), yesNo(server.settings.pvp)], [t('client.servers.friendlyFire'), yesNo(server.settings.friendlyFire)], [t('client.servers.passwordRequired'), yesNo(server.settings.passwordRequired)]]));
     detailBody.append(historySection(history, server.id));
   }
   function detailMessage(title, message) {
@@ -252,7 +259,7 @@
     const controller = detailController = new AbortController();
     detailBody.setAttribute('aria-busy', 'true');
     // Remove stale join actions immediately while obtaining a fresh server report.
-    detailMessage('Loading server…', 'Reading the latest host report and activity.');
+    detailMessage(t('client.servers.loadingTitle'), t('client.servers.loadingMessage'));
     const [serverResult, historyResult] = await Promise.allSettled([
       request(`/servers/${encodeURIComponent(id)}`, controller.signal, 64 * 1024),
       request(`/servers/${encodeURIComponent(id)}/history`, controller.signal, 256 * 1024)
@@ -260,18 +267,18 @@
     if (controller.signal.aborted || selectedId !== id) return;
     detailBody.setAttribute('aria-busy', 'false');
     if (serverResult.status !== 'fulfilled') {
-      detailMessage(serverResult.reason?.message === 'not-found' ? 'Server no longer listed.' : 'Server details unavailable.', 'The host may have removed the listing, or the directory may be temporarily unavailable. Close this panel and use Refresh to try again.'); return;
+      detailMessage(serverResult.reason?.message === 'not-found' ? t('client.servers.goneTitle') : t('client.servers.detailUnavailableTitle'), t('client.servers.goneMessage')); return;
     }
     const body = serverResult.value;
     if (!object(body) || body.schemaVersion !== 1 || !validServer(body.server) || body.server.id.toLowerCase() !== id.toLowerCase()) {
-      detailMessage('Server details unavailable.', 'The directory returned an unsupported report. Please try again later.'); return;
+      detailMessage(t('client.servers.detailUnavailableTitle'), t('client.servers.unsupportedReport')); return;
     }
     renderDetail(body.server, historyResult);
   }
   function openDetail(id) {
     selectedId = id;
     if (!dialog.open) dialog.showModal();
-    if (!UUID.test(id)) { detailController?.abort(); detailMessage('Invalid server link.', 'This link does not contain a valid server ID. Close this panel to browse the directory.'); return; }
+    if (!UUID.test(id)) { detailController?.abort(); detailMessage(t('client.servers.invalidTitle'), t('client.servers.invalidMessage')); return; }
     if (!document.hidden) loadDetail(id);
   }
   function readLocation() {

@@ -1,0 +1,1151 @@
+{
+  "_about": "modstoke.com metinleri, Türkçe. en.json'dan çevrildi; ana dili Türkçe olanların düzeltmeleri memnuniyetle karşılanır. {Süslü parantez} içindeki metinleri site doldurur, olduğu gibi kalmalıdır.",
+  "seo": {
+    "home": {
+      "title": "Modstoke: Sons of the Forest modları, mod yöneticisi ve Loader",
+      "description": "Sons of the Forest için ücretsiz modlar ve onları çalıştıracak araçlar: Windows için Modstoke Manager, Modstoke Loader ve Client, Admin, Terraforming, Virginia gibi modlar."
+    },
+    "mods": {
+      "title": "Sons of the Forest Modları | Modstoke",
+      "description": "Sons of the Forest için Modstoke modları: Client (tablet, drone ve Kestrel uçağı), Admin host araçları, Terraforming ve Virginia. Sürümler, gereksinimler ve çok oyunculu notları."
+    },
+    "tools": {
+      "title": "Sons of the Forest için Modstoke Manager, Loader ve SDK",
+      "description": "Windows için Modstoke Manager'ı indir, Modstoke Loader'ı Sons of the Forest'a ekle ve onunla gelen SDK'ya göre mod geliştir."
+    },
+    "docs": {
+      "title": "Oyuncular ve Mod Yazarları için Modstoke Dokümanları",
+      "description": "Modstoke Manager, Loader ve modların nasıl bir arada çalıştığı, oyun uyumluluğu ve Sons of the Forest modu yapmadan önce bilmen gerekenler."
+    },
+    "releases": {
+      "title": "Modstoke Manager ve Loader'ı İndir | Sürümler",
+      "description": "Windows için Modstoke Manager'ı ve Modstoke Loader'ı indir. Her sürümde sürüm numarası, değişiklikler, boyut, imza durumu ve SHA-256 yer alır."
+    },
+    "hosting": {
+      "title": "Sons of the Forest Sunucu Hosting'i | Modstoke",
+      "description": "Kâr amacı gütmeyen OpenACAI'den özel çekirdekli, günlük yedekli ve Modstoke Loader hazır bir Sons of the Forest dedicated sunucusu kirala."
+    },
+    "support": {
+      "title": "Modstoke'a Destek Ol | OpenACAI",
+      "description": "Modstoke ücretsiz kalsın diye bağış yap. Bağışlar 501(c)(3) kâr amacı gütmeyen kuruluş OpenACAI'ye ve oyunlarla ruh sağlığı programı GAMHON'a gider."
+    },
+    "servers": {
+      "title": "Sons of the Forest Topluluk Sunucuları | Modstoke",
+      "description": "Hostlarının listelemeyi seçtiği Sons of the Forest sunucularını oyuncu sayıları, gereken modlar ve ayarlarla gör ya da kendi sunucunu nasıl listeleyeceğini öğren."
+    },
+    "notFound": {
+      "title": "Sayfa bulunamadı | Modstoke",
+      "description": "Bu sayfa bulunamadı. Sons of the Forest modları, araçları ve rehberleri için Modstoke'a dön."
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke, Sons of the Forest için modlar ve araçlar",
+    "organization": "OpenACAI'den Sons of the Forest için ücretsiz mod araçları ve bir topluluk."
+  },
+  "nav": {
+    "mods": "Modlar",
+    "tools": "Araçlar",
+    "servers": "Sunucular",
+    "hosting": "Hosting",
+    "guides": "Rehberler",
+    "docs": "Dokümanlar",
+    "releases": "Sürümler"
+  },
+  "layout": {
+    "skip": "İçeriğe geç",
+    "current": "Güncel",
+    "noDownloads": "Henüz herkese açık indirme yok",
+    "support": "Modstoke'a destek ol",
+    "home": "Modstoke ana sayfa",
+    "menu": "Menü",
+    "mainNav": "Ana gezinme",
+    "download": "Manager'ı indir",
+    "language": "Dil",
+    "languageNote": "Bu site için dili seç. Seçimin hatırlanır.",
+    "translated": "İngilizceden çevrildi. Düzeltmeler Discord'umuzda memnuniyetle karşılanır."
+  },
+  "footer": {
+    "about": "Sons of the Forest için ücretsiz modlar ve araçlar. Kâr amacı gütmeyen OpenACAI tarafından, oyunlarla ruh sağlığı ve sosyal bağ programı {gamhon} kapsamında yapılıyor. Endnight Games ile bağlantımız yok.",
+    "label": "Alt bilgi",
+    "play": "Oyna",
+    "build": "Geliştir",
+    "community": "Topluluk",
+    "mods": "Modlar",
+    "servers": "Sunucular",
+    "rent": "Sunucu kirala",
+    "panel": "Sunucu paneli",
+    "install": "Kurulum rehberi",
+    "troubleshooting": "Sorun giderme",
+    "tools": "Manager, Loader ve SDK",
+    "makeMod": "Mod yap",
+    "releases": "Sürümler",
+    "discord": "Discord",
+    "support": "Modstoke'a destek ol",
+    "apps": "Discord uygulamaları",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar"
+  },
+  "pages": {
+    "overview": "Genel bakış",
+    "mods": "Modlar",
+    "tools": "Araçlar",
+    "docs": "Dokümanlar",
+    "releases": "Sürümler",
+    "servers": "Topluluk sunucuları",
+    "hosting": "Sunucu hosting",
+    "support": "Modstoke'a destek ol",
+    "notFound": "Sayfa bulunamadı",
+    "noReleases": {
+      "eyebrow": "Sürümler",
+      "title": "Henüz indirme yok",
+      "lede": "Burada henüz bir şey yayımlanmadı. Her sürümde sürüm numarası, değişiklikler, uyumluluk ve dosya hash'leri yer alacak."
+    },
+    "missing": {
+      "title": "Burada bir şey yok.",
+      "lede": "Böyle bir sayfa yok ya da taşındı.",
+      "home": "Modstoke'a dön",
+      "mods": "Modlara bak"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "Adadaki çam ormanının üstünde, karlı zirvelerde akşam ışığı",
+      "title": "Oyunun bir parçası gibi hissettiren modlar.",
+      "lede": "Modstoke bir mod yükleyici, bir masaüstü yönetici ve şimdilik kendi yaptığımız dört mod: Client, Admin, Terraforming ve Virginia. Hepsi ücretsiz, kâr amacı gütmeyen OpenACAI yapıyor.",
+      "download": "Manager {version} indir",
+      "seeMods": "Modlara bak",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · OpenACAI imzalı"
+    },
+    "mods": {
+      "title": "Modlarımız",
+      "all": "Tüm modlar"
+    },
+    "setup": {
+      "title": "Kurulum",
+      "manager": {
+        "title": "Manager'ı kur.",
+        "body": "Sons of the Forest klasörünü göster, oyunu ve kayıtlarını kendisi bulur."
+      },
+      "loader": {
+        "title": "Loader'ı ekle.",
+        "body": "Manager kurar. Başlık ve duraklatma ekranlarına bir Mods menüsü ekler."
+      },
+      "mods": {
+        "title": "Modlarını seç.",
+        "body": "Çoğu kişi Client ister. Host oluyorsan Admin'i de ekle."
+      },
+      "backup": "Önce kayıtlarını yedekle. {guide} bunu adım adım anlatır.",
+      "guideLink": "Kurulum rehberi",
+      "shotAlt": "Sons of the Forest mod listesini gösteren Modstoke Manager",
+      "shotCaption": "Manager'ın mod listesi. Gösterilen modlar bu siteden değil, SOTF Mods'tan geliyor."
+    },
+    "releases": {
+      "title": "Son sürümler",
+      "all": "Tüm sürümler"
+    },
+    "ledger": {
+      "manager": "Windows yükleyicisi, imzalı",
+      "loader": "Loader ve SDK, önizleme"
+    },
+    "together": {
+      "title": "Birlikte oyna",
+      "body": "{servers}, hostlarının listelemeyi seçtiği Sons of the Forest dünyalarını ve her birinin gerektirdiği modları gösterir. {discord} ise ekip bulmak, hata bildirmek ve yeni sürümleri ilk duymak için doğru yer. Hepsi {gamhon}, yani OpenACAI'nin oyunlarla ruh sağlığı ve sosyal bağ programının bir parçası.",
+      "serversLink": "Sunucu listesi",
+      "browse": "Sunuculara göz at",
+      "join": "Discord'a katıl"
+    }
+  },
+  "hosting": {
+    "eyebrow": "Sunucu hosting",
+    "title": "Sons of the Forest sunucusu kirala",
+    "lede": "Kendi donanımımızda dedicated bir sunucu; Modstoke Loader ve modlarımız hazır. OpenACAI bunu kâr amacı gütmeden işletiyor, ödediğin ücret sunucuları ve modları ayakta tutuyor.",
+    "status": "Yakında açılıyor, önce Discord üyelerimizle küçük bir betayla başlıyoruz.",
+    "plans": {
+      "heading": "Planlar",
+      "small": "Small",
+      "standard": "Standard",
+      "price": "Aylık {price}, istersen daha fazlası",
+      "players": "Oyuncu",
+      "upTo": "En fazla {count}",
+      "cpu": "CPU",
+      "cores": "{cores} özel çekirdek",
+      "memory": "Bellek",
+      "memorySize": "{memory} GB",
+      "storage": "Depolama",
+      "storageSize": "NVMe üzerinde {disk} GB",
+      "note": "Her planın bir alt sınırı var. Ödeme sırasında istersen daha fazlasını ödeyebilirsin. Alt sınırın üzerindeki her şey OpenACAI'ye bağış sayılır ve makbuzunda ayrı bir satır olarak görünür. 16 oyunculu plan, birini düzgünce test ettikten sonra gelecek."
+    },
+    "get": {
+      "title": "Neler alırsın",
+      "cores": {
+        "title": "Sana ait çekirdekler.",
+        "body": "Sunucunun CPU çekirdekleri başka kimseyle paylaşılmaz."
+      },
+      "modstoke": {
+        "title": "Modstoke hazır.",
+        "body": "Loader kurulu ve güncel tutuluyor, modlarımız da bir tık uzakta."
+      },
+      "find": {
+        "title": "Bulması kolay.",
+        "body": "Oyunun sunucu tarayıcısında görünür; istersen {servers} Manager katılma bağlantısıyla birlikte listelenir.",
+        "link": "Sunucular sayfamızda"
+      },
+      "admin": {
+        "title": "Admin araçları.",
+        "body": "Modstoke Admin seni Steam hesabın üzerinden sahip olarak tanır."
+      },
+      "panel": {
+        "title": "Basit bir kontrol paneli.",
+        "body": "Dosya ve klasörleri doğrudan sürükle, konsolu izle, kimlerin oynadığını gör ve komut çalıştır; hepsi tek ekrandan."
+      },
+      "world": {
+        "title": "Dünyan senin, sende kalır.",
+        "body": "Her gün yedek alınır, bir hafta saklanır ve dünyanı kendi PC'ne tek tıkla indirebilirsin."
+      },
+      "discord": {
+        "title": "Discord'umuzda bir ev.",
+        "body": "Sunucuna kendi duyuru ve sohbet kanalların açılır, ekibin de moderasyon uyarıları alır."
+      },
+      "coast": {
+        "title": "Doğu Yakası'na yakın.",
+        "body": "New Jersey'de, 1 Gbps hatla barındırılıyor."
+      }
+    },
+    "how": {
+      "title": "Nasıl çalışır",
+      "apply": {
+        "title": "Başvur.",
+        "body": "Discord ile giriş yap, Steam hesabını bağla ve sunucunun ne için olduğunu anlat."
+      },
+      "review": {
+        "title": "İnceleriz.",
+        "body": "Her başvuruyu ekibimizden biri okur."
+      },
+      "pay": {
+        "title": "PayPal ile öde.",
+        "body": "Bir plan seç ve ne kadar ödemek istediğine karar ver. Aylık yenilenir, istediğin zaman iptal edebilirsin."
+      },
+      "play": {
+        "title": "Oyna.",
+        "body": "Sunucun birkaç dakika içinde başlar, onu {panel} yönetirsin.",
+        "link": "panelden"
+      }
+    },
+    "faq": {
+      "title": "Sorular",
+      "players": {
+        "q": "8'den fazla oyuncu olabilir mi?",
+        "a": "Henüz hayır. Sekiz, oyunun kendi sınırı. Loader'ımız bu sınırı kaldırabiliyor; gerçek oyuncularla denedikten sonra 16 oyunculu bir plan ekleyeceğiz."
+      },
+      "mods": {
+        "q": "Kendi modlarımı ekleyebilir miyim?",
+        "a": "Evet, dosya yöneticisi üzerinden. Sunucun diğer herkesinkinden ayrı, kendi alanında çalışır."
+      },
+      "payment": {
+        "q": "Ödeme başarısız olursa ne olur?",
+        "a": "Birkaç günlük ek süreden sonra sunucun duraklatılır. Dosyalarını 14 gün saklarız, böylece kaldığın yerden devam edebilirsin."
+      },
+      "apply": {
+        "q": "Neden başvurmam gerekiyor?",
+        "a": "Küçük, kâr amacı gütmeyen bir kuruluşuz ve tek bir makineyi paylaşıyoruz; bu yüzden kimlerin olduğunu bilmek istiyoruz. Bu, herkes için işleri adil ve güvenli tutar."
+      },
+      "rules": {
+        "q": "Kurallar neler?",
+        "a": "{terms} hosting'i kapsar; iadeler ve bir sunucu sona erdiğinde dosyalarına ne olacağı da buna dahil. {privacy} neleri sakladığımızı anlatır.",
+        "termsLink": "Hizmet Şartları",
+        "privacyLink": "Gizlilik Politikası"
+      }
+    },
+    "beta": {
+      "title": "Betaya katılmak ister misin?",
+      "body": "Discord'umuzda sor, seni listeye ekleyelim. Hosting, OpenACAI'nin oyunlarla ruh sağlığı ve sosyal bağ programı olan {gamhon} kapsamında.",
+      "have": "Zaten bir sunucun mu var? Yönetmek için {panel}.",
+      "panelLink": "paneli aç",
+      "ask": "Discord'da sor",
+      "code": "Beta kodum var",
+      "servers": "Topluluk sunucuları"
+    }
+  },
+  "support": {
+    "eyebrow": "Destek",
+    "title": "Modstoke'u ayakta tut",
+    "lede": "Modlarımız ve araçlarımız ücretsiz. Bunları 501(c)(3) kâr amacı gütmeyen kuruluş OpenACAI yapıyor; bağışlar bu sitenin arkasındaki sunucuyu, Discord botumuzu ve topluluk sunucularını finanse ediyor.",
+    "donate": {
+      "title": "Bağış yap",
+      "often": "Ne sıklıkla",
+      "once": "Tek seferlik",
+      "monthly": "Aylık",
+      "amount": "ABD doları cinsinden tutar",
+      "otherLabel": "Başka tutar",
+      "otherPlaceholder": "Diğer $",
+      "closed": "Online bağışlar yakında açılıyor. O zamana kadar nasıl yardım edebileceğini {discord} sunucumuzda sor.",
+      "note": "Ödemeler, sana makbuzu e-postayla gönderen PayPal üzerinden yapılır. Kart bilgilerini asla görmeyiz."
+    },
+    "roles": {
+      "title": "Destekçi rolleri",
+      "intro": "Bağışçılar teşekkür olarak Discord'umuzda bir rol alır:",
+      "supporter": {
+        "name": "Supporter",
+        "text": "Bağış yapmış herkes"
+      },
+      "monthly": {
+        "name": "Monthly supporter",
+        "text": "Aylık bağış sürdüğü sürece"
+      },
+      "host": {
+        "name": "Server host",
+        "text": "{hosting} kiralayan herkes",
+        "link": "bizden sunucu"
+      },
+      "note": "Hesaplar açılana kadar Discord'da bir moderatöre PayPal makbuz numaranla yaz, rolü ekler. Roller yalnızca bir teşekkür. Modlar her durumda herkes için ücretsiz kalır."
+    },
+    "gamhon": {
+      "title": "GAMHON'un parçası",
+      "what": "Modstoke, Game and Mental Health Online Network yani GAMHON'un parçası. OpenACAI bunu insanlara oyunlar üzerinden baskısız bir sosyal alan sunmak için işletiyor; bağlanabilecek pek fazla yeri olmayanlar da buna dahil.",
+      "modding": "Modculuk tam da buraya uyuyor. Her hobi gibi sana üzerinde çalışacak bir şey ve sabırsızlıkla bekleyeceğin bir şey verir, üstüne birlikte bir şeyler yapan insanlardan oluşan bir topluluk gelir. Ücretsiz araçlarımız, Discord'umuz ve barındırdığımız sunucuların hepsi bunun parçası.",
+      "money": "Buradan yapılan bağışlar ve {hosting} ücretleri OpenACAI'ye gider ve programı finanse etmeye yardım eder.",
+      "hostingLink": "sunucu hosting",
+      "crisis": "GAMHON eğlence ve arkadaşlıkla ilgilidir, danışmanlık değildir. ABD'de bir kriz yaşıyorsan 988'i ara ya da 988'e mesaj gönder.",
+      "more": "GAMHON hakkında daha fazlası openacai.com'da"
+    },
+    "where": {
+      "title": "Para nereye gidiyor",
+      "body": "Önce sunucu gelir. New Jersey'deki tek bir makine bu siteyi, Sentinel'i (Discord botumuz) ve yerel yapay zekâsını, bir de barındırdığımız oyun sunucularını çalıştırıyor. Bunun ötesindeki her şey GAMHON'un geri kalanına gider.",
+      "ask": "Sorun mu var? Discord'da sor"
+    }
+  },
+  "servers": {
+    "eyebrow": "Topluluk sunucuları",
+    "title": "Bir sunucu bul",
+    "intro": "Hostlarının burada listelemeyi seçtiği Sons of the Forest dünyaları ve her birinin gerektirdiği modlar.",
+    "listYours": "Sunucunu listele",
+    "directoryLabel": "Sunucu dizini",
+    "filters": {
+      "find": "Sunucu bul",
+      "placeholder": "Sunucu, host, bölge ya da mod…",
+      "status": "Durum",
+      "allStatuses": "Tüm durumlar",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı",
+      "kind": "Oturum türü",
+      "allSessions": "Tüm oturumlar",
+      "dedicated": "Dedicated",
+      "playerHosted": "Oyuncu hostlu",
+      "refresh": "Yenile"
+    },
+    "loading": "Dizin yükleniyor…",
+    "refreshes": "Görünürken her 60 saniyede bir yenilenir.",
+    "noscript": {
+      "title": "Sunucuları yüklemek için JavaScript gerekir.",
+      "body": "Canlı dizini görmek için JavaScript'i etkinleştir. Bu sayfada hiçbir sunucu bilgisi saklanmaz."
+    },
+    "measureNote": "— ile işaretli oyuncu sayıları bilinmiyor. Host gecikmesi, bağlı oyuncuların host tarafından ölçülen ortanca gidiş-dönüş süresidir; senin bağlantın farklı olabilir.",
+    "join": {
+      "eyebrow": "KATILMADAN ÖNCE",
+      "title": "Bir sonraki oturumun için bir yer.",
+      "review": "Gereken modları, seçili ayarları ve son etkinliği görmek için bir sunucu aç. Gereksinimler senin incelemen için gösterilir; bu sayfa mod indirmez ya da kurmaz.",
+      "manager": "Katıl, Modstoke Manager 0.3.0 veya daha yenisini açar; Manager, herhangi bir şey başlamadan önce sunucu ayrıntılarını onaylaman için yeniden gösterir."
+    },
+    "host": {
+      "eyebrow": "HOSTLAR İÇİN",
+      "title": "Sunucunu isteyerek paylaş.",
+      "ask": "Dizin operatöründen {discord} listelemeni onaylamasını ve bir yayıncı anahtarı vermesini iste. Bu anahtarı hosting bileşeninde ayarla, sonra yayınlamayı açıkça etkinleştir. Anahtarı sohbette paylaşma ve bu sitede girme.",
+      "discordLink": "Discord'umuzda",
+      "privacy": "Yalnızca katılmayı seçen hostlar bildirim yapar. Listelerde sunucu bilgileri, seçili ayarlar ve toplu etkinlik yer alır; oyuncu adları, sohbet, parolalar ya da özel Admin verileri yer almaz. Bir listeyi kaldırmak veya anahtarını iptal etmek için operatörle iletişime geç."
+    },
+    "detail": {
+      "eyebrow": "SUNUCU AYRINTILARI",
+      "close": "Kapat",
+      "loading": "Sunucu yükleniyor…"
+    }
+  },
+  "tools": {
+    "eyebrow": "Araçlar",
+    "title": "Manager, Loader ve SDK",
+    "lede": "Oyuncuların Manager'a ve Loader'a ihtiyacı var. Mod yazarları, Loader ile birlikte gelen SDK'ya göre geliştirir.",
+    "installGuide": "Kurulum rehberi",
+    "trailer": {
+      "watch": "{name} fragmanını YouTube'da izle",
+      "alt": "{name} fragmanından açılış karesi",
+      "caption": "{name} fragmanı, YouTube'da oynatılır"
+    },
+    "file": {
+      "none": "Henüz herkese açık indirme yok.",
+      "signed": "imzalı",
+      "unsigned": "imzasız",
+      "preview": "önizleme"
+    },
+    "manager": {
+      "what": "Sons of the Forest modların için bir Windows uygulaması. Oyununu bulur, Loader'ı kurar ve modlarını tek yerde tutar. Buradan SOTF Mods ve Nexus Mods'a göz atabilir, katılacak bir sunucu bulabilir ya da kendi dedicated sunucunu kurabilirsin.",
+      "store": "Modstoke mağazası açıldığında oradan kurulumu Manager ile yapacaksın: bir şey çıkarılmadan önce her dosyayı imzalı katalogla karşılaştırır.",
+      "download": "Manager'ı indir"
+    },
+    "loader": {
+      "what": "Her Modstoke modunun arkasındaki yükleyici. Bir kez kur, sonra istediğin modları ekle. Başlık ve duraklatma ekranlarına, her modun ayarlarını tuttuğu bir Mods menüsü ekler ve ihtiyaç duyduğu .NET çalışma zamanıyla birlikte gelir.",
+      "legacy": "Eski RedLoader ve BepInEx modları onun yanında çalışmaya devam eder.",
+      "onReleases": "Sürümler sayfasında Loader",
+      "nexus": "Nexus sayfası",
+      "shotAlt": "Loader'ın oyundaki Mods menüsü",
+      "shotCaption": "Loader'ın oyuna eklediği Mods menüsü"
+    },
+    "sdk": {
+      "what": "Modların üzerine kurulduğu arayüzler. Loader'ın içinde gelirler, yani ayrıca indirilecek bir şey yok: projenden Loader derlemesine başvur ve oyuncularının kullandığı Loader sürümüyle test et.",
+      "notes": "{notes}, paket düzenini, manifesti ve oyunun ayrı bir kopyasında test etmeyi kapsar.",
+      "notesLink": "Yazar notları"
+    }
+  },
+  "guides": {
+    "home": "Ana sayfa",
+    "guides": "Rehberler",
+    "breadcrumb": "Gezinme yolu",
+    "eyebrow": "OYUNCU REHBERLERİ",
+    "onThisPage": "Bu sayfada",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "Manager önizlemesi",
+    "backup": {
+      "exit": "Sons Of The Forest'tan çık ve dosyalarını değiştirebilecek tüm mod araçlarını kapat. Bekleyen Steam Cloud eşitlemesi varsa bitmesini bekle.",
+      "find": "Dosya Gezgini'nde adres çubuğuna {path} yapıştır. Normal bir yerel oyuncu kurulumunda {saves} klasörü buradadır. Yoksa devam etmeden önce kurulumunun kullandığı Windows hesabını ve kayıt konumunu kontrol et.",
+      "copy": "{saves} klasörünün tamamını, oyunun ve kayıt dizininin dışında, tarihli ayrı bir yedek klasörüne kopyala. Kopyala; asıl klasörü taşıma ya da silme. Tüm hesap ve dünya alt klasörlerini koru.",
+      "verify": "Yedeği aç ve beklenen alt klasörlerin ve dosyaların orada olduğunu doğrula. Değişiklik yaparken bu kopyaya dokunma. Steam Cloud, ayrı bir yedeğin yerini tutmaz.",
+      "note": "Dedicated sunucu ya da başka yerde saklanan kayıtlar için, o sunucunun ayarlı kayıt konumunu ayrıca yedekle. Eski bir kopyayı geri yüklemeden önce, geri yüklemeyi geri alabilmek için mevcut kayıtları da sakla."
+    },
+    "checksum": {
+      "open": "İsteğe bağlı: indirilen yükleyicinin bulunduğu klasörde PowerShell'i aç ve şunu çalıştır:",
+      "compare": "Dönen {hash} değerini, aynı sürüm için {release} yazan SHA-256 ile karşılaştır. {manager} için kayıtlı değer şu:",
+      "releasePage": "sürüm sayfasında",
+      "differs": "Farklıysa dosyayı çalıştırma. Sürüm sayfasından yeniden indir ve tekrar kontrol et. Eşleşen bir hash, baytların yayımlanan sağlama toplamıyla uyuştuğunu gösterir; yayıncı kimliğini kanıtlamaz ve imzasız bir yükleyiciyi imzalı yapmaz. Microsoft'un {reference} sayfasına bak.",
+      "reference": "Get-FileHash başvurusu",
+      "none": "Şu anda seçili bir Manager dosyası yok. Devam etmeden önce yayımlanmış bir yükleyici ve sağlama toplamı için {releases} sayfasına bak.",
+      "releases": "Sürümler"
+    },
+    "index": {
+      "title": "Sons Of The Forest mod rehberleri",
+      "description": "Windows'ta Modstoke Manager'ı kur, kayıtlarını yedekle ve Sons Of The Forest mod sorunlarını çöz.",
+      "statusTitle": "Elde olandan başla",
+      "statusManager": "{manager} Windows için mevcut.",
+      "statusManagerPreview": "{manager} Windows için önizleme olarak mevcut.",
+      "statusNoManager": "Manager'ın güncel durumu için Sürümler sayfasına bak.",
+      "statusLoader": "SDK'lı Loader {version} da Sürümler sayfasında ve Manager onu senin için kurabilir. Client gibi modların kendi indirmeleri var; Modstoke'un henüz barındırılan bir mod kataloğu yok.",
+      "statusNoLoader": "Modstoke Loader, SDK ve client paketinin tamamı yayımlanmadı. Bu paketin otomatik kurulumu kullanılamıyor ve Modstoke'un henüz barındırılan bir mod kataloğu yok.",
+      "reviewReleases": "Güncel sürümlere bak",
+      "cardsLabel": "Mevcut rehberler",
+      "installEyebrow": "WINDOWS KURULUMU",
+      "installTitle": "Modstoke Manager'ı kur",
+      "installText": "Kayıtlarını yedekle, resmi yükleyiciyi bul, sağlama toplamını kontrol et ve oyun kurulumunu seç.",
+      "installLink": "Kurulum rehberini oku",
+      "troubleEyebrow": "SORUN GİDERME",
+      "troubleTitle": "Oyun modlarındaki sorunları gider",
+      "troubleText": "Manager kurulumunu Loader ve mod sorunlarından ayır, gereksinimleri kontrol et ve işe yarar bir sorun raporu hazırla.",
+      "troubleLink": "Sorun giderme rehberini oku",
+      "footer": "Proje bilgisi ve yazarlar için hazırlık adına {docs} sayfasına bak.",
+      "docs": "dokümanlar"
+    },
+    "install": {
+      "title": "Windows'ta Modstoke Manager nasıl kurulur",
+      "description": "Modstoke Manager'ı kurmak için adım adım rehber: kayıt yedekleri, resmi indirme, isteğe bağlı SHA-256 kontrolü ve oyun seçimi.",
+      "crumb": "Modstoke Manager'ı kur",
+      "toc": {
+        "before": "Başlamadan önce",
+        "backup": "Kayıtları yedekle",
+        "download": "Manager'ı indir",
+        "check": "İndirmeyi kontrol et",
+        "install": "Kur ve oyunu seç",
+        "next": "Sonra ne yapmalı"
+      },
+      "before": {
+        "title": "Başlamadan önce",
+        "intro": "Bu rehber Windows için Modstoke Manager'ı kapsar. Sons Of The Forest'ın Steam kurulumunu hazır tut ve kurulumdan önce oyunu kapat. Şu anki indirme {manager}.",
+        "signed": "Yükleyici {publisher} tarafından imzalıdır. Windows bunun yerine bilinmeyen bir yayıncı gösteriyorsa çalıştırma ve Sürümler sayfasından yeniden indir.",
+        "unsigned": "Yayımlanan önizleme yükleyicisi imzasızdır. Windows, yayıncı imzasını doğrulayamadığı için bir uyarı gösterebilir. Çalıştırıp çalıştırmamaya karar vermeden önce kaynağı ve sürüm ayrıntılarını incele. Kurmak için Windows güvenlik korumalarını kapatma. Emin değilsen iptal et ve imzalı bir sürümü bekle.",
+        "scope": "Manager'ı kurmak oyunu kurmaz ve modların çalıştığını kanıtlamaz.",
+        "scopeLoader": "Kurulum bittikten sonra Manager, Loader'ı Loaders sayfasından kurabilir.",
+        "scopeNoLoader": "Modstoke Loader, SDK ve client paketinin tamamı henüz yayımlanmadı; bu yüzden paketin otomatik kurulumu kullanılamıyor."
+      },
+      "backupTitle": "1. Kayıtlarını yedekle",
+      "download": {
+        "title": "2. Resmi indirmeyi al",
+        "open": "{releases} sayfasını aç ve Manager indirmesini bul.",
+        "releases": "Modstoke Sürümleri",
+        "read": "Sürümü, imza bilgisini ve kayıtlı kontrolleri oku.",
+        "filename": "Bu rehberde yükleyici dosyasının adı {file}.",
+        "noFile": "Yalnızca listede bir Manager yükleyicisi varsa devam et.",
+        "get": "Yükleyiciyi o sayfadaki bağlantıdan indir. Sağlama toplamını karşılaştırmak istersen sürüm sayfasını açık tut.",
+        "note": "Manager kurulum kontrolü, oyun ya da çok oyunculu uyumluluk sonucu değildir. Bu Manager sürümü için o kontroller uygulanamaz olarak işaretli."
+      },
+      "checkTitle": "3. İstersen indirmeyi kontrol et",
+      "setup": {
+        "title": "4. Manager'ı kur ve oyunu seç",
+        "runSigned": "İndirilen yükleyiciyi çalıştır",
+        "runUnsigned": "İmzasız önizlemeyle devam etmeyi seçersen indirilen yükleyiciyi çalıştır",
+        "run": "{run} ve kurulum istemlerini izle. Kurulum durursa hata mesajını not al.",
+        "open": "Kurulumdan sonra Modstoke Manager'ı aç.",
+        "select": "Manager oyunun çalıştırılabilir dosyasını sorarsa, gerçek Steam oyun kurulumundaki {exe} dosyasını seç. Kurulu klasörü Steam'deki oyunun yerel dosyalarından bulabilirsin. Oyunun çalıştırılabilir dosyasını seç; Manager yükleyicisini ya da bir kısayolu değil.",
+        "status": "O kurulum için gösterilen durumu oku. Oyun bulunamıyorsa seçilen dosyanın hâlâ var olduğunu ve amaçladığın Steam kurulumuna ait olduğunu kontrol et.",
+        "note": "Ekrandaki ifadeler sürümler arasında değişebilir. Eksik bir denetimi tahmin etmeye çalışmak yerine, kurduğun sürümde gösterilen istemi izle."
+      },
+      "next": {
+        "title": "5. Mod eklemeden önce gereksinimleri kontrol et",
+        "loader": "Modstoke'un henüz barındırılan bir mod kataloğu yok. Önce Loader'ı Manager'dan kur, sonra modları kendi sayfalarından ekle.",
+        "noLoader": "Modstoke şu anda barındırılan bir mod kataloğuna sahip değil ve Loader, SDK ve client paketinin tamamını yayımlamıyor. Eksik paket bir yayın sınırıdır; Manager'ı yeniden kurmak bunu düzeltmez.",
+        "elsewhere": "Başka bir yerden aldığın mod için yazarın gereksinimlerini ve tam sürüme ait kurulum talimatlarını oku. Dosyaları değiştirmeden önce desteklenen oyun sürümünü ve Loader'ı doğrula. Farklı bir Loader için yazılmış bir modun Modstoke ile çalışacağını varsayma.",
+        "continue": "Bir sorunla karşılaşırsan {troubleshooting} bölümünden devam et ya da {docs} oku.",
+        "troubleshooting": "Sons Of The Forest mod sorun giderme",
+        "docs": "oyuncu dokümanlarını"
+      }
+    },
+    "trouble": {
+      "title": "Sons Of The Forest mod sorun giderme",
+      "description": "Manager kurulumunu, Loader gereksinimlerini ve oyun modu sorunlarını; kayıt yedekleri, dikkatli kurtarma adımları ve işe yarar bir sorun raporu kontrol listesiyle teşhis et.",
+      "crumb": "Mod sorun giderme",
+      "toc": {
+        "identify": "Sorunu belirle",
+        "protect": "Kayıtları koru",
+        "manager": "Manager kurulumu",
+        "loader": "Loader ve mod gereksinimleri",
+        "restore": "Modsuz oyuna dön",
+        "report": "Sorunu bildir"
+      },
+      "identify": {
+        "title": "Sorunun nerede çıktığını belirle",
+        "intro": "Başarısız olan ilk adımdan başla. Yükleyici hatasının, eksik bir Loader indirmesinin ve bir mod yüklendikten sonraki çökmenin nedenleri farklıdır.",
+        "managerTerm": "Manager kurulumu",
+        "manager": "Yükleyici başarısız oluyor, Manager açılmıyor ya da seçilen oyun yolu yanlış. {link} ile başla.",
+        "managerLink": "Manager kurulumu",
+        "loaderTerm": "Loader erişilebilirliği",
+        "loader": "Modstoke Loader, SDK ve client paketinin tamamı yayımlanmadı. Otomatik paket kurulumu kullanılamıyor; Manager'ı yeniden kurmak bunu sağlayamaz.",
+        "gameTerm": "Oyun ya da mod davranışı",
+        "game": "Oyun açılmıyor, bir mod görünmüyor ya da bir dünya beklenmedik davranıyor. Dosyaları değiştirmeden önce tam {link} bölümünü kontrol et.",
+        "gameLink": "Loader ve mod gereksinimleri",
+        "catalog": "Modstoke'un henüz barındırılan bir mod kataloğu yok. Boş bir katalog, oyun dosyalarının hasarlı olduğunun kanıtı değildir."
+      },
+      "protect": {
+        "title": "Değişiklik yapmadan önce kayıtları koru",
+        "note": "Kaldırılan ya da değiştirilen modların soruna yol açıp açmadığını kontrol ederken değer verdiğin bir dünyanın üzerine yazma. Davranışı karşılaştırman gerekiyorsa ayrı, geçici bir dünya kullan."
+      },
+      "manager": {
+        "title": "Manager kurulum sorunlarını çöz",
+        "version": "Manager sürümünü {releases} sayfasıyla karşılaştır. O sayfadaki yükleyici ve imza bilgisini kullan; eski ya da farklı adlı bir paketin aynı davranışa sahip olduğunu varsayma.",
+        "releases": "Sürümler",
+        "publisher": "Windows bilinmeyen yayıncı konusunda uyarırsa yükleyicinin Sürümler sayfasından geldiğini kontrol et. Güvenlik korumalarını açık tut. İndirmek istediğin dosyanın bu olduğundan emin olamazsan kurulumu iptal et.",
+        "incomplete": "İndirme eksik görünüyorsa kurulumu yeniden denemeden önce {check} yap.",
+        "checkLink": "isteğe bağlı sağlama toplamı kontrolünü",
+        "find": "Manager oyunu bulamıyorsa, özellikle oyunu başka bir sürücüye taşıdıktan sonra, seçilen {exe} dosyasının mevcut Steam kurulumunda olduğunu doğrula.",
+        "error": "Bir yükleyici ya da açılış hatasında tam mesajı kaydet ve bunun Manager açılmadan önce mi sonra mı olduğunu not al. Açıklanamayan bir Manager açılış hatasını gidermek için oyun dosyalarını değiştirme."
+      },
+      "loader": {
+        "title": "Loader ve mod gereksinimlerini kontrol et",
+        "read": "Mod yazarının tam mod sürümü için sayfasını oku. Gereken Loader'ı, bağımlılıkları, desteklenen oyun sürümünü ve kurulum konumunu not al.",
+        "compare": "Bu gereksinimleri gerçekte kurulu olanla karşılaştır. Benzer adlı bir Loader ya da içinde bir DLL olan bir klasör uyumluluğu kanıtlamaya yetmez.",
+        "update": "Sorunun bir oyun, Loader ya da mod güncellemesinden sonra başlayıp başlamadığını kontrol et. Önceki sürümleri ve ilk hata mesajını notlarında sakla.",
+        "isolate": "Şüphelendiğin modu ayırmak için yazarın desteklediği devre dışı bırakma ya da kaldırma yöntemini kullan, gerekli bağımlılıklarını aklında tut. Bir seferde tek şeyi değiştir ve kayıtlarını yedekledikten sonra ayrı bir dünya kullan.",
+        "combine": "İlgili yazarlar böyle bir düzeni açıkça desteklemedikçe Loader kurulumlarını birleştirme ya da eklentileri Loader klasörleri arasında taşıma. Çok oyunculu için modun belirttiği host, client ve sunucu gereksinimlerini ayrı ayrı kontrol et; tek oyunculu bir oturumun çalışması çok oyunculu desteğini kanıtlamaz.",
+        "notes": "Mod yazarının talimatlarının yanında projenin {link} sayfasını oku.",
+        "notesLink": "uyumluluk notları"
+      },
+      "restore": {
+        "title": "Modsuz oyuna dikkatle dön",
+        "close": "Oyunu kapat. {backup} işlemini tamamla; mod yapılandırma dosyalarını ve kurulu paketlerin bir kaydını sakla.",
+        "backupLink": "Kayıt yedeği",
+        "remove": "Kurulu her modun ve Loader'ın belgelenmiş kaldırma yöntemini izle. Başka bir araçla yönetilen kurulumlarda o aracın desteklediği kaldırma yöntemini kullan. Hangisinin bir moda ait olduğunu tahmin ederek tanımadığın dosyaları silme.",
+        "verify": "Steam'de oyunun {properties} bölümünü aç, {installed} seçeneğini seç ve {integrity} düğmesine bas. Doğrulamanın bitmesini bekle. Bu adımlar {support} tarafından belgelenmiştir.",
+        "properties": "Özellikler",
+        "installed": "Yüklü Dosyalar",
+        "integrity": "Oyun dosyalarının bütünlüğünü doğrula",
+        "support": "Steam Destek",
+        "leftover": "Geride kalan dosyalar için Loader ve mod kaldırma talimatlarına bak. Steam doğrulaması Steam'in yönettiği oyun dosyalarını onarır; bir modun eklediği her dosyanın kaldırılması olarak görülmemelidir.",
+        "launch": "Oyunu Steam üzerinden aç ve davranışı karşılaştırmak için ayrı, geçici bir dünya kullan. Yedeklenen dünyalara dokunma. Sorun sürerse bu sonucu raporuna ekle.",
+        "stop": "Eklenen bir dosyayı ya da sahibini belirleyemiyorsan dosya silmeyi bırak ve ilgili mod ya da Loader geliştiricisinden yol göstermesini iste."
+      },
+      "report": {
+        "title": "İşe yarar bir sorun raporu hazırla",
+        "intro": "Raporu, arızalı bileşenden sorumlu proje ya da mod yazarının bağladığı destek kanalından gönder. Şunları ekle:",
+        "versions": "Windows sürümün, oyun sürümü ya da derlemesi, Manager sürümü, Loader adı ve sürümü ve ilgili mod sürümleri.",
+        "error": "Tam hata metni ve ilgili günlük parçası; ilk hata ve yakınındaki satırlar dahil. Paylaşmadan önce kişisel yolları, hesap bilgilerini ve gizli bilgileri çıkar.",
+        "steps": "Sorunu yeniden üretmeye yarayan kısa adımlar, ne beklediğin ve ne olduğu.",
+        "scope": "Açılışı, belirli bir dünyayı, tek oyunculuyu, hosting'i ya da katılmayı etkileyip etkilemediği; ve desteklenen kaldırma adımlarından sonra sürüp sürmediği.",
+        "last": "Son çalışan kurulum, yakın zamandaki değişiklikler ve zaten denediğin adımlar.",
+        "outro": "Manager kurulum yardımı için {guide} dön. Sorun çözülene kadar asıl yedeği sakla.",
+        "guideLink": "Windows kurulum rehberine"
+      }
+    }
+  },
+  "apps": {
+    "home": "Ana sayfa",
+    "breadcrumb": "Gezinme yolu",
+    "eyebrow": "MODSTOKE DISCORD UYGULAMALARI",
+    "onThisPage": "Bu sayfada",
+    "effective": "Yürürlük tarihi {date}",
+    "effectiveDate": "19 Ekim 2026",
+    "contactPage": "OpenACAI iletişim sayfası",
+    "index": {
+      "title": "Modstoke Discord uygulamaları",
+      "description": "Moderasyon ve topluluk araçları için Sentinel'i ya da ortak sesli oynatma için Radio'yu ekle. OpenACAI tarafından işletilen herkese açık önizlemeler.",
+      "sentinel": {
+        "heading": "Sentinel: moderasyon ve topluluk",
+        "intro": "Discord sunucuna moderasyon yardımı, karşılama mesajları, kendi seçtiğin roller, ekip bulma, topluluk istatistikleri ve yardım araçları getir. Sentinel, OpenACAI tarafından işletilen herkese açık bir önizlemedir.",
+        "add": "Sentinel'i sunucuna ekle",
+        "install": "Sunucu sahibi Sentinel'i sunucu uygulaması olarak kurar. Kişisel hesaba kurulum desteklenmez. Sentinel, sahibi karşılama, moderatör günlüğü ve güncellemeler kanallarıyla {configure} komutunu çalıştırana kadar etkin olmaz. Genel, ekip ve yardım forumu kanalları isteğe bağlıdır. Ardından kendi seçilen rolleri kurmak için {setup} komutunu çalıştır. Banlar ve sohbet özellikleri varsayılan olarak kapalıdır.",
+        "permissions": "Kurulum şu izinleri ister: Kanalları Görüntüle, Mesaj Gönder, Mesaj Geçmişini Oku, Bağlantı Yerleştir, Mesajları Yönet, Rolleri Yönet, Üyelere Zaman Aşımı Uygula, Üyeleri At ve Üyeleri Banla. Discord'un izin ekranını incele ve Sentinel'e yapılandırdığın özellikler için gereken kanallara ve rollere erişim ver. Kurulum Yönetici iznini ya da sunucu genelinde Kanalları Yönet iznini istemez. Gelişmiş tuzak ve istatistik özellikleri operatör yapılandırması ve ilgili kanallarla sınırlı izinler gerektirir."
+      },
+      "radio": {
+        "heading": "Radio: birlikte dinle",
+        "intro": "Desteklenen YouTube bağlantılarını ve onaylı Discord CDN medyasını slash komutlarıyla bir ses kanalında oynatır. Spotify istekleri Spotify'ı açan bağlantı kartları üretir; sesli kanalda Spotify parçalarının tamamını oynatmaz. Yalnızca paylaşmaya ya da oynatmaya yetkin olduğun medyayı iste.",
+        "add": "Radio'yu sunucuna ekle",
+        "install": "Sunucu sahibi Radio'yu kişisel hesap uygulaması olarak değil, sunucu uygulaması olarak kurar. Komut kanalına erişime ve hedef ses kanalında Bağlan ve Konuş izinlerine izin ver. Radio kendini sağırlaştırır ve ses kaydı yapmaz.",
+        "limits": "Her sunucunun kendi kuyruğu vardır, en fazla 10 parça. Parçalar 10 dakika ve parça başına 32 MiB ile sınırlıdır. Radio dinleyicisiz 60 saniye geçince ayrılır. Hizmet, tüm sunucular genelinde en fazla iki etkin ses oturumunu destekler; bu yüzden kapasite dolu olabilir."
+      },
+      "support": {
+        "heading": "Önizleme desteği ve politikalar",
+        "preview": "Bu uygulamalar herkese açık önizlemelerdir: kullanılabilirlik ve otomatik sonuçlar değişebilir. Her sunucunun saklanan verisi, sohbet bağlamı ve oynatma kuyrukları ayrıdır. Sentinel tüm sunucular için tek bir yerel model işçisini paylaşır, istekleri bulut yapay zekâsı olmadan teker teker işler.",
+        "read": "Kurmadan önce {privacy} ve {terms} oku. Kurulum yardımı için {community} topluluğuna katıl. Moderasyon kararlarına itirazı, eylemin gerçekleştiği sunucunun moderatörlerine yap.",
+        "privacy": "uygulama gizlilik politikasını",
+        "terms": "uygulama şartlarını",
+        "community": "Modstoke destek"
+      }
+    },
+    "privacy": {
+      "title": "Discord uygulaması gizliliği",
+      "description": "OpenACAI'nin, Modstoke Sentinel ve Modstoke Radio'yu kuran Discord sunucularında kullanılan bilgileri nasıl ele aldığı.",
+      "scope": {
+        "heading": "Bu uygulamaları kim işletiyor",
+        "operator": "OpenACAI, Modstoke Sentinel ve Modstoke Radio'yu Discord sunucuları için herkese açık önizleme uygulamaları olarak işletir. Sunucu sahipleri bunları sunucu uygulaması olarak kurar; kişisel hesaba kurulum desteklenmez. Her sunucunun saklanan verisi, bağlamı ve oynatma kuyrukları ayrıdır.",
+        "supplement": "Bu bota özel ek, veri işlemelerini {privacy} ile birlikte açıklar. Ayrıca {terms} ve {apps} bölümlerine bak.",
+        "privacyLink": "Modstoke Gizlilik Politikası",
+        "termsLink": "Discord uygulama şartları",
+        "appsLink": "uygulama kurulum bilgileri"
+      },
+      "sentinel": {
+        "heading": "Sentinel: moderasyon ve topluluk özellikleri",
+        "inactive": "Sentinel, sahibi gereken kanalları yapılandırana kadar yeni bir sunucuda etkin olmaz. Yapılandırıldığında, erişim iznine sahip olduğu Discord kanallarındaki mesajları ve üye olaylarını görebilir. Bunları moderasyon, toplu topluluk istatistikleri, kendi seçilen roller, ekip bulma ve yardım için kullanır. Banlar ve sohbet özellikleri varsayılan olarak kapalıdır.",
+        "model": "Model işleme, bulut yapay zekâ işlemi olmadan, hosting sunucusunda geri döngü bağlantısı üzerinden yerel olarak çalışır. Sunucular tek bir model işçisini paylaşır; bu işçi istekleri teker teker işler, bağlamları ayrı kalır. Yakın zamanlı moderasyon bağlamı kanal başına en fazla altı mesaj alıntısını yaklaşık üç dakika bellekte tutar. Bu botların ele aldığı bilgiler reklam için satılmaz ya da yapay zekâ eğitiminde kullanılmaz.",
+        "ledger": "Yerel moderasyon defteri; kullanıcı, kanal ve mesaj kimliklerini, zaman damgalarını, parmak izlerini, kanıt etiketlerini, eylemleri ve inceleyen bilgisini en fazla yedi gün saklar, üst sınır 1.000 kayıttır. Ayrı bir kaldırma defteri yedi gün saklanır. Discord'a gönderilen moderasyon günlüğü mesajlarının saklanması ayrıdır ve Discord ile sunucu tarafından denetlenir."
+      },
+      "crew": {
+        "heading": "Ekip gönderileri, tercihler ve istatistikler",
+        "records": "Etkin ekip kayıtları ham ekip metnini, görünen adları, host kimliklerini, bölgeleri, gereksinimleri ve zamanlamayı içerir. Ekip kapatılana ya da süresi dolana kadar kalırlar; süre bir ile 24 saat arasındadır. Bot Discord gönderisine erişemezse temizlik gecikebilir. Kapatılan gönderiler Discord'da kalabilir.",
+        "alerts": "Ekip uyarısı abonelikleri ve vazgeçen kullanıcı kimlikleri kalıcıdır. Ekip uyarılarını durdurmak için {alerts} komutunu kullan; {quiet} seni arkadaş etkileşimlerinden çıkarır. Bu denetimler tüm moderasyon kayıtlarını silmez.",
+        "leave": "Bir üye ayrıldığında Sentinel onun ekip aboneliklerini temizler ve sahibi olduğu ekipleri kapatır; ayrılmak tüm kayıtların toptan silinmesi değildir. Topluluk istatistikleri toplu verilerdir. Yapılandırılan kanal ve rol kimlikleri botlar çalıştığı sürece kalır."
+      },
+      "radio": {
+        "heading": "Radio: istekler ve sesli oynatma",
+        "intents": "Radio, Discord'un sunucu ve ses durumu intent'lerini kullanır ve Message Content intent'ini istemez. Oynatma için slash komutu istek URL'lerini ve üretilen parça numaralarını bellekte tutar. Radio ses kanallarında kendini sağırlaştırır ve ses kaydı yapmaz.",
+        "media": "İndirilen medya geçicidir ve bir parçadan sonra temizlenir; açılışta yapılan temizlik de kalan indirmeleri siler. Kuyruğu durdurmak bellekteki içeriğini temizler.",
+        "fetch": "Medyayı Discord'un CDN'inden ya da YouTube'dan almak, hosting sunucusundan bu sağlayıcılara istek gönderir. Spotify bağlantı kartları özgün siteyi açar; Radio tam Spotify sesli oynatma sunmaz."
+      },
+      "hosting": {
+        "heading": "Hosting ve diğer hizmetler",
+        "vps": "Botlar InterServer'ın barındırdığı bir VPS üzerinde çalışır. Sentinel'in yerel JSON yapılandırması, tercihleri ve vaka kayıtları AES-256-GCM ile şifrelenir; anahtar korumalı sistem kimlik bilgileri aracılığıyla ayrı tutulur. Radio'nun geçici medyası, bellek destekli özel bir çalışma dizinini kullanır. İki bot hizmeti ve yerel model hizmeti için takas devre dışıdır. Hizmetin işletilmesi kapsamında operasyonel günlükler de tutulur. Yukarıdaki kısa saklama süreleri belirtilen bot kayıtlarını anlatır; her operasyonel günlüğü ya da Discord mesajını değil.",
+        "discord": "Discord; mesajları, gönderileri, etkileşimleri ve diğer platform bilgilerini kendi politikalarına ve sunucu ayarlarına göre bağımsız olarak işler ve saklar. Medya sağlayıcıları da istekleri kendi politikalarına göre işler. Yerel bir bot kaydını silmek, Discord'da ya da bu sağlayıcılarda duran kopyaları kaldırmaz."
+      },
+      "removal": {
+        "heading": "Sentinel'i bir sunucudan kaldırma",
+        "purge": "Sentinel, ana Modstoke kurulumu dışındaki bir sunucudan kaldırıldığında o sunucunun yerel durumunu kapatır ve yerel sunucu veri klasörünü temizler. Discord gönderileri, moderasyon günlükleri ve Discord'un sakladığı diğer kopyalar Discord ve sunucu denetimlerine tabi kalır. Bu klasör temizliği, her operasyonel günlüğün ya da bağımsız saklanan her kopyanın silineceğini vaat etmez.",
+        "home": "Ana Modstoke kurulumu ve yapılandırması operatörün denetiminde kalır. Otomatik denetimlerin ötesindeki silme talepleri için OpenACAI ile iletişime geç."
+      },
+      "requests": {
+        "heading": "Gizlilik soruları ve silme talepleri",
+        "contact": "Gizlilik soruları veya silme talepleri için OpenACAI'ye {email} adresinden ya da {page} üzerinden ulaş. Ekibin bilgiyi bulabilmesi için botu, Discord kullanıcı kimliğini ve ilgili sunucuyu ya da kaydı belirt. Parola ya da hesap belirteci gönderme.",
+        "different": "Vazgeçmek, sunucudan ayrılmak ve veriyi silmek farklı eylemlerdir. Yukarıda anlatılan denetimlerin ötesinde silme istemek için bu iletişim yolunu kullan. Discord'un bağımsız sakladığı bilgilere ilişkin talepleri Discord'a ya da sunucu moderatörlerine de iletmen gerekebilir."
+      }
+    },
+    "terms": {
+      "title": "Discord uygulama şartları",
+      "description": "Modstoke Sentinel ve Modstoke Radio herkese açık önizlemelerini Discord sunucularında kurma ve kullanma şartları.",
+      "scope": {
+        "heading": "Bota özel ek",
+        "operator": "OpenACAI, Modstoke Sentinel ve Modstoke Radio'yu Discord sunucuları için herkese açık önizleme uygulamaları olarak işletir. Bu şartlar, {terms} metnine bota özel bir ektir. {privacy} botların ele aldığı bilgileri açıklar.",
+        "termsLink": "Modstoke Hizmet Şartları",
+        "privacyLink": "Discord uygulaması gizlilik sayfası",
+        "install": "Sunucu sahipleri botları sunucu uygulaması olarak kurar. Kişisel hesaba kurulum desteklenmez. Güncel özellikler ve sınırlar için {apps} sayfasına bak.",
+        "appsLink": "kurulum ve ayar bilgileri"
+      },
+      "use": {
+        "heading": "Kabul edilebilir kullanım",
+        "rules": "Botları yasalara uygun kullan ve sunucunun kurallarına, Discord'un şartlarına ve ilgili medya sağlayıcısının şartlarına uy. Onları spam, taciz, kötü amaçlı yazılım, moderasyondan kaçma ya da başka kötüye kullanım için kullanma. Bot izinlerini, erişim denetimlerini ya da kullanım kısıtlamalarını aşmaya çalışma.",
+        "media": "Yalnızca ilgili ortamda paylaşmaya ya da oynatmaya yetkili olduğun medyayı gönder. Desteklenen bir URL ya da başarılı bir oynatma, materyali kullanma izni olduğunu göstermez. Özgün sağlayıcının şartları hâlâ geçerlidir."
+      },
+      "features": {
+        "heading": "Önizleme özellikleri ve kullanılabilirlik",
+        "besteffort": "Botlar elinden gelenin en iyisi esasıyla önizleme araçları olarak sunulur. Özellikler, yanıtlar ve oynatma, ekip bunları sürdürdükçe kullanılamayabilir, gecikebilir, yanlış olabilir ya da değişebilir. Bir bota önemli bilgilerin tek kaynağı ya da moderasyon kapsamının garantisi olarak güvenme.",
+        "radio": "Radio, Discord'un, hosting'in ve medya sağlayıcılarının kullanılabilirliğine bağlıdır. Spotify kartları özgün siteye bağlanır; ses kanallarında tam Spotify oynatma sunmaz."
+      },
+      "moderation": {
+        "heading": "Moderasyon ve itirazlar",
+        "appeals": "Sentinel moderasyon ve topluluk özelliklerini destekler ama otomatik kararlar yanlış olabilir. Bir eylemi sormak ya da ona itiraz etmek için eylemin gerçekleştiği sunucunun moderatörleriyle iletişime geç. İncelemeleri için ilgili mesaj ya da eylem ayrıntılarını ekle.",
+        "owners": "Sunucu sahipleri ilk kurulumu ve yapılandırmayı yapar. Sentinel, sahibi karşılama, moderatör günlüğü ve güncellemeler kanallarını yapılandırana kadar etkin olmaz; isteğe bağlı kanallar ve rol kurulumu ek özellikleri açar. Banlar ve sohbet özellikleri varsayılan olarak kapalıdır. Yöneticiler bot erişimini ve izinlerini denetler. Gelişmiş tuzak ve istatistik özellikleri operatör yapılandırması ve kapsamı sınırlı izinler gerektirir.",
+        "removal": "Bir botu sunucudan kaldırmak, gerekli izinlere sahip bir yönetici gerektirir. Sentinel'in kaldırıldığında yaptığı yerel temizlik {privacy} içinde anlatılır; Discord'un kopyalarını silmez.",
+        "privacyLink": "gizlilik politikası"
+      },
+      "controls": {
+        "heading": "Üye denetimleri ve iletişim",
+        "controls": "Ekip uyarılarını durdurmak için {alerts}, arkadaş etkileşimlerinden vazgeçmek için {quiet} komutunu kullan. Bu denetimler tüm moderasyon verilerini silmez. Veri işleme ve silme talepleri için {contact} izle.",
+        "contactLink": "gizlilik iletişim talimatlarını",
+        "questions": "Bu şartlarla ilgili sorular için {email} adresine yaz ya da {page} kullan."
+      }
+    }
+  },
+  "mods": {
+    "notStated": "Belirtilmemiş",
+    "loaderOrNewer": "Loader {version} veya daha yenisi",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "Yalnızca sende olsa da çalışır",
+      "host": "Yalnızca host ya da sunucuda gerekir",
+      "allPlayers": "Host ve oyuncularda aynı sürüm gerekir",
+      "solo": "Yalnızca tek oyunculu",
+      "notStated": "Belirtilmemiş"
+    },
+    "dedicated": {
+      "supported": "Destekleniyor",
+      "unsupported": "Desteklenmiyor",
+      "notStated": "Belirtilmemiş"
+    },
+    "settings": {
+      "hostSynced": "Host belirler",
+      "perPlayer": "Her oyuncu belirler",
+      "none": "Ayar yok",
+      "notStated": "Belirtilmemiş"
+    },
+    "status": {
+      "preview": "Önizleme",
+      "experimental": "Deneysel",
+      "stable": "Kararlı"
+    },
+    "label": {
+      "needs": "Gereksinim",
+      "multiplayer": "Çok oyunculu",
+      "updated": "Güncelleme",
+      "version": "Sürüm",
+      "status": "Durum",
+      "dedicatedServer": "Dedicated sunucu",
+      "settings": "Ayarlar",
+      "madeBy": "Yapan",
+      "licence": "Lisans",
+      "source": "Kaynak",
+      "aiAssistance": "Yapay zekâ desteği"
+    },
+    "list": {
+      "title": "Modlar",
+      "lede": "Bunlar kendi yaptığımız modlar. Hepsi Modstoke Loader üzerinde çalışır ve şimdilik Nexus Mods'tan indirirsin. Modstoke mağazası açıldığında Manager bunları senin için kuracak ve başka yazarların modları da burada listelenecek.",
+      "search": "Mod ara",
+      "anyMultiplayer": "Her çok oyunculu düzen",
+      "count": {
+        "one": "{count} mod",
+        "other": "{count} mod"
+      },
+      "note": "Buradaki her mod {loader} ister. Manager ile kurulumu {guide} anlatır.",
+      "installGuide": "Kurulum rehberi",
+      "details": "Ayrıntılar",
+      "nexusPage": "Nexus sayfası"
+    },
+    "page": {
+      "breadcrumb": "Gezinme yolu",
+      "gallery": "Ekran görüntüleri ve video",
+      "watchTrailer": "Fragmanı YouTube'da izle",
+      "openFullSize": "Tam boyutta aç",
+      "trailerCaption": "Fragman, YouTube'da oynatılır",
+      "details": "Ayrıntılar",
+      "sourceNotPublic": "Henüz herkese açık değil",
+      "aiYes": "Evet, Nexus'ta belirtilmiş",
+      "aiNo": "Hayır",
+      "downloadOnNexus": "Nexus'tan indir",
+      "storeNote": "Manager'dan tek tıkla kurulum Modstoke mağazasıyla gelecek.",
+      "meta": "{version} · güncelleme {date} · OpenACAI",
+      "whatsNew": "{version} sürümünde yenilikler",
+      "about": "Hakkında",
+      "inTesting": "Testte",
+      "install": "Kurulum",
+      "installStep1": "{loader} kur ya da bunu {manager} senin için yapsın.",
+      "managerLink": "Manager",
+      "installStep2": "Oyunu kapat. {name} modunu Nexus'tan indir ve içindeki Modstoke klasörünü {exe} dosyasının yanına çıkar.",
+      "installStep3": "Oyunu başlat ve yüklendiğini görmek için başlık ekranından Mods menüsünü aç.",
+      "installNote": "Bir önizlemeyi denemeden önce kayıtlarını yedekle. Bir şey bozulursa {guide} ya da {discord} sormak için doğru yer.",
+      "troubleshootingGuide": "sorun giderme rehberi"
+    }
+  },
+  "release": {
+    "eyebrow": "SÜRÜMLER",
+    "headingPreview": "Önizleme derlemeleri dahil indirmeler.",
+    "headingVerified": "Doğrulanmış indirmeler.",
+    "lede": "Kurmadan önce güncel bir sürümü seç ya da saklanan bir sürümü incele.",
+    "previewDownloads": "Önizleme indirmeleri test derlemeleridir. Kurmadan önce imza ve doğrulama ayrıntılarını kontrol et.",
+    "managerOnly": "Manager mevcut ama Loader, SDK ve client paketinin tamamı henüz yayımlanmadı. Loader, SDK ve client paketinin otomatik kurulumu kullanılamıyor.",
+    "historyTitle": "Sürüm ayrıntıları ve geri alma",
+    "historyNote": "Sürümlü dosya URL'leri sabit kalır. Güncel seçim değiştiğinde önceki bir sürüm kaydı erişilebilir kalabilir.",
+    "playerBundle": "Oyuncu paketi",
+    "loaderWithClient": "Loader, birlikte gelen SDK'sı ve ayrıca derlenmiş bir client eşlikçisi içeren oyun kök dizini paketi.",
+    "loaderOnly": "Loader ve birlikte gelen SDK'sı içeren oyun kök dizini paketi. Client gibi modların kendi indirmeleri var.",
+    "managerPackage": "Modstoke Manager için Windows masaüstü paketi.",
+    "download": "{file} indir",
+    "size": "Boyut",
+    "bytes": "{size} bayt",
+    "published": "Yayım tarihi",
+    "details": "Sürüm ayrıntıları",
+    "current": "GÜNCEL",
+    "previous": "ÖNCEKİ",
+    "noNotes": "Bu sürüm için sürüm notu verilmemiş. Aşağıdaki dosya ve doğrulama üst verileri bir değişiklik listesi değildir.",
+    "publishedCommit": "Yayım tarihi {date}. Kaynak commit'i {commit}.",
+    "packageLine": "Paket: {file} ({size} bayt). SHA-256: {hash}.",
+    "testedBuilds": "Test edilen {game} derlemeleri: {builds}.",
+    "noTestedBuilds": "Henüz hiçbir oyun derlemesi test edilmedi. Oyun uyumluluğu bilinmiyor.",
+    "requiresManager": "Manager {version} veya daha yenisi gerekir.",
+    "guidedLoader": "Rehberli Loader paketi: {id}.",
+    "noGuidedLoader": "Bu Manager sürümü için eşleşen bir rehberli Loader paketi seçilmemiş.",
+    "listSeparator": ", ",
+    "previewBuild": "Önizleme test derlemesi.",
+    "packageUnsigned": "Bu paket imzasız: {reason}.",
+    "pendingChecks": "Bekleyen kontroller: {checks}.",
+    "reviewDetails": "Kurmadan önce sürüm ayrıntılarını incele.",
+    "pending": {
+      "game": "oyun açılışı",
+      "multiplayer": "çok oyunculu"
+    },
+    "signatureReviewedFor": "{publisher} için imza incelemesi kaydedildi.",
+    "signatureReviewed": "İmza incelemesi kaydedildi.",
+    "previewUnsigned": "Bu önizleme paketi imzasız: {reason}. İmza doğrulaması kaydedilmedi.",
+    "signatureNotRecorded": "İmza doğrulaması kaydedilmedi.",
+    "checksumNote": "SHA-256 sağlama toplamı dosya baytlarını tanımlar; bir güncelleme manifestini doğrulamaz.",
+    "validation": "{checks}.",
+    "checkLine": "{label}: {state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "Temiz kaynak",
+      "licenses": "Lisanslar",
+      "build": "Derleme",
+      "install": "Kurulum",
+      "game": "Oyun açılışı",
+      "multiplayer": "Çok oyunculu",
+      "hostedFetch": "Barındırılan dosya kontrolü"
+    },
+    "state": {
+      "passed": "geçti",
+      "pending": "bekliyor",
+      "notApplicable": "uygulanamaz",
+      "notRecorded": "kaydedilmedi"
+    }
+  },
+  "docs": {
+    "eyebrow": "Dokümanlar",
+    "title": "Oyuncular ve mod yazarları için notlar",
+    "lede": "Kurulum yardımı {guides} bulunur. Bu sayfa parçaların nasıl bir arada çalıştığını ve mod yapmadan önce bilmen gerekenleri anlatır.",
+    "guidesLink": "rehberlerde",
+    "onThisPage": "Bu sayfada",
+    "nav": {
+      "project": "Proje",
+      "players": "Oyuncular için",
+      "compatibility": "Oyun uyumluluğu",
+      "authors": "Mod yazarları için",
+      "sdk": "SDK geliştirme",
+      "play": "Birlikte oyna",
+      "downloads": "İndirmeler ve güncellemeler"
+    },
+    "project": {
+      "title": "Proje",
+      "about": "Modstoke, kâr amacı gütmeyen OpenACAI'nin bir mod projesi. Sons of the Forest için bir mod yükleyici, bir masaüstü yönetici ve bir mod seti; etrafında da Discord'da bir topluluk var. Her şey ücretsiz ve bu siteyi kullanmak için hesaba gerek yok.",
+      "endnight": "Endnight Games ile bağlantımız yok. Lütfen Modstoke sorunlarını onların desteğine götürme."
+    },
+    "players": {
+      "title": "Oyuncular için",
+      "start": "{manager} ile başla. Oyununu bulur, {loader} kurar ve neler kurduğunu takip eder. Sonra {mods} arasından seç; şimdilik Nexus Mods'tan iniyorlar.",
+      "managerLink": "Manager",
+      "loaderLink": "Loader'ı",
+      "modsLink": "modlar",
+      "guides": "{install} önce kayıtlarını yedeklemeyi anlatır, {troubleshooting} da bir sorunu daraltmana yardım eder.",
+      "installGuide": "Kurulum rehberi",
+      "troubleshootingGuide": "sorun giderme rehberi"
+    },
+    "compatibility": {
+      "title": "Oyun uyumluluğu",
+      "supported": "Destekleniyor",
+      "note": "Her sürüm, test edildiği oyun derlemelerini listeler. Bir sürüm hiçbirini listelemiyorsa belirli bir derlemeye karşı henüz kontrol edilmemiştir; kaydının bir kopyasında dene."
+    },
+    "authors": {
+      "title": "Mod yazarları için",
+      "intro": "Güncel Loader'ın yerel bir modu nasıl bulup başlattığı böyle. Geliştirdiğin Loader kaynağıyla karşılaştırıp kontrol et; manifest henüz sabit bir şema değil.",
+      "build": {
+        "title": "Test ettiğin Loader'a göre geliştir.",
+        "text": "SDK arayüzleri Loader'ın içinde bulunur. Projenden onun derlemesine başvur ve test ettiğin Loader sürümünü ve oyun derlemesini not al."
+      },
+      "folder": {
+        "title": "Tek bir paket klasörü kullan.",
+        "text": "Loader {path} altına, dört klasör derinliğe kadar bakar. {legacy} yeniden adlandırmadan önceki hâliyle hâlâ çalışır. Manifesti derlemesinin yanında tut."
+      },
+      "entry": {
+        "title": "Giriş noktasını tanımla.",
+        "text": "Manifest {first}, {second} ya da {third} olabilir; id, name, version, author, assembly, entryType ve entryMethod alanlarını içerir. Giriş türünün genel, parametresiz bir yapıcısı varsa entryMethod atlanabilir."
+      },
+      "test": {
+        "title": "Oyunun ayrı bir kopyasında test et.",
+        "text": "Gerçek kayıtlarını işin dışında tut. Oyun derlemesini, Loader sürümünü, bağımlılıkları ve henüz çalışmayan her şeyi yaz."
+      },
+      "ship": {
+        "title": "Dosyalarla birlikte not da ver.",
+        "text": "Sürüm notları, kurulum ve kaldırma adımları, lisans ve dosya hash'leri. Burada henüz bir yükleme formu yok; mağaza gönderimleri GitHub sürümlerinden alacak."
+      }
+    },
+    "downloads": {
+      "title": "İndirmeler ve güncellemeler",
+      "releases": "{releases} sayfasındaki her sürüm; sürümünü, değişiklikleri, uyumluluğu, boyutu ve SHA-256'yı listeler; böylece indirdiğin dosyanın yayımladığımız dosya olduğunu kontrol edebilirsin.",
+      "releasesLink": "Sürümler",
+      "checksum": "Sağlama toplamı baytların eşleştiğini söyler; kimin yayımladığını kanıtlamaz. Modstoke mağazası bunun için imza ekleyecek; böylece Manager, bizim ya da incelenmiş bir yazarın yayımlamadığı her şeyi reddedebilecek."
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "SDK GELİŞTİRME",
+    "playEyebrow": "BİRLİKTE OYNA",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "Sürüm durumuna bak",
+    "gameInfo": "Oyun bilgisi: {link}",
+    "steamLink": "Steam'de Sons of the Forest",
+    "findCrew": "Discord'da ekip bul",
+    "visitTithewood": "Güncel erişim bilgisi için Tithewood'u ziyaret et",
+    "status": {
+      "manager": "Manager {version} kullanıma hazır.",
+      "managerPreview": "Manager {version}, Windows için önizleme olarak kullanıma hazır.",
+      "unsigned": "Önizleme imzasızdır.",
+      "noManager": "Şu anda yayımlanmış bir Manager paketi yok.",
+      "loader": "Loader {version}, Sürümler sayfasında listeleniyor. Paket içeriğine, uyumluluğa ve doğrulama durumuna bak.",
+      "noLoader": "Loader, SDK ve Client'ın tam paketi herkese açık olarak yayımlanmadı.",
+      "check": "İndirmeden önce Sürümler sayfasına bak."
+    },
+    "topics": {
+      "sdk": {
+        "title": "SDK'nın sunması için geliştirilen şeyler",
+        "summary": "Güncel geliştirme kaynağı, türlü oyun gözlemleri ve mod hizmetleri sunuyor. Bunlar kaynak koddaki sözleşmelerdir; yayımlanmış bir SDK paketi ya da oyun içinde çalıştığının kanıtı değildir.",
+        "facts": "Envanter ve ekipman anlık görüntüleri; üretim tarifi gereksinimleri ve eksikler; yerel oyuncunun hayatta kalma değerleri; mevsim, hava durumu ve sıcaklık gözlemleri.\nSunucu dünyasındaki oyuncu ve araç gözlemleri, NPC durumu ve yapı gereksinimleri; sınırlı çarpışma sorguları ve yüklü arazinin yükseklik ve normal okumaları. Bunlar mağaralarda tam çarpışma ya da yürünebilirlik kapsamı olduğunu göstermez.\nModun sahip olduğu ses ve yüklü varlık paketlerini inceleme yardımcıları, gözlemlenen eşyordam tamamlanması, arayüz taslak alanları ve uzaktan komut yanıtları. Sunucu yetkilendirmesi ve dünya hazırlık kontrolleri yine geçerlidir.\nYerel mod manifestoları tam gereken kimlikleri ve sürümleri bildirebilir. Çalışma zamanı geri çağrıları sıralar, eksik ya da döngüsel gereksinimleri engeller ve ön koşul başarısız olunca bağımlıları durdurur. Özel sunucu başlatma, istemci menülerini ve girdiyi atlar.\nKararlı bir herkese açık API'yi, her yerde uyumluluğu, daha yüksek oyuncu sınırlarını, belirsiz komutlar için otomatik yeniden denemeleri ya da kaynak veya derleme başarısının çok oyunculu davranışı kanıtladığını varsayma."
+      },
+      "play": {
+        "title": "Bir sonraki ekibini bul",
+        "summary": "Sons of the Forest; üretim, inşa, keşif, tek kişilik oyun ve çevrimiçi iş birliği sunan, açık dünyalı bir hayatta kalma korku oyunudur. Modstoke, üyelerin kendi oturumlarını ayarlamasına yardım eder.",
+        "facts": "/crew list komutunu isteğe bağlı region, style ve when filtreleriyle kullan. Zaman eşleştirme, ev sahibinin yazdığı oturum zamanında arama yapar; çakışan programları hesaplamaz, saat dilimlerini de çevirmez.\n/crew create ile bölge, saat dilimiyle birlikte zaman, oyun tarzı, açık yerler ve isteğe bağlı gereksinimlerle bir oturum öner. Kişi başına bir etkin ilan; ilanlar varsayılan olarak altı saat sonra sona erer, bir ila 24 saat arasında seçim yapabilirsin.\n/roles ile bölgeni ve oyun tarzını seç. Bunlar kendi seçtiğin ilgi alanlarıdır, eşleştirme garantisi değil. /crew alerts özel mesajlar için açık bir onaydır; isteğe bağlı bölge filtreleme ve iki saatte bir uyarı sınırı uygulanır. İstediğin zaman kapatabilirsin.\nİsteyen sahiplerin herkese açık sunucu listelerini görmek için /servers kullan. Ekip ilanları üyelerin planlarıdır; rezervasyon, doğrulanmış uyumluluk, canlı oyuncu varlığı ya da otomatik oyuna katılma değildir. Oyun ve mod sürümlerini ve kayıt beklentilerini ev sahibiyle konuş."
+      },
+      "tithewood": {
+        "title": "Tithewood · BYOND'da ortaçağ rol yapma",
+        "summary": "Tithewood, BYOND üzerinde Ratwood temel alınarak yapılmış, bağımsız işlettiğimiz ortaçağ rol yapma oyunudur. Topluluğu Modstoke Discord'unun parçasıdır.",
+        "facts": "Oyuncular; ticaret, çiftçilik, şehir muhafızlığı görevleri ve maceralarla dolu ortak bir dünyada karakter rolleri üstlenir. Bazı rollerin erişim gereksinimleri vardır ve bunlar oyun yapılandırmasına bağlıdır.\nHerkese açık web sitesi, Grimoria'yı devralınmış bir dünya çizimiyle gösteriyor. Bu, oyun dünyası için bir dünya haritasıdır; canlı bir oyun haritası değil.\n2026-10-20'de incelenen herkese açık web sitesi, herkese açık erişimin kapalı olduğunu ve açılış tarihinin açıklanmadığını söylüyor. Güncel erişim için tithewood.com'a bak; ulaşılabilir bir hizmetin oynanabilir herkese açık bir tur anlamına geldiğini varsayma.\nErişim açıldığında BYOND istemcisi ve bağlantı yönergeleri için web sitesini takip et. Resmi BYOND Windows istemcisini ve BYOND hesabını kullan; parolanı ya da özel günlüklerini asla Discord'da paylaşma.\nProje rol menüsünden Tithewood'u seç ve ona ayrılmış tartışma ve geliştirme kanallarını kullan. Fikirlerini paylaş, net bir yeniden üretme adımı ve temizlenmiş hata iletileriyle hata bildir ve oyunu yalnızca gerçek bir oturum duyurulduğunda ayarla."
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "Gezinme yolu",
+    "home": "Ana sayfa",
+    "effective": "Yürürlük tarihi {date}",
+    "onThisPage": "Bu sayfada",
+    "translationNote": "Bu, kolaylık olsun diye yapılmış bir çeviridir. Bu belgenin geçerli olan sürümü İngilizcesidir.",
+    "untranslated": "Bu belge henüz çevrilmedi, bu yüzden İngilizce gösteriliyor."
+  },
+  "client": {
+    "app": {
+      "count": {
+        "one": "{count} mod",
+        "other": "{count} mod"
+      },
+      "countOf": {
+        "one": "{shown} / {count} mod",
+        "other": "{shown} / {count} mod"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal yüklenmedi. Bağlantını kontrol et ya da daha sonra tekrar dene.",
+      "pickAmount": "${min} ile ${max} arasında, tam dolar olarak bir tutar seç.",
+      "cancelled": "Ödeme yapılmadı.",
+      "error": "PayPal ile bir sorun çıktı. Ödeme yapılmadı.",
+      "monthlyThanks": "Teşekkürler! ${amount} tutarındaki aylık bağışın ayarlandı.",
+      "thanks": "Teşekkürler! ${amount} tutarındaki bağışın geçti.",
+      "processing": "PayPal ödemeni hâlâ işliyor."
+    },
+    "servers": {
+      "unknown": "Bilinmiyor",
+      "yes": "Evet",
+      "no": "Hayır",
+      "dedicated": "Dedicated",
+      "playerHosted": "Oyuncu hostlu",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı",
+      "eyebrow": "TOPLULUK DİZİNİ",
+      "hostNotSpecified": "Host belirtilmemiş",
+      "regionNotSpecified": "Bölge belirtilmemiş",
+      "noDescription": "Host bir açıklama girmemiş.",
+      "playersCapacity": "Oyuncu / kapasite",
+      "hostLatency": "Host ortanca gecikmesi",
+      "gameBuild": "Oyun derlemesi",
+      "moreComponents": {
+        "one": "+{count} bileşen",
+        "other": "+{count} bileşen"
+      },
+      "requiredMods": {
+        "one": "{count} gerekli mod",
+        "other": "{count} gerekli mod"
+      },
+      "viewServer": "Sunucuyu ve gereksinimleri gör ↗",
+      "viewServerLabel": "{name} sunucusunu ve gereksinimleri gör",
+      "count": "{shown} / {total} sunucu · {online} çevrimiçi",
+      "noneTitle": "Bir sonraki topluluk burada başlıyor.",
+      "noneMessage": "Henüz listelenmiş sunucu yok. Hostlar Discord'umuz üzerinden listeleme isteyebilir. Yeni paylaşılan oturumlara bakmak için yenile.",
+      "noMatchTitle": "Eşleşen sunucu yok.",
+      "noMatchMessage": "Başka bir ad, bölge ya da mod dene ya da durum ve oturum filtrelerini değiştir.",
+      "refreshing": "Dizin yenileniyor…",
+      "updated": "Güncelleme {time} · Her 60 saniyede bir yenilenir",
+      "unavailable": "Dizin kullanılamıyor",
+      "tryRefresh": "Tekrar denemek için Yenile'yi kullan.",
+      "loadFailedTitle": "Dizini yükleyemedik.",
+      "loadFailedMessage": "Sunucu dizini geçici olarak kullanılamıyor. Biraz sonra tekrar dene; bu, tek tek sunucuların çevrimiçi olup olmadığını bize söylemez.",
+      "versionNotSpecified": "Sürüm belirtilmemiş",
+      "history": {
+        "title": "Son etkinlik",
+        "unavailable": "Etkinlik geçmişi kullanılamıyor. Tekrar denemek için yenile.",
+        "none": "Henüz saatlik geçmiş yok. Host bildirdikçe etkinlik görünecek.",
+        "note": "Son 30 günün saatlik örnekleri. Boşluklar sıfır değil, bilinmiyor demektir. Saatler yerel saat diliminde gösterilir.",
+        "players": {
+          "title": "Oyuncular",
+          "unit": "Oyuncu",
+          "description": "Saatlik oyuncu sayısı. Boşluklar ölçüm olmadığı anlamına gelir. Tam değerler aşağıdaki geçmiş tablosunda.",
+          "none": "Bu geçmişte oyuncu ölçümü yok."
+        },
+        "latency": {
+          "title": "Host ortanca gecikmesi",
+          "unit": "Milisaniye",
+          "description": "Saatlik host ortanca gecikmesi. Boşluklar ölçüm olmadığı anlamına gelir. Tam değerler aşağıdaki geçmiş tablosunda.",
+          "none": "Bu geçmişte host ortanca gecikmesi ölçümü yok."
+        },
+        "viewValues": "Saatlik değerleri göster",
+        "caption": "Saatlik sunucu geçmişi",
+        "time": "Saat",
+        "hostLatency": "Host gecikmesi",
+        "onlineSeconds": "Çevrimiçi saniye"
+      },
+      "lastReport": "Hostun son raporu: {time}. Host gecikmesi bağlı oyuncuları yansıtır, senin bağlantını değil.",
+      "openInManager": "Manager'da aç",
+      "noJoinTarget": "Host bir katılma hedefi vermemiş.",
+      "offlineNoJoin": "Bu sunucu çevrimdışı. Katılmak mümkün değil.",
+      "permalink": "Kalıcı sunucu bağlantısı ↗",
+      "joinNote": "Katıl, Modstoke Manager 0.3.0 veya daha yenisini açar; Manager güncel ayrıntıları onaylaman için gösterir. Bu sayfa hiçbir mod indirmez.",
+      "components": "Bileşenler",
+      "noComponents": "Host hiçbir bileşen bildirmemiş.",
+      "requiredModsTitle": "Gerekli modlar",
+      "noRequiredMods": "Host gerekli bir mod bildirmemiş.",
+      "settings": "Hostun bildirdiği ayarlar",
+      "difficulty": "Zorluk",
+      "pvp": "PvP",
+      "friendlyFire": "Dost ateşi",
+      "passwordRequired": "Parola gerekli",
+      "loadingTitle": "Sunucu yükleniyor…",
+      "loadingMessage": "Hostun son raporu ve etkinlik okunuyor.",
+      "goneTitle": "Sunucu artık listede yok.",
+      "detailUnavailableTitle": "Sunucu ayrıntıları kullanılamıyor.",
+      "goneMessage": "Host listeyi kaldırmış olabilir ya da dizin geçici olarak kullanılamıyor olabilir. Bu paneli kapat ve tekrar denemek için Yenile'yi kullan.",
+      "unsupportedReport": "Dizin desteklenmeyen bir rapor döndürdü. Lütfen daha sonra tekrar dene.",
+      "invalidTitle": "Geçersiz sunucu bağlantısı.",
+      "invalidMessage": "Bu bağlantı geçerli bir sunucu kimliği içermiyor. Dizine göz atmak için bu paneli kapat."
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "Bir saha tableti, kol saati, keşif dronu ve küçük üç koltuklu bir uçak olan Kestrel K3. Erzak seferlerini planla, haritaya yerler işaretle, havadan keşif yap ya da arkadaşlarını adada uçur.",
+        "description": "Client, yanında taşıdığın ekipman ekler: bir saha tableti, bir kol saati, bir keşif dronu ve küçük üç koltuklu bir uçak olan Kestrel K3. Oyunun üstüne yapıştırılmış bir menü gibi değil, gerçek bir ekipman gibi hissettirmesi amaçlandı.\n\nTablette kendi işaretlerinle bir harita, bir not defteri, bir saat ve eşya ile mermi arayıp bir tarif için alışveriş listesi hazırlayan Pack var. Yalnızca planlar; üretimi yine sen yaparsın.\n\n- Keşif dronu: tabletten uçur, gördüğün her şeye harita işareti bırak; pil azalınca kendiliğinden iner.\n- Kestrel K3: önünde yaklaşık 18 metre açık zemin varken tabletin Hangar uygulamasından çıkar. Bir pilot, iki yolcu.\n- Karakter: vücudunu, ten rengini ve şeklini seç ve katıldığın her seferde aynı görünümü koru.\n\nKabileler, yazıcı, ortak yer işaretleri ve arkadaşlar Admin çalıştıran bir host gerektirir. Hostun ve uçan herkesin aynı Client sürümüne ihtiyacı var; bu yüzden önce dünyanın bir kopyasında dene.",
+        "inTesting": "Uzay uçuşu testte: büyük bir açıklıktan fırlattığın bir uzay aracı, yörüngede bir istasyon ve ekibinle inip keşfedeceğin yeni bir dünya. Henüz güncel indirmede yok.",
+        "changelog": {
+          "0.2.4": "Karakter oluşturucu: Mods > Character > Customise character, dönen bir önizlemeyle tam ekran bir düzenleyici açar. Bir vücut, ten rengi, göz ve iç çamaşırı rengi seç, kaydırıcılarla şekillendir.\nKatıldığın her seferde aynı görünümü korursun ve Modstoke'u olmayan oyuncularla birlikte çalışır.\nSunucu uyumluluğu, Mods menüsündeki yinelenen Modstoke Client sayfasının yerini alır.\nModstoke Loader 0.4.0 ve onun Modstoke klasörü gerekir."
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "Keşif dronundan görünen, kumsala park edilmiş Kestrel K3"
+          },
+          "trailer": {
+            "alt": "Client tanıtım videosu: Kestrel K3 karla kaplı zirvelerin yanından uçuyor"
+          },
+          "tablet-home": {
+            "alt": "Ormanda tutulan saha tabletinin ana ekranı"
+          },
+          "tablet-apps": {
+            "alt": "Kumsalda saha tabletinin uygulama listesi"
+          },
+          "drone-camera": {
+            "alt": "Kıyı şeridi üzerinde keşif dronunun kamera kontrolleri"
+          },
+          "kestrel-cockpit": {
+            "alt": "Kestrel K3'ün pilot koltuğu"
+          },
+          "spacecraft-test": {
+            "alt": "Uzay aracı başka bir dünyaya indi",
+            "caption": "Test sürümü. Henüz güncel indirmede yok."
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "Küçük bir açık hava arsasında toprağı ve kayayı kaz, çukurları geri doldur ve hataları geri al. Şimdilik yalnızca kayıtların çevrimdışı tek oyunculu kopyalarında.",
+        "description": "Terraforming, adanın küçük bir parçasına kazı yapmanı ve toprağı istediğin yere geri koymanı sağlar. Bir çukur kaz, bir kısmını doldur, ters giderse geri al.\n\nŞimdilik bir kaydın çevrimdışı tek oyunculu kopyasında tek bir açık hava arsası. Çok oyunculu ve kazılmış zeminde inşa etme henüz çalışmıyor.\n\n- Mods menüsünden açık bir zeminde arsa oluştur\n- Kürek ya da kazmayla kaz, küreğle doldur\n- Kazdığın toprak bir rezerve gider, doldurmak onu harcar\n- Geri alma hem zemini hem toprağı yerine koyar\n\nKaldırmadan önce her çukurdan çık; mod olmadan kazılmış şekil var olmayacaktır.",
+        "inTesting": "Ada genelinde kazı testte: kürekle adanın her yerinde kaz, doldur, düzleştir ve pürüzsüzleştir; dünyanla birlikte kaydedilir. Henüz güncel indirmede yok.",
+        "changelog": {
+          "0.2.2": "Araziyi oluşturmak, yüklemek, kaldırmak ve kurtarmak artık konsoldan ya da Mods menüsünden onay istiyor.\nModstoke Loader 0.4.0 ve onun Modstoke klasörüyle çalışır."
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "Terraforming parselinin kumuna kazılmış bir çukur"
+          },
+          "mods-page": {
+            "alt": "Mods menüsündeki Terraforming sayfası"
+          },
+          "mound-test": {
+            "alt": "Kelvin, doldurulmuş toprağın oluşturduğu bir tümseğin üzerinde yürüyor",
+            "caption": "Test sürümü. Henüz güncel indirmede yok."
+          }
+        }
+      },
+      "virginia": {
+        "summary": "Virginia'nın kıyafetlerini yeniden renklendir ve onunla vakit geçirmenin birkaç isteğe bağlı yolunu ekle: selamlaşma, takdir ve birlikte sessiz zaman.",
+        "description": "Virginia için birkaç isteğe bağlı ekstra: kıyafet renkleri, ayrıca onu selamlamanın, takdir göstermenin ya da sadece birlikte sessizce vakit geçirmenin bazı yolları. Her şey kapalı başlar.\n\n- Kıyafet renkleri: Original, Crimson, Forest, Ocean, Charcoal ya da Ivory, yalnızca kendi ekranında\n- Host izin verirse selamlaşma, takdir ve sessiz zaman\n- Menüden bakabileceğin ve dünyanla birlikte kaydedilen ayrı bir bağ\n\nModeli, dokuları ve animasyonları oyunun kendisine ait. Bağ, nereye gittiğini, seni ne kadar sevdiğini ya da sana ne getirdiğini değiştirmez.",
+        "changelog": {
+          "0.1.2": "İlişki ilerlemen artık oyununla birlikte kaydediliyor.\nModstoke Loader 0.4.0 ve onun Modstoke klasörüyle çalışır."
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia bir orman patikasında yürüyor"
+          },
+          "trailer": {
+            "alt": "Ormanın üzerinde Virginia tanıtım videosunun başlık kartı"
+          },
+          "settings": {
+            "alt": "Mods menüsündeki Virginia ayarları"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Sons of the Forest için host araçları. Dünyanda kimlerin olduğunu gör, ne yaptıklarına bak; oyundan çıkmadan hapset, sustur, at ya da banla.",
+            "description": "Bir dünyaya host oluyorsan Admin, oyuncu listesini ve moderasyon araçlarını oyunun içinde tek bir menüde toplar. Bir oyuncu seç, Steam ID'sini ve modun onun hakkında fark ettiklerini gör, sonra tam orada ele al.\n\n- Hapset, sustur, at ve banla ile oyuncu listesi\n- Hareket, eşyalar, inşaat, sunucu ve eylemlere ayrılmış kanıtlar\n- Dedicated sunucularda uzak ekip de dahil, kendi izinleri olan ekip rolleri\n- Zaman, hava durumu ve dünya ayarları için host denetimleri\n\nKanıtlar bir sorunu araştırmana yardım etmek için var. Tam bir hile koruması değil ve hiçbir şey kendiliğinden banlamaz ya da atmaz. Oyuncuların katılmak için Admin'e ihtiyacı yok.",
+            "changelog": {
+              "0.5.221": "Ekip rolleri: kendi izin ver ve engelle ayarları olan sıralı roller, ayrıca bitiş tarihli bir Steam64 yönetici listesi.\nUzak ekip, listen hostlarda ve dedicated sunucularda F7'yi kullanabilir. Host her isteği kontrol eder.\nF7 menüsü: odak ve takılı kalan imleç sorunları giderildi, yeni görünümler ve Simple ile Advanced düzenleri.\nModsuz oyuncular: hız sınırları yalnızca hostun doğrulayabildiği taşıtlara uygulanır ve bir eşya alma çoğaltma hatası giderildi.\nGod mode, hız hileleri, atış hızı, imkânsız vuruşlar ve Steam biletleri için yeni kanıtlar."
+            },
+            "media": {
+              "overview": {
+                "alt": "Ormanın üzerinde açık duran Admin menüsü, oyun tarzı görünümle"
+              },
+              "trailer": {
+                "alt": "Ormanın üzerinde Admin tanıtım videosunun başlık kartı"
+              },
+              "overview-classic": {
+                "alt": "Klasik görünümde Admin genel bakış sayfası"
+              },
+              "world": {
+                "alt": "Admin menüsündeki dünya kontrolleri"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "Nexus Mods'a tarayıcın üzerinden giriş yap; kişisel API anahtarlarına artık gerek yok. Manager, Loader'ın yeni Modstoke klasörünü takip eder; OpenACAI modların ve ayarların da oyunun bir sonraki açılışında taşınır. modstoke:// katılma bağlantılarıyla yeni topluluk sunucusu tarayıcısı ve ayrıca özel sunucu araçları: oyun ayarları, yetkili izinleri, canlı konsol ve daha güvenli durdurma ve yeniden başlatma. Oyunlar ve sunucular için bir Loader konsolu; Loader kurulumları artık yalnızca onarıyor ya da yükseltiyor, hiçbir zaman eski sürüme düşürmüyor. Ayarlar'dan bir görünüm seç: oyun dosyalarından okunan oyunun kendi görünümü ya da sade Modstoke stili. Daha hızlı açılış, daha sağlam bir mod kataloğu ve Manager'ın neyi okuyabileceği, indirebileceği ve kurabileceği konusunda daha sıkı sınırlar.",
+    "loader-0-4-2-net11-preview": "Wine altında Linux ana makinelerinde çalışır, yani artık barındırılan özel sunucularda da çalışıyor. Her Wine kurulumunda açılışta görülen bir hatayı düzeltir. Hosting paneli desteği: JSON yanıtlı konsol komutları, canlı durum dosyası, temiz kaydetme ve durdurma, oyuncu, kayıt yuvası ve mod listeleri, olay akışı, çökme raporları, duyurular ve mod başına performans ölçümü. Modlar bir açıklama ve en düşük Loader sürümü bildirebilir. Modlar için yeni SDK özellikleri: ana makine komutları, girdi odağı sahibi ve menü görünürlüğü. Eski bir Modstoke ya da OpenACAI sürümünden mi geliyorsun? Önce Modstoke Legacy Cleanup 1.1.0'ı çalıştır.",
+    "loader-0-4-1-net11-preview": "Modstoke Manager 0.3.0'ın Loader'ı kurmayı reddetmesini düzeltir. Bunun dışında 0.4.0 ile aynıdır: Loader artık bir Modstoke klasöründe duruyor. Modların ve ayarların ilk açılışta OpenACAI'den taşınır ve hiçbir şeyin üzerine yazılmaz. İndirmeyle birlikte gelen .NET 11 RC3 üzerinde çalışır. Unity temel kitaplıkları artık arşivle gelmek yerine ilk açılışta modstoke.com'dan iniyor. Oyunun kendi menüleriyle uyumlu, kaydırma çubuklu ve akıcı kaydırmalı yeni oyun içi Mods menüsü. SDK ile kaydedilen mod verileri artık bir kayıt yüklediğinde geri yükleniyor. Eski dünya aktarım girdilerinin her eşya almayı ve depolama aktarımını engelleyebildiği bir özel sunucu hatası düzeltildi. Açılış günlüğü tam Loader yapısını belirtir ve .NET çalışma zamanı uyuşmuyorsa uyarır. Eski bir Modstoke ya da OpenACAI sürümünden mi geliyorsun? Önce Modstoke Legacy Cleanup 1.1.0'ı çalıştır; bu indirmenin içinde var.",
+    "loader-0-4-0-net11-preview": "Loader artık bir Modstoke klasöründe duruyor. Modların ve ayarların ilk açılışta OpenACAI'den taşınır ve hiçbir şeyin üzerine yazılmaz. İndirmeyle birlikte gelen .NET 11 RC3 üzerinde çalışır. Unity temel kitaplıkları artık arşivle gelmek yerine ilk açılışta modstoke.com'dan iniyor. Oyunun kendi menüleriyle uyumlu, kaydırma çubuklu ve akıcı kaydırmalı yeni oyun içi Mods menüsü. SDK ile kaydedilen mod verileri artık bir kayıt yüklediğinde geri yükleniyor. Eski dünya aktarım girdilerinin her eşya almayı ve depolama aktarımını engelleyebildiği bir özel sunucu hatası düzeltildi. Açılış günlüğü tam Loader yapısını belirtir ve .NET çalışma zamanı uyuşmuyorsa uyarır. Eski bir Modstoke ya da OpenACAI sürümünden mi geliyorsun? Önce Modstoke Legacy Cleanup 1.1.0'ı çalıştır; bu indirmenin içinde var."
+  }
+}

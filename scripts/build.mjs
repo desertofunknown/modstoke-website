@@ -16,12 +16,16 @@ const hostedArtifacts = await verifiedArtifacts(root, releaseIndex);
 const catalog = validateStoreCatalog(JSON.parse(await readFile(resolve(root, 'data/store/catalog.json'), 'utf8')));
 const media = await availableMedia(root, catalog);
 import { renderPages } from '../src/templates.mjs';
+import { languageScript } from '../src/layout.mjs';
 const assetBytes = {};
 const assets = {};
 for(const name of ['style.css','app.js','servers.css','servers.js','guides.css','support.js']) {
  assetBytes[name]=await readFile(resolve(root,'src',name));
  assets[name]=assetName(name,assetBytes[name]);
 }
+// Written from the site's list of languages, so it never disagrees with the pages.
+assetBytes['lang.js']=Buffer.from(languageScript());
+assets['lang.js']=assetName('lang.js',assetBytes['lang.js']);
 const screenshots = {};
 for(const file of ['manager-catalog.png','manager-catalog.webp','manager-catalog-1200.webp','manager-catalog-800.webp','manager-trailer.jpg','manager-trailer.webp','manager-trailer-800.webp','loader-trailer.jpg','loader-trailer.webp','loader-trailer-800.webp','modstoke-social.png','modstoke-logo.png','home/golden-mountains-1200.webp','home/golden-mountains-2400.webp','home/golden-mountains-2400.jpg',...mediaVariants('/assets/tools/loader-mods-menu-1600.webp').map(path=>path.slice('/assets/'.length))]) {
  try { screenshots[file]=await readFile(resolve(root,'src/assets',file)); }
@@ -38,7 +42,7 @@ const staging = await mkdtemp(resolve(root, '.build-stage-'));
 for (const [path,html] of pages) {
  const out=resolve(staging,path.slice(1)); await mkdir(out,{recursive:true}); await writeFile(resolve(out,'index.html'),html);
 }
-for(const name of ['style.css','app.js','servers.css','servers.js','guides.css','support.js']) await writeFile(resolve(staging,assets[name]),assetBytes[name]);
+for(const name of ['style.css','app.js','servers.css','servers.js','guides.css','support.js','lang.js']) await writeFile(resolve(staging,assets[name]),assetBytes[name]);
 await writeFile(resolve(staging,'asset-manifest.json'),JSON.stringify(assets,null,2)+'\n');
 await writeFile(resolve(staging,'release-index.json'),JSON.stringify(releaseIndex,null,2)+'\n');
 await mkdir(resolve(staging,'community'),{recursive:true});

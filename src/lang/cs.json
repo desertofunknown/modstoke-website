@@ -1,0 +1,1161 @@
+{
+  "_about": "Texty modstoke.com česky. Přeloženo z en.json; připomínky rodilých mluvčích jsou vítané. Text ve {složených závorkách} doplňuje web a musí zůstat beze změny.",
+  "seo": {
+    "home": {
+      "title": "Modstoke: mody pro Sons of the Forest, správce modů a Loader",
+      "description": "Mody zdarma pro Sons of the Forest a nástroje k jejich spuštění: Modstoke Manager pro Windows, Modstoke Loader a mody jako Client, Admin, Terraforming a Virginia."
+    },
+    "mods": {
+      "title": "Mody pro Sons of the Forest | Modstoke",
+      "description": "Mody Modstoke pro Sons of the Forest: Client (tablet, dron a letadlo Kestrel), nástroje hostitele Admin, Terraforming a Virginia. Verze, požadavky a poznámky k multiplayeru."
+    },
+    "tools": {
+      "title": "Modstoke Manager, Loader a SDK pro Sons of the Forest",
+      "description": "Stáhni si Modstoke Manager pro Windows, přidej do Sons of the Forest Modstoke Loader a vytvářej mody pomocí SDK, které se k němu přibaluje."
+    },
+    "docs": {
+      "title": "Dokumentace Modstoke pro hráče a autory modů",
+      "description": "Jak do sebe zapadají Modstoke Manager, Loader a mody, kompatibilita s hrou a co vědět, než začneš dělat mod pro Sons of the Forest."
+    },
+    "releases": {
+      "title": "Stáhni Modstoke Manager a Loader | Vydání",
+      "description": "Stáhni si Modstoke Manager pro Windows a Modstoke Loader. U každého vydání najdeš verzi, změny, velikost, stav podpisu a SHA-256."
+    },
+    "hosting": {
+      "title": "Hosting serverů Sons of the Forest | Modstoke",
+      "description": "Pronajmi si dedikovaný server Sons of the Forest od neziskové organizace OpenACAI s vlastními jádry, denními zálohami a připraveným Modstoke Loaderem."
+    },
+    "support": {
+      "title": "Podpoř Modstoke | OpenACAI",
+      "description": "Přispěj, ať Modstoke zůstane zdarma. Dary jdou organizaci OpenACAI (501(c)(3)) a programu GAMHON o duševním zdraví a sociálních vazbách přes hry."
+    },
+    "servers": {
+      "title": "Komunitní servery Sons of the Forest | Modstoke",
+      "description": "Najdi servery Sons of the Forest, které jejich hostitelé nechali zveřejnit, s počtem hráčů, povinnými mody a nastavením, nebo zjisti, jak zveřejnit svůj."
+    },
+    "notFound": {
+      "title": "Stránka nenalezena | Modstoke",
+      "description": "Tuto stránku se nepodařilo najít. Vrať se na Modstoke pro mody, nástroje a návody k Sons of the Forest."
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke, mody a nástroje pro Sons of the Forest",
+    "organization": "Nástroje pro modování zdarma a komunita pro Sons of the Forest od OpenACAI."
+  },
+  "nav": {
+    "mods": "Mody",
+    "tools": "Nástroje",
+    "servers": "Servery",
+    "hosting": "Hosting",
+    "guides": "Návody",
+    "docs": "Dokumentace",
+    "releases": "Vydání"
+  },
+  "layout": {
+    "skip": "Přeskočit na obsah",
+    "current": "Aktuální",
+    "noDownloads": "Zatím žádná veřejná stažení",
+    "support": "Podpoř Modstoke",
+    "home": "Domovská stránka Modstoke",
+    "menu": "Nabídka",
+    "mainNav": "Hlavní navigace",
+    "download": "Stáhnout Manager",
+    "language": "Jazyk",
+    "languageNote": "Vyber jazyk tohoto webu. Tvoje volba se zapamatuje.",
+    "translated": "Přeloženo z angličtiny. Opravy uvítáme na našem Discordu."
+  },
+  "footer": {
+    "about": "Mody a nástroje zdarma pro Sons of the Forest od neziskové organizace OpenACAI, v rámci programu {gamhon} o duševním zdraví a sociálních vazbách přes hry. Bez spojení s Endnight Games.",
+    "label": "Patička",
+    "play": "Hraj",
+    "build": "Tvoř",
+    "community": "Komunita",
+    "mods": "Mody",
+    "servers": "Servery",
+    "rent": "Pronajmi si server",
+    "panel": "Panel serveru",
+    "install": "Návod k instalaci",
+    "troubleshooting": "Řešení problémů",
+    "tools": "Manager, Loader a SDK",
+    "makeMod": "Vytvoř mod",
+    "releases": "Vydání",
+    "discord": "Discord",
+    "support": "Podpoř Modstoke",
+    "apps": "Aplikace pro Discord",
+    "privacy": "Soukromí",
+    "terms": "Podmínky"
+  },
+  "pages": {
+    "overview": "Přehled",
+    "mods": "Mody",
+    "tools": "Nástroje",
+    "docs": "Dokumentace",
+    "releases": "Vydání",
+    "servers": "Komunitní servery",
+    "hosting": "Hosting serverů",
+    "support": "Podpoř Modstoke",
+    "notFound": "Stránka nenalezena",
+    "noReleases": {
+      "eyebrow": "Vydání",
+      "title": "Zatím nic ke stažení",
+      "lede": "Zatím tu nic není zveřejněno. U každého vydání bude verze, změny, kompatibilita a hashe souborů."
+    },
+    "missing": {
+      "title": "Tady nic není.",
+      "lede": "Taková stránka neexistuje, nebo se přesunula.",
+      "home": "Zpět na Modstoke",
+      "mods": "Zobrazit mody"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "Večerní světlo na zasněžených vrcholech nad borovým lesem ostrova",
+      "title": "Mody, které působí jako součást hry.",
+      "lede": "Modstoke je loader modů, desktopový správce a zatím čtyři naše vlastní mody: Client, Admin, Terraforming a Virginia. Všechno zdarma, od neziskové organizace OpenACAI.",
+      "download": "Stáhnout Manager {version}",
+      "seeMods": "Zobrazit mody",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · podepsáno OpenACAI"
+    },
+    "mods": {
+      "title": "Naše mody",
+      "all": "Všechny mody"
+    },
+    "setup": {
+      "title": "Jak začít",
+      "manager": {
+        "title": "Nainstaluj Manager.",
+        "body": "Ukaž mu složku Sons of the Forest a najde tvoji hru i uložené hry."
+      },
+      "loader": {
+        "title": "Přidej Loader.",
+        "body": "Nainstaluje ho Manager. Přidá nabídku Mody na úvodní obrazovku a do pauzy."
+      },
+      "mods": {
+        "title": "Vyber si mody.",
+        "body": "Většina lidí chce Client. Pokud hostuješ, přidej i Admin."
+      },
+      "backup": "Nejdřív si zálohuj uložené hry. Krok za krokem to popisuje {guide}.",
+      "guideLink": "návod k instalaci",
+      "shotAlt": "Modstoke Manager se seznamem modů pro Sons of the Forest",
+      "shotCaption": "Seznam modů v Manageru. Zobrazené položky pocházejí ze SOTF Mods, ne z tohoto webu."
+    },
+    "releases": {
+      "title": "Nejnovější vydání",
+      "all": "Všechna vydání"
+    },
+    "ledger": {
+      "manager": "Instalátor pro Windows, podepsaný",
+      "loader": "Loader a SDK, náhled"
+    },
+    "together": {
+      "title": "Hrajte spolu",
+      "body": "Náš {servers} ukazuje světy Sons of the Forest, které jejich hostitelé nechali zveřejnit, i s mody, které každý z nich vyžaduje. Náš {discord} je místo, kde najdeš partu, nahlásíš chyby a o nových verzích se dozvíš první. Je to všechno součást programu {gamhon}, programu OpenACAI o duševním zdraví a sociálních vazbách přes hry.",
+      "serversLink": "seznam serverů",
+      "browse": "Procházet servery",
+      "join": "Připojit se na Discord"
+    }
+  },
+  "hosting": {
+    "eyebrow": "Hosting serverů",
+    "title": "Pronajmi si server Sons of the Forest",
+    "lede": "Dedikovaný server na našem vlastním hardwaru, s Modstoke Loaderem a našimi mody připravenými k použití. OpenACAI ho provozuje jako nezisková organizace a to, co zaplatíš, drží při životě servery i mody.",
+    "status": "Brzy otevíráme, nejdřív s malou betou pro členy našeho Discordu.",
+    "plans": {
+      "heading": "Tarify",
+      "small": "Malý",
+      "standard": "Standardní",
+      "price": "{price} měsíčně, nebo víc, jestli chceš",
+      "players": "Hráči",
+      "upTo": "Až {count}",
+      "cpu": "Procesor",
+      "cores": "{cores} vyhrazená jádra",
+      "memory": "Paměť",
+      "memorySize": "{memory} GB",
+      "storage": "Úložiště",
+      "storageSize": "{disk} GB na NVMe",
+      "note": "Každý tarif má minimum. Při placení můžeš zaplatit víc, jestli chceš. Všechno nad minimum se počítá jako dar pro OpenACAI a na účtence je to samostatný řádek. Tarif pro 16 hráčů přijde později, až ho pořádně vyzkoušíme."
+    },
+    "get": {
+      "title": "Co dostaneš",
+      "cores": {
+        "title": "Jádra jen pro tebe.",
+        "body": "Jádra procesoru tvého serveru se nesdílejí s nikým jiným."
+      },
+      "modstoke": {
+        "title": "Modstoke připravený.",
+        "body": "Loader je nainstalovaný a aktualizovaný a naše mody jsou na jedno kliknutí."
+      },
+      "find": {
+        "title": "Snadno k nalezení.",
+        "body": "Objeví se v prohlížeči serverů ve hře a, pokud chceš, i na našem {servers} s odkazem pro připojení přes Manager.",
+        "link": "seznamu serverů"
+      },
+      "admin": {
+        "title": "Nástroje pro správce.",
+        "body": "Modstoke Admin tě pozná jako majitele podle tvého účtu na Steamu."
+      },
+      "panel": {
+        "title": "Jednoduchý ovládací panel.",
+        "body": "Přetahuj do něj soubory a složky, sleduj konzoli, koukej, kdo hraje, a spouštěj příkazy, všechno z jedné obrazovky."
+      },
+      "world": {
+        "title": "Tvůj svět zůstává tvůj.",
+        "body": "Záloha každý den, uchovávaná týden, a jedno kliknutí, kterým si svět stáhneš do vlastního počítače."
+      },
+      "discord": {
+        "title": "Domov na našem Discordu.",
+        "body": "Tvůj server dostane vlastní kanály pro oznámení a chat a tvůj tým upozornění na moderaci."
+      },
+      "coast": {
+        "title": "Blízko východnímu pobřeží.",
+        "body": "Hostováno v New Jersey na lince 1 Gbps."
+      }
+    },
+    "how": {
+      "title": "Jak to funguje",
+      "apply": {
+        "title": "Podej žádost.",
+        "body": "Přihlas se přes Discord, propoj svůj účet na Steamu a napiš, k čemu server bude."
+      },
+      "review": {
+        "title": "Posoudíme ji.",
+        "body": "Každou žádost čte někdo z našeho týmu."
+      },
+      "pay": {
+        "title": "Zaplať přes PayPal.",
+        "body": "Vyber tarif a kolik chceš platit. Platba se obnovuje každý měsíc a můžeš ji kdykoli zrušit."
+      },
+      "play": {
+        "title": "Hraj.",
+        "body": "Tvůj server naběhne během pár minut a spravuješ ho v {panel}.",
+        "link": "panelu"
+      }
+    },
+    "faq": {
+      "title": "Otázky",
+      "players": {
+        "q": "Můžu mít víc než 8 hráčů?",
+        "a": "Zatím ne. Osm je limit samotné hry. Náš Loader ho umí zvýšit a tarif pro 16 hráčů přidáme, až ho vyzkoušíme se skutečnými hráči."
+      },
+      "mods": {
+        "q": "Můžu přidat vlastní mody?",
+        "a": "Ano, přes správce souborů. Tvůj server běží ve vlastním prostoru, oddělený od ostatních."
+      },
+      "payment": {
+        "q": "Co se stane, když platba neprojde?",
+        "a": "Po několika dnech odkladu se tvůj server pozastaví. Jeho soubory uchováváme 14 dní, takže můžeš navázat od místa, kde se to zastavilo."
+      },
+      "apply": {
+        "q": "Proč musím podávat žádost?",
+        "a": "Jsme malá nezisková organizace, která sdílí jeden stroj, a chceme vědět, kdo na něm je. Díky tomu je to férové a bezpečné pro všechny."
+      },
+      "rules": {
+        "q": "Jaká jsou pravidla?",
+        "a": "Hosting, včetně vracení peněz a toho, co se stane se soubory po skončení serveru, upravují {terms}. Co uchováváme, vysvětlují {privacy}.",
+        "termsLink": "Podmínky služby",
+        "privacyLink": "Zásady ochrany osobních údajů"
+      }
+    },
+    "beta": {
+      "title": "Chceš se zapojit do bety?",
+      "body": "Zeptej se na našem Discordu a přidáme tě na seznam. Hosting je součást programu {gamhon}, programu OpenACAI o duševním zdraví a sociálních vazbách přes hry.",
+      "have": "Už máš server? {panel}, ať ho můžeš spravovat.",
+      "panelLink": "Otevři panel",
+      "ask": "Zeptat se na Discordu",
+      "code": "Mám kód do bety",
+      "servers": "Komunitní servery"
+    }
+  },
+  "support": {
+    "eyebrow": "Podpora",
+    "title": "Pomoz Modstoke fungovat dál",
+    "lede": "Naše mody a nástroje jsou zdarma. Vytváří je OpenACAI, nezisková organizace 501(c)(3), a dary platí server za tímto webem, našeho bota na Discordu a komunitní servery.",
+    "donate": {
+      "title": "Přispět",
+      "often": "Jak často",
+      "once": "Jednou",
+      "monthly": "Měsíčně",
+      "amount": "Částka v amerických dolarech",
+      "otherLabel": "Jiná částka",
+      "otherPlaceholder": "Jiná částka v $",
+      "closed": "Online dary se brzy otevřou. Do té doby se zeptej, jak pomoct: {discord}.",
+      "note": "Platby jdou přes PayPal, který ti pošle potvrzení e-mailem. Údaje o tvé kartě nikdy nevidíme."
+    },
+    "roles": {
+      "title": "Role podporovatelů",
+      "intro": "Přispěvatelé dostanou na našem Discordu roli jako poděkování:",
+      "supporter": {
+        "name": "Supporter",
+        "text": "Každý, kdo přispěl"
+      },
+      "monthly": {
+        "name": "Monthly supporter",
+        "text": "Dokud běží měsíční dar"
+      },
+      "host": {
+        "name": "Server host",
+        "text": "Každý, kdo si pronajímá {hosting}",
+        "link": "server od nás"
+      },
+      "note": "Dokud se neotevřou účty, napiš moderátorovi na Discordu s číslem potvrzení z PayPalu a on ti roli přidá. Role jsou jen poděkování. Mody zůstávají pro všechny zdarma tak jako tak."
+    },
+    "gamhon": {
+      "title": "Součást GAMHON",
+      "what": "Modstoke je součást GAMHON, Game and Mental Health Online Network. OpenACAI ji provozuje, aby lidem nabídla nenáročný společenský únik přes hry, včetně lidí, kteří nemají moc jiných míst, kde navazovat kontakty.",
+      "modding": "Modování do toho zapadá skvěle. Jako každý koníček dává práci, na které se dá pracovat, a něco, na co se dá těšit, a k tomu komunitu lidí, kteří spolu něco tvoří. Naše nástroje zdarma, náš Discord a servery, které hostujeme, jsou toho všeho součástí.",
+      "money": "Dary přijaté tady a poplatky za {hosting} jdou OpenACAI a pomáhají financovat program.",
+      "hostingLink": "hosting serverů",
+      "crisis": "GAMHON je o zábavě a přátelství, ne o poradenství. Pokud jsi v USA v krizi, zavolej nebo pošli SMS na číslo 988.",
+      "more": "Víc o GAMHON na openacai.com"
+    },
+    "where": {
+      "title": "Kam jdou peníze",
+      "body": "Na prvním místě je server. Jeden stroj v New Jersey provozuje tento web, Sentinela (našeho bota na Discordu) s jeho lokální AI a herní servery, které hostujeme. Cokoli navíc jde na zbytek GAMHON.",
+      "ask": "Otázky? Zeptej se na Discordu"
+    }
+  },
+  "servers": {
+    "eyebrow": "Komunitní servery",
+    "title": "Najdi server",
+    "intro": "Světy Sons of the Forest, které jejich hostitelé nechali zveřejnit tady, i s mody, které každý z nich vyžaduje.",
+    "listYours": "Zveřejni svůj server",
+    "directoryLabel": "Adresář serverů",
+    "filters": {
+      "find": "Najdi server",
+      "placeholder": "Server, hostitel, region nebo mod…",
+      "status": "Stav",
+      "allStatuses": "Všechny stavy",
+      "online": "Online",
+      "offline": "Offline",
+      "kind": "Typ relace",
+      "allSessions": "Všechny relace",
+      "dedicated": "Dedikovaný",
+      "playerHosted": "Hostovaný hráčem",
+      "refresh": "Obnovit"
+    },
+    "loading": "Načítá se adresář…",
+    "refreshes": "Obnovuje se každých 60 sekund, dokud je stránka vidět.",
+    "noscript": {
+      "title": "K načtení serverů je potřeba JavaScript.",
+      "body": "Zapni JavaScript, aby se zobrazil živý adresář. Tato stránka neukládá žádné informace o serverech."
+    },
+    "measureNote": "Počty hráčů označené — jsou neznámé. Odezva hostitele je medián doby odezvy připojených hráčů naměřený hostitelem; tvoje připojení se může lišit.",
+    "join": {
+      "eyebrow": "NEŽ SE PŘIPOJÍŠ",
+      "title": "Místo pro tvou další hru.",
+      "review": "Otevři server a uvidíš jeho povinné mody, vybrané nastavení a nedávnou aktivitu. Požadavky se zobrazují, k prohlédnutí; tato stránka žádné mody nestahuje ani neinstaluje.",
+      "manager": "Připojení otevře Modstoke Manager 0.3.0 nebo novější, který znovu ukáže podrobnosti serveru k potvrzení, než se cokoli spustí."
+    },
+    "host": {
+      "eyebrow": "PRO HOSTITELE",
+      "title": "Sdílej svůj server, když chceš.",
+      "ask": "Požádej provozovatele adresáře na {discord}, aby schválil tvůj záznam a vydal klíč vydavatele. Nastav ten klíč v hostingové komponentě a pak publikování výslovně zapni. Klíč nedávej do chatu ani ho nezadávej na tomto webu.",
+      "discordLink": "našem Discordu",
+      "privacy": "Hlásí se jen hostitelé, kteří s tím souhlasili. Záznamy obsahují informace o serveru, vybrané nastavení a souhrnnou aktivitu, bez jmen hráčů, chatu, hesel a soukromých dat Adminu. Pro odstranění záznamu nebo zneplatnění jeho klíče kontaktuj provozovatele."
+    },
+    "detail": {
+      "eyebrow": "PODROBNOSTI SERVERU",
+      "close": "Zavřít",
+      "loading": "Načítá se server…"
+    }
+  },
+  "tools": {
+    "eyebrow": "Nástroje",
+    "title": "Manager, Loader a SDK",
+    "lede": "Hráči potřebují Manager a Loader. Autoři modů tvoří pomocí SDK, které je součástí Loaderu.",
+    "installGuide": "Návod k instalaci",
+    "trailer": {
+      "watch": "Podívej se na trailer {name} na YouTube",
+      "alt": "Úvodní obrazovka z traileru {name}",
+      "caption": "Trailer {name}, přehrává se na YouTube"
+    },
+    "file": {
+      "none": "Zatím žádné veřejné stažení.",
+      "signed": "podepsáno",
+      "unsigned": "nepodepsáno",
+      "preview": "náhled"
+    },
+    "manager": {
+      "what": "Aplikace pro Windows pro tvoje mody do Sons of the Forest. Najde tvoji hru, nainstaluje Loader a drží tvoje mody na jednom místě. Můžeš v ní procházet SOTF Mods a Nexus Mods, najít server, ke kterému se připojíš, nebo si nastavit vlastní dedikovaný server.",
+      "store": "Až se otevře obchod Modstoke, přes Manager z něj budeš instalovat: než se cokoli rozbalí, zkontroluje každý soubor podle podepsaného katalogu.",
+      "download": "Stáhnout Manager"
+    },
+    "loader": {
+      "what": "Loader, na kterém běží každý mod Modstoke. Nainstaluješ ho jednou a pak přidáváš mody, které chceš. Přidá nabídku Mody na úvodní obrazovku a do pauzy, kde má každý mod své nastavení, a nese s sebou potřebný runtime .NET.",
+      "legacy": "Starší mody pro RedLoader a BepInEx fungují vedle něj dál.",
+      "onReleases": "Loader ve Vydáních",
+      "nexus": "Stránka na Nexusu",
+      "shotAlt": "Nabídka Mody Loaderu ve hře",
+      "shotCaption": "Nabídka Mody, kterou Loader přidává do hry"
+    },
+    "sdk": {
+      "what": "Rozhraní, proti kterým se mody vytvářejí. Jsou uvnitř Loaderu, takže není co samostatně stahovat: odkaž se v projektu na assembly Loaderu a testuj se stejnou verzí Loaderu, jakou používají tvoji hráči.",
+      "notes": "{notes} popisují strukturu balíčku, manifest a testování na samostatné kopii hry.",
+      "notesLink": "Poznámky pro tvůrce"
+    }
+  },
+  "guides": {
+    "home": "Domů",
+    "guides": "Návody",
+    "breadcrumb": "Drobečková navigace",
+    "eyebrow": "NÁVODY PRO HRÁČE",
+    "onThisPage": "Na této stránce",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "náhled Manageru",
+    "backup": {
+      "exit": "Ukonči Sons Of The Forest a zavři všechny nástroje pro mody, které by mohly měnit jeho soubory. Nech doběhnout případnou čekající synchronizaci Steam Cloud.",
+      "find": "V Průzkumníku souborů vlož {path} do adresního řádku. U běžné lokální instalace tam leží složka {saves}. Pokud tam není, než budeš pokračovat, ověř účet Windows a umístění uložených her, které tvoje instalace používá.",
+      "copy": "Zkopíruj celou složku {saves} do samostatné zálohovací složky s datem, mimo hru a její složku s uloženými hrami. Kopíruj; originál nepřesouvej ani nemaž. Zachovej všechny podsložky účtů a světů.",
+      "verify": "Otevři zálohu a ověř, že obsahuje očekávané podsložky a soubory. Tuto kopii nech nedotčenou, zatímco děláš změny. Steam Cloud nenahrazuje samostatnou zálohu.",
+      "note": "U dedikovaného serveru nebo uložených her jinde zálohuj nastavené umístění uložených her toho serveru zvlášť. Než obnovíš starší kopii, zachovej i aktuální uložené hry, aby šlo obnovení vrátit zpět."
+    },
+    "checksum": {
+      "open": "Volitelně: otevři PowerShell ve složce se staženým instalátorem a spusť:",
+      "compare": "Porovnej vrácený {hash} s SHA-256 na {release} pro stejnou verzi. Zaznamenaná hodnota ({manager}) je:",
+      "releasePage": "stránce vydání",
+      "differs": "Pokud se liší, soubor nespouštěj. Stáhni ho znovu ze stránky vydání a zkontroluj ho znovu. Shodný hash potvrzuje, že bajty odpovídají zveřejněnému kontrolnímu součtu; nedokazuje totožnost vydavatele a nepodepsaný instalátor nedělá podepsaným. Podívej se na {reference} od Microsoftu.",
+      "reference": "dokumentaci Get-FileHash",
+      "none": "Teď není vybraný žádný soubor Manageru. Než budeš pokračovat, zkontroluj stránku {releases}, jestli je tam zveřejněný instalátor a jeho kontrolní součet.",
+      "releases": "Vydání"
+    },
+    "index": {
+      "title": "Návody k modování Sons Of The Forest",
+      "description": "Nainstaluj Modstoke Manager ve Windows, zálohuj uložené hry a řeš problémy s mody pro Sons Of The Forest.",
+      "statusTitle": "Začni tím, co je k dispozici",
+      "statusManager": "{manager} je k dispozici pro Windows.",
+      "statusManagerPreview": "{manager} je k dispozici pro Windows jako náhled.",
+      "statusNoManager": "Dostupnost Manageru zkontroluj ve Vydáních.",
+      "statusLoader": "Loader {version} se SDK je také ve Vydáních a Manager ti ho může nainstalovat. Mody jako Client mají vlastní stažení a Modstoke zatím nemá hostovaný katalog modů.",
+      "statusNoLoader": "Kompletní balíček Modstoke Loader, SDK a client není zveřejněný. Automatická instalace tohoto balíčku není dostupná a Modstoke zatím nemá hostovaný katalog modů.",
+      "reviewReleases": "Zobrazit aktuální vydání",
+      "cardsLabel": "Dostupné návody",
+      "installEyebrow": "NASTAVENÍ VE WINDOWS",
+      "installTitle": "Nainstaluj Modstoke Manager",
+      "installText": "Zálohuj uložené hry, najdi oficiální instalátor, zkontroluj jeho kontrolní součet a vyber instalaci hry.",
+      "installLink": "Přečti si návod k instalaci",
+      "troubleEyebrow": "ŘEŠENÍ PROBLÉMŮ",
+      "troubleTitle": "Řeš problémy s mody ke hře",
+      "troubleText": "Odděl nastavení Manageru od problémů s Loaderem a mody, zkontroluj požadavky a připrav užitečné hlášení problému.",
+      "troubleLink": "Přečti si návod k řešení problémů",
+      "footer": "Informace o projektu a přípravě pro autory najdeš v {docs}.",
+      "docs": "dokumentaci"
+    },
+    "install": {
+      "title": "Jak nainstalovat Modstoke Manager ve Windows",
+      "description": "Návod krok za krokem, jak nainstalovat Modstoke Manager: zálohy uložených her, oficiální stažení, volitelná kontrola SHA-256 a výběr hry.",
+      "crumb": "Instalace Modstoke Manageru",
+      "toc": {
+        "before": "Než začneš",
+        "backup": "Zálohuj uložené hry",
+        "download": "Stáhni Manager",
+        "check": "Zkontroluj stažený soubor",
+        "install": "Nainstaluj a vyber hru",
+        "next": "Co dál"
+      },
+      "before": {
+        "title": "Než začneš",
+        "intro": "Tento návod se týká Modstoke Manageru pro Windows. Měj po ruce svoji instalaci Sons Of The Forest ze Steamu a před nastavením hru zavři. Aktuální stažení je {manager}.",
+        "signed": "Instalátor je podepsaný vydavatelem {publisher}. Pokud Windows ukáže neznámého vydavatele, nespouštěj ho a stáhni ho znovu z Vydání.",
+        "unsigned": "Zveřejněný náhledový instalátor je nepodepsaný. Windows může zobrazit varování, protože nemůže ověřit podpis vydavatele. Než se rozhodneš, jestli ho spustíš, projdi si zdroj a podrobnosti vydání. Kvůli instalaci nevypínej ochranu Windows. Pokud máš pochybnosti, zruš to a počkej na podepsané vydání.",
+        "scope": "Instalace Manageru neinstaluje hru ani nezaručuje, že mody fungují.",
+        "scopeLoader": "Po nastavení může Manager nainstalovat Loader ze stránky Loadery.",
+        "scopeNoLoader": "Kompletní balíček Modstoke Loader, SDK a client zatím není zveřejněný, takže automatická instalace balíčku není dostupná."
+      },
+      "backupTitle": "1. Zálohuj uložené hry",
+      "download": {
+        "title": "2. Získej oficiální stažení",
+        "open": "Otevři {releases} a najdi stažení Manageru.",
+        "releases": "Vydání Modstoke",
+        "read": "Přečti si verzi, informace o podpisu a zaznamenané kontroly.",
+        "filename": "V tomto návodu se instalátor jmenuje {file}.",
+        "noFile": "Pokračuj, jen když je v seznamu instalátor Manageru.",
+        "get": "Stáhni instalátor odkazem na té stránce. Nech stránku vydání otevřenou, pokud chceš porovnat jeho kontrolní součet.",
+        "note": "Kontrola instalace Manageru není výsledek kompatibility s hrou ani s multiplayerem. Tyto kontroly jsou u tohoto vydání Manageru označené jako nepoužitelné."
+      },
+      "checkTitle": "3. Zkontroluj stažený soubor, pokud chceš",
+      "setup": {
+        "title": "4. Nainstaluj Manager a vyber hru",
+        "runSigned": "Spusť stažený instalátor",
+        "runUnsigned": "Pokud se rozhodneš pokračovat s nepodepsaným náhledem, spusť stažený instalátor",
+        "run": "{run} a postupuj podle jeho pokynů. Pokud se instalace zastaví, zapiš si chybovou zprávu.",
+        "open": "Po instalaci otevři Modstoke Manager.",
+        "select": "Pokud se Manager zeptá na spustitelný soubor hry, vyber {exe} ze své skutečné instalace hry na Steamu. Nainstalovanou složku najdeš přes místní soubory hry ve Steamu. Vyber spustitelný soubor hry, ne instalátor Manageru ani zástupce.",
+        "status": "Přečti si stav zobrazený u té instalace. Pokud hru nelze najít, ověř, že vybraný soubor pořád existuje a patří k zamýšlené instalaci ze Steamu.",
+        "note": "Texty na obrazovce se mohou mezi verzemi lišit. Řiď se výzvou ve své nainstalované verzi a nehádej, kde je chybějící tlačítko."
+      },
+      "next": {
+        "title": "5. Před přidáním modů zkontroluj požadavky",
+        "loader": "Modstoke zatím nehostuje katalog modů. Nejdřív nainstaluj Loader z Manageru a pak přidávej mody z jejich vlastních stránek.",
+        "noLoader": "Modstoke teď nehostuje katalog modů ani nezveřejňuje kompletní balíček Loaderu, SDK a clientu. Chybějící balíček je omezení zveřejňování, které přeinstalování Manageru nevyřeší.",
+        "elsewhere": "U modu získaného jinde si přečti požadavky a pokyny k instalaci od autora pro jeho přesnou verzi. Než změníš soubory, ověř podporovaný build hry a Loader. Nepředpokládej, že mod napsaný pro jiný Loader bude fungovat s Modstoke.",
+        "continue": "Pokud narazíš na problém, pokračuj v {troubleshooting} nebo si přečti {docs}.",
+        "troubleshooting": "řešení problémů s mody pro Sons Of The Forest",
+        "docs": "dokumentaci pro hráče"
+      }
+    },
+    "trouble": {
+      "title": "Řešení problémů s mody pro Sons Of The Forest",
+      "description": "Diagnostikuj problémy s nastavením Manageru, požadavky Loaderu a mody ke hře, se zálohami uložených her, opatrnými kroky obnovy a kontrolním seznamem pro hlášení problému.",
+      "crumb": "Problémy s mody",
+      "toc": {
+        "identify": "Zjisti, kde je problém",
+        "protect": "Chraň uložené hry",
+        "manager": "Nastavení Manageru",
+        "loader": "Požadavky Loaderu a modů",
+        "restore": "Návrat k hře bez modů",
+        "report": "Nahlas problém"
+      },
+      "identify": {
+        "title": "Zjisti, kde se problém objevuje",
+        "intro": "Začni prvním krokem, který selhává. Chyba instalátoru, chybějící stažení Loaderu a pád po načtení modu mají různé příčiny.",
+        "managerTerm": "Nastavení Manageru",
+        "manager": "Instalátor selhává, Manager se neotevře nebo je vybraná špatná cesta ke hře. Začni {link}.",
+        "managerLink": "nastavením Manageru",
+        "loaderTerm": "Dostupnost Loaderu",
+        "loader": "Kompletní balíček Modstoke Loader, SDK a client není zveřejněný. Automatická instalace balíčku není dostupná; přeinstalování Manageru ho nepřinese.",
+        "gameTerm": "Chování hry nebo modu",
+        "game": "Hra se nespustí, mod se neobjeví nebo se svět chová neočekávaně. Než změníš soubory, zkontroluj přesné {link}.",
+        "gameLink": "požadavky Loaderu a modů",
+        "catalog": "Modstoke zatím nemá hostovaný katalog modů. Prázdný katalog není důkaz, že jsou soubory tvé hry poškozené."
+      },
+      "protect": {
+        "title": "Před změnami chraň uložené hry",
+        "note": "Nepřepisuj cenný svět, když zjišťuješ, jestli problém způsobily odebrané nebo změněné mody. Pokud potřebuješ porovnat chování, použij samostatný dočasný svět."
+      },
+      "manager": {
+        "title": "Řeš problémy s nastavením Manageru",
+        "version": "Porovnej verzi svého Manageru s tím, co je na stránce {releases}. Použij informace o instalátoru a podpisu z té stránky; nepředpokládej, že starší balíček nebo balíček pod jiným názvem se chová stejně.",
+        "releases": "Vydání",
+        "publisher": "Pokud Windows varuje před neznámým vydavatelem, ověř, že instalátor pochází z Vydání. Ochranu nech zapnutou. Instalaci zruš, pokud nemáš jistotu, že je to správný soubor.",
+        "incomplete": "Pokud se stažení zdá neúplné, než zkusíš instalaci znovu, použij {check}.",
+        "checkLink": "volitelnou kontrolu kontrolního součtu",
+        "find": "Pokud Manager nemůže najít hru, ověř, že vybraný {exe} leží v aktuální instalaci ze Steamu, zvlášť po přesunutí hry na jiný disk.",
+        "error": "U chyby instalátoru nebo spuštění si ulož přesnou zprávu a poznamenej si, jestli se objevila před otevřením Manageru, nebo po něm. Neupravuj soubory hry kvůli nevysvětlené chybě při spuštění Manageru."
+      },
+      "loader": {
+        "title": "Zkontroluj požadavky Loaderu a modů",
+        "read": "Přečti si stránku autora modu pro přesnou verzi modu. Zapiš si požadovaný Loader, závislosti, podporovaný build hry a místo instalace.",
+        "compare": "Porovnej tyto požadavky s tím, co je skutečně nainstalované. Loader s podobným názvem nebo složka s DLL nestačí k tomu, aby se kompatibilita považovala za prokázanou.",
+        "update": "Zjisti, jestli problém začal po aktualizaci hry, Loaderu nebo modu. Do poznámek si ulož předchozí verze a první chybovou zprávu.",
+        "isolate": "Podezřelý mod izoluj pomocí postupu pro vypnutí nebo odinstalování, který autor modu podporuje, a pamatuj na jeho povinné závislosti. Měň vždy jednu věc a používej samostatný svět se zálohovanými uloženými hrami.",
+        "combine": "Nekombinuj instalace Loaderu ani nepřesouvej pluginy mezi složkami Loaderů, pokud to příslušní autoři výslovně nepodporují. U multiplayeru zkontroluj zvlášť uvedené požadavky modu na hostitele, klienta a server; funkční hra pro jednoho hráče nedokazuje podporu multiplayeru.",
+        "notes": "Přečti si {link} projektu spolu s pokyny autora modu.",
+        "notesLink": "poznámky ke kompatibilitě"
+      },
+      "restore": {
+        "title": "Opatrně se vrať k hře bez modů",
+        "close": "Zavři hru. Udělej {backup} a zachovej konfigurační soubory modů a záznam nainstalovaných balíčků.",
+        "backupLink": "zálohu uložených her",
+        "remove": "Postupuj podle zdokumentovaného odebrání každého nainstalovaného modu a Loaderu. U instalací spravovaných jiným nástrojem použij postup odebrání toho nástroje. Neznámé soubory nemaž tak, že budeš hádat, které patří k modu.",
+        "verify": "Ve Steamu otevři {properties} hry, vyber {installed} a klikni na {integrity}. Nech ověření doběhnout. Tyto kroky popisuje {support}.",
+        "properties": "Vlastnosti",
+        "installed": "Nainstalované soubory",
+        "integrity": "Ověřit integritu herních souborů",
+        "support": "Podpora Steamu",
+        "leftover": "V pokynech k odebrání Loaderu a modů zkontroluj, jestli nezůstaly nějaké soubory. Ověření ve Steamu opraví herní soubory spravované Steamem; nepovažuj ho za odebrání všech souborů, které mod přidal.",
+        "launch": "Spusť hru přes Steam a použij samostatný dočasný svět k porovnání chování. Zálohované světy nech nedotčené. Pokud problém trvá, uveď tento výsledek v hlášení.",
+        "stop": "Pokud nedokážeš určit, co je přidaný soubor nebo komu patří, přestaň soubory odebírat a požádej o radu správce příslušného modu nebo Loaderu."
+      },
+      "report": {
+        "title": "Připrav užitečné hlášení problému",
+        "intro": "Pošli hlášení přes podporu, na kterou odkazuje projekt nebo autor modu zodpovědný za selhávající součást. Uveď:",
+        "versions": "Verzi Windows, verzi nebo build hry, verzi Manageru, název a verzi Loaderu a verze příslušných modů.",
+        "error": "Přesný text chyby a příslušný výřez z logu, včetně první chyby a okolních řádků. Před sdílením odstraň osobní cesty, údaje o účtu a tajné údaje.",
+        "steps": "Krátké kroky, které problém reprodukují, co se mělo stát a co se stalo.",
+        "scope": "Jestli se týká spuštění, konkrétního světa, hry pro jednoho hráče, hostování nebo připojování; a jestli trvá i po podporovaných krocích odebrání.",
+        "last": "Poslední fungující nastavení, nedávné změny a kroky, které už byly vyzkoušené.",
+        "outro": "S instalací Manageru ti pomůže návrat k {guide}. Původní zálohu uchovej, dokud se problém nevyřeší.",
+        "guideLink": "návodu k instalaci pro Windows"
+      }
+    }
+  },
+  "apps": {
+    "home": "Domů",
+    "breadcrumb": "Drobečková navigace",
+    "eyebrow": "APLIKACE MODSTOKE PRO DISCORD",
+    "onThisPage": "Na této stránce",
+    "effective": "Platí od {date}",
+    "effectiveDate": "19. října 2026",
+    "contactPage": "kontaktní stránka OpenACAI",
+    "index": {
+      "title": "Aplikace Modstoke pro Discord",
+      "description": "Přidej Sentinela pro moderaci a komunitní nástroje nebo Radio pro sdílené přehrávání zvuku. Veřejné náhledy provozované organizací OpenACAI.",
+      "sentinel": {
+        "heading": "Sentinel: moderace a komunita",
+        "intro": "Přines na svůj server Discordu pomoc s moderací, uvítací zprávy, role přidělované samy, hledání party, komunitní statistiky a nástroje nápovědy. Sentinel je veřejný náhled provozovaný organizací OpenACAI.",
+        "add": "Přidat Sentinela na tvůj server",
+        "install": "Majitel serveru nainstaluje Sentinela jako aplikaci serveru. Instalace na osobní účet není podporovaná. Sentinel zůstává neaktivní, dokud majitel nespustí {configure} s kanály pro uvítání, log moderátorů a novinky. Obecný kanál, kanály partí a fórum nápovědy jsou volitelné. Potom spusť {setup} a nastav role přidělované samy. Bany a funkce konverzace jsou ve výchozím stavu vypnuté.",
+        "permissions": "Instalace žádá o View Channels, Send Messages, Read Message History, Embed Links, Manage Messages, Manage Roles, Moderate Members (timeouty), Kick Members a Ban Members. Projdi si obrazovku oprávnění Discordu a dej Sentinelovi přístup ke kanálům a rolím, které potřebuje pro funkce, které nastavíš. Instalace nežádá o Administrator ani o Manage Channels na celém serveru. Pokročilé funkce pastí a statistik vyžadují nastavení provozovatelem a oprávnění omezená na příslušné kanály."
+      },
+      "radio": {
+        "heading": "Radio: poslouchejte společně",
+        "intro": "Přehrávej podporované odkazy z YouTube a schválená média z CDN Discordu v hlasovém kanálu pomocí lomítkových příkazů. Žádosti o Spotify vytvoří karty s odkazem, které otevřou Spotify; v hlasu nepřehrávají celé skladby ze Spotify. Žádej jen média, která smíš sdílet nebo přehrávat.",
+        "add": "Přidat Radio na tvůj server",
+        "install": "Majitel serveru nainstaluje Radio jako aplikaci serveru, ne jako aplikaci osobního účtu. Povol přístup ke kanálu s příkazy a oprávnění Connect a Speak v zamýšleném hlasovém kanálu. Radio má vypnutý vlastní zvuk (self-deafened) a hlasový zvuk nenahrává.",
+        "limits": "Každý server má vlastní frontu až na 10 skladeb. Skladby jsou omezené na 10 minut a 32 MiB. Radio odejde po 60 sekundách bez posluchačů. Služba podporuje nejvýš dvě aktivní zvukové relace napříč všemi servery, takže kapacita nemusí být k dispozici."
+      },
+      "support": {
+        "heading": "Podpora náhledu a zásady",
+        "preview": "Tyto aplikace jsou veřejné náhledy: dostupnost a automatické výsledky se mohou lišit. Každý server má vlastní uložená data, kontext konverzace a fronty přehrávání. Sentinel sdílí jeden lokální model pro všechny servery, zpracovává jeden požadavek najednou a nepoužívá cloudovou AI.",
+        "read": "Před instalací si přečti {privacy} a {terms}. S nastavením ti poradí {community}. Proti rozhodnutím moderace se odvolávej k moderátorům serveru, kde k akci došlo.",
+        "privacy": "zásady ochrany osobních údajů aplikací",
+        "terms": "podmínky aplikací",
+        "community": "podpůrná komunita Modstoke"
+      }
+    },
+    "privacy": {
+      "title": "Soukromí aplikací pro Discord",
+      "description": "Jak OpenACAI nakládá s informacemi, které používají Modstoke Sentinel a Modstoke Radio na serverech Discordu, které je nainstalují.",
+      "scope": {
+        "heading": "Kdo tyto aplikace provozuje",
+        "operator": "OpenACAI provozuje Modstoke Sentinel a Modstoke Radio jako veřejné náhledové aplikace pro servery Discordu. Majitelé serverů je instalují jako aplikace serveru; instalace na osobní účet není podporovaná. Uložená data, kontext a fronty přehrávání každého serveru jsou oddělené.",
+        "supplement": "Tento doplněk týkající se botů popisuje jejich nakládání s daty vedle {privacy}. Viz také {terms} a {apps}.",
+        "privacyLink": "Zásad ochrany osobních údajů Modstoke",
+        "termsLink": "podmínky aplikací pro Discord",
+        "appsLink": "informace o nastavení aplikací"
+      },
+      "sentinel": {
+        "heading": "Sentinel: funkce moderace a komunity",
+        "inactive": "Sentinel zůstává na novém serveru neaktivní, dokud jeho majitel nenastaví povinné kanály. Po nastavení vidí zprávy a události členů v kanálech Discordu, ke kterým má oprávnění. Používá je k moderaci, souhrnným komunitním statistikám, rolím přidělovaným samy, hledání party a nápovědě. Bany a funkce konverzace jsou ve výchozím stavu vypnuté.",
+        "model": "Zpracování modelem probíhá lokálně na hostingovém serveru přes loopback spojení, bez zpracování cloudovou AI. Servery sdílejí jeden model, který zpracovává jeden požadavek najednou; jejich kontexty zůstávají oddělené. Nedávný kontext moderace drží v paměti až šest úryvků zpráv na kanál po dobu asi tří minut. Informace zpracovávané těmito boty se neprodávají pro reklamu ani se nepoužívají k trénování AI.",
+        "ledger": "Lokální záznam moderace uchovává ID uživatelů, kanálů a zpráv, časové značky, otisky, štítky důkazů, akce a informace o posuzovateli až sedm dní, nejvýš 1000 záznamů. Samostatný záznam odstranění se uchovává sedm dní. Zprávy z logu moderace odeslané na Discord mají samostatné uchovávání, které řídí Discord a server."
+      },
+      "crew": {
+        "heading": "Příspěvky partí, předvolby a statistiky",
+        "records": "Aktivní záznamy partí obsahují surový text party, zobrazovaná jména, ID hostitelů, regiony, požadavky a časy. Zůstávají, dokud se parta nezavře nebo nevyprší, s dobami vypršení od jedné do 24 hodin. Úklid se může zpozdit, pokud bot nemá přístup k příspěvku na Discordu. Zavřené příspěvky mohou na Discordu zůstat.",
+        "alerts": "Odběry upozornění partí a ID uživatelů, kteří odmítli, se uchovávají trvale. Upozornění partí vypneš pomocí {alerts}; {quiet} tě vyřadí z interakcí společníka. Tyto ovládací prvky nesmažou všechny záznamy moderace.",
+        "leave": "Když člen odejde, Sentinel uklidí jeho odběry partí a zavře party, které vlastnil; odchod neznamená plošné smazání všech záznamů. Komunitní statistiky jsou souhrnné. Nastavená ID kanálů a rolí zůstávají, dokud boti fungují."
+      },
+      "radio": {
+        "heading": "Radio: žádosti a hlasové přehrávání",
+        "intents": "Radio používá intenty serveru a hlasového stavu Discordu a nežádá o intent Message Content. Pro přehrávání drží v paměti URL žádostí z lomítkových příkazů a vygenerovaná čísla skladeb. Radio má v hlasových kanálech vypnutý vlastní zvuk a hlasový zvuk nenahrává.",
+        "media": "Stažená média jsou dočasná a po skladbě se uklidí; úklid při spuštění odstraní i zbylá stažení. Zastavení fronty vymaže její obsah z paměti.",
+        "fetch": "Načítání médií z CDN Discordu nebo YouTube posílá požadavky z hostingového serveru těmto poskytovatelům. Karty s odkazy na Spotify otevřou původní web; Radio nenabízí plné přehrávání ze Spotify v hlasu."
+      },
+      "hosting": {
+        "heading": "Hosting a další služby",
+        "vps": "Boti běží na VPS hostovaném u InterServeru. Lokální konfigurace JSON, předvolby a záznamy případů Sentinela jsou šifrované pomocí AES-256-GCM a klíč je držený odděleně v chráněných systémových přihlašovacích údajích. Dočasná média Radia používají soukromý běhový adresář v paměti. Swap je vypnutý pro obě služby botů i pro službu lokálního modelu. Provozní logy se vedou také jako součást provozu služby. Krátké doby uchovávání výše popisují určené záznamy botů, ne každý provozní log ani každou zprávu na Discordu.",
+        "discord": "Discord nezávisle zpracovává a uchovává zprávy, příspěvky, interakce a další informace platformy podle svých vlastních zásad a nastavení serveru. Poskytovatelé médií také zpracovávají požadavky podle svých vlastních zásad. Smazání lokálního záznamu bota neodstraní kopie, které drží Discord nebo tito poskytovatelé."
+      },
+      "removal": {
+        "heading": "Odebrání Sentinela ze serveru",
+        "purge": "Když je Sentinel odebrán ze serveru, který není jeho domovským nasazením Modstoke, uzavře lokální stav toho serveru a vymaže jeho lokální složku s daty. Příspěvky na Discordu, logy moderace a další kopie držené Discordem zůstávají v režii Discordu a serveru. Tento úklid složky neslibuje smazání každého provozního logu ani každé nezávisle uchovávané kopie.",
+        "home": "Domovské nasazení Modstoke a jeho konfigurace zůstávají pod kontrolou provozovatele. Pro žádosti o smazání, které přesahují automatické mechanismy, kontaktuj OpenACAI."
+      },
+      "requests": {
+        "heading": "Dotazy k soukromí a žádosti o smazání",
+        "contact": "S dotazy k soukromí nebo žádostmi o smazání napiš OpenACAI na {email} nebo přes stránku: {page}. Uveď bota, své ID uživatele na Discordu a příslušný server nebo záznam, aby tým mohl informace dohledat. Neposílej hesla ani tokeny účtů.",
+        "different": "Odhlášení z funkcí, opuštění serveru a smazání dat jsou různé akce. Přes tento kontakt žádej o smazání nad rámec výše popsaných mechanismů. Žádosti o informace, které nezávisle uchovává Discord, může být nutné adresovat také Discordu nebo moderátorům serveru."
+      }
+    },
+    "terms": {
+      "title": "Podmínky aplikací pro Discord",
+      "description": "Podmínky pro instalaci a používání veřejných náhledů Modstoke Sentinel a Modstoke Radio na serverech Discordu.",
+      "scope": {
+        "heading": "Doplněk týkající se botů",
+        "operator": "OpenACAI provozuje Modstoke Sentinel a Modstoke Radio jako veřejné náhledové aplikace pro servery Discordu. Tyto podmínky jsou doplňkem týkajícím se botů k {terms}. Informace, s nimiž boti nakládají, vysvětluje {privacy}.",
+        "termsLink": "Podmínkám služby Modstoke",
+        "privacyLink": "Stránka o soukromí aplikací pro Discord",
+        "install": "Majitelé serverů instalují boty jako aplikace serveru. Instalace na osobní účet není podporovaná. Aktuální funkce a omezení viz {apps}.",
+        "appsLink": "informace o instalaci a nastavení"
+      },
+      "use": {
+        "heading": "Přijatelné použití",
+        "rules": "Používej boty v souladu se zákonem a dodržuj pravidla svého serveru, podmínky Discordu a podmínky příslušných poskytovatelů médií. Nepoužívej je ke spamu, obtěžování, malwaru, obcházení moderace ani k jinému zneužití. Nezkoušej obcházet oprávnění botů, řízení přístupu ani omezení používání.",
+        "media": "Zadávej jen média, která smíš v dané situaci sdílet nebo přehrávat. Podporovaná URL ani úspěšné přehrání neprokazují, že smíš materiál použít. Podmínky původního poskytovatele platí dál."
+      },
+      "features": {
+        "heading": "Funkce náhledu a dostupnost",
+        "besteffort": "Boti jsou poskytováni jako náhledové nástroje v režimu nejlepší snahy. Funkce, odpovědi a přehrávání mohou být nedostupné, zpožděné, nesprávné nebo se mohou měnit, jak je tým udržuje. Nespoléhej na bota jako na jediný zdroj důležitých informací ani jako na záruku pokrytí moderací.",
+        "radio": "Radio závisí na dostupnosti Discordu, hostingu a poskytovatelů médií. Karty Spotify odkazují na původní web; nenabízejí plné přehrávání ze Spotify v hlasových kanálech."
+      },
+      "moderation": {
+        "heading": "Moderace a odvolání",
+        "appeals": "Sentinel podporuje moderaci a komunitní funkce, ale automatická posouzení mohou být chybná. Kontaktuj moderátory serveru, kde k akci došlo, a zeptej se na ni nebo se odvolej. Uveď podrobnosti příslušné zprávy nebo akce, aby ji mohli přezkoumat.",
+        "owners": "Majitelé serverů provádějí první instalaci a nastavení. Sentinel zůstává neaktivní, dokud majitel nenastaví kanály pro uvítání, log moderátorů a novinky; volitelné kanály a nastavení rolí zapínají další funkce. Bany a funkce konverzace jsou ve výchozím stavu vypnuté. Správci řídí přístup a oprávnění bota. Pokročilé funkce pastí a statistik vyžadují nastavení provozovatelem a omezená oprávnění.",
+        "removal": "Odebrání bota ze serveru vyžaduje správce s potřebnými oprávněními. Lokální úklid Sentinela při odebrání je popsán v {privacy}; nemaže kopie Discordu.",
+        "privacyLink": "zásadách ochrany osobních údajů"
+      },
+      "controls": {
+        "heading": "Ovládání pro členy a kontakt",
+        "controls": "Pomocí {alerts} vypneš upozornění partí a pomocí {quiet} se odhlásíš z interakcí společníka. Tyto ovládací prvky nesmažou všechna data moderace. U nakládání s daty a žádostí o smazání postupuj podle {contact}.",
+        "contactLink": "pokynů pro kontakt ohledně soukromí",
+        "questions": "S dotazy k těmto podmínkám napiš na {email} nebo použij stránku: {page}."
+      }
+    }
+  },
+  "mods": {
+    "notStated": "Neuvedeno",
+    "loaderOrNewer": "Loader {version} nebo novější",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "Funguje, i když ho máš jen ty",
+      "host": "Potřebuje ho jen hostitel nebo server",
+      "allPlayers": "Hostitel i hráči potřebují stejnou verzi",
+      "solo": "Jen pro jednoho hráče",
+      "notStated": "Neuvedeno"
+    },
+    "dedicated": {
+      "supported": "Podporováno",
+      "unsupported": "Nepodporováno",
+      "notStated": "Neuvedeno"
+    },
+    "settings": {
+      "hostSynced": "Rozhoduje hostitel",
+      "perPlayer": "Každý hráč rozhoduje sám",
+      "none": "Žádné nastavení",
+      "notStated": "Neuvedeno"
+    },
+    "status": {
+      "preview": "Náhled",
+      "experimental": "Experimentální",
+      "stable": "Stabilní"
+    },
+    "label": {
+      "needs": "Vyžaduje",
+      "multiplayer": "Multiplayer",
+      "updated": "Aktualizováno",
+      "version": "Verze",
+      "status": "Stav",
+      "dedicatedServer": "Dedikovaný server",
+      "settings": "Nastavení",
+      "madeBy": "Autor",
+      "licence": "Licence",
+      "source": "Zdroj",
+      "aiAssistance": "Pomoc AI"
+    },
+    "list": {
+      "title": "Mody",
+      "lede": "Tohle jsou mody, které děláme sami. Všechny běží na Modstoke Loaderu a zatím si je stahuješ z Nexus Mods. Až se otevře obchod Modstoke, Manager je nainstaluje za tebe a objeví se tu i mody od jiných autorů.",
+      "search": "Hledat mody",
+      "anyMultiplayer": "Jakékoli nastavení multiplayeru",
+      "count": {
+        "one": "{count} mod",
+        "few": "{count} mody",
+        "many": "{count} modu",
+        "other": "{count} modů"
+      },
+      "note": "Každý mod tady potřebuje {loader}. Nastavení s Managerem popisuje {guide}.",
+      "installGuide": "návod k instalaci",
+      "details": "Podrobnosti",
+      "nexusPage": "Stránka na Nexusu"
+    },
+    "page": {
+      "breadcrumb": "Drobečková navigace",
+      "gallery": "Snímky obrazovky a video",
+      "watchTrailer": "Podívej se na trailer na YouTube",
+      "openFullSize": "Otevřít v plné velikosti",
+      "trailerCaption": "Trailer, přehrává se na YouTube",
+      "details": "Podrobnosti",
+      "sourceNotPublic": "Zatím není veřejný",
+      "aiYes": "Ano, uvedeno na Nexusu",
+      "aiNo": "Ne",
+      "downloadOnNexus": "Stáhnout z Nexusu",
+      "storeNote": "Instalace jedním kliknutím z Manageru přijde s obchodem Modstoke.",
+      "meta": "{version} · aktualizováno {date} · od OpenACAI",
+      "whatsNew": "Co je nového ve verzi {version}",
+      "about": "O modu",
+      "inTesting": "V testování",
+      "install": "Instalace",
+      "installStep1": "Nainstaluj {loader}, nebo to nech udělat {manager}.",
+      "managerLink": "Manager",
+      "installStep2": "Zavři hru. Stáhni {name} z Nexusu a rozbal jeho složku Modstoke vedle {exe}.",
+      "installStep3": "Spusť hru a na úvodní obrazovce otevři nabídku Mody, a ověř, že se načetl.",
+      "installNote": "Než vyzkoušíš náhled, zálohuj uložené hry. Když se něco pokazí, podívej se do {guide} nebo se zeptej: {discord}.",
+      "troubleshootingGuide": "návodu k řešení problémů"
+    }
+  },
+  "release": {
+    "eyebrow": "VYDÁNÍ",
+    "headingPreview": "Stažení, včetně náhledových sestavení.",
+    "headingVerified": "Ověřená stažení.",
+    "lede": "Vyber aktuální vydání nebo si před instalací prohlédni uchovanou verzi.",
+    "previewDownloads": "Náhledová stažení jsou testovací sestavení. Před instalací zkontroluj podpis a podrobnosti ověření.",
+    "managerOnly": "Manager je k dispozici, ale kompletní balíček Loaderu, SDK a clientu zatím není zveřejněný. Automatická instalace Loaderu, SDK a balíčku clientu není dostupná.",
+    "historyTitle": "Podrobnosti vydání a návrat k dřívější verzi",
+    "historyNote": "Adresy URL souborů s verzí se nemění. Záznam dřívějšího vydání může zůstat dostupný, když se změní aktuální výběr.",
+    "playerBundle": "Balíček pro hráče",
+    "loaderWithClient": "Balíček pro kořen hry s Loaderem, jeho přibaleným SDK a samostatně sestaveným doprovodným clientem.",
+    "loaderOnly": "Balíček pro kořen hry s Loaderem a jeho přibaleným SDK. Mody jako Client mají vlastní stažení.",
+    "managerPackage": "Desktopový balíček Modstoke Manageru pro Windows.",
+    "download": "Stáhnout {file}",
+    "size": "Velikost",
+    "bytes": "{size} bajtů",
+    "published": "Zveřejněno",
+    "details": "Podrobnosti vydání",
+    "current": "AKTUÁLNÍ",
+    "previous": "PŘEDCHOZÍ",
+    "noNotes": "K této verzi nebyly dodány poznámky k vydání. Soubor a metadata ověření níže nejsou seznam změn.",
+    "publishedCommit": "Zveřejněno {date}. Zdrojový commit {commit}.",
+    "packageLine": "Balíček: {file} ({size} bajtů). SHA-256: {hash}.",
+    "testedBuilds": "Otestované buildy {game}: {builds}.",
+    "noTestedBuilds": "Zatím nebyl otestován žádný build hry. Kompatibilita s hrou není známá.",
+    "requiresManager": "Vyžaduje Manager {version} nebo novější.",
+    "guidedLoader": "Řízený balíček Loaderu: {id}.",
+    "noGuidedLoader": "Pro toto vydání Manageru není vybrán odpovídající řízený balíček Loaderu.",
+    "listSeparator": ", ",
+    "previewBuild": "Náhledové testovací sestavení.",
+    "packageUnsigned": "Tento balíček je nepodepsaný: {reason}.",
+    "pendingChecks": "Čekající kontroly: {checks}.",
+    "reviewDetails": "Před instalací si projdi podrobnosti vydání.",
+    "pending": {
+      "game": "spuštění hry",
+      "multiplayer": "multiplayer"
+    },
+    "signatureReviewedFor": "Přezkoumání podpisu zaznamenáno pro {publisher}.",
+    "signatureReviewed": "Přezkoumání podpisu zaznamenáno.",
+    "previewUnsigned": "Tento náhledový balíček je nepodepsaný: {reason}. Ověření podpisu nebylo zaznamenáno.",
+    "signatureNotRecorded": "Ověření podpisu nebylo zaznamenáno.",
+    "checksumNote": "Kontrolní součet SHA-256 identifikuje bajty souboru; neověřuje autenticitu manifestu aktualizace.",
+    "validation": "{checks}.",
+    "checkLine": "{label}: {state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "Čistý zdroj",
+      "licenses": "Licence",
+      "build": "Sestavení",
+      "install": "Instalace",
+      "game": "Spuštění hry",
+      "multiplayer": "Multiplayer",
+      "hostedFetch": "Kontrola hostovaného souboru"
+    },
+    "state": {
+      "passed": "prošlo",
+      "pending": "čeká",
+      "notApplicable": "nepoužitelné",
+      "notRecorded": "nezaznamenáno"
+    }
+  },
+  "docs": {
+    "eyebrow": "Dokumentace",
+    "title": "Poznámky pro hráče a autory modů",
+    "lede": "Pomoc s nastavením najdeš v {guides}. Tato stránka popisuje, jak do sebe díly zapadají a co vědět, než začneš dělat mod.",
+    "guidesLink": "návodech",
+    "onThisPage": "Na této stránce",
+    "nav": {
+      "project": "Projekt",
+      "players": "Pro hráče",
+      "compatibility": "Kompatibilita s hrou",
+      "authors": "Pro autory modů",
+      "sdk": "Vývoj se SDK",
+      "play": "Hrajte spolu",
+      "downloads": "Stažení a aktualizace"
+    },
+    "project": {
+      "title": "Projekt",
+      "about": "Modstoke je modovací projekt neziskové organizace OpenACAI. Je to loader modů, desktopový správce a sada modů pro Sons of the Forest s komunitou kolem nich na Discordu. Všechno je zdarma a k používání tohoto webu nepotřebuješ účet.",
+      "endnight": "S Endnight Games nejsme nijak spojeni. Prosíme, neposílej problémy s Modstoke jejich podpoře."
+    },
+    "players": {
+      "title": "Pro hráče",
+      "start": "Začni {manager}. Najde tvoji hru, nainstaluje {loader} a bude si pamatovat, co máš nainstalované. Pak vyber z {mods}; zatím se stahují z Nexus Mods.",
+      "managerLink": "Managerem",
+      "loaderLink": "Loader",
+      "modsLink": "modů",
+      "guides": "Zálohu uložených her udělej hned na začátku podle {install}. Když se něco pokazí, pomůže {troubleshooting}.",
+      "installGuide": "návodu k instalaci",
+      "troubleshootingGuide": "návod k řešení problémů"
+    },
+    "compatibility": {
+      "title": "Kompatibilita s hrou",
+      "supported": "Podporováno",
+      "note": "Každé vydání uvádí buildy hry, na kterých bylo testováno. Pokud vydání žádný neuvádí, zatím nebylo ověřeno na konkrétním buildu, takže ho vyzkoušej na kopii své uložené hry."
+    },
+    "authors": {
+      "title": "Pro autory modů",
+      "intro": "Takhle současný Loader najde a spustí nativní mod. Ověř to podle zdroje Loaderu, se kterým sestavuješ; manifest zatím není pevné schéma.",
+      "build": {
+        "title": "Sestavuj proti Loaderu, se kterým testuješ.",
+        "text": "Rozhraní SDK jsou v Loaderu. Odkaž se v projektu na jeho assembly a poznamenej si verzi Loaderu a build hry použité při testování."
+      },
+      "folder": {
+        "title": "Použij jednu složku balíčku.",
+        "text": "Loader hledá v {path}, až čtyři složky hluboko. Starší složka {legacy} z doby před přejmenováním pořád funguje. Manifest měj vedle jeho assembly."
+      },
+      "entry": {
+        "title": "Popiš vstupní bod.",
+        "text": "Manifest může být {first}, {second} nebo {third}, s poli id, name, version, author, assembly, entryType a entryMethod. entryMethod lze vynechat, pokud má vstupní typ veřejný bezparametrový konstruktor."
+      },
+      "test": {
+        "title": "Testuj na samostatné kopii hry.",
+        "text": "Svoje skutečné uložené hry do toho nepleť. Zapiš si build hry, verzi Loaderu, závislosti a všechno, co zatím nefunguje."
+      },
+      "ship": {
+        "title": "K souborům přibal poznámky.",
+        "text": "Poznámky k verzi, kroky instalace a odebrání, licenci a hashe souborů. Zatím tu není formulář pro nahrávání; obchod bude přijímat příspěvky z vydání na GitHubu."
+      }
+    },
+    "downloads": {
+      "title": "Stažení a aktualizace",
+      "releases": "Každé vydání na stránce {releases} uvádí verzi, změny, kompatibilitu, velikost a SHA-256, takže můžeš ověřit, že stažený soubor je ten, který jsme zveřejnili.",
+      "releasesLink": "Vydání",
+      "checksum": "Kontrolní součet říká, že bajty souhlasí; nedokazuje, kdo je zveřejnil. K tomu obchod Modstoke přidá podpisy, aby Manager mohl odmítnout všechno, co nezveřejnili my nebo prověřený autor."
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "VÝVOJ SE SDK",
+    "playEyebrow": "HRAJTE SPOLU",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "Zkontrolovat stav vydání",
+    "gameInfo": "Informace o hře: {link}",
+    "steamLink": "Sons of the Forest na Steamu",
+    "findCrew": "Najdi partu na Discordu",
+    "visitTithewood": "Navštiv Tithewood pro aktuální informace o přístupu",
+    "status": {
+      "manager": "Manager {version} je k dispozici.",
+      "managerPreview": "Manager {version} je k dispozici jako náhled pro Windows.",
+      "unsigned": "Náhled není podepsaný.",
+      "noManager": "Momentálně není publikován žádný balíček Manageru.",
+      "loader": "Loader {version} je uveden ve Vydáních. Zkontroluj obsah balíčku, kompatibilitu a stav ověření.",
+      "noLoader": "Kompletní balíček s Loaderem, SDK a Clientem není veřejně vydán.",
+      "check": "Před stažením se podívej do Vydání."
+    },
+    "topics": {
+      "sdk": {
+        "title": "Co má SDK nabízet",
+        "summary": "Aktuální vývojový zdroj nabízí typovaná pozorování hry a služby pro mody. Jsou to kontrakty ve zdrojovém kódu, ne vydaný balíček SDK ani důkaz, že fungují ve hře.",
+        "facts": "Snímky inventáře a výbavy; požadavky receptů na výrobu a chybějící materiály; základní životní hodnoty místního hráče; pozorování ročního období, počasí a teploty.\nPozorování hráčů a vozidel na serveru, stav NPC a požadavky staveb; omezené dotazy na kolize a čtení výšky a normál načteného terénu. Tím se neprokazuje plné pokrytí kolizí ani průchodnosti v jeskyních.\nPomocné funkce pro vlastní zvuk a prohlížení načtených balíčků assetů, pozorování dokončení korutin, pole konceptů v rozhraní a odpovědi na vzdálené příkazy. Stále platí autorizace serveru a kontroly připravenosti světa.\nNativní manifesty modů mohou uvést přesná požadovaná ID a verze. Běhové prostředí seřadí zpětná volání, zablokuje chybějící nebo cyklické požadavky a po selhání předpokladu zastaví závislé mody. Inicializace dedikovaného serveru přeskočí klientská menu a vstup.\nNepředpokládej stabilní veřejné API, univerzální kompatibilitu, vyšší limity hráčů, automatické opakování nejistých příkazů ani to, že úspěšný build nebo zdrojový kód dokazuje chování v multiplayeru."
+      },
+      "play": {
+        "title": "Najdi svou další partu",
+        "summary": "Sons of the Forest je survival horror s otevřeným světem, craftěním, stavěním, průzkumem, hrou samotného hráče i online kooperací. Modstoke pomáhá členům domlouvat vlastní sezení.",
+        "facts": "Použij /crew list s volitelnými filtry region, style a when. Porovnání času prohledává čas sezení, který napsal hostitel; nepočítá překrývající se termíny ani nepřevádí časová pásma.\nPomocí /crew create nabídni sezení s regionem, časem s časovým pásmem, stylem hry, volnými místy a volitelnými požadavky. Jeden aktivní příspěvek na osobu; příspěvky ve výchozím stavu vyprší za šest hodin, na výběr je jedna až 24 hodin.\nRegion a styl hry vyber přes /roles. Jsou to zájmy, které si volíš sám, ne záruka spárování. /crew alerts je výslovný souhlas s přímými zprávami; platí volitelné filtrování podle regionu a limit jednoho upozornění za dvě hodiny. Můžeš je kdykoli vypnout.\nPomocí /servers si zobrazíš veřejné seznamy serverů, které si majitelé sami zvolili. Příspěvky partou jsou plány členů, ne rezervace, ověřená kompatibilita, živá přítomnost hráčů ani automatické připojení do hry. S hostitelem se domluv na verzích hry a modů a na tom, jak to bude s uloženými hrami."
+      },
+      "tithewood": {
+        "title": "Tithewood · středověké roleplay na BYOND",
+        "summary": "Tithewood je naše nezávisle provozovaná středověká roleplay hra na BYOND, postavená na Ratwood. Její komunita je součástí Discordu Modstoke.",
+        "facts": "Hráči berou role postav ve společném světě s obchodem, farmařením, službou městské stráže a dobrodružstvím. Některé role mají požadavky na přístup, které závisejí na konfiguraci hry.\nVeřejný web představuje Grimoria s převzatou ilustrací prostředí. Je to mapa světa prostředí, ne živá herní mapa.\nVeřejný web zkontrolovaný 2026-10-20 uvádí, že veřejný přístup je zavřený a datum spuštění není oznámeno. Aktuální přístup najdeš na tithewood.com; nepředpokládej, že dostupná služba znamená veřejné kolo, které se dá hrát.\nAž se přístup otevře, sleduj web kvůli pokynům ke klientovi BYOND a připojení. Používej oficiální klient BYOND pro Windows a svůj účet BYOND; nikdy nesdílej heslo ani soukromé logy na Discordu.\nVyber Tithewood v menu rolí projektů a používej jeho vyhrazené kanály pro diskusi a vývoj. Sdílej nápady, hlas chyby s jasným postupem k reprodukci a očištěnými chybovými hlášeními a hru domlouvej, jen když bylo oznámeno skutečné sezení."
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "Drobečková navigace",
+    "home": "Domů",
+    "effective": "Platí od {date}",
+    "onThisPage": "Na této stránce",
+    "translationNote": "Toto je překlad pro tvoje pohodlí. Platí anglická verze tohoto dokumentu.",
+    "untranslated": "Tento dokument zatím nebyl přeložen, proto je zobrazen anglicky."
+  },
+  "client": {
+    "app": {
+      "count": {
+        "one": "{count} mod",
+        "few": "{count} mody",
+        "many": "{count} modu",
+        "other": "{count} modů"
+      },
+      "countOf": {
+        "one": "{shown} z {count} modu",
+        "few": "{shown} z {count} modů",
+        "many": "{shown} z {count} modu",
+        "other": "{shown} z {count} modů"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal se nenačetl. Zkontroluj připojení nebo to zkus později.",
+      "pickAmount": "Vyber částku mezi ${min} a ${max} v celých dolarech.",
+      "cancelled": "Nebyla provedena žádná platba.",
+      "error": "S PayPalem se něco pokazilo. Nebyla provedena žádná platba.",
+      "monthlyThanks": "Děkujeme! Tvůj měsíční dar ${amount} je nastavený.",
+      "thanks": "Děkujeme! Tvůj dar ${amount} prošel.",
+      "processing": "PayPal tvoji platbu pořád zpracovává."
+    },
+    "servers": {
+      "unknown": "Neznámé",
+      "yes": "Ano",
+      "no": "Ne",
+      "dedicated": "Dedikovaný",
+      "playerHosted": "Hostovaný hráčem",
+      "online": "Online",
+      "offline": "Offline",
+      "eyebrow": "KOMUNITNÍ ADRESÁŘ",
+      "hostNotSpecified": "Hostitel neuveden",
+      "regionNotSpecified": "Region neuveden",
+      "noDescription": "Hostitel neuvedl žádný popis.",
+      "playersCapacity": "Hráči / kapacita",
+      "hostLatency": "Medián odezvy hostitele",
+      "gameBuild": "Build hry",
+      "moreComponents": {
+        "one": "+{count} komponenta",
+        "few": "+{count} komponenty",
+        "many": "+{count} komponenty",
+        "other": "+{count} komponent"
+      },
+      "requiredMods": {
+        "one": "{count} povinný mod",
+        "few": "{count} povinné mody",
+        "many": "{count} povinného modu",
+        "other": "{count} povinných modů"
+      },
+      "viewServer": "Zobrazit server a požadavky ↗",
+      "viewServerLabel": "Zobrazit {name} a požadavky",
+      "count": "{shown} z {total} serverů · {online} online",
+      "noneTitle": "Tady začíná další komunita.",
+      "noneMessage": "Zatím nejsou zveřejněny žádné servery. Hostitelé mohou o zveřejnění požádat přes náš Discord. Obnov stránku a uvidíš nově sdílené relace.",
+      "noMatchTitle": "Žádné odpovídající servery.",
+      "noMatchMessage": "Zkus jiný název, region nebo mod, nebo změň filtry stavu a relace.",
+      "refreshing": "Obnovuje se adresář…",
+      "updated": "Aktualizováno {time} · Obnovuje se každých 60 sekund",
+      "unavailable": "Adresář není dostupný",
+      "tryRefresh": "Zkus to znovu tlačítkem Obnovit.",
+      "loadFailedTitle": "Adresář se nepodařilo načíst.",
+      "loadFailedMessage": "Adresář serverů je dočasně nedostupný. Zkus to za chvíli znovu; nic to neříká o tom, jestli jsou jednotlivé servery online.",
+      "versionNotSpecified": "Verze neuvedena",
+      "history": {
+        "title": "Nedávná aktivita",
+        "unavailable": "Historie aktivity není dostupná. Obnov stránku a zkus to znovu.",
+        "none": "Zatím žádná hodinová historie. Aktivita se objeví, jak bude hostitel hlásit.",
+        "note": "Hodinové vzorky za posledních 30 dní. Mezery jsou neznámé hodnoty, ne nuly. Časy se zobrazují ve tvém místním časovém pásmu.",
+        "players": {
+          "title": "Hráči",
+          "unit": "Hráči",
+          "description": "Hráči za hodinu. Mezery znamenají, že se neměřilo. Přesné hodnoty jsou v tabulce historie níže.",
+          "none": "V této historii nejsou žádná měření hráčů."
+        },
+        "latency": {
+          "title": "Medián odezvy hostitele",
+          "unit": "Milisekundy",
+          "description": "Hodinový medián odezvy hostitele. Mezery znamenají, že se neměřilo. Přesné hodnoty jsou v tabulce historie níže.",
+          "none": "V této historii nejsou žádná měření mediánu odezvy hostitele."
+        },
+        "viewValues": "Zobrazit hodinové hodnoty",
+        "caption": "Hodinová historie serveru",
+        "time": "Čas",
+        "hostLatency": "Odezva hostitele",
+        "onlineSeconds": "Sekundy online"
+      },
+      "lastReport": "Poslední hlášení hostitele: {time}. Odezva hostitele odráží připojené hráče, ne tvoje připojení.",
+      "openInManager": "Otevřít v Manageru",
+      "noJoinTarget": "Hostitel neuvedl cíl pro připojení.",
+      "offlineNoJoin": "Tento server je offline. Připojení není možné.",
+      "permalink": "Trvalý odkaz na server ↗",
+      "joinNote": "Připojení otevře Modstoke Manager 0.3.0 nebo novější, který ukáže aktuální podrobnosti k potvrzení. Tato stránka žádné mody nestahuje.",
+      "components": "Komponenty",
+      "noComponents": "Hostitel nenahlásil žádné komponenty.",
+      "requiredModsTitle": "Povinné mody",
+      "noRequiredMods": "Hostitel nenahlásil žádné povinné mody.",
+      "settings": "Nastavení nahlášené hostitelem",
+      "difficulty": "Obtížnost",
+      "pvp": "PvP",
+      "friendlyFire": "Přátelská palba",
+      "passwordRequired": "Vyžaduje heslo",
+      "loadingTitle": "Načítá se server…",
+      "loadingMessage": "Čte se poslední hlášení a aktivita hostitele.",
+      "goneTitle": "Server už není zveřejněný.",
+      "detailUnavailableTitle": "Podrobnosti serveru nejsou dostupné.",
+      "goneMessage": "Hostitel mohl záznam odebrat, nebo je adresář dočasně nedostupný. Zavři tento panel a zkus to znovu tlačítkem Obnovit.",
+      "unsupportedReport": "Adresář vrátil nepodporované hlášení. Zkus to prosím později.",
+      "invalidTitle": "Neplatný odkaz na server.",
+      "invalidMessage": "Tento odkaz neobsahuje platné ID serveru. Zavři tento panel a procházej adresář."
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "Terénní tablet, náramkové hodinky, průzkumný dron a Kestrel K3, malé třímístné letadlo. Plánuj zásobovací výpravy, připínej místa na mapu, zkoumej z výšky nebo vozit přátele po ostrově.",
+        "description": "Client přidává vybavení, které nosíš s sebou: terénní tablet, náramkové hodinky, průzkumný dron a Kestrel K3, malé třímístné letadlo. Má to působit jako výbava, ne jako nabídka nalepená na hru.\n\nTablet má mapu s tvými vlastními špendlíky, zápisník, hodiny a Pack, který hledá předměty a munici a sestaví nákupní seznam k receptu. Jen plánuje; samotné vyrábění pořád děláš ty.\n\n- Průzkumný dron: ovládej ho z tabletu, připínej na mapu špendlíky na cokoli, co uvidíš, a když dochází baterie, přistane sám.\n- Kestrel K3: vyvolej ho z aplikace Hangar na tabletu, když máš před sebou asi 18 metrů volné země. Jeden pilot, dva cestující.\n- Postava: vyber si tělo, odstín pleti a tvar a při každém připojení zůstane stejný vzhled.\n\nKmeny, tiskárna, sdílené waypointy a společníci vyžadují hostitele s Adminem. Hostitel i všichni, kdo létají, potřebují stejnou verzi Clientu, takže ho nejdřív vyzkoušej na kopii svého světa.",
+        "inTesting": "Vesmírné lety jsou v testování: kosmická loď, kterou vypustíš z velké mýtiny, stanice na orbitě a nový svět, na kterém s partou přistaneš a prozkoumáš ho. V aktuálním stažení ještě není.",
+        "changelog": {
+          "0.2.4": "Editor postavy: Mods > Character > Customise character otevře celoobrazovkový editor s otáčivým náhledem. Vyber tělo, odstín pleti, barvu očí a spodního prádla a tvaruj ho posuvníky.\nPři každém připojení zůstane stejný vzhled a funguje to i s hráči, kteří Modstoke nemají.\nKompatibilita se servery nahrazuje duplicitní stránku Modstoke Client v nabídce Mods.\nVyžaduje Modstoke Loader 0.4.0 a jeho složku Modstoke."
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "Kestrel K3 zaparkovaný na pláži, pohled z průzkumného dronu"
+          },
+          "trailer": {
+            "alt": "Trailer k modu Client: Kestrel K3 letí kolem zasněžených štítů"
+          },
+          "tablet-home": {
+            "alt": "Domovská obrazovka terénního tabletu v lese"
+          },
+          "tablet-apps": {
+            "alt": "Seznam aplikací terénního tabletu na pláži"
+          },
+          "drone-camera": {
+            "alt": "Ovládání kamery průzkumného dronu nad pobřežím"
+          },
+          "kestrel-cockpit": {
+            "alt": "Pilotní sedadlo Kestrelu K3"
+          },
+          "spacecraft-test": {
+            "alt": "Kosmická loď přistála na jiném světě",
+            "caption": "Testovací verze. Zatím není v aktuálním stažení."
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "Kopej zeminu a skálu, zasypávej jámy a vracej chyby zpět na malém pozemku pod širým nebem. Zatím jen v offline kopiích uložených her pro jednoho hráče.",
+        "description": "Terraforming ti umožňuje kopat na malém kousku ostrova a ukládat zeminu, kam chceš. Vykopej jámu, část zasyp a když se něco pokazí, vrať to zpět.\n\nZatím je to jeden pozemek pod širým nebem v offline kopii uložené hry pro jednoho hráče. Multiplayer a stavění na vykopané zemi zatím nefungují.\n\n- Vytvoř pozemek na volném místě z nabídky Mods\n- Kopej lopatou nebo krumpáčem, zasypávej lopatou\n- Vykopaná zemina jde do zásoby a zasypávání ji spotřebovává\n- Zpět obnoví jak terén, tak zeminu\n\nPřed odinstalováním vylez z každé jámy, protože vykopaný tvar bez modu existovat nebude.",
+        "inTesting": "Kopání po celém ostrově je v testování: kopej, zasypávej, vyrovnávej a vyhlazuj lopatou kdekoli na ostrově a vše se ukládá se světem. V aktuálním stažení ještě není.",
+        "changelog": {
+          "0.2.2": "Vytvoření, načtení, odebrání a obnovení terénu teď vyžaduje potvrzení, z konzole i z nabídky Mods.\nFunguje s Modstoke Loaderem 0.4.0 a jeho složkou Modstoke."
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "Jáma vykopaná v písku na pozemku Terraforming"
+          },
+          "mods-page": {
+            "alt": "Stránka Terraforming v menu Mods"
+          },
+          "mound-test": {
+            "alt": "Kelvin kráčí po kopci ze zasypané země",
+            "caption": "Testovací verze. Zatím není v aktuálním stažení."
+          }
+        }
+      },
+      "virginia": {
+        "summary": "Přebarvi Virginiina oblečení a přidej pár volitelných způsobů, jak s ní trávit čas: pozdravy, projevy uznání a klidné chvíle spolu.",
+        "description": "Pár volitelných doplňků pro Virginii: barvy oblečení a také pár způsobů, jak ji pozdravit, projevit uznání nebo prostě spolu strávit klidný čas. Všechno začíná vypnuté.\n\n- Barvy oblečení: Original, Crimson, Forest, Ocean, Charcoal nebo Ivory, jen na tvé obrazovce\n- Pozdravy, uznání a klidné chvíle, pokud to hostitel povolí\n- Samostatné pouto, které si můžeš zkontrolovat v nabídce a které se ukládá se světem\n\nJejí model, textury a animace jsou přímo z hry. Pouto nemění, kam chodí, jak moc tě má ráda ani co ti nosí.",
+        "changelog": {
+          "0.1.2": "Postup vašeho vztahu se teď ukládá spolu s hrou.\nFunguje s Modstoke Loaderem 0.4.0 a jeho složkou Modstoke."
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia kráčí po lesní cestě"
+          },
+          "trailer": {
+            "alt": "Úvodní titulek traileru k modu Virginia nad lesem"
+          },
+          "settings": {
+            "alt": "Nastavení modu Virginia v menu Mods"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Nástroje hostitele pro Sons of the Forest. Podívej se, kdo je ve tvém světě, zkontroluj, co dělal, a zavírej do vězení, ztlumuj, vyhazuj nebo banuj, aniž bys opustil hru.",
+            "description": "Pokud hostuješ svět, Admin dává seznam hráčů a tvoje nástroje moderace do jedné nabídky ve hře. Vyber hráče a uvidíš jeho Steam ID a čeho si o něm mod všiml, a hned to vyřeš.\n\n- Seznam hráčů s vězením, ztlumením, vyhozením a banem\n- Důkazy roztříděné na pohyb, předměty, stavění, server a akce\n- Role týmu s vlastními oprávněními, včetně týmu na dálku na dedikovaných serverech\n- Ovládání hostitele pro čas, počasí a nastavení světa\n\nDůkazy mají pomoct problém prošetřit. Není to plnohodnotný anticheat a nic samo nebanuje ani nevyhazuje. Hráči Admin k připojení nepotřebují.",
+            "changelog": {
+              "0.5.221": "Role týmu: hodnostní role s vlastními povoleními a zákazy, plus seznam adminů podle Steam64 s daty vypršení.\nTým na dálku může používat F7 na listen hostitelích a dedikovaných serverech. Hostitel kontroluje každý požadavek.\nNabídka F7: opraveny problémy s fokusem a zaseknutým kurzorem, nové skiny a rozvržení Simple a Advanced.\nHráči bez modů: limity rychlosti platí jen pro dopravu, kterou hostitel dokáže potvrdit, a byla opravena chyba s duplikací při sebrání.\nNové důkazy pro god mode, speedhacky, rychlost střelby, nemožné zásahy a tikety Steamu."
+            },
+            "media": {
+              "overview": {
+                "alt": "Menu Admin otevřené nad lesem ve skinu ve stylu hry"
+              },
+              "trailer": {
+                "alt": "Úvodní titulek traileru k modu Admin nad lesem"
+              },
+              "overview-classic": {
+                "alt": "Stránka přehledu Admin v klasickém skinu"
+              },
+              "world": {
+                "alt": "Ovládání světa v menu Admin"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "Přihlaš se k Nexus Mods přes prohlížeč; osobní klíče API už nejsou potřeba. Manager sleduje novou složku Modstoke u Loaderu a tvoje mody a nastavení OpenACAI se přesunou při dalším spuštění hry. Nový prohlížeč komunitních serverů s odkazy pro připojení modstoke://, k tomu nástroje pro dedikované servery: nastavení hry, oprávnění personálu, živá konzole a bezpečnější zastavení a restart. Konzole Loaderu pro hry a servery a instalace Loaderu teď jen opravují nebo aktualizují, nikdy nevracejí na starší verzi. V Nastavení si vyber skin: vzhled samotné hry načtený z jejích souborů, nebo obyčejný styl Modstoke. Rychlejší start, odolnější katalog modů a přísnější omezení toho, co Manager čte, stahuje a instaluje.",
+    "loader-0-4-2-net11-preview": "Běží na linuxových hostech pod Wine, takže teď funguje i na hostovaných dedikovaných serverech. Opravuje selhání při startu na každé instalaci Wine. Podpora hostingového panelu: příkazy konzole s odpověďmi JSON, živý stavový soubor, čisté uložení a zastavení, seznamy hráčů, slotů uložených her a modů, proud událostí, hlášení o pádech, oznámení a měření výkonu jednotlivých modů. Mody mohou uvést popis a minimální verzi Loaderu. Nové funkce SDK pro mody: příkazy hostitele, vlastník fokusu vstupu a viditelnost menu. Přecházíš ze starší verze Modstoke nebo OpenACAI? Nejdřív spusť Modstoke Legacy Cleanup 1.1.0.",
+    "loader-0-4-1-net11-preview": "Opravuje to, že Modstoke Manager 0.3.0 odmítal nainstalovat Loader. Jinak je stejná jako 0.4.0: Loader teď sídlí ve složce Modstoke. Tvoje mody a nastavení se při prvním spuštění přesunou z OpenACAI a nic se nepřepíše. Běží na .NET 11 RC3, který je součástí stažení. Základní knihovny Unity se teď při prvním spuštění stahují z modstoke.com místo toho, aby byly v archivu. Nové menu Mods ve hře, které ladí s vlastními menu hry, s posuvníkem a plynulým posouváním. Data modů uložená přes SDK se teď obnoví při načtení uložené hry. Opravena chyba dedikovaného serveru, kvůli které mohly zastaralé položky přenosu ve světě blokovat každé zvednutí i přenos do úložiště. Startovní log uvádí přesný build Loaderu a varuje, když prostředí .NET nesedí. Přecházíš ze starší verze Modstoke nebo OpenACAI? Nejdřív spusť Modstoke Legacy Cleanup 1.1.0; je součástí tohoto stažení.",
+    "loader-0-4-0-net11-preview": "Loader teď sídlí ve složce Modstoke. Tvoje mody a nastavení se při prvním spuštění přesunou z OpenACAI a nic se nepřepíše. Běží na .NET 11 RC3, který je součástí stažení. Základní knihovny Unity se teď při prvním spuštění stahují z modstoke.com místo toho, aby byly v archivu. Nové menu Mods ve hře, které ladí s vlastními menu hry, s posuvníkem a plynulým posouváním. Data modů uložená přes SDK se teď obnoví při načtení uložené hry. Opravena chyba dedikovaného serveru, kvůli které mohly zastaralé položky přenosu ve světě blokovat každé zvednutí i přenos do úložiště. Startovní log uvádí přesný build Loaderu a varuje, když prostředí .NET nesedí. Přecházíš ze starší verze Modstoke nebo OpenACAI? Nejdřív spusť Modstoke Legacy Cleanup 1.1.0; je součástí tohoto stažení."
+  }
+}

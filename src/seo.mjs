@@ -1,43 +1,43 @@
 import { escapeHtml as e } from '../scripts/model.mjs';
+import { LANGUAGES, translator } from './i18n.mjs';
 
 export const origin = 'https://modstoke.com';
-const descriptions = {
- '/': ['Modstoke: Sons of the Forest mods, Mod Manager and Loader', 'Free Sons of the Forest mods and the tools to run them: Modstoke Manager for Windows, the Modstoke Loader, and mods like Client, Admin, Terraforming and Virginia.'],
- '/mods/': ['Sons of the Forest Mods | Modstoke', 'Modstoke mods for Sons of the Forest: Client (tablet, drone and the Kestrel plane), Admin host tools, Terraforming and Virginia. Versions, requirements and multiplayer notes.'],
- '/tools/': ['Modstoke Manager, Loader and SDK for Sons of the Forest', 'Download Modstoke Manager for Windows, add the Modstoke Loader to Sons of the Forest and build mods against the SDK that ships with it.'],
- '/docs/': ['Modstoke Docs for Players and Mod Authors', 'How Modstoke Manager, the Loader and mods fit together, game compatibility, and what to know before you build a Sons of the Forest mod.'],
- '/releases/': ['Download Modstoke Manager and Loader | Releases', 'Download Modstoke Manager for Windows and the Modstoke Loader. Each release lists its version, changes, size, signing status and SHA-256.'],
- '/hosting/': ['Sons of the Forest Server Hosting | Modstoke', 'Rent a dedicated Sons of the Forest server from OpenACAI, a nonprofit, with dedicated cores, daily backups and the Modstoke Loader ready to go.'],
- '/support/': ['Support Modstoke | OpenACAI', 'Donate to keep Modstoke free. Donations go to OpenACAI, a 501(c)(3) nonprofit, and GAMHON, its program for mental health and social connection through games.'],
- '/servers/': ['Sons of the Forest Community Servers | Modstoke','Find Sons of the Forest servers whose hosts chose to list them, with player counts, required mods and settings, or learn how to list your own.'],
- '/404/': ['Page not found | Modstoke', 'This page could not be found. Head back to Modstoke for Sons of the Forest mods, tools and guides.'],
-};
+const PAGES = { '/': 'home', '/mods/': 'mods', '/tools/': 'tools', '/docs/': 'docs', '/releases/': 'releases', '/hosting/': 'hosting', '/support/': 'support', '/servers/': 'servers', '/404/': 'notFound' };
+const LOCALES = { en: 'en_US', de: 'de_DE', fr: 'fr_FR', es: 'es_ES', it: 'it_IT', pt: 'pt_BR', pl: 'pl_PL', cs: 'cs_CZ', ru: 'ru_RU', tr: 'tr_TR', sv: 'sv_SE', fi: 'fi_FI', ja: 'ja_JP', ko: 'ko_KR', 'zh-Hans': 'zh_CN', 'zh-Hant': 'zh_TW' };
 
-export function seoHead(path, label, description) {
- const [title, summary] = descriptions[path] || [`${label} | Modstoke`, description];
+// The head of a page in one language: its title and description, its address in this language and
+// in every other one, so search engines show each person the page in theirs.
+export function seoHead(path, label, description, i = translator('en')) {
+ const page = PAGES[path];
+ // The label and description come in escaped, like all text from the language files.
+ const title = page ? i.t(`seo.${page}.title`) : i.t('seo.pageTitle', { page: label });
+ const summary = page ? i.t(`seo.${page}.description`) : description;
  if (!summary) throw new Error(`Missing page description: ${path}`);
- const canonical = origin + path;
+ const canonical = origin + i.prefix + path;
+ const alternates = path === '/404/' ? '' : LANGUAGES.map(l => `<link rel="alternate" hreflang="${l.code}" href="${origin}${l.slug ? '/' + l.slug : ''}${path}">`).join('')
+  + `<link rel="alternate" hreflang="x-default" href="${origin}${path}">`;
  const graph = [{
   '@type': 'WebPage', '@id': canonical + '#webpage', url: canonical,
-  name: title, description: summary, inLanguage: 'en',
+  name: title, description: summary, inLanguage: i.code,
   isPartOf: { '@id': origin + '/#website' },
  }];
  if (path === '/') {
   graph.push({ '@type': 'WebSite', '@id': origin + '/#website', url: origin + '/',
-   name: 'Modstoke', description: summary, inLanguage: 'en', publisher: { '@id': origin + '/#organization' } },
+   name: 'Modstoke', description: summary, inLanguage: i.code, publisher: { '@id': origin + '/#organization' } },
    { '@type': 'Organization', '@id': origin + '/#organization', name: 'Modstoke', url: origin + '/',
-    description: 'Free modding tools and a community for Sons of the Forest, by OpenACAI.',
+    description: i.t('seo.organization'),
     logo: { '@type': 'ImageObject', url: origin + '/assets/modstoke-logo.png', width: 512, height: 512 },
     parentOrganization: { '@type': 'Organization', name: 'OpenACAI', url: 'https://openacai.com/' } });
  } else if (path !== '/404/') {
-  const trail = [{ '@type': 'ListItem', position: 1, name: 'Modstoke', item: origin + '/' }];
-  if (path.startsWith('/guides/') && path !== '/guides/') trail.push({ '@type': 'ListItem', position: 2, name: 'Guides', item: origin + '/guides/' });
-  if (path.startsWith('/mods/') && path !== '/mods/') trail.push({ '@type': 'ListItem', position: 2, name: 'Mods', item: origin + '/mods/' });
+  const trail = [{ '@type': 'ListItem', position: 1, name: 'Modstoke', item: origin + i.prefix + '/' }];
+  if (path.startsWith('/guides/') && path !== '/guides/') trail.push({ '@type': 'ListItem', position: 2, name: i.t('nav.guides'), item: origin + i.prefix + '/guides/' });
+  if (path.startsWith('/mods/') && path !== '/mods/') trail.push({ '@type': 'ListItem', position: 2, name: i.t('nav.mods'), item: origin + i.prefix + '/mods/' });
   trail.push({ '@type': 'ListItem', position: trail.length + 1, name: label, item: canonical });
   graph.push({ '@type': 'BreadcrumbList', itemListElement: trail });
  }
- const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replaceAll('<', '\\u003c').replaceAll('\u2028', '\\u2028').replaceAll('\u2029', '\\u2029');
- return `<title>${e(title)}</title><meta name="description" content="${e(summary)}"><link rel="canonical" href="${canonical}">${path === '/404/' ? '<meta name="robots" content="noindex,follow">' : ''}<meta property="og:type" content="website"><meta property="og:site_name" content="Modstoke"><meta property="og:locale" content="en_US"><meta property="og:title" content="${e(title)}"><meta property="og:description" content="${e(summary)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${origin}/assets/modstoke-social.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Modstoke, mods and tools for Sons of the Forest"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${e(title)}"><meta name="twitter:description" content="${e(summary)}"><meta name="twitter:image" content="${origin}/assets/modstoke-social.png"><meta name="twitter:image:alt" content="Modstoke, mods and tools for Sons of the Forest"><script type="application/ld+json">${json}</script>`;
+ const plain = value => typeof value === 'string' ? value.replace(/&(amp|lt|gt|quot|#39);/g, (_, x) => ({ amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'" }[x])) : value;
+ const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, (k, v) => plain(v)).replaceAll('<', '\\u003c').replaceAll('\u2028', '\\u2028').replaceAll('\u2029', '\\u2029');
+ return `<title>${title}</title><meta name="description" content="${summary}"><link rel="canonical" href="${canonical}">${alternates}${path === '/404/' ? '<meta name="robots" content="noindex,follow">' : ''}<meta property="og:type" content="website"><meta property="og:site_name" content="Modstoke"><meta property="og:locale" content="${LOCALES[i.code]}"><meta property="og:title" content="${title}"><meta property="og:description" content="${summary}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${origin}/assets/modstoke-social.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${i.t('seo.imageAlt')}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${summary}"><meta name="twitter:image" content="${origin}/assets/modstoke-social.png"><meta name="twitter:image:alt" content="${i.t('seo.imageAlt')}"><script type="application/ld+json">${json}</script>`;
 }
 
 export function sitemap(paths) {

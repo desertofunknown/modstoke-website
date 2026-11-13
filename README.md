@@ -40,6 +40,8 @@ The build writes `dist/`. Serve that directory through a web server rather than 
 - `src/app-policies-view.mjs`: the `/apps/` privacy and terms pages
 - `src/project-knowledge-view.mjs`, `data/project-knowledge.json`: dated project facts, published at `/community/knowledge.json` for Sentinel
 - `src/seo.mjs`: sitemap, robots and page metadata
+- `src/i18n.mjs`, `src/lang/`: the site's text in the game's sixteen languages (see below)
+- `src/legal/<code>/`: translations of the terms and privacy policy, shown under a note that the English applies
 - `data/store/catalog.json`: the mods, in the store catalog format shared with the Manager
 - `data/site.json`: brand and game metadata
 - `data/releases.json`: reviewed product download selection
@@ -47,6 +49,14 @@ The build writes `dist/`. Serve that directory through a web server rather than 
 - `scripts/`: build, local server, packaging and checks
 - `test/`: Node test-runner tests
 - `docs/`: architecture and hosting notes
+
+## Languages
+
+Every page is built once per language: English at `/`, the others under their own folder (`/fr/hosting/`, `/zh-hans/`). The text lives in `src/lang/<code>.json`, in the same format as the Modstoke Loader's and the panel's language files: nested keys, `{name}` placeholders, counted text as an object of plural forms (`one`, `few`, `many`, `other`), and `_` keys or whole-line `//` comments for notes. `en.json` is the source; a key missing from another language shows in English, and a key missing from English stops the build. Text that comes from the data files is translated in the same file and shows in English until it is: mods under `catalog.<mod id>` (`summary`, `description`, `inTesting`, `changelog.<version>`, and `media.<picture file>.alt` / `caption`), release notes under `releaseNotes.<release id>`, and the Docs topics under `knowledge.topics.<topic id>` (`facts` one per line).
+
+To fix a translation, edit its file and rebuild. To add a language, add it to `LANGUAGES` in `src/i18n.mjs`, write its file and add its locale to `LOCALES` in `src/seo.mjs`.
+
+`lang.js` (written by the build from `src/layout.mjs`) picks the language before a page is drawn: the one chosen in the header's language menu on every page, and on a first visit to an English address the browser's, else the one of the country Cloudflare reports. Links into another language are followed as given, crawlers are not redirected, and each page lists its other languages with `hreflang`.
 
 ## Publication state
 

@@ -1,0 +1,1146 @@
+{
+  "_about": "modstoke.com のテキスト（日本語）。en.json から翻訳したものです。ネイティブの方による確認・修正を歓迎します。{ } で囲まれた部分はサイトが埋め込むため、そのまま残しています。",
+  "seo": {
+    "home": {
+      "title": "Modstoke: Sons of the Forest の Mod、Mod マネージャー、Loader",
+      "description": "無料の Sons of the Forest 用 Mod と、それを動かすツール。Windows 用の Modstoke Manager、Modstoke Loader、Client・Admin・Terraforming・Virginia などの Mod。"
+    },
+    "mods": {
+      "title": "Sons of the Forest の Mod | Modstoke",
+      "description": "Sons of the Forest 向けの Modstoke Mod。Client（タブレット、ドローン、Kestrel 機）、ホスト用の Admin、Terraforming、Virginia。バージョン、必要条件、マルチプレイの注意点。"
+    },
+    "tools": {
+      "title": "Sons of the Forest 用の Modstoke Manager、Loader、SDK",
+      "description": "Windows 用 Modstoke Manager をダウンロードし、Sons of the Forest に Modstoke Loader を追加して、付属の SDK で Mod を作れます。"
+    },
+    "docs": {
+      "title": "プレイヤーと Mod 制作者向けの Modstoke ドキュメント",
+      "description": "Modstoke Manager、Loader、Mod の関係、ゲームとの互換性、Sons of the Forest の Mod を作る前に知っておきたいこと。"
+    },
+    "releases": {
+      "title": "Modstoke Manager と Loader のダウンロード | リリース",
+      "description": "Windows 用 Modstoke Manager と Modstoke Loader をダウンロード。各リリースのバージョン、変更点、サイズ、署名の状態、SHA-256 を掲載しています。"
+    },
+    "hosting": {
+      "title": "Sons of the Forest サーバーホスティング | Modstoke",
+      "description": "非営利団体 OpenACAI の専用 Sons of the Forest サーバーをレンタル。専有コア、毎日のバックアップ、すぐ使える Modstoke Loader つき。"
+    },
+    "support": {
+      "title": "Modstoke を支援する | OpenACAI",
+      "description": "寄付で Modstoke を無料のまま続けられます。寄付は 501(c)(3) 非営利団体 OpenACAI と、ゲームを通じた心の健康とつながりのプログラム GAMHON に使われます。"
+    },
+    "servers": {
+      "title": "Sons of the Forest コミュニティサーバー | Modstoke",
+      "description": "ホストが掲載を選んだ Sons of the Forest サーバーを、プレイヤー数や必要な Mod、設定つきで探せます。自分のサーバーの掲載方法も分かります。"
+    },
+    "notFound": {
+      "title": "ページが見つかりません | Modstoke",
+      "description": "このページは見つかりませんでした。Sons of the Forest の Mod、ツール、ガイドは Modstoke のトップへ。"
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke、Sons of the Forest の Mod とツール",
+    "organization": "OpenACAI による、Sons of the Forest 向けの無料 Mod ツールとコミュニティ。"
+  },
+  "nav": {
+    "mods": "Mod",
+    "tools": "ツール",
+    "servers": "サーバー",
+    "hosting": "ホスティング",
+    "guides": "ガイド",
+    "docs": "ドキュメント",
+    "releases": "リリース"
+  },
+  "layout": {
+    "skip": "本文へ移動",
+    "current": "現在のページ",
+    "noDownloads": "公開ダウンロードはまだありません",
+    "support": "Modstoke を支援",
+    "home": "Modstoke ホーム",
+    "menu": "メニュー",
+    "mainNav": "メインナビゲーション",
+    "download": "Manager をダウンロード",
+    "language": "言語",
+    "languageNote": "このサイトの言語を選んでください。選択は記憶されます。",
+    "translated": "英語から翻訳しています。修正のご提案は Discord で歓迎します。"
+  },
+  "footer": {
+    "about": "Sons of the Forest 向けの無料 Mod とツール。非営利団体 OpenACAI が、ゲームを通じた心の健康とつながりのプログラム {gamhon} の一環として作っています。Endnight Games とは関係ありません。",
+    "label": "フッター",
+    "play": "遊ぶ",
+    "build": "作る",
+    "community": "コミュニティ",
+    "mods": "Mod",
+    "servers": "サーバー",
+    "rent": "サーバーをレンタル",
+    "panel": "サーバーパネル",
+    "install": "インストールガイド",
+    "troubleshooting": "トラブルシューティング",
+    "tools": "Manager、Loader、SDK",
+    "makeMod": "Mod を作る",
+    "releases": "リリース",
+    "discord": "Discord",
+    "support": "Modstoke を支援",
+    "apps": "Discord アプリ",
+    "privacy": "プライバシー",
+    "terms": "利用規約"
+  },
+  "pages": {
+    "overview": "概要",
+    "mods": "Mod",
+    "tools": "ツール",
+    "docs": "ドキュメント",
+    "releases": "リリース",
+    "servers": "コミュニティサーバー",
+    "hosting": "サーバーホスティング",
+    "support": "Modstoke を支援",
+    "notFound": "ページが見つかりません",
+    "noReleases": {
+      "eyebrow": "リリース",
+      "title": "ダウンロードはまだありません",
+      "lede": "ここにはまだ何も公開されていません。リリースごとに、バージョン、変更点、互換性、ファイルのハッシュを載せます。"
+    },
+    "missing": {
+      "title": "ここには何もありません。",
+      "lede": "そのページは存在しないか、移動しました。",
+      "home": "Modstoke に戻る",
+      "mods": "Mod を見る"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "島の松林の上にそびえる雪山を照らす夕方の光",
+      "title": "ゲームの一部のように感じられる Mod を。",
+      "lede": "Modstoke は、Mod ローダーとデスクトップ用マネージャー、そして今のところ自作の 4 つの Mod、Client、Admin、Terraforming、Virginia です。すべて無料で、非営利団体 OpenACAI が作っています。",
+      "download": "Manager {version} をダウンロード",
+      "seeMods": "Mod を見る",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · OpenACAI 署名つき"
+    },
+    "mods": {
+      "title": "自作の Mod",
+      "all": "すべての Mod"
+    },
+    "setup": {
+      "title": "セットアップ",
+      "manager": {
+        "title": "Manager をインストール。",
+        "body": "Sons of the Forest のフォルダを指定すると、ゲームとセーブデータを見つけてくれます。"
+      },
+      "loader": {
+        "title": "Loader を追加。",
+        "body": "インストールは Manager がやります。タイトル画面とポーズ画面に Mods メニューが加わります。"
+      },
+      "mods": {
+        "title": "Mod を選ぶ。",
+        "body": "たいていの方は Client がおすすめです。ホストをするなら Admin も入れましょう。"
+      },
+      "backup": "まずセーブデータのバックアップを。{guide}で手順を順に説明しています。",
+      "guideLink": "インストールガイド",
+      "shotAlt": "Sons of the Forest の Mod 一覧を表示した Modstoke Manager",
+      "shotCaption": "Manager の Mod 一覧。表示されている項目は SOTF Mods のもので、このサイトのものではありません。"
+    },
+    "releases": {
+      "title": "最新リリース",
+      "all": "すべてのリリース"
+    },
+    "ledger": {
+      "manager": "Windows インストーラー、署名つき",
+      "loader": "Loader と SDK、プレビュー版"
+    },
+    "together": {
+      "title": "みんなで遊ぶ",
+      "body": "{servers}では、ホストが掲載を選んだ Sons of the Forest のワールドを、それぞれに必要な Mod とあわせて見られます。{discord}は、仲間探しやバグ報告、新しいビルドの最速情報に便利です。どれも、OpenACAI のゲームを通じた心の健康とつながりのプログラム {gamhon} の一部です。",
+      "serversLink": "サーバー一覧",
+      "browse": "サーバーを探す",
+      "join": "Discord に参加"
+    }
+  },
+  "hosting": {
+    "eyebrow": "サーバーホスティング",
+    "title": "Sons of the Forest サーバーをレンタル",
+    "lede": "自社のハードウェアで動く専用サーバーに、Modstoke Loader と自作の Mod をすぐ使える状態で用意します。運営は非営利団体の OpenACAI で、お支払いはサーバーと Mod の維持に使われます。",
+    "status": "まもなく開始します。最初は Discord メンバー向けの小規模ベータからです。",
+    "plans": {
+      "heading": "プラン",
+      "small": "Small",
+      "standard": "Standard",
+      "price": "月額 {price}（それ以上のお支払いも可能）",
+      "players": "プレイヤー数",
+      "upTo": "最大 {count} 人",
+      "cpu": "CPU",
+      "cores": "専有 {cores} コア",
+      "memory": "メモリ",
+      "memorySize": "{memory} GB",
+      "storage": "ストレージ",
+      "storageSize": "NVMe {disk} GB",
+      "note": "各プランには最低料金があります。お支払い時に、それ以上の金額を選ぶこともできます。最低料金を超えた分は OpenACAI への寄付として扱われ、領収書に別の行で表示されます。16 人プランは、きちんとテストしてから追加します。"
+    },
+    "get": {
+      "title": "含まれるもの",
+      "cores": {
+        "title": "自分専用のコア。",
+        "body": "サーバーの CPU コアは、ほかのサーバーと共有しません。"
+      },
+      "modstoke": {
+        "title": "Modstoke 設定済み。",
+        "body": "Loader は導入済みで、常に最新に保たれます。自作の Mod もワンクリックで入れられます。"
+      },
+      "find": {
+        "title": "見つけてもらいやすい。",
+        "body": "ゲームのサーバーブラウザに表示されます。掲載を希望すれば、{servers}にも Manager の参加リンクつきで載ります。",
+        "link": "サーバーのページ"
+      },
+      "admin": {
+        "title": "Admin ツール。",
+        "body": "Modstoke Admin は、Steam アカウントであなたをオーナーとして認識します。"
+      },
+      "panel": {
+        "title": "シンプルなコントロールパネル。",
+        "body": "ファイルやフォルダをそのままドラッグして入れたり、コンソールを見たり、誰が遊んでいるか確認したり、コマンドを実行したりが、1 つの画面でできます。"
+      },
+      "world": {
+        "title": "あなたのワールドは、あなたのもの。",
+        "body": "毎日バックアップを取り、1 週間保管します。ワンクリックで自分の PC にワールドをダウンロードできます。"
+      },
+      "discord": {
+        "title": "Discord に専用の場所。",
+        "body": "サーバー専用のお知らせチャンネルとチャットチャンネルが作られ、スタッフにはモデレーション通知が届きます。"
+      },
+      "coast": {
+        "title": "アメリカ東海岸の近く。",
+        "body": "ニュージャージーで、1 Gbps 回線でホストしています。"
+      }
+    },
+    "how": {
+      "title": "ご利用の流れ",
+      "apply": {
+        "title": "申し込む。",
+        "body": "Discord でサインインし、Steam アカウントを連携して、サーバーの用途を教えてください。"
+      },
+      "review": {
+        "title": "審査します。",
+        "body": "申し込みは、すべてチームの人間が読みます。"
+      },
+      "pay": {
+        "title": "PayPal で支払う。",
+        "body": "プランと支払い額を選びます。毎月更新で、いつでも解約できます。"
+      },
+      "play": {
+        "title": "遊ぶ。",
+        "body": "サーバーは数分で起動し、{panel}から操作できます。",
+        "link": "パネル"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "players": {
+        "q": "9 人以上で遊べますか？",
+        "a": "今はまだです。8 人がゲーム本来の上限です。Loader ならこの上限を上げられるので、実際のプレイヤーで試してから 16 人プランを追加します。"
+      },
+      "mods": {
+        "q": "自分の Mod を追加できますか？",
+        "a": "はい、ファイルマネージャーから追加できます。サーバーはほかの人とは分かれた専用の領域で動きます。"
+      },
+      "payment": {
+        "q": "支払いに失敗するとどうなりますか？",
+        "a": "数日の猶予のあと、サーバーは一時停止します。ファイルは 14 日間保管するので、続きから再開できます。"
+      },
+      "apply": {
+        "q": "なぜ申し込みが必要なのですか？",
+        "a": "私たちは小さな非営利団体で、1 台のマシンを共有しています。だれが使っているかを把握して、みなさんが公平に安全に使えるようにするためです。"
+      },
+      "rules": {
+        "q": "ルールは？",
+        "a": "{terms}には、返金や、サーバー終了時のファイルの扱いなど、ホスティングに関することが書かれています。{privacy}には、私たちが何を保存するかが書かれています。",
+        "termsLink": "利用規約",
+        "privacyLink": "プライバシーポリシー"
+      }
+    },
+    "beta": {
+      "title": "ベータに参加しませんか？",
+      "body": "Discord で声をかけてください。リストに追加します。ホスティングは、OpenACAI のゲームを通じた心の健康とつながりのプログラム {gamhon} の一部です。",
+      "have": "すでにサーバーをお持ちですか？{panel}して運用しましょう。",
+      "panelLink": "パネルを開く",
+      "ask": "Discord で聞く",
+      "code": "ベータコードを持っています",
+      "servers": "コミュニティサーバー"
+    }
+  },
+  "support": {
+    "eyebrow": "支援",
+    "title": "Modstoke を続けるために",
+    "lede": "Mod とツールは無料です。作っているのは 501(c)(3) 非営利団体の OpenACAI で、寄付はこのサイトのサーバー、Discord ボット、コミュニティサーバーの費用に充てられます。",
+    "donate": {
+      "title": "寄付する",
+      "often": "頻度",
+      "once": "1 回のみ",
+      "monthly": "毎月",
+      "amount": "金額（米ドル）",
+      "otherLabel": "その他の金額",
+      "otherPlaceholder": "その他 $",
+      "closed": "オンライン寄付はまもなく開始します。それまでは、{discord}で支援の方法をお尋ねください。",
+      "note": "お支払いは PayPal を通じて行われ、領収書がメールで届きます。カード情報が私たちに見えることはありません。"
+    },
+    "roles": {
+      "title": "サポーターロール",
+      "intro": "寄付してくださった方には、お礼として Discord のロールをお贈りします。",
+      "supporter": {
+        "name": "Supporter",
+        "text": "寄付してくださったすべての方"
+      },
+      "monthly": {
+        "name": "Monthly supporter",
+        "text": "毎月の寄付が続いている間"
+      },
+      "host": {
+        "name": "Server host",
+        "text": "{hosting}をレンタルしているすべての方",
+        "link": "私たちのサーバー"
+      },
+      "note": "アカウントの受付が始まるまでは、Discord でモデレーターに PayPal の領収書番号を添えてメッセージを送ってください。ロールを付与します。ロールはお礼のしるしにすぎません。どちらの場合も、Mod はみなさんに無料のままです。"
+    },
+    "gamhon": {
+      "title": "GAMHON の一部",
+      "what": "Modstoke は、Game and Mental Health Online Network、略して GAMHON の一部です。OpenACAI が運営し、ほかにつながる場所があまりない方も含め、ゲームを通じて気軽に人と交われる場を提供しています。",
+      "modding": "Mod 制作もそこにぴったり合います。ほかの趣味と同じく、取り組めることと楽しみにできることをくれて、一緒に何かを作る仲間のコミュニティもついてきます。無料のツール、Discord、私たちがホストするサーバーは、すべてその一部です。",
+      "money": "ここでの寄付と{hosting}の料金は OpenACAI に入り、プログラムの資金になります。",
+      "hostingLink": "サーバーホスティング",
+      "crisis": "GAMHON は娯楽と友情のための場で、カウンセリングではありません。アメリカで危機的な状況にある場合は、988 に電話またはテキストメッセージを送ってください。",
+      "more": "GAMHON について詳しくは openacai.com へ"
+    },
+    "where": {
+      "title": "お金の使い道",
+      "body": "まずサーバーが最優先です。ニュージャージーの 1 台のマシンが、このサイト、Sentinel（Discord ボット）とそのローカル AI、そして私たちがホストするゲームサーバーを動かしています。それ以上の分は GAMHON の残りの活動に回します。",
+      "ask": "ご質問は Discord で"
+    }
+  },
+  "servers": {
+    "eyebrow": "コミュニティサーバー",
+    "title": "サーバーを探す",
+    "intro": "ホストがここへの掲載を選んだ Sons of the Forest のワールドです。必要な Mod もあわせて確認できます。",
+    "listYours": "自分のサーバーを掲載",
+    "directoryLabel": "サーバーディレクトリ",
+    "filters": {
+      "find": "サーバーを探す",
+      "placeholder": "サーバー、ホスト、地域、Mod…",
+      "status": "状態",
+      "allStatuses": "すべての状態",
+      "online": "オンライン",
+      "offline": "オフライン",
+      "kind": "セッションの種類",
+      "allSessions": "すべてのセッション",
+      "dedicated": "専用サーバー",
+      "playerHosted": "プレイヤーがホスト",
+      "refresh": "更新"
+    },
+    "loading": "ディレクトリを読み込み中…",
+    "refreshes": "表示中は 60 秒ごとに更新されます。",
+    "noscript": {
+      "title": "サーバーの読み込みには JavaScript が必要です。",
+      "body": "ライブのディレクトリを見るには、JavaScript を有効にしてください。このページにサーバー情報は保存されていません。"
+    },
+    "measureNote": "プレイヤー数が「—」のものは不明です。ホストのレイテンシは、ホストが測定した接続中プレイヤーの往復時間の中央値で、お使いの回線とは異なる場合があります。",
+    "join": {
+      "eyebrow": "参加する前に",
+      "title": "次のセッションの場所を。",
+      "review": "サーバーを開くと、必要な Mod、主な設定、最近のアクティビティを確認できます。必要条件は確認用に表示しているだけで、このページから Mod をダウンロードしたりインストールしたりはしません。",
+      "manager": "「参加」を押すと Modstoke Manager 0.3.0 以降が開きます。何かが始まる前に、サーバーの詳細がもう一度表示されるので、確認してください。"
+    },
+    "host": {
+      "eyebrow": "ホストの方へ",
+      "title": "サーバーの共有は、あなたの意思で。",
+      "ask": "{discord}でディレクトリの運営者に、掲載の承認とパブリッシャーキーの発行を依頼してください。そのキーをホスティングコンポーネントに設定し、そのうえで公開を明示的に有効にします。キーをチャットに貼ったり、このウェブサイトに入力したりしないでください。",
+      "discordLink": "私たちの Discord",
+      "privacy": "報告するのは、参加を選んだホストだけです。掲載されるのは、サーバー情報、主な設定、集計されたアクティビティで、プレイヤー名、チャット、パスワード、Admin の非公開データは含まれません。掲載の削除やキーの無効化は、運営者にご連絡ください。"
+    },
+    "detail": {
+      "eyebrow": "サーバーの詳細",
+      "close": "閉じる",
+      "loading": "サーバーを読み込み中…"
+    }
+  },
+  "tools": {
+    "eyebrow": "ツール",
+    "title": "Manager、Loader、SDK",
+    "lede": "プレイヤーに必要なのは Manager と Loader です。Mod 制作者は、Loader に付属する SDK に対して開発します。",
+    "installGuide": "インストールガイド",
+    "trailer": {
+      "watch": "YouTube で {name} のトレーラーを見る",
+      "alt": "{name} のトレーラーのタイトルカード",
+      "caption": "{name} のトレーラー（YouTube で再生）"
+    },
+    "file": {
+      "none": "公開ダウンロードはまだありません。",
+      "signed": "署名あり",
+      "unsigned": "署名なし",
+      "preview": "プレビュー"
+    },
+    "manager": {
+      "what": "Sons of the Forest の Mod 用 Windows アプリです。ゲームを見つけ、Loader をインストールし、Mod を 1 か所にまとめて管理します。SOTF Mods と Nexus Mods を見たり、参加するサーバーを探したり、自分の専用サーバーを立てたりもできます。",
+      "store": "Modstoke ストアが始まったら、そこからのインストールも Manager で行います。何かを展開する前に、すべてのファイルを署名つきカタログと照合します。",
+      "download": "Manager をダウンロード"
+    },
+    "loader": {
+      "what": "Modstoke のすべての Mod の土台となるローダーです。一度インストールすれば、あとは好きな Mod を追加するだけ。タイトル画面とポーズ画面に Mods メニューが加わり、各 Mod の設定はそこにまとまります。必要な .NET ランタイムも同梱しています。",
+      "legacy": "従来の RedLoader や BepInEx の Mod も、そのまま一緒に動きます。",
+      "onReleases": "リリースの Loader",
+      "nexus": "Nexus のページ",
+      "shotAlt": "ゲーム内の Loader の Mods メニュー",
+      "shotCaption": "Loader がゲームに追加する Mods メニュー"
+    },
+    "sdk": {
+      "what": "Mod が開発の土台にするインターフェースです。Loader の中に入っているので、別にダウンロードするものはありません。プロジェクトから Loader のアセンブリを参照し、プレイヤーが使うのと同じバージョンの Loader でテストしてください。",
+      "notes": "パッケージの構成、マニフェスト、ゲームのコピーでのテストについては、{notes}をご覧ください。",
+      "notesLink": "制作者向けノート"
+    }
+  },
+  "guides": {
+    "home": "ホーム",
+    "guides": "ガイド",
+    "breadcrumb": "パンくずリスト",
+    "eyebrow": "プレイヤー向けガイド",
+    "onThisPage": "このページの内容",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "Manager のプレビュー版",
+    "backup": {
+      "exit": "Sons Of The Forest を終了し、ファイルを変更しうる Mod ツールもすべて閉じてください。Steam クラウドの同期が残っている場合は、終わるまで待ちます。",
+      "find": "エクスプローラーのアドレスバーに {path} を貼り付けます。通常のローカルプレイの環境なら、{saves} フォルダはここにあります。見つからない場合は、続ける前に、Windows のアカウントと、お使いの環境のセーブ場所を確認してください。",
+      "copy": "{saves} フォルダ全体を、ゲームとそのセーブ用フォルダの外にある、日付つきの別のバックアップ用フォルダにコピーします。移動や削除ではなく、コピーです。アカウントとワールドのサブフォルダは、すべて残してください。",
+      "verify": "バックアップを開いて、想定どおりのサブフォルダとファイルがそろっているか確認します。変更を加えている間は、このコピーに手を付けないでください。Steam クラウドは、別にとるバックアップの代わりにはなりません。",
+      "note": "専用サーバーや、別の場所にセーブを保存している場合は、そのサーバーに設定されたセーブ場所を別途バックアップしてください。古いコピーを復元する前に、いまのセーブも残しておくと、復元を元に戻せます。"
+    },
+    "checksum": {
+      "open": "任意：ダウンロードしたインストーラーのあるフォルダで PowerShell を開き、次を実行します。",
+      "compare": "表示された{hash}を、同じバージョンの{release}にある SHA-256 と比べます。{manager}の記録値は次のとおりです。",
+      "releasePage": "リリースページ",
+      "differs": "違っていたら、そのファイルは実行しないでください。リリースページからもう一度ダウンロードして、再度確認します。ハッシュが一致すれば、バイト列が公開されたチェックサムと同じだと確認できますが、発行元の本人確認にはなりませんし、署名のないインストーラーが署名つきになるわけでもありません。Microsoft の{reference}もご覧ください。",
+      "reference": "Get-FileHash のリファレンス",
+      "none": "現在、選択されている Manager のファイルはありません。先に進む前に、{releases}で公開済みのインストーラーとそのチェックサムを確認してください。",
+      "releases": "リリース"
+    },
+    "index": {
+      "title": "Sons Of The Forest の Mod ガイド",
+      "description": "Windows に Modstoke Manager をインストールし、セーブデータをバックアップし、Sons Of The Forest の Mod の問題に対処します。",
+      "statusTitle": "まず、いま使えるものから",
+      "statusManager": "{manager}は Windows 向けに公開中です。",
+      "statusManagerPreview": "{manager}は Windows 向けにプレビュー版として公開中です。",
+      "statusNoManager": "Manager が現在入手できるかは、リリースで確認してください。",
+      "statusLoader": "SDK 付きの Loader {version} もリリースにあり、Manager からインストールできます。Client などの Mod にはそれぞれ専用のダウンロードがあり、Modstoke にはまだ Mod のホスティングカタログはありません。",
+      "statusNoLoader": "Modstoke Loader、SDK、Client をまとめた一式はまだ公開されていません。そのため、その自動インストールは使えません。また、Modstoke にはまだ Mod のホスティングカタログはありません。",
+      "reviewReleases": "最新のリリースを確認",
+      "cardsLabel": "利用できるガイド",
+      "installEyebrow": "WINDOWS のセットアップ",
+      "installTitle": "Modstoke Manager をインストール",
+      "installText": "セーブをバックアップし、公式インストーラーを見つけ、チェックサムを確認して、ゲームのインストール先を選びます。",
+      "installLink": "インストールガイドを読む",
+      "troubleEyebrow": "トラブルシューティング",
+      "troubleTitle": "ゲームの Mod のトラブルを解決",
+      "troubleText": "Manager のセットアップと、Loader や Mod の問題を切り分け、必要条件を確認し、役に立つ問題報告を用意します。",
+      "troubleLink": "トラブルシューティングガイドを読む",
+      "footer": "プロジェクトの情報や制作者向けの準備については、{docs}をご覧ください。",
+      "docs": "ドキュメント"
+    },
+    "install": {
+      "title": "Windows に Modstoke Manager をインストールする方法",
+      "description": "Modstoke Manager のインストールを順を追って解説。セーブのバックアップ、公式ダウンロード、任意の SHA-256 確認、ゲームの選択。",
+      "crumb": "Modstoke Manager のインストール",
+      "toc": {
+        "before": "始める前に",
+        "backup": "セーブをバックアップ",
+        "download": "Manager をダウンロード",
+        "check": "ダウンロードを確認",
+        "install": "インストールとゲームの選択",
+        "next": "次にすること"
+      },
+      "before": {
+        "title": "始める前に",
+        "intro": "このガイドは Windows 用の Modstoke Manager を扱います。Steam 版の Sons Of The Forest を用意し、セットアップの前にゲームを閉じてください。現在のダウンロードは{manager}です。",
+        "signed": "このインストーラーには{publisher}の署名があります。Windows が代わりに「不明な発行元」と表示した場合は、実行せず、リリースからもう一度ダウンロードしてください。",
+        "unsigned": "公開中のプレビュー版インストーラーには署名がありません。発行元の署名を確認できないため、Windows が警告を出すことがあります。実行するかどうかは、ソースとリリースの詳細を確認してから決めてください。インストールのために Windows のセキュリティ保護を無効にしないでください。不安なら、いったんキャンセルして、署名つきのリリースを待ちましょう。",
+        "scope": "Manager をインストールしても、ゲームがインストールされるわけでも、Mod が動くと保証されるわけでもありません。",
+        "scopeLoader": "セットアップが終われば、Manager の Loaders ページから Loader をインストールできます。",
+        "scopeNoLoader": "Modstoke Loader、SDK、Client をまとめた一式はまだ公開されていないため、その自動インストールは使えません。"
+      },
+      "backupTitle": "1. セーブデータをバックアップする",
+      "download": {
+        "title": "2. 公式のダウンロードを入手する",
+        "open": "{releases}を開いて、Manager のダウンロードを探します。",
+        "releases": "Modstoke のリリース",
+        "read": "バージョン、署名の情報、記録されている確認結果を読みます。",
+        "filename": "このガイドでのインストーラーのファイル名は {file} です。",
+        "noFile": "Manager のインストーラーが掲載されているときだけ、先に進んでください。",
+        "get": "そのページのリンクからインストーラーをダウンロードします。チェックサムを比べるなら、リリースページは開いたままにしておきましょう。",
+        "note": "Manager のインストール確認は、ゲームやマルチプレイでの互換性の結果ではありません。この Manager のリリースでは、それらの確認は「対象外」とされています。"
+      },
+      "checkTitle": "3. 必要ならダウンロードを確認する",
+      "setup": {
+        "title": "4. Manager をインストールし、ゲームを選ぶ",
+        "runSigned": "ダウンロードしたインストーラーを実行",
+        "runUnsigned": "署名のないプレビュー版で進めると決めた場合は、ダウンロードしたインストーラーを実行",
+        "run": "{run}し、セットアップの案内に従ってください。セットアップが止まったら、エラーメッセージを控えておきます。",
+        "open": "インストール後に、Modstoke Manager を開きます。",
+        "select": "Manager がゲームの実行ファイルを求めてきたら、実際に使っている Steam 版ゲームのインストール先から {exe} を選びます。インストール先のフォルダは、Steam でゲームのローカルファイルを開くと見つかります。選ぶのはゲームの実行ファイルで、Manager のインストーラーやショートカットではありません。",
+        "status": "そのインストールについて表示された状態を読みます。ゲームが見つからない場合は、選んだファイルがまだ存在することと、意図した Steam のインストールのものであることを確認してください。",
+        "note": "画面の表示は、バージョンによって異なることがあります。見当たらない操作を推測せず、お使いのバージョンに表示される案内に従ってください。"
+      },
+      "next": {
+        "title": "5. Mod を入れる前に必要条件を確認する",
+        "loader": "Modstoke にはまだ Mod のホスティングカタログがありません。まず Manager から Loader をインストールし、そのあとで各 Mod のページから Mod を追加してください。",
+        "noLoader": "Modstoke には現在、Mod のホスティングカタログも、Loader、SDK、Client をまとめた完全な一式の公開もありません。一式がないのは公開側の制約であり、Manager を入れ直しても解決しません。",
+        "elsewhere": "ほかで入手した Mod は、そのバージョンに対する作者の必要条件とインストール手順を読んでください。ファイルを変更する前に、対応するゲームのビルドと Loader を確認します。別の Loader 向けに作られた Mod が Modstoke で動くとは、考えないでください。",
+        "continue": "問題が起きたら{troubleshooting}に進むか、{docs}を読んでください。",
+        "troubleshooting": "Sons Of The Forest の Mod のトラブルシューティング",
+        "docs": "プレイヤー向けドキュメント"
+      }
+    },
+    "trouble": {
+      "title": "Sons Of The Forest の Mod のトラブルシューティング",
+      "description": "Manager のセットアップ、Loader の必要条件、ゲームの Mod の問題を切り分けます。セーブのバックアップ、慎重な復旧手順、問題報告のチェックリストつき。",
+      "crumb": "Mod のトラブルシューティング",
+      "toc": {
+        "identify": "問題を特定する",
+        "protect": "セーブを守る",
+        "manager": "Manager のセットアップ",
+        "loader": "Loader と Mod の必要条件",
+        "restore": "Mod なしのゲームに戻す",
+        "report": "問題を報告する"
+      },
+      "identify": {
+        "title": "問題が起きている場所を特定する",
+        "intro": "最初に失敗する手順から始めましょう。インストーラーのエラー、Loader のダウンロードが見つからない、Mod を読み込んだあとのクラッシュは、それぞれ原因が違います。",
+        "managerTerm": "Manager のセットアップ",
+        "manager": "インストーラーが失敗する、Manager が開かない、選んだゲームのパスが違う。{link}から始めてください。",
+        "managerLink": "Manager のセットアップ",
+        "loaderTerm": "Loader の入手可否",
+        "loader": "Modstoke Loader、SDK、Client をまとめた一式は公開されていません。その自動インストールは使えず、Manager を入れ直しても用意されません。",
+        "gameTerm": "ゲームや Mod の動作",
+        "game": "ゲームが起動しない、Mod が表示されない、ワールドの動きがおかしい。ファイルを変更する前に、正確な{link}を確認してください。",
+        "gameLink": "Loader と Mod の必要条件",
+        "catalog": "Modstoke にはまだ Mod のホスティングカタログがありません。カタログが空でも、ゲームのファイルが壊れている証拠にはなりません。"
+      },
+      "protect": {
+        "title": "変更を加える前にセーブを守る",
+        "note": "外した Mod や変更した Mod が原因かを調べる間、大切なワールドを上書きしないでください。動作を比べたいときは、別の一時的なワールドを使いましょう。"
+      },
+      "manager": {
+        "title": "Manager のセットアップの問題を解決する",
+        "version": "お使いの Manager のバージョンを{releases}と比べます。そのページのインストーラーと署名の情報を使い、古いものや名前の違うパッケージが同じ動作をすると思い込まないでください。",
+        "releases": "リリース",
+        "publisher": "Windows が不明な発行元について警告したら、インストーラーがリリースから入手したものか確認してください。セキュリティ保護は有効のままにします。ダウンロードするつもりだったファイルだと確認できない場合は、セットアップをキャンセルしてください。",
+        "incomplete": "ダウンロードが不完全に思えるときは、インストールをやり直す前に{check}を使ってください。",
+        "checkLink": "任意のチェックサム確認",
+        "find": "Manager がゲームを見つけられない場合は、選んだ {exe} が現在の Steam のインストール先にあることを確認してください。特に、ゲームを別のドライブに移したあとは要注意です。",
+        "error": "インストーラーや起動時のエラーは、メッセージを正確に控え、Manager が開く前に起きたか後かをメモしてください。原因不明の Manager の起動エラーを直そうとして、ゲームのファイルを変更しないでください。"
+      },
+      "loader": {
+        "title": "Loader と Mod の必要条件を確認する",
+        "read": "その Mod のバージョンに対応した、作者のページを読みます。必要な Loader、依存関係、対応するゲームのビルド、インストール先を控えてください。",
+        "compare": "それらの条件を、実際にインストールされているものと比べます。名前が似た Loader や、DLL の入ったフォルダがあるだけでは、互換性があるとは言えません。",
+        "update": "ゲーム、Loader、Mod のアップデートのあとから問題が始まったかを確認します。以前のバージョンと最初のエラーメッセージは、メモに残してください。",
+        "isolate": "疑わしい Mod を切り分けるには、Mod の作者が対応している無効化またはアンインストールの方法を使い、必要な依存関係を忘れないようにします。一度に 1 つだけ変更し、セーブをバックアップしたうえで別のワールドを使ってください。",
+        "combine": "関係する作者が明確に対応していない限り、Loader を重ねてインストールしたり、プラグインを Loader のフォルダ間で移したりしないでください。マルチプレイでは、その Mod が示すホスト、クライアント、サーバーの必要条件を別々に確認します。シングルプレイで動いても、マルチプレイに対応しているとは限りません。",
+        "notes": "Mod の作者の手順とあわせて、プロジェクトの{link}も読んでください。",
+        "notesLink": "互換性ノート"
+      },
+      "restore": {
+        "title": "Mod なしのゲームに慎重に戻す",
+        "close": "ゲームを閉じます。{backup}を済ませ、Mod の設定ファイルと、インストールしたパッケージの記録を残してください。",
+        "backupLink": "セーブのバックアップ",
+        "remove": "インストール済みの各 Mod と Loader について、文書化された削除手順に従います。ほかのツールで管理されている導入物は、そのツールが対応する削除手順を使ってください。どれが Mod のファイルかを当て推量して、見慣れないファイルを削除しないでください。",
+        "verify": "Steam でゲームの{properties}を開き、{installed}を選んで、{integrity}を押します。検証が終わるまで待ちます。この手順は{support}にも記載されています。",
+        "properties": "プロパティ",
+        "installed": "インストールされたファイル",
+        "integrity": "ゲームファイルの整合性を確認",
+        "support": "Steam サポート",
+        "leftover": "残ったファイルがないか、Loader と Mod の削除手順で確認します。Steam の整合性確認が修復するのは Steam が管理するゲームファイルで、Mod が追加したすべてのファイルを削除してくれるわけではありません。",
+        "launch": "Steam からゲームを起動し、別の一時的なワールドで動作を比べます。バックアップしたワールドには触れないでください。問題が残る場合は、その結果も報告に含めます。",
+        "stop": "追加されたファイルやその持ち主が分からないときは、削除をやめて、該当する Mod や Loader のメンテナーに相談してください。"
+      },
+      "report": {
+        "title": "役に立つ問題報告を用意する",
+        "intro": "不具合のあるコンポーネントを担当するプロジェクトまたは Mod 作者が案内しているサポート窓口に、報告を送ります。次の内容を含めてください。",
+        "versions": "Windows のバージョン、ゲームのバージョンまたはビルド、Manager のバージョン、Loader の名前とバージョン、関係する Mod のバージョン。",
+        "error": "エラーの正確な文面と、関係するログの抜粋（最初のエラーとその前後の行を含む）。共有する前に、個人的なパス、アカウント情報、秘密情報は取り除いてください。",
+        "steps": "問題を再現する短い手順、期待した動作、実際に起きたこと。",
+        "scope": "起動時、特定のワールド、シングルプレイ、ホスト、参加のどれに影響するか。また、対応する削除手順のあとも続くかどうか。",
+        "last": "最後にうまく動いていた構成、最近の変更、すでに試した手順。",
+        "outro": "Manager のインストールについては、{guide}に戻ってください。問題が解決するまでは、元のバックアップを残しておきましょう。",
+        "guideLink": "Windows インストールガイド"
+      }
+    }
+  },
+  "apps": {
+    "home": "ホーム",
+    "breadcrumb": "パンくずリスト",
+    "eyebrow": "MODSTOKE DISCORD アプリ",
+    "onThisPage": "このページの内容",
+    "effective": "施行日 {date}",
+    "effectiveDate": "2026 年 10 月 19 日",
+    "contactPage": "OpenACAI のお問い合わせページ",
+    "index": {
+      "title": "Modstoke Discord アプリ",
+      "description": "モデレーションとコミュニティ機能の Sentinel、共有ボイス再生の Radio を追加できます。OpenACAI が運営する公開プレビュー版です。",
+      "sentinel": {
+        "heading": "Sentinel: モデレーションとコミュニティ",
+        "intro": "モデレーション支援、ウェルカムメッセージ、ロールの自己設定、仲間探し、コミュニティ統計、ヘルプ機能を Discord サーバーに導入できます。Sentinel は OpenACAI が運営する公開プレビュー版です。",
+        "add": "Sentinel をサーバーに追加",
+        "install": "Sentinel は、サーバーのオーナーがサーバーアプリとしてインストールします。個人アカウントへのインストールには対応していません。オーナーが、ウェルカム、モデレーターログ、お知らせの各チャンネルを指定して {configure} を実行するまで、Sentinel は動作しません。一般、仲間探し、ヘルプフォーラムの各チャンネルは任意です。そのあと {setup} を実行して、ロールの自己設定を準備します。BAN と会話機能は、初期状態でオフです。",
+        "permissions": "インストール時には、チャンネルの閲覧、メッセージの送信、メッセージ履歴の閲覧、埋め込みリンク、メッセージの管理、ロールの管理、メンバーのモデレート（タイムアウト）、メンバーのキック、メンバーの BAN の権限を求めます。Discord の権限画面を確認し、設定する機能に必要なチャンネルとロールにだけ Sentinel のアクセスを許可してください。管理者権限やサーバー全体のチャンネル管理は求めません。高度なトラップ機能と統計機能には、運営者による設定と、該当チャンネルに限定した権限が必要です。"
+      },
+      "radio": {
+        "heading": "Radio: みんなで聴く",
+        "intro": "対応する YouTube のリンクと、承認された Discord CDN のメディアを、スラッシュコマンドでボイスチャンネルで再生します。Spotify のリクエストは Spotify を開くリンクカードになり、ボイスで Spotify の曲を最後まで再生することはありません。共有や再生する権限のあるメディアだけをリクエストしてください。",
+        "add": "Radio をサーバーに追加",
+        "install": "Radio は、サーバーのオーナーがサーバーアプリとしてインストールします（個人アカウントのアプリではありません）。コマンド用チャンネルへのアクセスと、使うボイスチャンネルでの接続と発言を許可してください。Radio はスピーカーミュートの状態で、ボイスの音声は録音しません。",
+        "limits": "サーバーごとに専用のキューがあり、最大 10 曲です。1 曲あたり 10 分、32 MiB までです。聴いている人がいない状態が 60 秒続くと、Radio は退出します。サービス全体で同時に有効な音声セッションは最大 2 つで、空きがない場合があります。"
+      },
+      "support": {
+        "heading": "プレビュー版のサポートとポリシー",
+        "preview": "これらのアプリは公開プレビュー版です。利用できるかどうかや自動処理の結果は、変わることがあります。サーバーごとに、保存データ、会話のコンテキスト、再生キューは別々です。Sentinel は、サーバー間で 1 つのローカルモデルワーカーを共有し、クラウド AI を使わずに、1 度に 1 件ずつリクエストを処理します。",
+        "read": "インストールの前に、{privacy}と{terms}をお読みください。セットアップのヘルプは、{community}にご参加ください。モデレーションの判断への異議は、その措置が行われたサーバーのモデレーターに申し立ててください。",
+        "privacy": "アプリのプライバシーポリシー",
+        "terms": "アプリの利用規約",
+        "community": "Modstoke サポートコミュニティ"
+      }
+    },
+    "privacy": {
+      "title": "Discord アプリのプライバシー",
+      "description": "Modstoke Sentinel と Modstoke Radio をインストールした Discord サーバーで使われる情報を、OpenACAI がどう扱うかを説明します。",
+      "scope": {
+        "heading": "これらのアプリの運営者",
+        "operator": "OpenACAI は、Modstoke Sentinel と Modstoke Radio を、Discord サーバー向けの公開プレビュー版アプリとして運営しています。サーバーのオーナーはこれらをサーバーアプリとしてインストールします。個人アカウントへのインストールには対応していません。各サーバーの保存データ、コンテキスト、再生キューは別々です。",
+        "supplement": "このボット固有の補足では、{privacy}とあわせて、データの扱いを説明します。{terms}と{apps}もご覧ください。",
+        "privacyLink": "Modstoke プライバシーポリシー",
+        "termsLink": "Discord アプリの利用規約",
+        "appsLink": "アプリのセットアップ情報"
+      },
+      "sentinel": {
+        "heading": "Sentinel: モデレーションとコミュニティ機能",
+        "inactive": "Sentinel は、新しいサーバーでは、オーナーが必要なチャンネルを設定するまで動作しません。設定後は、アクセス権のある Discord チャンネルのメッセージとメンバーのイベントを見ることができます。これらは、モデレーション、集計されたコミュニティ統計、ロールの自己設定、仲間探し、ヘルプに使われます。BAN と会話機能は、初期状態でオフです。",
+        "model": "モデルの処理は、ホスティングサーバー上でループバック接続を通じてローカルに行われ、クラウド AI では処理しません。サーバー間で 1 つのモデルワーカーを共有し、1 度に 1 件のリクエストを処理します。各サーバーのコンテキストは別々に保たれます。直近のモデレーション用コンテキストは、チャンネルごとに最大 6 件のメッセージの抜粋を、約 3 分間メモリ上に保持します。これらのボットが扱う情報は、広告のために販売されたり、AI の学習に使われたりすることはありません。",
+        "ledger": "ローカルのモデレーション台帳には、ユーザー、チャンネル、メッセージの ID、タイムスタンプ、フィンガープリント、証拠のラベル、措置、審査者の情報が、最長 7 日間、最大 1,000 件まで保持されます。別の削除台帳も 7 日間保持されます。Discord に投稿されたモデレーションログのメッセージは、Discord とサーバーが管理する別の保持期間に従います。"
+      },
+      "crew": {
+        "heading": "仲間募集の投稿、設定、統計",
+        "records": "有効な仲間募集の記録には、元の募集テキスト、表示名、ホストの ID、地域、必要条件、時間帯が含まれます。募集が閉じられるか期限切れになるまで残り、期限は 1 〜 24 時間です。ボットが Discord の投稿にアクセスできない場合、削除が遅れることがあります。閉じた投稿は Discord に残る場合があります。",
+        "alerts": "仲間募集の通知の購読と、通知を拒否したユーザーの ID は保持されます。仲間募集の通知を止めるには {alerts} を使います。{quiet} は、コンパニオンとのやり取りを拒否します。これらの操作で、すべてのモデレーション記録が削除されるわけではありません。",
+        "leave": "メンバーがサーバーを抜けると、Sentinel はそのメンバーの仲間募集の購読を整理し、そのメンバーが作った募集を閉じます。退出がすべての記録の一括削除になるわけではありません。コミュニティ統計は集計されたものです。設定済みのチャンネルとロールの ID は、ボットが動作している間は残ります。"
+      },
+      "radio": {
+        "heading": "Radio: リクエストとボイス再生",
+        "intents": "Radio は Discord のギルドとボイス状態のインテントを使い、メッセージ内容のインテントは求めません。スラッシュコマンドでリクエストされた URL と、生成された曲番号は、再生のためにメモリ上に保持します。Radio はボイスチャンネルでスピーカーミュートの状態で、ボイスの音声は録音しません。",
+        "media": "ダウンロードしたメディアは一時的なもので、曲の再生後に削除されます。起動時にも、残っているダウンロードを削除します。キューを止めると、メモリ上の内容は消去されます。",
+        "fetch": "Discord の CDN や YouTube からメディアを取得すると、ホスティングサーバーからそれらの提供元にリクエストが送られます。Spotify のリンクカードは元のサイトを開き、Radio がボイスで Spotify を最後まで再生することはありません。"
+      },
+      "hosting": {
+        "heading": "ホスティングとその他のサービス",
+        "vps": "ボットは、InterServer がホストする VPS 上で動いています。Sentinel のローカルの JSON 設定、設定項目、ケース記録は AES-256-GCM で暗号化され、鍵は保護されたシステム認証情報を通じて別に保管されます。Radio の一時メディアは、メモリ上の専用ランタイムディレクトリを使います。2 つのボットサービスとローカルモデルサービスでは、スワップが無効です。運用上のログも、サービスの運営の一環として保持されます。上記の短い保持期間は、規定されたボットの記録に関するもので、すべての運用ログや Discord のメッセージに当てはまるわけではありません。",
+        "discord": "Discord は、メッセージ、投稿、操作、その他のプラットフォーム情報を、独自のポリシーとサーバー設定に従って独立して処理・保持します。メディアの提供元も、それぞれのポリシーに従ってリクエストを処理します。ローカルのボットの記録を削除しても、Discord やそれらの提供元が保持するコピーは削除されません。"
+      },
+      "removal": {
+        "heading": "サーバーから Sentinel を削除する",
+        "purge": "Modstoke 本体の環境以外のサーバーから Sentinel を削除すると、そのサーバーのローカル状態を閉じ、ローカルのサーバーデータフォルダを消去します。Discord の投稿、モデレーションログ、Discord が保持するその他のコピーは、Discord とサーバーの管理下に残ります。このフォルダの消去は、すべての運用ログや、別に保持されているコピーの削除を約束するものではありません。",
+        "home": "Modstoke 本体の環境とその設定は、運営者の管理下に残ります。自動の操作を超える削除のご依頼は、OpenACAI までご連絡ください。"
+      },
+      "requests": {
+        "heading": "プライバシーに関するご質問と削除のご依頼",
+        "contact": "プライバシーに関するご質問や削除のご依頼は、{email} または{page}から OpenACAI にご連絡ください。チームが情報を探せるよう、ボット、お使いの Discord ユーザー ID、該当するサーバーや記録を明記してください。パスワードやアカウントのトークンは送らないでください。",
+        "different": "オプトアウト、サーバーからの退出、データの削除は、それぞれ別の操作です。上記の操作を超える削除をご希望の場合は、この連絡窓口をご利用ください。Discord が独自に保持している情報に関するご依頼は、Discord またはサーバーのモデレーターに宛てる必要がある場合もあります。"
+      }
+    },
+    "terms": {
+      "title": "Discord アプリの利用規約",
+      "description": "Discord サーバーでの Modstoke Sentinel と Modstoke Radio の公開プレビュー版のインストールと利用に関する規約です。",
+      "scope": {
+        "heading": "ボット固有の補足",
+        "operator": "OpenACAI は、Modstoke Sentinel と Modstoke Radio を、Discord サーバー向けの公開プレビュー版アプリとして運営しています。この規約は、{terms}に対するボット固有の補足です。ボットが扱う情報については、{privacy}で説明しています。",
+        "termsLink": "Modstoke 利用規約",
+        "privacyLink": "Discord アプリのプライバシーのページ",
+        "install": "サーバーのオーナーは、ボットをサーバーアプリとしてインストールします。個人アカウントへのインストールには対応していません。現在の機能と制限は{apps}をご覧ください。",
+        "appsLink": "インストールとセットアップの情報"
+      },
+      "use": {
+        "heading": "許可される使い方",
+        "rules": "ボットは、法令を守り、サーバーのルール、Discord の規約、該当するメディア提供元の規約に従って使ってください。スパム、嫌がらせ、マルウェア、モデレーションの回避、その他の不正な行為には使わないでください。ボットの権限、アクセス制御、利用制限を回避しようとしないでください。",
+        "media": "その場面で共有または再生する権限のあるメディアだけを送信してください。対応する URL であることや、再生に成功したことは、その素材を使う許可があることの証明にはなりません。元の提供元の規約が、引き続き適用されます。"
+      },
+      "features": {
+        "heading": "プレビュー機能と提供状況",
+        "besteffort": "ボットは、ベストエフォートのプレビューツールとして提供されます。機能、応答、再生は、利用できなかったり、遅れたり、誤ったりすることがあり、チームの保守にともなって変更されることもあります。重要な情報の唯一の情報源として、またはモデレーションの網羅を保証するものとして、ボットに頼らないでください。",
+        "radio": "Radio は、Discord、ホスティング、メディア提供元が利用できることに依存します。Spotify のカードは元のサイトへのリンクで、ボイスチャンネルでの Spotify の最後までの再生は行いません。"
+      },
+      "moderation": {
+        "heading": "モデレーションと異議申し立て",
+        "appeals": "Sentinel はモデレーションとコミュニティ機能を支援しますが、自動の判断は誤ることがあります。措置についての質問や異議申し立ては、その措置が行われたサーバーのモデレーターにご連絡ください。確認してもらえるよう、該当するメッセージや措置の詳細を添えてください。",
+        "owners": "最初のインストールと設定は、サーバーのオーナーが行います。オーナーがウェルカム、モデレーターログ、お知らせの各チャンネルを設定するまで、Sentinel は動作しません。任意のチャンネルとロールの設定で、追加の機能が有効になります。BAN と会話機能は、初期状態でオフです。ボットのアクセスと権限は、管理者が管理します。高度なトラップ機能と統計機能には、運営者による設定と、範囲を限定した権限が必要です。",
+        "removal": "サーバーからボットを削除するには、必要な権限を持つ管理者が必要です。削除時の Sentinel のローカルでの整理については{privacy}に説明があり、Discord にあるコピーは削除されません。",
+        "privacyLink": "プライバシーポリシー"
+      },
+      "controls": {
+        "heading": "メンバー向けの操作と連絡先",
+        "controls": "仲間募集の通知を止めるには {alerts}、コンパニオンとのやり取りを拒否するには {quiet} を使います。これらの操作で、すべてのモデレーションデータが消えるわけではありません。データの扱いや削除のご依頼は、{contact}に従ってください。",
+        "contactLink": "プライバシーに関する連絡手順",
+        "questions": "この規約についてのご質問は、{email} までご連絡いただくか、{page}をご利用ください。"
+      }
+    }
+  },
+  "mods": {
+    "notStated": "記載なし",
+    "loaderOrNewer": "Loader {version} 以降",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "自分だけが入れていても動作します",
+      "host": "ホストまたはサーバーだけに必要です",
+      "allPlayers": "ホストとプレイヤーが同じバージョンを使う必要があります",
+      "solo": "シングルプレイ専用",
+      "notStated": "記載なし"
+    },
+    "dedicated": {
+      "supported": "対応",
+      "unsupported": "非対応",
+      "notStated": "記載なし"
+    },
+    "settings": {
+      "hostSynced": "ホストが決める",
+      "perPlayer": "各プレイヤーが決める",
+      "none": "設定なし",
+      "notStated": "記載なし"
+    },
+    "status": {
+      "preview": "プレビュー",
+      "experimental": "試験的",
+      "stable": "安定版"
+    },
+    "label": {
+      "needs": "必要なもの",
+      "multiplayer": "マルチプレイ",
+      "updated": "更新日",
+      "version": "バージョン",
+      "status": "状態",
+      "dedicatedServer": "専用サーバー",
+      "settings": "設定",
+      "madeBy": "作者",
+      "licence": "ライセンス",
+      "source": "ソース",
+      "aiAssistance": "AI の支援"
+    },
+    "list": {
+      "title": "Mod",
+      "lede": "ここにあるのは、私たち自身が作っている Mod です。すべて Modstoke Loader で動き、今のところ Nexus Mods からダウンロードします。Modstoke ストアが始まったら、Manager が代わりにインストールし、ほかの作者の Mod もここに並びます。",
+      "search": "Mod を検索",
+      "anyMultiplayer": "すべてのマルチプレイ構成",
+      "count": {
+        "other": "{count} 件の Mod"
+      },
+      "note": "ここにある Mod はすべて{loader}が必要です。Manager での導入方法は{guide}をご覧ください。",
+      "installGuide": "インストールガイド",
+      "details": "詳細",
+      "nexusPage": "Nexus のページ"
+    },
+    "page": {
+      "breadcrumb": "パンくずリスト",
+      "gallery": "スクリーンショットと動画",
+      "watchTrailer": "YouTube でトレーラーを見る",
+      "openFullSize": "原寸で開く",
+      "trailerCaption": "トレーラー（YouTube で再生）",
+      "details": "詳細",
+      "sourceNotPublic": "まだ非公開",
+      "aiYes": "あり（Nexus で開示）",
+      "aiNo": "なし",
+      "downloadOnNexus": "Nexus でダウンロード",
+      "storeNote": "Manager からのワンクリックインストールは、Modstoke ストアとともに始まります。",
+      "meta": "{version} · {date} 更新 · OpenACAI 作",
+      "whatsNew": "{version} の新機能",
+      "about": "概要",
+      "inTesting": "テスト中",
+      "install": "インストール",
+      "installStep1": "{loader}をインストールします。{manager}に任せてもかまいません。",
+      "managerLink": "Manager",
+      "installStep2": "ゲームを閉じます。Nexus から {name} をダウンロードし、中の Modstoke フォルダを {exe} と同じ場所に展開します。",
+      "installStep3": "ゲームを起動し、タイトル画面から Mods メニューを開いて、読み込まれたことを確認します。",
+      "installNote": "プレビュー版を試す前に、セーブをバックアップしてください。何か問題が起きたら、{guide}か{discord}でお尋ねください。",
+      "troubleshootingGuide": "トラブルシューティングガイド"
+    }
+  },
+  "release": {
+    "eyebrow": "リリース",
+    "headingPreview": "ダウンロード（プレビュー版を含む）",
+    "headingVerified": "検証済みのダウンロード",
+    "lede": "インストールの前に、現在のリリースを選ぶか、保管されている過去のバージョンを確認してください。",
+    "previewDownloads": "プレビュー版のダウンロードはテストビルドです。インストールの前に、署名と検証の詳細を確認してください。",
+    "managerOnly": "Manager は入手できますが、Loader、SDK、Client をまとめた一式はまだ公開されていません。Loader、SDK、Client の一式の自動インストールは使えません。",
+    "historyTitle": "リリースの詳細とロールバック",
+    "historyNote": "バージョンごとのファイルの URL は変わりません。現在の選択が変わっても、以前のリリースの記録は残ることがあります。",
+    "playerBundle": "プレイヤー向けの一式",
+    "loaderWithClient": "ゲームのルートに置く一式。Loader、同梱の SDK、別にビルドした Client のコンパニオンが入っています。",
+    "loaderOnly": "ゲームのルートに置く一式。Loader と同梱の SDK が入っています。Client などの Mod には、それぞれ専用のダウンロードがあります。",
+    "managerPackage": "Modstoke Manager の Windows デスクトップ用パッケージ。",
+    "download": "{file} をダウンロード",
+    "size": "サイズ",
+    "bytes": "{size} バイト",
+    "published": "公開日",
+    "details": "リリースの詳細",
+    "current": "現在",
+    "previous": "以前",
+    "noNotes": "このバージョンのリリースノートは提供されていません。以下のファイルと検証のメタデータは、変更履歴ではありません。",
+    "publishedCommit": "{date} に公開。ソースのコミット {commit}。",
+    "packageLine": "パッケージ：{file}（{size} バイト）。SHA-256: {hash}。",
+    "testedBuilds": "テスト済みの {game} ビルド：{builds}。",
+    "noTestedBuilds": "テスト済みのゲームのビルドはまだありません。ゲームとの互換性は不明です。",
+    "requiresManager": "Manager {version} 以降が必要です。",
+    "guidedLoader": "ガイド付き Loader 一式：{id}。",
+    "noGuidedLoader": "この Manager のリリースには、対応するガイド付き Loader 一式が選ばれていません。",
+    "listSeparator": "、",
+    "previewBuild": "プレビュー版のテストビルド。",
+    "packageUnsigned": "このパッケージには署名がありません：{reason}。",
+    "pendingChecks": "未完了の確認：{checks}。",
+    "reviewDetails": "インストールの前に、リリースの詳細を確認してください。",
+    "pending": {
+      "game": "ゲームの起動",
+      "multiplayer": "マルチプレイ"
+    },
+    "signatureReviewedFor": "{publisher} の署名の確認が記録されています。",
+    "signatureReviewed": "署名の確認が記録されています。",
+    "previewUnsigned": "このプレビュー版のパッケージには署名がありません：{reason}。署名の検証は記録されていません。",
+    "signatureNotRecorded": "署名の検証は記録されていません。",
+    "checksumNote": "SHA-256 チェックサムはファイルのバイト列を識別するもので、アップデートのマニフェストを認証するものではありません。",
+    "validation": "{checks}。",
+    "checkLine": "{label}: {state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "クリーンなソース",
+      "licenses": "ライセンス",
+      "build": "ビルド",
+      "install": "インストール",
+      "game": "ゲームの起動",
+      "multiplayer": "マルチプレイ",
+      "hostedFetch": "ホスト先のファイル確認"
+    },
+    "state": {
+      "passed": "合格",
+      "pending": "未完了",
+      "notApplicable": "対象外",
+      "notRecorded": "記録なし"
+    }
+  },
+  "docs": {
+    "eyebrow": "ドキュメント",
+    "title": "プレイヤーと Mod 制作者向けのノート",
+    "lede": "セットアップの案内は{guides}にあります。このページでは、各部分がどう組み合わさるかと、Mod を作る前に知っておきたいことを説明します。",
+    "guidesLink": "ガイド",
+    "onThisPage": "このページの内容",
+    "nav": {
+      "project": "プロジェクトについて",
+      "players": "プレイヤー向け",
+      "compatibility": "ゲームとの互換性",
+      "authors": "Mod 制作者向け",
+      "sdk": "SDK 開発",
+      "play": "みんなで遊ぶ",
+      "downloads": "ダウンロードとアップデート"
+    },
+    "project": {
+      "title": "プロジェクトについて",
+      "about": "Modstoke は、非営利団体 OpenACAI による Mod プロジェクトです。Sons of the Forest 向けの Mod ローダー、デスクトップ用マネージャー、いくつかの Mod があり、Discord にはそのまわりのコミュニティがあります。すべて無料で、このサイトを使うのにアカウントは要りません。",
+      "endnight": "私たちは Endnight Games とは関係ありません。Modstoke の問題を、彼らのサポートに持ち込まないでください。"
+    },
+    "players": {
+      "title": "プレイヤー向け",
+      "start": "まず{manager}から始めましょう。ゲームを見つけ、{loader}をインストールし、何を入れたかを管理します。そのあと{mods}から選んでください。今のところ、Nexus Mods からダウンロードします。",
+      "managerLink": "Manager",
+      "loaderLink": "Loader",
+      "modsLink": "Mod",
+      "guides": "{install}では、最初にセーブをバックアップする方法を説明しています。{troubleshooting}は、問題の絞り込みに役立ちます。",
+      "installGuide": "インストールガイド",
+      "troubleshootingGuide": "トラブルシューティングガイド"
+    },
+    "compatibility": {
+      "title": "ゲームとの互換性",
+      "supported": "対応",
+      "note": "各リリースには、テストしたゲームのビルドが記載されています。記載のないリリースは、特定のビルドでの確認がまだなので、セーブのコピーで試してください。"
+    },
+    "authors": {
+      "title": "Mod 制作者向け",
+      "intro": "現在の Loader がネイティブ Mod を見つけて起動する仕組みです。お使いの Loader のソースと照らし合わせて確認してください。マニフェストはまだ固定されたスキーマではありません。",
+      "build": {
+        "title": "テストに使う Loader に対してビルドする。",
+        "text": "SDK のインターフェースは Loader の中にあります。プロジェクトからそのアセンブリを参照し、テストした Loader のバージョンとゲームのビルドを控えてください。"
+      },
+      "folder": {
+        "title": "パッケージのフォルダは 1 つにする。",
+        "text": "Loader は {path} の下を、最大 4 階層まで探します。名称変更前の {legacy} も、引き続き動作します。マニフェストは、アセンブリのすぐ隣に置いてください。"
+      },
+      "entry": {
+        "title": "エントリーポイントを記述する。",
+        "text": "マニフェストは {first}、{second}、{third} のいずれかで、id、name、version、author、assembly、entryType、entryMethod を持ちます。エントリー型に引数なしの public コンストラクターがあれば、entryMethod は省略できます。"
+      },
+      "test": {
+        "title": "ゲームの別のコピーでテストする。",
+        "text": "本物のセーブは含めないでください。ゲームのビルド、Loader のバージョン、依存関係、まだ動かないものを書き留めておきましょう。"
+      },
+      "ship": {
+        "title": "ファイルにノートを添えて公開する。",
+        "text": "バージョンのノート、インストールと削除の手順、ライセンス、ファイルのハッシュ。ここにはまだアップロードのフォームはなく、ストアは GitHub のリリースからの提出を受け付ける予定です。"
+      }
+    },
+    "downloads": {
+      "title": "ダウンロードとアップデート",
+      "releases": "{releases}のページにある各リリースには、バージョン、変更点、互換性、サイズ、SHA-256 が載っています。ダウンロードしたファイルが私たちの公開したものか確かめられます。",
+      "releasesLink": "リリース",
+      "checksum": "チェックサムで分かるのは、バイト列が一致することだけで、だれが公開したかの証明にはなりません。そのための署名は Modstoke ストアが加える予定で、Manager は、私たちか審査を受けた作者が公開したもの以外を拒否できるようになります。"
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "SDK 開発",
+    "playEyebrow": "みんなで遊ぶ",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "リリースの状況を確認",
+    "gameInfo": "ゲームの情報：{link}",
+    "steamLink": "Steam の Sons of the Forest",
+    "findCrew": "Discord で仲間を探す",
+    "visitTithewood": "Tithewood で最新のアクセス情報を確認",
+    "status": {
+      "manager": "Manager {version} を公開しています。",
+      "managerPreview": "Manager {version} を Windows 向けプレビューとして公開しています。",
+      "unsigned": "このプレビューは署名されていません。",
+      "noManager": "現在公開されている Manager パッケージはありません。",
+      "loader": "Loader {version} がリリースに掲載されています。バンドルの内容、互換性、検証の状況を確認してください。",
+      "noLoader": "Loader、SDK、Client をそろえた完全なバンドルは、一般には公開されていません。",
+      "check": "ダウンロードの前に、リリースを確認してください。"
+    },
+    "topics": {
+      "sdk": {
+        "title": "SDK が提供をめざしているもの",
+        "summary": "現在の開発ソースは、型付きのゲーム観測データと Mod 向けサービスを提供します。これらはソース上の契約であり、公開済みの SDK パッケージでも、ゲーム内での動作確認の証明でもありません。",
+        "facts": "インベントリと装備のスナップショット、クラフトレシピの必要素材と不足分、ローカルプレイヤーのサバイバル数値、季節・天候・気温の観測。\nサーバーワールドでのプレイヤーと乗り物の観測、NPC の状態、建築の必要素材。範囲を絞った衝突クエリと、読み込み済み地形の高さ・法線の取得。これらは、洞窟全体の衝突や歩行可能範囲を網羅するものではありません。\n所有しているオーディオと、読み込み済みアセットバンドルの検査ヘルパー、コルーチンの完了の観測、UI の下書きフィールド、リモートコマンドの応答。サーバーの認可とワールドの準備状況の確認は、引き続き適用されます。\nネイティブ Mod のマニフェストでは、必要な ID とバージョンを厳密に宣言できます。ランタイムはコールバックの順序を決め、不足している要件や循環する要件をブロックし、前提となる Mod が失敗した場合は、それに依存する Mod を停止します。dedicated サーバーの初期化では、クライアント向けのメニューと入力をスキップします。\n安定した公開 API、あらゆる環境での互換性、プレイヤー数の上限の引き上げ、結果が不確かなコマンドの自動リトライは、あるものと思わないでください。ソースのビルドが通っても、マルチプレイでの動作が証明されたことにはなりません。"
+      },
+      "play": {
+        "title": "次の仲間を見つけよう",
+        "summary": "Sons of the Forest は、クラフト、建築、探索、ソロプレイ、オンライン協力プレイを備えたオープンワールドのサバイバルホラーゲームです。Modstoke は、メンバーが自分たちのセッションを調整するのを手伝います。",
+        "facts": "/crew list では、地域、スタイル、when キーワードで絞り込めます。いずれも省略できます。時間の照合は、ホストが書いたセッションの時間を検索するもので、スケジュールの重なりを計算したり、タイムゾーンを変換したりはしません。\n/crew create で、地域、時間とタイムゾーン、プレイスタイル、空き枠、任意の条件を添えてセッションを募集できます。募集は 1 人につき同時に 1 件までです。募集は標準で 6 時間後に期限切れになり、1 時間から 24 時間の間で選べます。\n/roles で、地域とプレイスタイルを選びます。これらは自分で選ぶ関心であり、マッチングを保証するものではありません。/crew alerts を使うと、DM を受け取ることに明示的に同意したことになります。地域での絞り込みは任意で、通知は 2 時間に 1 回までです。いつでもオフにできます。\n/servers で、掲載に同意した公開サーバーの一覧を見られます。クルーの募集はメンバーの予定であり、予約でも、互換性の確認でも、リアルタイムの在席情報でも、自動でゲームに参加する仕組みでもありません。ゲームと Mod のバージョン、セーブについての認識は、ホストと合わせてください。"
+      },
+      "tithewood": {
+        "title": "Tithewood · BYOND の中世ロールプレイ",
+        "summary": "Tithewood は、Ratwood をもとに作った、私たちが独自に運営する BYOND の中世ロールプレイゲームです。コミュニティは Modstoke の Discord の一部です。",
+        "facts": "プレイヤーは共有ワールドでキャラクターの役割につき、交易、農業、都市の衛兵の務め、冒険を楽しみます。役割によっては、ゲームの設定に応じた参加条件があります。\n公式サイトでは、Grimoria を設定画として引き継いだイラストで紹介しています。これは世界観を示すワールドマップで、ゲームプレイ中のライブマップではありません。\n2026-10-20 に確認した公式サイトには、公開アクセスは閉じており、開始日も発表されていないと書かれています。最新のアクセス状況は tithewood.com で確認してください。サービスに接続できても、公開ラウンドが遊べるとは限りません。\nアクセスが開放されたら、BYOND クライアントと接続の案内を公式サイトで確認してください。公式の BYOND Windows クライアントと自分の BYOND アカウントを使い、パスワードや非公開のログは Discord で絶対に共有しないでください。\nプロジェクトのロールメニューで Tithewood を選び、専用の議論チャンネルと開発チャンネルを使ってください。アイデアの共有、機密情報を伏せたエラーつきの明確な再現手順の報告ができます。プレイの約束は、実際のセッションが告知されたときだけにしてください。"
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "パンくずリスト",
+    "home": "ホーム",
+    "effective": "施行日 {date}",
+    "onThisPage": "このページの内容",
+    "translationNote": "これは参考のための翻訳です。この文書は、英語版が適用されます。",
+    "untranslated": "この文書はまだ翻訳されていないため、英語で表示しています。"
+  },
+  "client": {
+    "app": {
+      "count": {
+        "other": "{count} 件の Mod"
+      },
+      "countOf": {
+        "other": "{count} 件中 {shown} 件の Mod"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal を読み込めませんでした。接続を確認するか、しばらくしてからもう一度お試しください。",
+      "pickAmount": "${min} から ${max} までの金額を、ドル単位の整数で選んでください。",
+      "cancelled": "お支払いは行われていません。",
+      "error": "PayPal で問題が起きました。お支払いは行われていません。",
+      "monthlyThanks": "ありがとうございます！毎月 ${amount} の寄付を設定しました。",
+      "thanks": "ありがとうございます！${amount} の寄付が完了しました。",
+      "processing": "PayPal がまだお支払いを処理中です。"
+    },
+    "servers": {
+      "unknown": "不明",
+      "yes": "はい",
+      "no": "いいえ",
+      "dedicated": "専用サーバー",
+      "playerHosted": "プレイヤーがホスト",
+      "online": "オンライン",
+      "offline": "オフライン",
+      "eyebrow": "コミュニティディレクトリ",
+      "hostNotSpecified": "ホストの記載なし",
+      "regionNotSpecified": "地域の記載なし",
+      "noDescription": "ホストによる説明はありません。",
+      "playersCapacity": "プレイヤー数 / 定員",
+      "hostLatency": "ホストのレイテンシ（中央値）",
+      "gameBuild": "ゲームのビルド",
+      "moreComponents": {
+        "other": "ほか {count} 個のコンポーネント"
+      },
+      "requiredMods": {
+        "other": "必要な Mod {count} 件"
+      },
+      "viewServer": "サーバーと必要条件を見る ↗",
+      "viewServerLabel": "{name} と必要条件を見る",
+      "count": "{total} 台中 {shown} 台 · {online} 台がオンライン",
+      "noneTitle": "次のコミュニティは、ここから始まります。",
+      "noneMessage": "掲載されているサーバーはまだありません。ホストは、Discord から掲載を依頼できます。更新すると、新しく共有されたセッションを確認できます。",
+      "noMatchTitle": "一致するサーバーはありません。",
+      "noMatchMessage": "別の名前、地域、Mod を試すか、状態とセッションのフィルターを変えてください。",
+      "refreshing": "ディレクトリを更新中…",
+      "updated": "{time} 更新 · 60 秒ごとに更新",
+      "unavailable": "ディレクトリを利用できません",
+      "tryRefresh": "「更新」でもう一度お試しください。",
+      "loadFailedTitle": "ディレクトリを読み込めませんでした。",
+      "loadFailedMessage": "サーバーディレクトリは一時的に利用できません。しばらくしてからもう一度お試しください。個々のサーバーがオンラインかどうかは、これでは分かりません。",
+      "versionNotSpecified": "バージョンの記載なし",
+      "history": {
+        "title": "最近のアクティビティ",
+        "unavailable": "アクティビティ履歴を利用できません。更新してもう一度お試しください。",
+        "none": "1 時間ごとの履歴はまだありません。ホストが報告すると、アクティビティが表示されます。",
+        "note": "過去 30 日間の 1 時間ごとのサンプルです。空白は 0 ではなく、不明を意味します。時刻は、お使いのローカルのタイムゾーンで表示されます。",
+        "players": {
+          "title": "プレイヤー",
+          "unit": "プレイヤー",
+          "description": "1 時間ごとのプレイヤー数です。空白は測定がなかったことを意味します。正確な値は、下の履歴の表にあります。",
+          "none": "この履歴には、プレイヤー数の測定がありません。"
+        },
+        "latency": {
+          "title": "ホストのレイテンシ（中央値）",
+          "unit": "ミリ秒",
+          "description": "1 時間ごとのホストのレイテンシの中央値です。空白は測定がなかったことを意味します。正確な値は、下の履歴の表にあります。",
+          "none": "この履歴には、ホストのレイテンシ（中央値）の測定がありません。"
+        },
+        "viewValues": "1 時間ごとの値を見る",
+        "caption": "1 時間ごとのサーバー履歴",
+        "time": "時刻",
+        "hostLatency": "ホストのレイテンシ",
+        "onlineSeconds": "オンライン秒数"
+      },
+      "lastReport": "ホストの最終報告：{time}。ホストのレイテンシは接続中のプレイヤーを反映したもので、お使いの回線ではありません。",
+      "openInManager": "Manager で開く",
+      "noJoinTarget": "ホストが参加先を提供していません。",
+      "offlineNoJoin": "このサーバーはオフラインです。参加できません。",
+      "permalink": "サーバーの固定リンク ↗",
+      "joinNote": "「参加」を押すと Modstoke Manager 0.3.0 以降が開き、最新の詳細が表示されるので、確認してください。このページから Mod をダウンロードすることはありません。",
+      "components": "コンポーネント",
+      "noComponents": "ホストから報告されたコンポーネントはありません。",
+      "requiredModsTitle": "必要な Mod",
+      "noRequiredMods": "ホストから報告された必要な Mod はありません。",
+      "settings": "ホストが報告した設定",
+      "difficulty": "難易度",
+      "pvp": "PvP",
+      "friendlyFire": "フレンドリーファイア",
+      "passwordRequired": "パスワードが必要",
+      "loadingTitle": "サーバーを読み込み中…",
+      "loadingMessage": "最新のホスト報告とアクティビティを読み込んでいます。",
+      "goneTitle": "サーバーは掲載されていません。",
+      "detailUnavailableTitle": "サーバーの詳細を利用できません。",
+      "goneMessage": "ホストが掲載を削除したか、ディレクトリが一時的に利用できない可能性があります。このパネルを閉じて、「更新」でもう一度お試しください。",
+      "unsupportedReport": "ディレクトリが未対応の報告を返しました。しばらくしてからもう一度お試しください。",
+      "invalidTitle": "無効なサーバーリンクです。",
+      "invalidMessage": "このリンクには、有効なサーバー ID が含まれていません。このパネルを閉じて、ディレクトリを見てください。"
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "フィールドタブレット、腕時計、調査用ドローン、3 人乗りの小型機 Kestrel K3。補給の計画、マップへのピン留め、空からの偵察、友だちを乗せての島の遊覧ができます。",
+        "description": "Client は、持ち歩く装備を追加します。フィールドタブレット、腕時計、調査用ドローン、そして 3 人乗りの小型機 Kestrel K3 です。ゲームの上に貼り付けられたメニューではなく、装備として感じられることを目指しています。\n\nタブレットには、自分のピンを置けるマップ、ノート、時計、そして Pack があります。Pack はアイテムと弾薬を検索し、レシピ用の買い物リストの下書きを作ります。計画を立てるだけで、クラフトは自分で行います。\n\n- 調査用ドローン：タブレットから操縦し、見えたものにマップのピンを落とせます。バッテリーが少なくなると、自動で着陸します。\n- Kestrel K3: タブレットの Hangar アプリから、前方に約 18 メートルの平らな地面がある場所に出します。パイロット 1 人と同乗者 2 人です。\n- キャラクター：体型、肌の色、体つきを選べて、参加するたびに同じ見た目を保てます。\n\n部族、プリンター、共有ウェイポイント、コンパニオンには、Admin を動かしているホストが必要です。ホストと飛ぶ全員が同じバージョンの Client を使う必要があるので、まずはワールドのコピーで試してください。",
+        "inTesting": "宇宙飛行はテスト中です。広い空き地から打ち上げる宇宙船、軌道上のステーション、仲間と着陸して調査する新しい世界が登場します。現在のダウンロードにはまだ含まれていません。",
+        "changelog": {
+          "0.2.4": "キャラクタークリエイター：Mods > Character > Customise character で、回転するプレビューつきのフルスクリーンエディターが開きます。体型、肌の色、目と下着の色を選び、スライダーで形を整えられます。\n参加するたびに同じ見た目が保たれ、Modstoke を入れていないプレイヤーがいても動作します。\nサーバー互換性の表示が、Mods メニューで重複していた Modstoke Client のページに代わります。\nModstoke Loader 0.4.0 とその Modstoke フォルダが必要です。"
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "調査ドローンから見た、浜辺に停まっている Kestrel K3"
+          },
+          "trailer": {
+            "alt": "Client のトレーラー: 雪をかぶった山々のそばを飛ぶ Kestrel K3"
+          },
+          "tablet-home": {
+            "alt": "森の中で手に持った、フィールドタブレットのホーム画面"
+          },
+          "tablet-apps": {
+            "alt": "浜辺で表示した、フィールドタブレットのアプリ一覧"
+          },
+          "drone-camera": {
+            "alt": "海岸線の上空での、調査ドローンのカメラ操作"
+          },
+          "kestrel-cockpit": {
+            "alt": "Kestrel K3 の操縦席"
+          },
+          "spacecraft-test": {
+            "alt": "別の世界に着陸した宇宙船",
+            "caption": "テスト版です。現在のダウンロードにはまだ入っていません。"
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "小さな屋外の区画で、土と岩を掘り、穴を埋め戻し、失敗を元に戻せます。今のところ、セーブのコピーでのオフラインのシングルプレイ専用です。",
+        "description": "Terraforming では、島の小さな一角を掘り、土を好きな場所に戻せます。穴を掘り、一部を埋め、うまくいかなければ元に戻せます。\n\n今のところ、セーブのコピーを使ったオフラインのシングルプレイで、屋外の 1 区画だけです。マルチプレイと、掘った地面の上への建築には、まだ対応していません。\n\n- 平らな地面で、Mods メニューから区画を作成\n- シャベルまたはツルハシで掘り、シャベルで埋める\n- 掘った土は蓄えに入り、埋めるときに使われる\n- 元に戻すと、地面と土の両方が戻る\n\nアンインストールする前に、穴から出てください。掘った形は、Mod がなければ存在しないためです。",
+        "inTesting": "島全体を掘れるようになる機能をテスト中です。シャベルで島のどこでも掘る、埋める、平らにする、なめらかにすることができ、ワールドと一緒に保存されます。現在のダウンロードにはまだ含まれていません。",
+        "changelog": {
+          "0.2.2": "地形の作成、読み込み、削除、復旧の前に、コンソールまたは Mods メニューで確認が表示されるようになりました。\nModstoke Loader 0.4.0 とその Modstoke フォルダで動作します。"
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "Terraforming の区画の砂に掘った穴"
+          },
+          "mods-page": {
+            "alt": "Mods メニューの Terraforming ページ"
+          },
+          "mound-test": {
+            "alt": "埋め戻した土の盛り上がりの上を歩く Kelvin",
+            "caption": "テスト版です。現在のダウンロードにはまだ入っていません。"
+          }
+        }
+      },
+      "virginia": {
+        "summary": "Virginia の服の色を変え、彼女と過ごすための任意の方法をいくつか追加します。あいさつ、感謝、静かなひとときです。",
+        "description": "Virginia 向けの、いくつかの任意の追加要素です。服の色と、あいさつをしたり、感謝を伝えたり、ただ静かに過ごしたりする方法が加わります。すべて、最初はオフです。\n\n- 服の色：Original、Crimson、Forest、Ocean、Charcoal、Ivory（自分の画面だけに反映）\n- あいさつ、感謝、静かなひととき（ホストが許可している場合）\n- メニューで確認できる、別枠のきずな。ワールドと一緒に保存されます\n\n彼女のモデル、テクスチャ、アニメーションはゲーム本来のものです。きずなは、彼女の行き先、あなたへの好感度、持ってきてくれるものには影響しません。",
+        "changelog": {
+          "0.1.2": "親密度の進み具合が、ゲームと一緒に保存されるようになりました。\nModstoke Loader 0.4.0 とその Modstoke フォルダで動作します。"
+        },
+        "media": {
+          "path": {
+            "alt": "森の小道を歩く Virginia"
+          },
+          "trailer": {
+            "alt": "森を背景にした Virginia のトレーラーのタイトル画面"
+          },
+          "settings": {
+            "alt": "Mods メニューの Virginia の設定"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Sons of the Forest のホスト用ツール。ワールドにだれがいるか、何をしていたかを確認し、ゲームを離れずに投獄、ミュート、キック、BAN ができます。",
+            "description": "ワールドをホストしているなら、Admin がプレイヤー一覧とモデレーションツールを、ゲーム内の 1 つのメニューにまとめます。プレイヤーを選ぶと、Steam ID と Mod が気づいたことが見られ、その場で対処できます。\n\n- 投獄、ミュート、キック、BAN ができる名簿\n- 移動、アイテム、建築、サーバー、行動に整理された証拠\n- 専用の権限を持つスタッフロール（専用サーバーのリモートスタッフを含む）\n- 時刻、天気、ワールド設定のホスト用コントロール\n\n証拠は、問題を調べるための手がかりです。完全なチート対策ではなく、勝手に BAN やキックが行われることもありません。参加するプレイヤーには、Admin は不要です。",
+            "changelog": {
+              "0.5.221": "スタッフロール：許可と拒否の権限を個別に持つ階級つきロールと、有効期限つきの Steam64 管理者リスト。\nリモートスタッフは、リッスンホストと専用サーバーで F7 を使えます。ホストがすべてのリクエストを確認します。\nF7 メニュー：フォーカスとカーソルが固まる問題を修正し、新しいスキンと、シンプル・詳細のレイアウトを追加。\nMod を入れていないプレイヤー：速度制限は、ホストが確認できる乗り物にだけ適用され、アイテム拾いの複製バグを修正。\n無敵モード、スピードハック、連射速度、あり得ない命中、Steam チケットの新しい証拠を追加。"
+            },
+            "media": {
+              "overview": {
+                "alt": "ゲーム風のスキンで、森の上に開いた Admin メニュー"
+              },
+              "trailer": {
+                "alt": "森を背景にした Admin のトレーラーのタイトル画面"
+              },
+              "overview-classic": {
+                "alt": "クラシックスキンの Admin 概要ページ"
+              },
+              "world": {
+                "alt": "Admin メニューのワールド操作"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "Nexus Mods へはブラウザ経由でサインインできます。個人用 API キーはもう必要ありません。Manager は Loader の新しい Modstoke フォルダーに対応し、OpenACAI の Mod と設定は次回のゲーム起動時に移行されます。modstoke:// の参加リンクに対応した、コミュニティサーバーブラウザーを新たに追加しました。あわせて dedicated サーバー向けのツールも加わっています。ゲーム設定、スタッフ権限、リアルタイムのコンソール、より安全な停止と再起動です。ゲームとサーバー用の Loader コンソールも追加し、Loader のインストールは修復とアップグレードのみで、ダウングレードはしなくなりました。設定でスキンを選べます。ゲームのファイルから読み取ったゲーム本来の外観か、シンプルな Modstoke スタイルです。起動が速くなり、Mod カタログの安定性が増し、Manager が読み取り、ダウンロードし、インストールする内容への制限も厳しくなりました。",
+    "loader-0-4-2-net11-preview": "Linux ホスト上の Wine で動作するようになり、ホスティングされた dedicated サーバーでも使えます。すべての Wine 環境で起きていた起動エラーを修正しました。ホスティングパネルに対応しました。JSON で返答するコンソールコマンド、リアルタイムのステータスファイル、きれいなセーブと停止、プレイヤー・セーブスロット・Mod の一覧、イベントストリーム、クラッシュレポート、ブロードキャスト、Mod ごとのパフォーマンス計測です。Mod は説明と、必要な Loader の最低バージョンを宣言できます。Mod 向けの新しい SDK 機能として、ホストコマンド、入力フォーカスの所有者、メニューの表示状態を追加しました。以前の Modstoke や OpenACAI のビルドから移行する場合は、先に Modstoke Legacy Cleanup 1.1.0 を実行してください。",
+    "loader-0-4-1-net11-preview": "Modstoke Manager 0.3.0 が Loader のインストールを拒否する問題を修正しました。それ以外は 0.4.0 と同じです。Loader は Modstoke フォルダーに置かれるようになりました。Mod と設定は初回起動時に OpenACAI から移行され、上書きされるものはありません。ダウンロードに同梱されている .NET 11 RC3 で動作します。Unity の基本ライブラリは、アーカイブに同梱する代わりに、初回起動時に modstoke.com からダウンロードされます。ゲーム本来のメニューに合わせた、新しいゲーム内の Mods メニューを追加しました。スクロールバーとなめらかなスクロールにも対応しています。SDK 経由で保存した Mod のセーブデータは、セーブをロードしたときに復元されるようになりました。dedicated サーバーで、古いワールド転送のエントリーがすべてのアイテム拾得と収納の移動を妨げることがある不具合を修正しました。起動ログに Loader のビルドが正確に表示され、.NET ランタイムが一致しない場合は警告されます。以前の Modstoke や OpenACAI のビルドから移行する場合は、先に Modstoke Legacy Cleanup 1.1.0 を実行してください。このダウンロードに含まれています。",
+    "loader-0-4-0-net11-preview": "Loader は Modstoke フォルダーに置かれるようになりました。Mod と設定は初回起動時に OpenACAI から移行され、上書きされるものはありません。ダウンロードに同梱されている .NET 11 RC3 で動作します。Unity の基本ライブラリは、アーカイブに同梱する代わりに、初回起動時に modstoke.com からダウンロードされます。ゲーム本来のメニューに合わせた、新しいゲーム内の Mods メニューを追加しました。スクロールバーとなめらかなスクロールにも対応しています。SDK 経由で保存した Mod のセーブデータは、セーブをロードしたときに復元されるようになりました。dedicated サーバーで、古いワールド転送のエントリーがすべてのアイテム拾得と収納の移動を妨げることがある不具合を修正しました。起動ログに Loader のビルドが正確に表示され、.NET ランタイムが一致しない場合は警告されます。以前の Modstoke や OpenACAI のビルドから移行する場合は、先に Modstoke Legacy Cleanup 1.1.0 を実行してください。このダウンロードに含まれています。"
+  }
+}

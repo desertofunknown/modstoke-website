@@ -1,0 +1,1151 @@
+{
+  "_about": "modstoke.com-tekstit suomeksi (sinuttelu). Käännetty tiedostosta en.json; äidinkielisten puhujien korjaukset ovat tervetulleita. Aaltosulkeissa {näin} oleva teksti täytetään sivustolla, ja sen pitää pysyä sellaisenaan.",
+  "seo": {
+    "home": {
+      "title": "Modstoke: Sons of the Forest -modit, Mod Manager ja Loader",
+      "description": "Ilmaisia Sons of the Forest -modeja ja työkalut niiden ajamiseen: Modstoke Manager Windowsille, Modstoke Loader sekä modit Client, Admin, Terraforming ja Virginia."
+    },
+    "mods": {
+      "title": "Sons of the Forest -modit | Modstoke",
+      "description": "Modstoken modit Sons of the Forest -peliin: Client (tabletti, drooni, Kestrel-kone), Admin-isäntätyökalut, Terraforming, Virginia. Versiot, vaatimukset, moninpeli."
+    },
+    "tools": {
+      "title": "Modstoke Manager, Loader ja SDK Sons of the Forest -peliin",
+      "description": "Lataa Modstoke Manager Windowsille, lisää Modstoke Loader Sons of the Forest -peliin ja rakenna modeja sen mukana tulevalla SDK:lla."
+    },
+    "docs": {
+      "title": "Modstoken dokumentaatio pelaajille ja modintekijöille",
+      "description": "Miten Modstoke Manager, Loader ja modit toimivat yhdessä, pelin yhteensopivuus ja mitä kannattaa tietää ennen Sons of the Forest -modin tekemistä."
+    },
+    "releases": {
+      "title": "Lataa Modstoke Manager ja Loader | Julkaisut",
+      "description": "Lataa Modstoke Manager Windowsille ja Modstoke Loader. Jokaisesta julkaisusta näkyy versio, muutokset, koko, allekirjoituksen tila ja SHA-256."
+    },
+    "hosting": {
+      "title": "Sons of the Forest -palvelinhosting | Modstoke",
+      "description": "Vuokraa oma Sons of the Forest -palvelin voittoa tavoittelemattomalta OpenACAI:lta: omat ytimet, päivittäiset varmuuskopiot ja Modstoke Loader valmiina."
+    },
+    "support": {
+      "title": "Tue Modstokea | OpenACAI",
+      "description": "Lahjoita, jotta Modstoke pysyy ilmaisena. Lahjoitukset menevät voittoa tavoittelemattomalle OpenACAI:lle (501(c)(3)) ja sen GAMHON-ohjelmalle."
+    },
+    "servers": {
+      "title": "Sons of the Forest -yhteisöpalvelimet | Modstoke",
+      "description": "Löydä Sons of the Forest -palvelimia, joiden isännät halusivat ne listalle, pelaajamäärineen, vaadittuine modeineen ja asetuksineen, tai opi listaamaan omasi."
+    },
+    "notFound": {
+      "title": "Sivua ei löytynyt | Modstoke",
+      "description": "Sivua ei löytynyt. Palaa Modstokeen Sons of the Forest -modien, työkalujen ja oppaiden pariin."
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke, modeja ja työkaluja Sons of the Forest -peliin",
+    "organization": "Ilmaisia modityökaluja ja yhteisö Sons of the Forest -peliin, OpenACAI:lta."
+  },
+  "nav": {
+    "mods": "Modit",
+    "tools": "Työkalut",
+    "servers": "Palvelimet",
+    "hosting": "Hosting",
+    "guides": "Oppaat",
+    "docs": "Dokumentit",
+    "releases": "Julkaisut"
+  },
+  "layout": {
+    "skip": "Siirry sisältöön",
+    "current": "Nykyinen",
+    "noDownloads": "Ei vielä julkisia latauksia",
+    "support": "Tue Modstokea",
+    "home": "Modstoken etusivu",
+    "menu": "Valikko",
+    "mainNav": "Päänavigointi",
+    "download": "Lataa Manager",
+    "language": "Kieli",
+    "languageNote": "Valitse sivuston kieli. Valintasi muistetaan.",
+    "translated": "Käännetty englannista. Korjaukset ovat tervetulleita Discordissamme."
+  },
+  "footer": {
+    "about": "Ilmaisia modeja ja työkaluja Sons of the Forest -peliin, tekijänä voittoa tavoittelematon OpenACAI osana {gamhon}-ohjelmaa, joka tukee mielenterveyttä ja sosiaalisia yhteyksiä pelien kautta. Ei yhteyttä Endnight Gamesiin.",
+    "label": "Alatunniste",
+    "play": "Pelaa",
+    "build": "Rakenna",
+    "community": "Yhteisö",
+    "mods": "Modit",
+    "servers": "Palvelimet",
+    "rent": "Vuokraa palvelin",
+    "panel": "Palvelinpaneeli",
+    "install": "Asennusopas",
+    "troubleshooting": "Vianmääritys",
+    "tools": "Manager, Loader ja SDK",
+    "makeMod": "Tee modi",
+    "releases": "Julkaisut",
+    "discord": "Discord",
+    "support": "Tue Modstokea",
+    "apps": "Discord-sovellukset",
+    "privacy": "Tietosuoja",
+    "terms": "Ehdot"
+  },
+  "pages": {
+    "overview": "Yleiskatsaus",
+    "mods": "Modit",
+    "tools": "Työkalut",
+    "docs": "Dokumentit",
+    "releases": "Julkaisut",
+    "servers": "Yhteisöpalvelimet",
+    "hosting": "Palvelinhosting",
+    "support": "Tue Modstokea",
+    "notFound": "Sivua ei löytynyt",
+    "noReleases": {
+      "eyebrow": "Julkaisut",
+      "title": "Ei vielä latauksia",
+      "lede": "Tänne ei ole vielä julkaistu mitään. Jokaisesta julkaisusta näkyy versio, muutokset, yhteensopivuus ja tiedostojen tarkistussummat."
+    },
+    "missing": {
+      "title": "Täällä ei ole mitään.",
+      "lede": "Sivua ei ole olemassa, tai se on siirretty.",
+      "home": "Takaisin Modstokeen",
+      "mods": "Katso modit"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "Iltavaloa lumisilla huipuilla saaren mäntymetsän yläpuolella",
+      "title": "Modeja, jotka tuntuvat osalta peliä.",
+      "lede": "Modstoke on modilataaja, työpöytähallinta ja toistaiseksi neljä omaa modia: Client, Admin, Terraforming ja Virginia. Kaikki on ilmaista, ja sen tekee voittoa tavoittelematon OpenACAI.",
+      "download": "Lataa Manager {version}",
+      "seeMods": "Katso modit",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · OpenACAI:n allekirjoittama"
+    },
+    "mods": {
+      "title": "Omat modimme",
+      "all": "Kaikki modit"
+    },
+    "setup": {
+      "title": "Alkuun pääseminen",
+      "manager": {
+        "title": "Asenna Manager.",
+        "body": "Osoita sille Sons of the Forest -kansiosi, niin se löytää pelisi ja tallennuksesi."
+      },
+      "loader": {
+        "title": "Lisää Loader.",
+        "body": "Manager asentaa sen. Se tuo Mods-valikon otsikko- ja taukonäyttöön."
+      },
+      "mods": {
+        "title": "Valitse modisi.",
+        "body": "Useimmat haluavat Clientin. Jos isännöit peliä, lisää myös Admin."
+      },
+      "backup": "Varmuuskopioi tallennuksesi ensin. {guide} käy sen läpi vaihe vaiheelta.",
+      "guideLink": "Asennusopas",
+      "shotAlt": "Modstoke Manager näyttämässä Sons of the Forest -modiensa luettelon",
+      "shotCaption": "Managerin modiluettelo. Näytetyt kohdat tulevat SOTF Modsista, eivät tältä sivustolta."
+    },
+    "releases": {
+      "title": "Uusimmat julkaisut",
+      "all": "Kaikki julkaisut"
+    },
+    "ledger": {
+      "manager": "Windows-asennusohjelma, allekirjoitettu",
+      "loader": "Loader ja SDK, esiversio"
+    },
+    "together": {
+      "title": "Pelatkaa yhdessä",
+      "body": "{servers} näyttää Sons of the Forest -maailmoja, joiden isännät halusivat ne listalle, sekä kunkin vaatimat modit. {discord}-yhteisössämme löydät porukan, ilmoitat virheistä ja kuulet uusista versioista ensimmäisten joukossa. Kaikki tämä kuuluu {gamhon}-ohjelmaan, OpenACAI:n ohjelmaan mielenterveyden ja sosiaalisten yhteyksien tueksi pelien kautta.",
+      "serversLink": "Palvelinluettelo",
+      "browse": "Selaa palvelimia",
+      "join": "Liity Discordiin"
+    }
+  },
+  "hosting": {
+    "eyebrow": "Palvelinhosting",
+    "title": "Vuokraa Sons of the Forest -palvelin",
+    "lede": "Oma palvelin omalla laitteistollamme, Modstoke Loader ja modimme valmiina. OpenACAI ylläpitää sitä voittoa tavoittelemattomana, ja maksamasi raha pitää palvelimet ja modit käynnissä.",
+    "status": "Aukeaa pian, aluksi pienellä betalla Discordimme jäsenille.",
+    "plans": {
+      "heading": "Paketit",
+      "small": "Small",
+      "standard": "Standard",
+      "price": "{price} kuukaudessa tai halutessasi enemmän",
+      "players": "Pelaajat",
+      "upTo": "Enintään {count}",
+      "cpu": "Suoritin",
+      "cores": "{cores} omaa ydintä",
+      "memory": "Muisti",
+      "memorySize": "{memory} Gt",
+      "storage": "Tallennustila",
+      "storageSize": "{disk} Gt NVMe-levyllä",
+      "note": "Jokaisella paketilla on vähimmäishinta. Kassalla voit maksaa enemmän, jos haluat. Vähimmäishinnan ylittävä osa lasketaan lahjoitukseksi OpenACAI:lle ja näkyy kuitillasi omana rivinään. 16 pelaajan paketti tulee myöhemmin, kun olemme testanneet sellaisen kunnolla."
+    },
+    "get": {
+      "title": "Mitä saat",
+      "cores": {
+        "title": "Omat ytimet.",
+        "body": "Palvelimesi suoritinytimiä ei jaeta kenenkään toisen kanssa."
+      },
+      "modstoke": {
+        "title": "Modstoke valmiiksi asennettuna.",
+        "body": "Loader on asennettu ja pidetään ajan tasalla, ja modimme ovat yhden napsautuksen päässä."
+      },
+      "find": {
+        "title": "Helppo löytää.",
+        "body": "Se näkyy pelin palvelinselaimessa, ja jos haluat sen listalle, myös {servers} Managerin liittymislinkin kanssa.",
+        "link": "Palvelimet-sivullamme"
+      },
+      "admin": {
+        "title": "Admin-työkalut.",
+        "body": "Modstoke Admin tunnistaa sinut omistajaksi Steam-tilisi kautta."
+      },
+      "panel": {
+        "title": "Yksinkertainen hallintapaneeli.",
+        "body": "Vedä tiedostot ja kansiot suoraan sisään, seuraa konsolia, katso ketkä pelaavat ja suorita komentoja, kaikki yhdeltä näytöltä."
+      },
+      "world": {
+        "title": "Maailmasi pysyy sinulla.",
+        "body": "Varmuuskopio joka päivä, säilytettynä viikon, ja yhdellä napsautuksella lataat maailmasi omalle tietokoneellesi."
+      },
+      "discord": {
+        "title": "Koti Discordissamme.",
+        "body": "Palvelimesi saa omat tiedotus- ja keskustelukanavat, ja henkilökuntasi saa moderointihälytykset."
+      },
+      "coast": {
+        "title": "Lähellä itärannikkoa.",
+        "body": "Isännöity New Jerseyssä 1 Gbit/s -yhteydellä."
+      }
+    },
+    "how": {
+      "title": "Näin se toimii",
+      "apply": {
+        "title": "Hae.",
+        "body": "Kirjaudu sisään Discordilla, yhdistä Steam-tilisi ja kerro, mihin palvelinta tarvitaan."
+      },
+      "review": {
+        "title": "Tarkistamme hakemuksen.",
+        "body": "Joku tiimistämme lukee jokaisen hakemuksen."
+      },
+      "pay": {
+        "title": "Maksa PayPalilla.",
+        "body": "Valitse paketti ja se, kuinka paljon haluat maksaa. Se uusiutuu kuukausittain, ja voit perua milloin tahansa."
+      },
+      "play": {
+        "title": "Pelaa.",
+        "body": "Palvelimesi käynnistyy muutamassa minuutissa, ja hallitset sitä {panel}.",
+        "link": "paneelin kautta"
+      }
+    },
+    "faq": {
+      "title": "Kysymyksiä",
+      "players": {
+        "q": "Voiko pelaajia olla yli 8?",
+        "a": "Ei vielä. Kahdeksan on pelin oma raja. Loaderimme voi nostaa sitä, ja lisäämme 16 pelaajan paketin, kun olemme ajaneet sellaista oikeilla pelaajilla."
+      },
+      "mods": {
+        "q": "Voinko lisätä omia modeja?",
+        "a": "Voit, tiedostonhallinnan kautta. Palvelimesi toimii omassa tilassaan, erillään kaikkien muiden palvelimista."
+      },
+      "payment": {
+        "q": "Mitä tapahtuu, jos maksu epäonnistuu?",
+        "a": "Muutaman päivän lisäajan jälkeen palvelimesi keskeytetään. Säilytämme sen tiedostot 14 päivää, joten voit jatkaa siitä, mihin jäit."
+      },
+      "apply": {
+        "q": "Miksi minun pitää hakea?",
+        "a": "Olemme pieni voittoa tavoittelematon järjestö, joka jakaa yhden koneen, joten haluamme tietää, ketä siinä on. Se pitää kaiken reiluna ja turvallisena kaikille."
+      },
+      "rules": {
+        "q": "Mitkä ovat säännöt?",
+        "a": "{terms} kattavat hostingin, mukaan lukien hyvitykset ja sen, mitä tiedostoillesi tapahtuu palvelimen päättyessä. {privacy} kertoo, mitä säilytämme.",
+        "termsLink": "Käyttöehdot",
+        "privacyLink": "Tietosuojakäytäntö"
+      }
+    },
+    "beta": {
+      "title": "Haluatko mukaan betaan?",
+      "body": "Kysy Discordissamme, niin lisäämme sinut listalle. Hosting kuuluu {gamhon}-ohjelmaan, OpenACAI:n ohjelmaan mielenterveyden ja sosiaalisten yhteyksien tueksi pelien kautta.",
+      "have": "Onko sinulla jo palvelin? {panel} hallitaksesi sitä.",
+      "panelLink": "Avaa paneeli",
+      "ask": "Kysy Discordissa",
+      "code": "Minulla on betakoodi",
+      "servers": "Yhteisöpalvelimet"
+    }
+  },
+  "support": {
+    "eyebrow": "Tuki",
+    "title": "Pidä Modstoke käynnissä",
+    "lede": "Modimme ja työkalumme ovat ilmaisia. Ne tekee OpenACAI, 501(c)(3)-voittoa tavoittelematon järjestö, ja lahjoitukset maksavat tämän sivuston palvelimen, Discord-bottimme ja yhteisöpalvelimet.",
+    "donate": {
+      "title": "Lahjoita",
+      "often": "Kuinka usein",
+      "once": "Kerran",
+      "monthly": "Kuukausittain",
+      "amount": "Summa Yhdysvaltain dollareina",
+      "otherLabel": "Muu summa",
+      "otherPlaceholder": "Muu $",
+      "closed": "Verkkolahjoitukset aukeavat pian. Siihen asti voit kysyä {discord}-yhteisössämme, miten voit auttaa.",
+      "note": "Maksut kulkevat PayPalin kautta, joka lähettää sinulle kuitin sähköpostitse. Emme koskaan näe korttitietojasi."
+    },
+    "roles": {
+      "title": "Tukijaroolit",
+      "intro": "Lahjoittajat saavat Discordissamme roolin kiitokseksi:",
+      "supporter": {
+        "name": "Tukija",
+        "text": "Jokainen, joka on lahjoittanut"
+      },
+      "monthly": {
+        "name": "Kuukausitukija",
+        "text": "Niin kauan kuin kuukausilahjoitus on käynnissä"
+      },
+      "host": {
+        "name": "Palvelimen isäntä",
+        "text": "Jokainen, joka vuokraa {hosting}",
+        "link": "palvelimen meiltä"
+      },
+      "note": "Kunnes tilit aukeavat, lähetä Discordissa viesti moderaattorille PayPal-kuittisi numerolla, niin hän lisää roolin. Roolit ovat vain kiitos. Modit pysyvät ilmaisina kaikille joka tapauksessa."
+    },
+    "gamhon": {
+      "title": "Osa GAMHONia",
+      "what": "Modstoke on osa GAMHONia, Game and Mental Health Online Networkia. OpenACAI ylläpitää sitä antaakseen ihmisille paineettoman sosiaalisen vastapainon pelien kautta, myös niille, joilla ei ole montaa muuta paikkaa tutustua toisiin.",
+      "modding": "Modaus sopii siihen täydellisesti. Kuten mikä tahansa harrastus, se antaa sinulle tekemistä ja odotettavaa, ja siihen kuuluu yhteisö ihmisiä, jotka rakentavat asioita yhdessä. Ilmaiset työkalumme, Discordimme ja isännöimämme palvelimet ovat kaikki osa sitä.",
+      "money": "Täällä tehdyt lahjoitukset ja {hosting}-maksut menevät OpenACAI:lle ja auttavat rahoittamaan ohjelmaa.",
+      "hostingLink": "palvelinhosting",
+      "crisis": "GAMHON liittyy vapaa-aikaan ja ystävyyteen, ei neuvontaan. Jos olet kriisissä Yhdysvalloissa, soita tai lähetä tekstiviesti numeroon 988.",
+      "more": "Lisää GAMHONista osoitteessa openacai.com"
+    },
+    "where": {
+      "title": "Mihin raha menee",
+      "body": "Palvelin tulee ensin. Yksi kone New Jerseyssä ajaa tätä sivustoa, Sentinelia (Discord-bottiamme) ja sen paikallista tekoälyä sekä isännöimiämme pelipalvelimia. Kaikki sen ylittävä menee muuhun GAMHON-toimintaan.",
+      "ask": "Kysyttävää? Kysy Discordissa"
+    }
+  },
+  "servers": {
+    "eyebrow": "Yhteisöpalvelimet",
+    "title": "Löydä palvelin",
+    "intro": "Sons of the Forest -maailmoja, joiden isännät halusivat ne tänne listalle, sekä kunkin vaatimat modit.",
+    "listYours": "Listaa palvelimesi",
+    "directoryLabel": "Palvelinhakemisto",
+    "filters": {
+      "find": "Etsi palvelinta",
+      "placeholder": "Palvelin, isäntä, alue tai modi…",
+      "status": "Tila",
+      "allStatuses": "Kaikki tilat",
+      "online": "Verkossa",
+      "offline": "Ei verkossa",
+      "kind": "Istunnon tyyppi",
+      "allSessions": "Kaikki istunnot",
+      "dedicated": "Dedicated",
+      "playerHosted": "Pelaajan isännöimä",
+      "refresh": "Päivitä"
+    },
+    "loading": "Ladataan hakemistoa…",
+    "refreshes": "Päivittyy 60 sekunnin välein, kun sivu on näkyvissä.",
+    "noscript": {
+      "title": "Palvelinten lataaminen vaatii JavaScriptin.",
+      "body": "Ota JavaScript käyttöön nähdäksesi live-hakemiston. Tälle sivulle ei tallenneta palvelintietoja."
+    },
+    "measureNote": "Pelaajamäärät, jotka on merkitty —, ovat tuntemattomia. Isännän viive on isännän mittaama yhdistyneiden pelaajien edestakaisen kulkuajan mediaani; sinun yhteytesi voi poiketa siitä.",
+    "join": {
+      "eyebrow": "ENNEN KUIN LIITYT",
+      "title": "Paikka seuraavalle pelikerrallesi.",
+      "review": "Avaa palvelin nähdäksesi sen vaatimat modit, valitut asetukset ja viimeaikaisen toiminnan. Vaatimukset näytetään, jotta voit tarkistaa ne; tämä sivu ei lataa eikä asenna modeja.",
+      "manager": "Liittyminen avaa Modstoke Managerin version 0.3.0 tai uudemman, joka näyttää palvelimen tiedot uudelleen vahvistettavaksesi ennen kuin mitään käynnistyy."
+    },
+    "host": {
+      "eyebrow": "ISÄNNILLE",
+      "title": "Jaa palvelimesi, omasta tahdostasi.",
+      "ask": "Pyydä hakemiston ylläpitäjää {discord} hyväksymään listauksesi ja myöntämään julkaisuavain. Määritä avain hosting-komponenttiin ja ota sitten julkaiseminen erikseen käyttöön. Älä julkaise avainta keskustelussa äläkä syötä sitä tälle verkkosivustolle.",
+      "discordLink": "Discordissamme",
+      "privacy": "Vain suostuneet isännät raportoivat. Listauksissa on palvelimen tiedot, valitut asetukset ja koottu toiminta, ei pelaajien nimiä, keskusteluja, salasanoja eikä yksityisiä Admin-tietoja. Ota yhteyttä ylläpitäjään poistaaksesi listauksen tai mitätöidäksesi sen avaimen."
+    },
+    "detail": {
+      "eyebrow": "PALVELIMEN TIEDOT",
+      "close": "Sulje",
+      "loading": "Ladataan palvelinta…"
+    }
+  },
+  "tools": {
+    "eyebrow": "Työkalut",
+    "title": "Manager, Loader ja SDK",
+    "lede": "Pelaajat tarvitsevat Managerin ja Loaderin. Modintekijät rakentavat SDK:ta vasten, joka tulee Loaderin mukana.",
+    "installGuide": "Asennusopas",
+    "trailer": {
+      "watch": "Katso {name}-traileri YouTubessa",
+      "alt": "Otsikkokuva {name}-trailerista",
+      "caption": "{name}-traileri, toistetaan YouTubessa"
+    },
+    "file": {
+      "none": "Ei vielä julkista latausta.",
+      "signed": "allekirjoitettu",
+      "unsigned": "allekirjoittamaton",
+      "preview": "esiversio"
+    },
+    "manager": {
+      "what": "Windows-sovellus Sons of the Forest -modeillesi. Se löytää pelisi, asentaa Loaderin ja pitää modisi yhdessä paikassa. Voit selata sillä SOTF Modsia ja Nexus Modsia, löytää palvelimen, johon liittyä, tai perustaa oman dedicated-palvelimen.",
+      "store": "Kun Modstoke-kauppa aukeaa, Manager on tapa asentaa sieltä: se tarkistaa jokaisen tiedoston allekirjoitettua luetteloa vasten ennen kuin mitään puretaan.",
+      "download": "Lataa Manager"
+    },
+    "loader": {
+      "what": "Jokaisen Modstoke-modin takana oleva lataaja. Asenna se kerran ja lisää sitten haluamasi modit. Se tuo Mods-valikon otsikko- ja taukonäyttöön, jossa jokainen modi pitää asetuksiaan, ja sen mukana tulee tarvittava .NET-ajoympäristö.",
+      "legacy": "Vanhemmat RedLoader- ja BepInEx-modit toimivat sen rinnalla edelleen.",
+      "onReleases": "Loader Julkaisut-sivulla",
+      "nexus": "Nexus-sivu",
+      "shotAlt": "Loaderin Mods-valikko pelissä",
+      "shotCaption": "Mods-valikko, jonka Loader lisää peliin"
+    },
+    "sdk": {
+      "what": "Rajapinnat, joita vasten modit rakennetaan. Ne tulevat Loaderin sisällä, joten erillistä ladattavaa ei ole: viittaa Loaderin assemblyyn projektistasi ja testaa samalla Loader-versiolla, jota pelaajasi ajavat.",
+      "notes": "{notes} kattavat pakettien rakenteen, manifestin ja testaamisen pelin erillisellä kopiolla.",
+      "notesLink": "Tekijän huomautukset"
+    }
+  },
+  "guides": {
+    "home": "Etusivu",
+    "guides": "Oppaat",
+    "breadcrumb": "Polku",
+    "eyebrow": "PELAAJAOPPAAT",
+    "onThisPage": "Tällä sivulla",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "Managerin esiversio",
+    "backup": {
+      "exit": "Sulje Sons Of The Forest ja sulje kaikki modityökalut, jotka voisivat muuttaa sen tiedostoja. Anna mahdollisen Steam Cloud -synkronoinnin valmistua.",
+      "find": "Liitä {path} Resurssienhallinnan osoiteriville. Tavallisessa paikallisessa pelin asennuksessa {saves}-kansio sijaitsee siellä. Jos sitä ei ole, tarkista Windows-tili ja asennuksesi käyttämä tallennuspaikka ennen kuin jatkat.",
+      "copy": "Kopioi koko {saves}-kansio erilliseen, päivättyyn varmuuskopiokansioon pelin ja sen tallennushakemiston ulkopuolelle. Kopioi se; älä siirrä tai poista alkuperäistä. Säilytä kaikki tili- ja maailma-alikansiot.",
+      "verify": "Avaa varmuuskopio ja varmista, että odotetut alikansiot ja tiedostot ovat paikallaan. Älä koske tähän kopioon, kun teet muutoksia. Steam Cloud ei korvaa erillistä varmuuskopiota.",
+      "note": "Dedicated-palvelimella tai muualle tallennetuissa tallennuksissa varmuuskopioi kyseisen palvelimen määritetty tallennuspaikka erikseen. Ennen vanhemman kopion palauttamista säilytä myös nykyiset tallennukset, jotta voit perua palautuksen."
+    },
+    "checksum": {
+      "open": "Valinnainen: avaa PowerShell kansiossa, jossa ladattu asennusohjelma on, ja suorita:",
+      "compare": "Vertaa palautettua {hash}-arvoa samaa versiota vastaavaan SHA-256-arvoon {release}. Tälle versiolle ({manager}) tallennettu arvo on:",
+      "releasePage": "julkaisusivun kohdassa",
+      "differs": "Jos se poikkeaa, älä suorita tiedostoa. Lataa se uudelleen julkaisusivulta ja tarkista uudelleen. Täsmäävä tiiviste vahvistaa, että tavut vastaavat julkaistua tarkistussummaa; se ei todista julkaisijan henkilöllisyyttä eikä tee allekirjoittamattomasta asennusohjelmasta allekirjoitettua. Katso Microsoftin {reference}.",
+      "reference": "Get-FileHash-ohje",
+      "none": "Manager-tiedostoa ei ole tällä hetkellä valittu. Tarkista {releases}-sivulta, onko julkaistua asennusohjelmaa ja sen tarkistussummaa, ennen kuin jatkat.",
+      "releases": "Julkaisut"
+    },
+    "index": {
+      "title": "Sons Of The Forest -modausoppaat",
+      "description": "Asenna Modstoke Manager Windowsiin, varmuuskopioi tallennuksesi ja ratkaise Sons Of The Forest -modien ongelmia.",
+      "statusTitle": "Aloita siitä, mikä on saatavilla",
+      "statusManager": "{manager} on saatavilla Windowsille.",
+      "statusManagerPreview": "{manager} on saatavilla Windowsille esiversiona.",
+      "statusNoManager": "Tarkista Julkaisut-sivulta, onko Manager tällä hetkellä saatavilla.",
+      "statusLoader": "Loader {version} SDK:n kanssa on myös Julkaisut-sivulla, ja Manager voi asentaa sen puolestasi. Modeilla, kuten Clientilla, on omat latauksensa, eikä Modstokella ole vielä isännöityä modiluetteloa.",
+      "statusNoLoader": "Täydellistä Modstoke Loader-, SDK- ja Client-pakettia ei ole julkaistu. Tämän paketin automaattinen asennus ei ole käytettävissä, eikä Modstokella ole vielä isännöityä modiluetteloa.",
+      "reviewReleases": "Katso nykyiset julkaisut",
+      "cardsLabel": "Saatavilla olevat oppaat",
+      "installEyebrow": "WINDOWS-ASENNUS",
+      "installTitle": "Asenna Modstoke Manager",
+      "installText": "Varmuuskopioi tallennukset, etsi virallinen asennusohjelma, tarkista sen tarkistussumma ja valitse pelisi asennus.",
+      "installLink": "Lue asennusopas",
+      "troubleEyebrow": "VIANMÄÄRITYS",
+      "troubleTitle": "Pelimodien vianmääritys",
+      "troubleText": "Erota Managerin asennus Loaderin ja modien ongelmista, tarkista vaatimukset ja valmistele hyödyllinen virheraportti.",
+      "troubleLink": "Lue vianmääritysopas",
+      "footer": "Projektitietoja ja tekijän valmisteluohjeita löydät {docs}.",
+      "docs": "dokumentaatiosta"
+    },
+    "install": {
+      "title": "Modstoke Managerin asentaminen Windowsiin",
+      "description": "Vaiheittainen opas Modstoke Managerin asentamiseen: tallennusten varmuuskopiot, virallinen lataus, valinnainen SHA-256-tarkistus ja pelin valinta.",
+      "crumb": "Asenna Modstoke Manager",
+      "toc": {
+        "before": "Ennen kuin aloitat",
+        "backup": "Varmuuskopioi tallennukset",
+        "download": "Lataa Manager",
+        "check": "Tarkista lataus",
+        "install": "Asenna ja valitse peli",
+        "next": "Mitä seuraavaksi"
+      },
+      "before": {
+        "title": "Ennen kuin aloitat",
+        "intro": "Tämä opas koskee Modstoke Manageria Windowsille. Pidä Sons Of The Forestin Steam-asennus saatavilla ja sulje peli ennen asennusta. Nykyinen lataus on {manager}.",
+        "signed": "Asennusohjelman on allekirjoittanut {publisher}. Jos Windows näyttää sen sijaan tuntemattoman julkaisijan, älä suorita sitä ja lataa se uudelleen Julkaisut-sivulta.",
+        "unsigned": "Julkaistu esiversion asennusohjelma on allekirjoittamaton. Windows saattaa näyttää varoituksen, koska se ei voi tarkistaa julkaisijan allekirjoitusta. Tutustu lähdekoodiin ja julkaisun tietoihin ennen kuin päätät, suoritatko sen. Älä poista Windowsin suojauksia käytöstä asentaaksesi sen. Jos olet epävarma, peruuta ja odota allekirjoitettua julkaisua.",
+        "scope": "Managerin asentaminen ei asenna peliä eikä osoita, että modit toimivat.",
+        "scopeLoader": "Kun Manager on otettu käyttöön, se voi asentaa Loaderin Loaderit-sivultaan.",
+        "scopeNoLoader": "Täydellistä Modstoke Loader-, SDK- ja Client-pakettia ei ole vielä julkaistu, joten paketin automaattinen asennus ei ole käytettävissä."
+      },
+      "backupTitle": "1. Varmuuskopioi tallennuksesi",
+      "download": {
+        "title": "2. Hae virallinen lataus",
+        "open": "Avaa {releases} ja etsi Managerin lataus.",
+        "releases": "Modstoken julkaisut",
+        "read": "Lue versio, allekirjoitustiedot ja tallennetut tarkistukset.",
+        "filename": "Tässä oppaassa asennustiedoston nimi on {file}.",
+        "noFile": "Jatka vasta, kun Managerin asennusohjelma on listattuna.",
+        "get": "Lataa asennusohjelma sillä sivulla olevalla linkillä. Pidä julkaisusivu auki, jos haluat verrata sen tarkistussummaa.",
+        "note": "Managerin asennustarkistus ei ole pelin tai moninpelin yhteensopivuustulos. Nämä tarkistukset on merkitty tälle Manager-julkaisulle ei sovellettaviksi."
+      },
+      "checkTitle": "3. Tarkista lataus, jos haluat",
+      "setup": {
+        "title": "4. Asenna Manager ja valitse peli",
+        "runSigned": "Suorita ladattu asennusohjelma",
+        "runUnsigned": "Jos päätät jatkaa allekirjoittamattomalla esiversiolla, suorita ladattu asennusohjelma",
+        "run": "{run} ja seuraa sen asennuskehotteita. Kirjoita muistiin mahdollinen virheilmoitus, jos asennus pysähtyy.",
+        "open": "Avaa Modstoke Manager asennuksen jälkeen.",
+        "select": "Jos Manager pyytää pelin suoritettavaa tiedostoa, valitse {exe} varsinaisesta Steam-pelin asennuksestasi. Löydät asennuskansion pelin paikallisten tiedostojen kautta Steamissa. Valitse pelin suoritettava tiedosto, ei Managerin asennusohjelmaa tai pikakuvaketta.",
+        "status": "Lue kyseiselle asennukselle näytetty tila. Jos peliä ei löydy, varmista, että valittu tiedosto on yhä olemassa ja kuuluu oikeaan Steam-asennukseen.",
+        "note": "Näytön sanamuodot voivat vaihdella versioiden välillä. Seuraa asennetun versiosi kehotetta sen sijaan, että arvailisit puuttuvaa säädintä."
+      },
+      "next": {
+        "title": "5. Tarkista vaatimukset ennen modien lisäämistä",
+        "loader": "Modstokella ei ole vielä isännöityä modiluetteloa. Asenna ensin Loader Managerista ja lisää sitten modit niiden omilta sivuilta.",
+        "noLoader": "Modstokella ei tällä hetkellä ole isännöityä modiluetteloa, eikä se julkaise täydellistä Loader-, SDK- ja Client-pakettia. Puuttuva paketti johtuu julkaisun rajoituksesta, eikä Managerin uudelleenasennus korjaa sitä.",
+        "elsewhere": "Muualta hankitun modin kohdalla lue tekijän vaatimukset ja asennusohjeet tarkalleen sille versiolle. Varmista tuettu pelin versio ja Loader ennen tiedostojen muuttamista. Älä oleta, että toista Loaderia varten kirjoitettu modi toimii Modstoken kanssa.",
+        "continue": "Jatka kohtaan {troubleshooting}, jos kohtaat ongelman, tai lue {docs}.",
+        "troubleshooting": "Sons Of The Forest -modien vianmääritys",
+        "docs": "pelaajien dokumentaatio"
+      }
+    },
+    "trouble": {
+      "title": "Sons Of The Forest -modien vianmääritys",
+      "description": "Selvitä Managerin asennuksen, Loaderin vaatimusten ja pelimodien ongelmia tallennusten varmuuskopioiden, varovaisten palautusvaiheiden ja hyödyllisen virheraportin tarkistuslistan avulla.",
+      "crumb": "Modien vianmääritys",
+      "toc": {
+        "identify": "Selvitä ongelma",
+        "protect": "Suojaa tallennukset",
+        "manager": "Managerin asennus",
+        "loader": "Loaderin ja modien vaatimukset",
+        "restore": "Paluu modittomaan peliin",
+        "report": "Ilmoita ongelmasta"
+      },
+      "identify": {
+        "title": "Selvitä, missä ongelma ilmenee",
+        "intro": "Aloita ensimmäisestä vaiheesta, joka epäonnistuu. Asennusohjelman virheellä, puuttuvalla Loader-latauksella ja modin lataamisen jälkeisellä kaatumisella on eri syyt.",
+        "managerTerm": "Managerin asennus",
+        "manager": "Asennusohjelma epäonnistuu, Manager ei avaudu tai valittu pelin polku on väärä. Aloita kohdasta {link}.",
+        "managerLink": "Managerin asennus",
+        "loaderTerm": "Loaderin saatavuus",
+        "loader": "Täydellistä Modstoke Loader-, SDK- ja Client-pakettia ei ole julkaistu. Paketin automaattinen asennus ei ole käytettävissä; Managerin uudelleenasennus ei voi tuoda sitä.",
+        "gameTerm": "Pelin tai modin toiminta",
+        "game": "Peli ei käynnisty, modi ei näy tai maailma käyttäytyy odottamattomasti. Tarkista tarkat {link} ennen tiedostojen muuttamista.",
+        "gameLink": "Loaderin ja modien vaatimukset",
+        "catalog": "Modstokella ei ole vielä isännöityä modiluetteloa. Tyhjä luettelo ei todista, että pelitiedostosi olisivat vaurioituneet."
+      },
+      "protect": {
+        "title": "Suojaa tallennukset ennen muutoksia",
+        "note": "Älä korvaa arvokasta maailmaa, kun tarkistat, aiheuttivatko poistetut tai muutetut modit ongelman. Käytä erillistä väliaikaista maailmaa, jos haluat verrata toimintaa."
+      },
+      "manager": {
+        "title": "Ratkaise Managerin asennusongelmat",
+        "version": "Vertaa Managerisi versiota {releases}-sivuun. Käytä sen sivun asennusohjelma- ja allekirjoitustietoja; älä oleta, että vanhempi tai eri nimellä kulkeva paketti toimii samoin.",
+        "releases": "Julkaisut",
+        "publisher": "Jos Windows varoittaa tuntemattomasta julkaisijasta, tarkista, että asennusohjelma tuli Julkaisut-sivulta. Pidä suojaukset päällä. Peruuta asennus, jos et voi varmistaa, että tämä on tiedosto, jonka aioit ladata.",
+        "incomplete": "Jos lataus vaikuttaa vajaalta, käytä {check} ennen kuin yrität asentaa uudelleen.",
+        "checkLink": "valinnaista tarkistussummatarkistusta",
+        "find": "Jos Manager ei löydä peliä, varmista, että valittu {exe} on nykyisessä Steam-asennuksessa, erityisesti jos siirsit pelin toiselle asemalle.",
+        "error": "Tallenna asennus- tai käynnistysvirheestä tarkka viesti ja merkitse muistiin, tapahtuiko se ennen Managerin avautumista vai sen jälkeen. Älä muuta pelitiedostoja selittämättömän Managerin käynnistysvirheen korjaamiseksi."
+      },
+      "loader": {
+        "title": "Tarkista Loaderin ja modien vaatimukset",
+        "read": "Lue modin tekijän sivu tarkalleen sille modin versiolle. Kirjaa ylös vaadittu Loader, riippuvuudet, tuettu pelin versio ja asennuspaikka.",
+        "compare": "Vertaa näitä vaatimuksia siihen, mitä on todella asennettu. Samankaltaisesti nimetty Loader tai kansio, jossa on DLL, ei riitä osoittamaan yhteensopivuutta.",
+        "update": "Tarkista, alkoiko ongelma pelin, Loaderin tai modin päivityksen jälkeen. Pidä aiemmat versiot ja ensimmäinen virheilmoitus muistiinpanoissasi.",
+        "isolate": "Käytä modin tekijän tukemaa käytöstä poistamisen tai asennuksen poiston tapaa epäillyn modin eristämiseen ja muista sen vaaditut riippuvuudet. Muuta yhtä asiaa kerrallaan ja käytä erillistä maailmaa, jonka tallennukset on varmuuskopioitu.",
+        "combine": "Älä yhdistä Loader-asennuksia äläkä siirrä lisäosia Loader-kansioiden välillä, ellei asianomaisten tekijöiden tuki nimenomaisesti kata tällaista kokoonpanoa. Tarkista moninpelissä modin ilmoittamat isännän, asiakkaan ja palvelimen vaatimukset erikseen; toimiva yksinpeli-istunto ei osoita moninpelituesta.",
+        "notes": "Lue projektin {link} modin tekijän ohjeiden rinnalla.",
+        "notesLink": "yhteensopivuushuomautukset"
+      },
+      "restore": {
+        "title": "Palaa varovasti modittomaan peliin",
+        "close": "Sulje peli. Tee {backup} ja säilytä modien asetustiedostot sekä luettelo asennetuista paketeista.",
+        "backupLink": "tallennusten varmuuskopio",
+        "remove": "Noudata jokaisen asennetun modin ja Loaderin dokumentoitua poistotapaa. Jos jokin muu työkalu hallinnoi asennusta, käytä kyseisen työkalun tuettua poistotapaa. Älä poista tuntemattomia tiedostoja arvaamalla, mitkä kuuluvat modille.",
+        "verify": "Avaa Steamissa pelin {properties}, valitse {installed} ja sitten {integrity}. Anna tarkistuksen valmistua. Nämä vaiheet on dokumentoinut {support}.",
+        "properties": "Ominaisuudet",
+        "installed": "Asennetut tiedostot",
+        "integrity": "Tarkista pelitiedostojen eheys",
+        "support": "Steam Support",
+        "leftover": "Tarkista Loaderin ja modien poisto-ohjeista, jääkö tiedostoja jäljelle. Steam-tarkistus korjaa Steamin hallinnoimat pelitiedostot; sitä ei pidä käsitellä jokaisen modin lisäämän tiedoston poistona.",
+        "launch": "Käynnistä peli Steamin kautta ja käytä erillistä väliaikaista maailmaa toiminnan vertailuun. Älä koske varmuuskopioituihin maailmoihin. Jos ongelma jatkuu, sisällytä tämä tulos raporttiisi.",
+        "stop": "Jos et pysty tunnistamaan lisättyä tiedostoa tai sen omistajaa, lopeta tiedostojen poistaminen ja kysy neuvoa asianomaiselta modin tai Loaderin ylläpitäjältä."
+      },
+      "report": {
+        "title": "Valmistele hyödyllinen virheraportti",
+        "intro": "Lähetä raportti sen tukikanavan kautta, johon vikaantuneesta osasta vastaava projekti tai modin tekijä linkittää. Liitä mukaan:",
+        "versions": "Windows-versiosi, pelin versio tai build, Managerin versio, Loaderin nimi ja versio sekä olennaisten modien versiot.",
+        "error": "Tarkka virheteksti ja olennainen ote lokista, mukaan lukien ensimmäinen virhe ja sitä ympäröivät rivit. Poista henkilökohtaiset polut, tilitiedot ja salaisuudet ennen jakamista.",
+        "steps": "Lyhyet vaiheet, joilla ongelma toistuu, mitä odotit ja mitä tapahtui.",
+        "scope": "Vaikuttaako se käynnistykseen, tiettyyn maailmaan, yksinpeliin, isännöintiin vai liittymiseen, ja jatkuuko se tuettujen poistovaiheiden jälkeen.",
+        "last": "Viimeisin toimiva kokoonpano, viimeaikaiset muutokset ja vaiheet, jotka olet jo kokeillut.",
+        "outro": "Managerin asennusapua varten palaa {guide}. Säilytä alkuperäinen varmuuskopio, kunnes ongelma on ratkaistu.",
+        "guideLink": "Windows-asennusoppaaseen"
+      }
+    }
+  },
+  "apps": {
+    "home": "Etusivu",
+    "breadcrumb": "Polku",
+    "eyebrow": "MODSTOKEN DISCORD-SOVELLUKSET",
+    "onThisPage": "Tällä sivulla",
+    "effective": "Voimassa {date} alkaen",
+    "effectiveDate": "19. lokakuuta 2026",
+    "contactPage": "OpenACAI:n yhteystietosivu",
+    "index": {
+      "title": "Modstoken Discord-sovellukset",
+      "description": "Lisää Sentinel moderointiin ja yhteisötyökaluiksi tai Radio yhteiseen äänentoistoon. OpenACAI:n ylläpitämiä julkisia esiversioita.",
+      "sentinel": {
+        "heading": "Sentinel: moderointi ja yhteisö",
+        "intro": "Tuo moderointiapua, tervetuloviestejä, itse annettavia rooleja, porukan etsintää, yhteisötilastoja ja ohjetyökaluja Discord-palvelimellesi. Sentinel on OpenACAI:n ylläpitämä julkinen esiversio.",
+        "add": "Lisää Sentinel palvelimellesi",
+        "install": "Palvelimen omistaja asentaa Sentinelin palvelinsovelluksena. Asennusta henkilökohtaiselle tilille ei tueta. Sentinel pysyy passiivisena, kunnes omistaja suorittaa komennon {configure} ja määrittää tervetulo-, moderaattorilokin ja uutiskanavat. Yleinen-, porukka- ja ohjefoorumikanavat ovat valinnaisia. Suorita sitten {setup} itse annettavien roolien käyttöönottoon. Porttikiellot ja keskusteluominaisuudet ovat oletuksena pois päältä.",
+        "permissions": "Asennus pyytää oikeudet Näytä kanavat, Lähetä viestejä, Lue viestihistoria, Upota linkkejä, Hallitse viestejä, Hallitse rooleja, Moderoi jäseniä (aikalisät), Potkaise jäseniä ja Anna jäsenille porttikielto. Tarkista Discordin oikeusnäyttö ja anna Sentinelille pääsy kanaviin ja rooleihin, joita tarvitset määrittämiisi ominaisuuksiin. Asennus ei pyydä Järjestelmänvalvojan oikeutta eikä palvelimenlaajuista Hallitse kanavia -oikeutta. Edistyneet ansa- ja tilasto-ominaisuudet vaativat ylläpitäjän määritykset ja kyseisiin kanaviin rajatut oikeudet."
+      },
+      "radio": {
+        "heading": "Radio: kuunnelkaa yhdessä",
+        "intro": "Toista tuettuja YouTube-linkkejä ja hyväksyttyä Discordin CDN-mediaa puhekanavalla vinoviivakomennoilla. Spotify-pyynnöistä tulee linkkikortteja, jotka avaavat Spotifyn; ne eivät toista kokonaisia Spotify-kappaleita puhekanavalla. Pyydä vain mediaa, jota sinulla on oikeus jakaa tai toistaa.",
+        "add": "Lisää Radio palvelimellesi",
+        "install": "Palvelimen omistaja asentaa Radion palvelinsovelluksena, ei henkilökohtaisen tilin sovelluksena. Salli pääsy komentokanavaan sekä Yhdistä ja Puhu aiotulla puhekanavalla. Radio on itse kuurouttanut itsensä eikä tallenna puheääntä.",
+        "limits": "Jokaisella palvelimella on oma jono, jossa on enintään 10 kappaletta. Kappaleet on rajattu 10 minuuttiin ja 32 MiB:iin kukin. Radio poistuu 60 sekunnin kuluttua, jos kuuntelijoita ei ole. Palvelu tukee enintään kahta aktiivista ääni-istuntoa kaikilla palvelimilla yhteensä, joten kapasiteettia ei välttämättä ole saatavilla."
+      },
+      "support": {
+        "heading": "Esiversioiden tuki ja käytännöt",
+        "preview": "Nämä sovellukset ovat julkisia esiversioita: saatavuus ja automaattiset tulokset voivat vaihdella. Jokaisella palvelimella on erikseen tallennetut tiedot, keskusteluyhteys ja toistojonot. Sentinel jakaa yhden paikallisen mallityöntekijän palvelinten kesken ja käsittelee yhden pyynnön kerrallaan ilman pilvitekoälyä.",
+        "read": "Lue {privacy} ja {terms} ennen asentamista. Asennusapua saat liittymällä {community}. Tee valitus moderointipäätöksistä sen palvelimen moderaattoreille, jolla toimenpide tehtiin.",
+        "privacy": "sovellusten tietosuojakäytäntö",
+        "terms": "sovellusten ehdot",
+        "community": "Modstoken tukiyhteisöön"
+      }
+    },
+    "privacy": {
+      "title": "Discord-sovellusten tietosuoja",
+      "description": "Miten OpenACAI käsittelee tietoja, joita Modstoke Sentinel ja Modstoke Radio käyttävät niitä asentaneilla Discord-palvelimilla.",
+      "scope": {
+        "heading": "Kuka näitä sovelluksia ylläpitää",
+        "operator": "OpenACAI ylläpitää Modstoke Sentineliä ja Modstoke Radiota julkisina esiversiosovelluksina Discord-palvelimille. Palvelinten omistajat asentavat ne palvelinsovelluksina; asennusta henkilökohtaiselle tilille ei tueta. Jokaisen palvelimen tallennetut tiedot, keskusteluyhteydet ja toistojonot ovat erillisiä.",
+        "supplement": "Tämä bottikohtainen täydennys kuvaa niiden tietojenkäsittelyn. Yleiset säännöt: {privacy}. Katso myös {terms} ja {apps}.",
+        "privacyLink": "Modstoken tietosuojakäytäntö",
+        "termsLink": "Discord-sovellusten ehdot",
+        "appsLink": "sovellusten asennustiedot"
+      },
+      "sentinel": {
+        "heading": "Sentinel: moderointi- ja yhteisöominaisuudet",
+        "inactive": "Sentinel pysyy uudella palvelimella passiivisena, kunnes sen omistaja määrittää vaaditut kanavat. Määrityksen jälkeen se näkee viestit ja jäsentapahtumat Discord-kanavilla, joihin sillä on käyttöoikeus. Se käyttää niitä moderointiin, koottuihin yhteisötilastoihin, itse annettaviin rooleihin, porukan etsintään ja ohjeisiin. Porttikiellot ja keskusteluominaisuudet ovat oletuksena pois päältä.",
+        "model": "Mallin käsittely tapahtuu paikallisesti hosting-palvelimella loopback-yhteyden kautta ilman pilvitekoälyn käsittelyä. Palvelimet jakavat yhden mallityöntekijän, joka käsittelee yhden pyynnön kerrallaan; niiden yhteydet pysyvät erillään. Viimeaikainen moderointiyhteys säilyttää muistissa enintään kuusi viestiotetta kanavaa kohden noin kolmen minuutin ajan. Näiden bottien käsittelemiä tietoja ei myydä mainontaan eikä käytetä tekoälyn koulutukseen.",
+        "ledger": "Paikallinen moderointiloki säilyttää käyttäjä-, kanava- ja viesti-ID:t, aikaleimat, sormenjäljet, todistetunnisteet, toimenpiteet ja arvioijan tiedot enintään seitsemän päivän ajan, enintään 1 000 merkinnän rajassa. Erillistä poistolokia säilytetään seitsemän päivää. Discordiin lähetetyillä moderointilokiviesteillä on oma säilytysaikansa, jota Discord ja palvelin hallitsevat."
+      },
+      "crew": {
+        "heading": "Porukkailmoitukset, asetukset ja tilastot",
+        "records": "Aktiiviset porukkatiedot sisältävät porukan raakatekstin, näyttönimet, isännän ID:t, alueet, vaatimukset ja ajoituksen. Ne säilyvät, kunnes porukka suljetaan tai vanhenee; vanhenemisajat ovat yhdestä 24 tuntiin. Siivous voi viivästyä, jos botti ei pääse käsiksi Discord-viestiin. Suljetut viestit voivat jäädä Discordiin.",
+        "alerts": "Porukkailmoitusten tilaukset ja käyttäjä-ID:t, jotka ovat kieltäytyneet, säilyvät. Käytä {alerts} lopettaaksesi porukkailmoitukset; {quiet} kieltäytyy kumppanivuorovaikutuksista. Nämä asetukset eivät poista kaikkia moderointitietoja.",
+        "leave": "Kun jäsen poistuu, Sentinel siivoaa hänen porukkatilauksensa ja sulkee hänen omistamansa porukat; poistuminen ei tarkoita kaikkien tietojen yleistä poistamista. Yhteisötilastot ovat koottuja. Määritetyt kanava- ja rooli-ID:t säilyvät, niin kauan kuin botit ovat toiminnassa."
+      },
+      "radio": {
+        "heading": "Radio: pyynnöt ja äänentoisto",
+        "intents": "Radio käyttää Discordin guild- ja voice-state-intenttejä eikä pyydä Message Content -intenttiä. Se pitää vinoviivakomentojen pyyntö-URL-osoitteet ja luodut kappalenumerot muistissa toistoa varten. Radio on itse kuurouttanut itsensä puhekanavilla eikä tallenna puheääntä.",
+        "media": "Ladattu media on tilapäistä ja siivotaan kappaleen jälkeen; käynnistyksen siivous poistaa myös jääneet lataukset. Jonon pysäyttäminen tyhjentää sen sisällön muistista.",
+        "fetch": "Median hakeminen Discordin CDN:stä tai YouTubesta lähettää pyyntöjä hosting-palvelimelta kyseisille palveluntarjoajille. Spotify-linkkikortit avaavat alkuperäisen sivuston; Radio ei tarjoa täyttä Spotify-äänentoistoa."
+      },
+      "hosting": {
+        "heading": "Hosting ja muut palvelut",
+        "vps": "Botit toimivat InterServerin isännöimällä VPS:llä. Sentinelin paikallinen JSON-määritys, asetukset ja tapaustiedot salataan AES-256-GCM:llä, ja avain säilytetään erikseen suojattujen järjestelmätunnistetietojen kautta. Radion tilapäinen media käyttää yksityistä, muistipohjaista ajohakemistoa. Swap on poistettu käytöstä molemmilta bottipalveluilta ja paikalliselta mallipalvelulta. Käyttölokeja säilytetään myös osana palvelun ylläpitoa. Edellä mainitut lyhyet säilytysajat koskevat määritettyjä bottitietoja, eivät kaikkia käyttölokeja tai Discord-viestejä.",
+        "discord": "Discord käsittelee ja säilyttää viestejä, julkaisuja, vuorovaikutuksia ja muita alustan tietoja itsenäisesti omien käytäntöjensä ja palvelinasetusten mukaan. Mediapalveluntarjoajat käsittelevät pyyntöjä myös omien käytäntöjensä mukaan. Paikallisen bottitiedon poistaminen ei poista kopioita, joita Discord tai kyseiset palveluntarjoajat pitävät."
+      },
+      "removal": {
+        "heading": "Sentinelin poistaminen palvelimelta",
+        "purge": "Kun Sentinel poistetaan palvelimelta, joka ei ole sen oma Modstoke-käyttöönotto, se sulkee kyseisen palvelimen paikallisen tilan ja tyhjentää sen paikallisen palvelintietokansion. Discord-viestit, moderointilokit ja muut Discordin säilyttämät kopiot pysyvät Discordin ja palvelimen hallinnassa. Tämä kansion siivous ei lupaa kaikkien käyttölokien tai itsenäisesti säilytettyjen kopioiden poistamista.",
+        "home": "Oma Modstoke-käyttöönotto ja sen määritykset pysyvät ylläpitäjän hallinnassa. Ota yhteyttä OpenACAI:hin poistopyynnöissä, jotka ylittävät automaattiset hallintatoiminnot."
+      },
+      "requests": {
+        "heading": "Tietosuojakysymykset ja poistopyynnöt",
+        "contact": "Ota yhteyttä OpenACAI:hin osoitteessa {email} tai katso {page} tietosuojakysymyksiä tai poistopyyntöjä varten. Kerro botti, Discord-käyttäjätunnuksesi ID sekä asianomainen palvelin tai tieto, jotta tiimi löytää tiedot. Älä lähetä salasanoja tai tilitunnisteita.",
+        "different": "Kieltäytyminen, palvelimelta poistuminen ja tietojen poistaminen ovat eri toimia. Käytä tätä yhteydenottotapaa pyytääksesi poistoa edellä kuvattujen hallintatoimintojen ulkopuolella. Pyynnöt, jotka koskevat Discordin itsenäisesti säilyttämiä tietoja, voi joutua osoittamaan myös Discordille tai palvelimen moderaattoreille."
+      }
+    },
+    "terms": {
+      "title": "Discord-sovellusten ehdot",
+      "description": "Ehdot Modstoke Sentinelin ja Modstoke Radion julkisten esiversioiden asentamiselle ja käytölle Discord-palvelimilla.",
+      "scope": {
+        "heading": "Bottikohtainen täydennys",
+        "operator": "OpenACAI ylläpitää Modstoke Sentineliä ja Modstoke Radiota julkisina esiversiosovelluksina Discord-palvelimille. Nämä ehdot täydentävät bottikohtaisesti asiakirjaa {terms}. {privacy} selittää, mitä tietoja botit käsittelevät.",
+        "termsLink": "Modstoken käyttöehdot",
+        "privacyLink": "Discord-sovellusten tietosuojasivu",
+        "install": "Palvelinten omistajat asentavat botit palvelinsovelluksina. Asennusta henkilökohtaiselle tilille ei tueta. Nykyiset ominaisuudet ja rajoitukset löydät kohdasta {apps}.",
+        "appsLink": "asennus- ja määritystiedot"
+      },
+      "use": {
+        "heading": "Hyväksyttävä käyttö",
+        "rules": "Käytä bottoja laillisesti ja noudata palvelimesi sääntöjä, Discordin ehtoja ja sovellettavia mediapalveluntarjoajien ehtoja. Älä käytä niitä roskapostiin, häirintään, haittaohjelmiin, moderoinnin kiertämiseen tai muuhun väärinkäyttöön. Älä yritä kiertää bottien oikeuksia, käyttöoikeuksien hallintaa tai käyttörajoituksia.",
+        "media": "Lähetä vain mediaa, jota sinulla on oikeus jakaa tai toistaa kyseisessä yhteydessä. Tuettu URL-osoite tai onnistunut toisto ei osoita, että sinulla on lupa käyttää aineistoa. Alkuperäisen palveluntarjoajan ehdot ovat yhä voimassa."
+      },
+      "features": {
+        "heading": "Esiversioominaisuudet ja saatavuus",
+        "besteffort": "Botit tarjotaan parhaan kyvyn mukaan toimivina esiversiotyökaluina. Ominaisuudet, vastaukset ja toisto voivat olla poissa käytöstä, viivästyneitä, virheellisiä tai muuttuneita, kun tiimi ylläpitää niitä. Älä luota bottiin ainoana tärkeiden tietojen lähteenä tai moderoinnin kattavuuden takeena.",
+        "radio": "Radio on riippuvainen Discordin, hostingin ja mediapalveluntarjoajien saatavuudesta. Spotify-kortit linkittävät alkuperäiselle sivustolle; ne eivät tarjoa täyttä Spotify-toistoa puhekanavilla."
+      },
+      "moderation": {
+        "heading": "Moderointi ja valitukset",
+        "appeals": "Sentinel tukee moderointi- ja yhteisöominaisuuksia, mutta automaattiset arviot voivat olla vääriä. Ota yhteyttä sen palvelimen moderaattoreihin, jolla toimenpide tehtiin, kysyäksesi siitä tai valittaaksesi siitä. Liitä mukaan asianomaisen viestin tai toimenpiteen tiedot, jotta he voivat tarkistaa asian.",
+        "owners": "Palvelinten omistajat tekevät alkuasennuksen ja määrityksen. Sentinel pysyy passiivisena, kunnes omistaja määrittää tervetulo-, moderaattorilokin ja uutiskanavat; valinnaiset kanavat ja roolien käyttöönotto avaavat lisäominaisuuksia. Porttikiellot ja keskusteluominaisuudet ovat oletuksena pois päältä. Ylläpitäjät hallitsevat botin pääsyä ja oikeuksia. Edistyneet ansa- ja tilasto-ominaisuudet vaativat ylläpitäjän määritykset ja rajatut oikeudet.",
+        "removal": "Botin poistaminen palvelimelta vaatii ylläpitäjän, jolla on tarvittavat oikeudet. Sentinelin paikallinen siivous poistettaessa on kuvattu kohdassa {privacy}; se ei poista Discordin kopioita.",
+        "privacyLink": "tietosuojakäytäntö"
+      },
+      "controls": {
+        "heading": "Jäsenten asetukset ja yhteydenotto",
+        "controls": "Käytä {alerts} lopettaaksesi porukkailmoitukset ja {quiet} kieltäytyäksesi kumppanivuorovaikutuksista. Nämä asetukset eivät poista kaikkia moderointitietoja. Tietojenkäsittelyyn ja poistopyyntöihin liittyen noudata {contact}.",
+        "contactLink": "tietosuojan yhteydenotto-ohjeita",
+        "questions": "Jos sinulla on kysyttävää näistä ehdoista, ota yhteyttä osoitteeseen {email} tai katso {page}."
+      }
+    }
+  },
+  "mods": {
+    "notStated": "Ei ilmoitettu",
+    "loaderOrNewer": "Loader {version} tai uudempi",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "Toimii, vaikka vain sinulla on se",
+      "host": "Vain isäntä tai palvelin tarvitsee sen",
+      "allPlayers": "Isännällä ja pelaajilla on oltava sama versio",
+      "solo": "Vain yksinpeli",
+      "notStated": "Ei ilmoitettu"
+    },
+    "dedicated": {
+      "supported": "Tuettu",
+      "unsupported": "Ei tuettu",
+      "notStated": "Ei ilmoitettu"
+    },
+    "settings": {
+      "hostSynced": "Isäntä päättää",
+      "perPlayer": "Jokainen pelaaja päättää",
+      "none": "Ei asetuksia",
+      "notStated": "Ei ilmoitettu"
+    },
+    "status": {
+      "preview": "Esiversio",
+      "experimental": "Kokeellinen",
+      "stable": "Vakaa"
+    },
+    "label": {
+      "needs": "Vaatii",
+      "multiplayer": "Moninpeli",
+      "updated": "Päivitetty",
+      "version": "Versio",
+      "status": "Tila",
+      "dedicatedServer": "Dedicated-palvelin",
+      "settings": "Asetukset",
+      "madeBy": "Tekijä",
+      "licence": "Lisenssi",
+      "source": "Lähdekoodi",
+      "aiAssistance": "Tekoälyn apu"
+    },
+    "list": {
+      "title": "Modit",
+      "lede": "Nämä ovat modit, jotka teemme itse. Ne kaikki toimivat Modstoke Loaderilla, ja toistaiseksi ne ladataan Nexus Modsista. Kun Modstoke-kauppa aukeaa, Manager asentaa ne puolestasi, ja muidenkin tekijöiden modit listataan täällä.",
+      "search": "Hae modeja",
+      "anyMultiplayer": "Mikä tahansa moninpelitapa",
+      "count": {
+        "one": "{count} modi",
+        "other": "{count} modia"
+      },
+      "note": "Kaikki täällä olevat modit tarvitsevat tämän: {loader}. {guide} käy läpi sen käyttöönoton Managerilla.",
+      "installGuide": "Asennusopas",
+      "details": "Tiedot",
+      "nexusPage": "Nexus-sivu"
+    },
+    "page": {
+      "breadcrumb": "Polku",
+      "gallery": "Kuvakaappaukset ja video",
+      "watchTrailer": "Katso traileri YouTubessa",
+      "openFullSize": "Avaa täysikokoisena",
+      "trailerCaption": "Traileri, toistetaan YouTubessa",
+      "details": "Tiedot",
+      "sourceNotPublic": "Ei vielä julkinen",
+      "aiYes": "Kyllä, ilmoitettu Nexuksessa",
+      "aiNo": "Ei",
+      "downloadOnNexus": "Lataa Nexuksesta",
+      "storeNote": "Yhden napsautuksen asennukset Managerista tulevat Modstoke-kaupan mukana.",
+      "meta": "{version} · päivitetty {date} · OpenACAI",
+      "whatsNew": "Uutta versiossa {version}",
+      "about": "Tietoa",
+      "inTesting": "Testauksessa",
+      "install": "Asenna",
+      "installStep1": "Asenna {loader} tai anna {manager} tehdä se puolestasi.",
+      "managerLink": "Manager",
+      "installStep2": "Sulje peli. Lataa {name} Nexuksesta ja pura sen Modstoke-kansio {exe}-tiedoston viereen.",
+      "installStep3": "Käynnistä peli ja avaa Mods-valikko otsikkonäytöstä tarkistaaksesi, että modi latautui.",
+      "installNote": "Varmuuskopioi tallennuksesi ennen esiversion kokeilemista. Jos jokin menee rikki, {guide} tai {discord}-yhteisömme on oikea paikka kysyä.",
+      "troubleshootingGuide": "vianmääritysopas"
+    }
+  },
+  "release": {
+    "eyebrow": "JULKAISUT",
+    "headingPreview": "Lataukset, esiversiot mukaan lukien.",
+    "headingVerified": "Tarkistetut lataukset.",
+    "lede": "Valitse nykyinen julkaisu tai tutustu säilytettyyn versioon ennen asentamista.",
+    "previewDownloads": "Esiversiolataukset ovat testiversioita. Tarkista allekirjoitus- ja validointitiedot ennen asentamista.",
+    "managerOnly": "Manager on saatavilla, mutta täydellistä Loader-, SDK- ja Client-pakettia ei ole vielä julkaistu. Loaderin, SDK:n ja Client-paketin automaattinen asennus ei ole käytettävissä.",
+    "historyTitle": "Julkaisun tiedot ja palautus",
+    "historyNote": "Versioidut tiedosto-URL-osoitteet pysyvät samoina. Aiempi julkaisutieto voi pysyä saatavilla, kun nykyinen valinta muuttuu.",
+    "playerBundle": "Pelaajapaketti",
+    "loaderWithClient": "Pelin juurikansion paketti, jossa on Loader, sen mukana tuleva SDK ja erikseen rakennettu Client-lisäosa.",
+    "loaderOnly": "Pelin juurikansion paketti, jossa on Loader ja sen mukana tuleva SDK. Modeilla, kuten Clientilla, on omat latauksensa.",
+    "managerPackage": "Windows-työpöytäpaketti Modstoke Managerille.",
+    "download": "Lataa {file}",
+    "size": "Koko",
+    "bytes": "{size} tavua",
+    "published": "Julkaistu",
+    "details": "Julkaisun tiedot",
+    "current": "NYKYINEN",
+    "previous": "AIEMPI",
+    "noNotes": "Tälle versiolle ei ole annettu julkaisutietoja. Alla olevat tiedosto- ja validointitiedot eivät ole muutosloki.",
+    "publishedCommit": "Julkaistu {date}. Lähdekoodin commit {commit}.",
+    "packageLine": "Paketti: {file} ({size} tavua). SHA-256: {hash}.",
+    "testedBuilds": "Testatut {game}-versiot: {builds}.",
+    "noTestedBuilds": "Pelin versioita ei ole vielä testattu. Pelin yhteensopivuus on tuntematon.",
+    "requiresManager": "Vaatii Managerin version {version} tai uudemman.",
+    "guidedLoader": "Opastettu Loader-paketti: {id}.",
+    "noGuidedLoader": "Tälle Manager-julkaisulle ei ole valittu vastaavaa opastettua Loader-pakettia.",
+    "listSeparator": ", ",
+    "previewBuild": "Esiversion testiversio.",
+    "packageUnsigned": "Tämä paketti on allekirjoittamaton: {reason}.",
+    "pendingChecks": "Odottavat tarkistukset: {checks}.",
+    "reviewDetails": "Tutustu julkaisun tietoihin ennen asentamista.",
+    "pending": {
+      "game": "pelin käynnistys",
+      "multiplayer": "moninpeli"
+    },
+    "signatureReviewedFor": "Allekirjoituksen tarkistus kirjattu julkaisijalle {publisher}.",
+    "signatureReviewed": "Allekirjoituksen tarkistus kirjattu.",
+    "previewUnsigned": "Tämä esiversiopaketti on allekirjoittamaton: {reason}. Allekirjoituksen todentamista ei ole kirjattu.",
+    "signatureNotRecorded": "Allekirjoituksen todentamista ei ole kirjattu.",
+    "checksumNote": "SHA-256-tarkistussumma tunnistaa tiedoston tavut; se ei todenna päivitysmanifestia.",
+    "validation": "{checks}.",
+    "checkLine": "{label}: {state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "Puhdas lähdekoodi",
+      "licenses": "Lisenssit",
+      "build": "Rakennus",
+      "install": "Asennus",
+      "game": "Pelin käynnistys",
+      "multiplayer": "Moninpeli",
+      "hostedFetch": "Isännöidyn tiedoston tarkistus"
+    },
+    "state": {
+      "passed": "läpäisty",
+      "pending": "odottaa",
+      "notApplicable": "ei sovellu",
+      "notRecorded": "ei kirjattu"
+    }
+  },
+  "docs": {
+    "eyebrow": "Dokumentit",
+    "title": "Huomioita pelaajille ja modintekijöille",
+    "lede": "Käyttöönottoapu löytyy {guides}. Tällä sivulla käydään läpi, miten osat sopivat yhteen ja mitä kannattaa tietää ennen modin tekemistä.",
+    "guidesLink": "oppaista",
+    "onThisPage": "Tällä sivulla",
+    "nav": {
+      "project": "Projekti",
+      "players": "Pelaajille",
+      "compatibility": "Pelin yhteensopivuus",
+      "authors": "Modintekijöille",
+      "sdk": "SDK-kehitys",
+      "play": "Pelatkaa yhdessä",
+      "downloads": "Lataukset ja päivitykset"
+    },
+    "project": {
+      "title": "Projekti",
+      "about": "Modstoke on OpenACAI:n, voittoa tavoittelemattoman järjestön, modausprojekti. Se on modilataaja, työpöytähallinta ja joukko modeja Sons of the Forest -peliin, ja niiden ympärillä on yhteisö Discordissa. Kaikki on ilmaista, eikä tämän sivuston käyttö vaadi tiliä.",
+      "endnight": "Meillä ei ole yhteyttä Endnight Gamesiin. Älä vie Modstoke-ongelmia heidän tukeensa."
+    },
+    "players": {
+      "title": "Pelaajille",
+      "start": "Aloita työkalusta {manager}. Se löytää pelisi, asentaa työkalun {loader} ja pitää kirjaa asentamistasi asioista. Valitse sitten jotain sivulta {mods}; toistaiseksi ne ladataan Nexus Modsista.",
+      "managerLink": "Manager",
+      "loaderLink": "Loader",
+      "modsLink": "Modit",
+      "guides": "{install} kertoo, miten tallennukset varmuuskopioidaan ensin, ja {troubleshooting} auttaa rajaamaan ongelmaa.",
+      "installGuide": "Asennusopas",
+      "troubleshootingGuide": "vianmääritysopas"
+    },
+    "compatibility": {
+      "title": "Pelin yhteensopivuus",
+      "supported": "Tuettu",
+      "note": "Jokaisesta julkaisusta näkyvät pelin versiot, joilla se on testattu. Jos julkaisussa ei ole mainittu yhtään, sitä ei ole vielä tarkistettu tiettyä versiota vasten, joten kokeile sitä tallennuksesi kopiolla."
+    },
+    "authors": {
+      "title": "Modintekijöille",
+      "intro": "Näin nykyinen Loader löytää ja käynnistää natiivin modin. Tarkista se sitä Loaderin lähdekoodia vasten, jolla rakennat; manifesti ei ole vielä jäädytetty skeema.",
+      "build": {
+        "title": "Rakenna sitä Loaderia vasten, jolla testaat.",
+        "text": "SDK:n rajapinnat ovat Loaderissa. Viittaa sen assemblyyn projektistasi ja kirjaa ylös Loaderin versio ja pelin versio, joilla testasit."
+      },
+      "folder": {
+        "title": "Käytä yhtä pakettikansiota.",
+        "text": "Loader etsii kohteesta {path}, enintään neljän kansion syvyyteen. {legacy} ennen nimenmuutosta toimii edelleen. Pidä manifesti assemblyn vieressä."
+      },
+      "entry": {
+        "title": "Kuvaile aloituskohta.",
+        "text": "Manifesti voi olla {first}, {second} tai {third}, ja siinä on id, name, version, author, assembly, entryType ja entryMethod. entryMethod voi jäädä pois, kun aloitustyypillä on julkinen parametriton konstruktori."
+      },
+      "test": {
+        "title": "Testaa pelin erillisellä kopiolla.",
+        "text": "Pidä oikeat tallennuksesi pois siitä. Kirjaa ylös pelin versio, Loaderin versio, riippuvuudet ja kaikki, mikä ei vielä toimi."
+      },
+      "ship": {
+        "title": "Toimita huomautukset tiedostojen mukana.",
+        "text": "Versiohuomautukset, asennus- ja poistovaiheet, lisenssi ja tiedostojen tiivisteet. Latauslomaketta ei ole täällä vielä; kauppa ottaa lähetyksiä vastaan GitHub-julkaisuista."
+      }
+    },
+    "downloads": {
+      "title": "Lataukset ja päivitykset",
+      "releases": "Jokainen {releases}-sivun julkaisu kertoo versionsa, muutokset, yhteensopivuuden, koon ja SHA-256:n, joten voit tarkistaa, että lataamasi tiedosto on se, jonka julkaisimme.",
+      "releasesLink": "Julkaisut",
+      "checksum": "Tarkistussumma kertoo, että tavut täsmäävät; se ei todista, kuka ne julkaisi. Modstoke-kauppa lisää tähän allekirjoitukset, jotta Manager voi kieltäytyä kaikesta, mitä emme tai tarkistettu tekijä ole julkaisseet."
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "SDK-KEHITYS",
+    "playEyebrow": "PELATKAA YHDESSÄ",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "Tarkista julkaisun tila",
+    "gameInfo": "Pelin tiedot: {link}",
+    "steamLink": "Sons of the Forest Steamissa",
+    "findCrew": "Etsi porukka Discordissa",
+    "visitTithewood": "Käy Tithewoodissa saadaksesi ajantasaiset pääsytiedot",
+    "status": {
+      "manager": "Manager {version} on saatavilla.",
+      "managerPreview": "Manager {version} on saatavilla Windows-esiversiona.",
+      "unsigned": "Esiversio on allekirjoittamaton.",
+      "noManager": "Manager-pakettia ei ole tällä hetkellä julkaistu.",
+      "loader": "Loader {version} on listattu Julkaisut-sivulla. Tarkista sen paketin sisältö, yhteensopivuus ja validointitila.",
+      "noLoader": "Täydellistä Loader-, SDK- ja Client-pakettia ei ole julkaistu yleisesti.",
+      "check": "Tarkista Julkaisut ennen lataamista."
+    },
+    "topics": {
+      "sdk": {
+        "title": "Mitä SDK:n on tarkoitus tarjota",
+        "summary": "Nykyinen kehityslähde tarjoaa tyypitettyjä pelihavaintoja ja modipalveluita. Ne ovat lähdekoodin rajapintoja, eivät julkaistu SDK-paketti eivätkä todiste siitä, että ne toimivat pelissä.",
+        "facts": "Varaston ja varusteiden tilannekuvat; valmistusreseptien vaatimukset ja puutteet; paikallisen pelaajan selviytymisarvot; vuodenajan, sään ja lämpötilan havainnot.\nPalvelinmaailman pelaaja- ja ajoneuvohavainnot, NPC:iden tila ja rakennusvaatimukset; rajatut törmäyskyselyt ja ladatun maaston korkeuden ja normaalin luvut. Ne eivät takaa täyttä luolien törmäys- tai kuljettavuuskattavuutta.\nOmistetut ääni- ja ladattujen asset bundlejen tarkastusapurit, havaittu coroutinen valmistuminen, käyttöliittymän luonnoskentät ja etäkomentojen vastaukset. Palvelimen valtuutus- ja maailman valmiuden tarkistukset pätevät edelleen.\nNatiivien modien manifestit voivat ilmoittaa tarkat vaaditut tunnukset ja versiot. Ajoympäristö järjestää takaisinkutsut, estää puuttuvat tai syklisiä vaatimuksia sisältävät modit ja pysäyttää riippuvat modit, kun edellytys epäonnistuu. Dedicated-palvelimen alustus ohittaa asiakasvalikot ja syötteen.\nÄlä oleta vakaata julkista API:a, yleistä yhteensopivuutta, korkeampia pelaajarajoja, automaattisia uudelleenyrityksiä epävarmoille komennoille tai sitä, että lähdekoodin tai käännöksen onnistuminen todistaa moninpelin toimivuuden."
+      },
+      "play": {
+        "title": "Etsi seuraava porukkasi",
+        "summary": "Sons of the Forest on avoimen maailman selviytymiskauhupeli, jossa on valmistusta, rakentamista, tutkimista, yksinpeliä ja verkkoyhteispeliä. Modstoke auttaa jäseniä järjestämään omia pelisessioitaan.",
+        "facts": "Käytä komentoa /crew list ja valinnaisia alue-, tyyli- ja when-avainsanasuodattimia. Ajan haku etsii isännän kirjoittamasta sessioajasta; se ei laske päällekkäisiä aikatauluja eikä muunna aikavyöhykkeitä.\nKäytä komentoa /crew create tarjotaksesi sessiota alueen, ajan ja aikavyöhykkeen, pelityylin, vapaiden paikkojen ja valinnaisten vaatimusten kanssa. Yksi aktiivinen ilmoitus henkilöä kohden; ilmoitukset vanhenevat oletuksena kuuden tunnin kuluttua, ja voit valita yhdestä 24 tuntiin.\nValitse alueesi ja pelityylisi komennolla /roles. Ne ovat itse valittuja kiinnostuksenkohteita, eivät takuita parinmuodostuksesta. /crew alerts ilmoittaa nimenomaisesti suostumuksesi yksityisviesteihin; valinnainen aluesuodatus ja yhden hälytyksen rajoitus kahta tuntia kohden pätevät. Voit kytkeä ne pois milloin tahansa.\nKäytä komentoa /servers nähdäksesi palvelimet, jotka ovat suostuneet julkiseen listaukseen. Porukkailmoitukset ovat jäsenten suunnitelmia, eivät varauksia, varmennettua yhteensopivuutta, reaaliaikaista pelaajanäkyvyyttä tai automaattista pelin liittymistä. Sovi pelin ja modien versioista sekä tallennuksen odotuksista isännän kanssa."
+      },
+      "tithewood": {
+        "title": "Tithewood · keskiaikainen roolipeli BYONDilla",
+        "summary": "Tithewood on itsenäisesti ylläpitämämme keskiaikainen roolipeli BYONDilla, rakennettu Ratwoodin pohjalta. Sen yhteisö kuuluu Modstoken Discordiin.",
+        "facts": "Pelaajat ottavat hahmoroolit jaetussa maailmassa, jossa on kauppaa, maanviljelyä, kaupunginvartijan tehtäviä ja seikkailua. Joillakin rooleilla on pääsyvaatimuksia, jotka riippuvat pelin asetuksista.\nJulkinen verkkosivusto esittelee Grimoriaa perityllä miljöökuvituksella. Se on miljöön maailmankartta, ei pelinaikainen kartta.\nJulkinen verkkosivusto, johon tutustuttiin 2026-10-20, kertoo, että julkinen pääsy on suljettu eikä avajaispäivää ole ilmoitettu. Tarkista ajantasainen pääsytilanne osoitteesta tithewood.com; älä oleta, että tavoitettava palvelu tarkoittaa pelattavaa julkista kierrosta.\nKun pääsy aukeaa, seuraa verkkosivustoa BYOND-asiakasohjelman ja yhteyden ohjeiden vuoksi. Käytä virallista BYONDin Windows-asiakasohjelmaa ja BYOND-tiliäsi; älä koskaan jaa salasanaasi tai yksityisiä lokeja Discordissa.\nValitse Tithewood projektiroolivalikosta ja käytä sen omia keskustelu- ja kehityskanavia. Jaa ideoita, raportoi selkeä toistotapa puhdistetuin virheilmoituksin ja sovi pelaamisesta vain, kun varsinainen sessio on ilmoitettu."
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "Polku",
+    "home": "Etusivu",
+    "effective": "Voimassa {date} alkaen",
+    "onThisPage": "Tällä sivulla",
+    "translationNote": "Tämä on käännös tiedoksesi. Sovellettava on tämän asiakirjan englanninkielinen versio.",
+    "untranslated": "Tätä asiakirjaa ei ole vielä käännetty, joten se näytetään englanniksi."
+  },
+  "client": {
+    "app": {
+      "count": {
+        "one": "{count} modi",
+        "other": "{count} modia"
+      },
+      "countOf": {
+        "one": "{shown} / {count} modi",
+        "other": "{shown} / {count} modia"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal ei latautunut. Tarkista yhteytesi tai yritä myöhemmin uudelleen.",
+      "pickAmount": "Valitse summa väliltä ${min}–${max} täysinä dollareina.",
+      "cancelled": "Maksua ei tehty.",
+      "error": "PayPalissa tapahtui virhe. Maksua ei tehty.",
+      "monthlyThanks": "Kiitos! Kuukausilahjoituksesi (${amount}) on määritetty.",
+      "thanks": "Kiitos! Lahjoituksesi (${amount}) onnistui.",
+      "processing": "PayPal käsittelee maksuasi vielä."
+    },
+    "servers": {
+      "unknown": "Tuntematon",
+      "yes": "Kyllä",
+      "no": "Ei",
+      "dedicated": "Dedicated",
+      "playerHosted": "Pelaajan isännöimä",
+      "online": "Verkossa",
+      "offline": "Ei verkossa",
+      "eyebrow": "YHTEISÖHAKEMISTO",
+      "hostNotSpecified": "Isäntää ei ilmoitettu",
+      "regionNotSpecified": "Aluetta ei ilmoitettu",
+      "noDescription": "Isäntä ei ole antanut kuvausta.",
+      "playersCapacity": "Pelaajat / kapasiteetti",
+      "hostLatency": "Isännän viiveen mediaani",
+      "gameBuild": "Pelin versio",
+      "moreComponents": {
+        "one": "+{count} komponentti",
+        "other": "+{count} komponenttia"
+      },
+      "requiredMods": {
+        "one": "{count} vaadittu modi",
+        "other": "{count} vaadittua modia"
+      },
+      "viewServer": "Katso palvelin ja vaatimukset ↗",
+      "viewServerLabel": "Katso {name} ja vaatimukset",
+      "count": "{shown} / {total} palvelinta · {online} verkossa",
+      "noneTitle": "Seuraava yhteisö alkaa tästä.",
+      "noneMessage": "Palvelimia ei ole vielä listattu. Isännät voivat pyytää listausta Discordimme kautta. Päivitä tarkistaaksesi, onko uusia jaettuja istuntoja.",
+      "noMatchTitle": "Ei vastaavia palvelimia.",
+      "noMatchMessage": "Kokeile toista nimeä, aluetta tai modia, tai muuta tila- ja istuntosuodattimia.",
+      "refreshing": "Päivitetään hakemistoa…",
+      "updated": "Päivitetty {time} · Päivittyy 60 sekunnin välein",
+      "unavailable": "Hakemisto ei ole käytettävissä",
+      "tryRefresh": "Yritä uudelleen Päivitä-painikkeella.",
+      "loadFailedTitle": "Emme voineet ladata hakemistoa.",
+      "loadFailedMessage": "Palvelinhakemisto ei ole tilapäisesti käytettävissä. Yritä hetken kuluttua uudelleen; tämä ei kerro, ovatko yksittäiset palvelimet verkossa.",
+      "versionNotSpecified": "Versiota ei ilmoitettu",
+      "history": {
+        "title": "Viimeaikainen toiminta",
+        "unavailable": "Toimintahistoria ei ole käytettävissä. Päivitä yrittääksesi uudelleen.",
+        "none": "Tuntihistoriaa ei vielä ole. Toiminta ilmestyy, kun isäntä raportoi.",
+        "note": "Tuntinäytteet viimeisen 30 päivän ajalta. Aukot ovat tuntemattomia, eivät nollia. Ajat näytetään paikallisessa aikavyöhykkeessäsi.",
+        "players": {
+          "title": "Pelaajat",
+          "unit": "Pelaajat",
+          "description": "Pelaajat tunneittain. Aukot tarkoittavat, ettei mittausta ole. Tarkat arvot ovat alla olevassa historiataulukossa.",
+          "none": "Tässä historiassa ei ole pelaajamittauksia."
+        },
+        "latency": {
+          "title": "Isännän viiveen mediaani",
+          "unit": "Millisekuntia",
+          "description": "Isännän viiveen mediaani tunneittain. Aukot tarkoittavat, ettei mittausta ole. Tarkat arvot ovat alla olevassa historiataulukossa.",
+          "none": "Tässä historiassa ei ole isännän viiveen mediaanin mittauksia."
+        },
+        "viewValues": "Näytä tuntiarvot",
+        "caption": "Palvelimen tuntihistoria",
+        "time": "Aika",
+        "hostLatency": "Isännän viive",
+        "onlineSeconds": "Sekuntia verkossa"
+      },
+      "lastReport": "Isännän viimeisin raportti: {time}. Isännän viive kuvaa yhdistyneitä pelaajia, ei sinun yhteyttäsi.",
+      "openInManager": "Avaa Managerissa",
+      "noJoinTarget": "Isäntä ei ole antanut liittymiskohdetta.",
+      "offlineNoJoin": "Tämä palvelin ei ole verkossa. Liittyminen ei ole mahdollista.",
+      "permalink": "Palvelimen pysyvä linkki ↗",
+      "joinNote": "Liittyminen avaa Modstoke Managerin version 0.3.0 tai uudemman, joka näyttää tuoreet tiedot vahvistettavaksesi. Tämä sivu ei lataa modeja.",
+      "components": "Komponentit",
+      "noComponents": "Isäntä ei ole ilmoittanut komponentteja.",
+      "requiredModsTitle": "Vaaditut modit",
+      "noRequiredMods": "Isäntä ei ole ilmoittanut vaadittuja modeja.",
+      "settings": "Isännän ilmoittamat asetukset",
+      "difficulty": "Vaikeustaso",
+      "pvp": "PvP",
+      "friendlyFire": "Omiin osuminen",
+      "passwordRequired": "Salasana vaaditaan",
+      "loadingTitle": "Ladataan palvelinta…",
+      "loadingMessage": "Luetaan isännän uusinta raporttia ja toimintaa.",
+      "goneTitle": "Palvelin ei enää ole listalla.",
+      "detailUnavailableTitle": "Palvelimen tiedot eivät ole käytettävissä.",
+      "goneMessage": "Isäntä on voinut poistaa listauksen, tai hakemisto ei ole tilapäisesti käytettävissä. Sulje tämä paneeli ja yritä uudelleen Päivitä-painikkeella.",
+      "unsupportedReport": "Hakemisto palautti raportin, jota ei tueta. Yritä myöhemmin uudelleen.",
+      "invalidTitle": "Virheellinen palvelinlinkki.",
+      "invalidMessage": "Tämä linkki ei sisällä kelvollista palvelimen tunnusta. Sulje tämä paneeli selataksesi hakemistoa."
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "Maastotabletti, rannekello, kartoitusdrooni ja Kestrel K3, pieni kolmipaikkainen lentokone. Suunnittele tarvikeretkiä, merkitse paikkoja kartalle, tiedustele ilmasta tai lennätä kavereita ympäri saarta.",
+        "description": "Client lisää varusteita, joita kannat mukanasi: maastotabletin, rannekellon, kartoitusdroonin ja Kestrel K3:n, pienen kolmipaikkaisen lentokoneen. Sen on tarkoitus tuntua varusteelta, ei pelin päälle liimatulta valikolta.\n\nTabletissa on kartta omine merkintöinesi, muistikirja, kello ja Pack, joka hakee esineitä ja ammuksia ja laatii ostoslistan reseptiä varten. Se vain suunnittelee; valmistuksen teet edelleen itse.\n\n- Kartoitusdrooni: lennätä sitä tabletista, pudota karttamerkintöjä kaikkeen, minkä näet, ja se laskeutuu itse, kun akku käy vähiin.\n- Kestrel K3: ota se käyttöön tabletin Hangar-sovelluksesta, kun edessä on noin 18 metriä vapaata maata. Yksi lentäjä, kaksi matkustajaa.\n- Hahmo: valitse vartalo, ihonsävy ja muoto ja pidä sama ulkonäkö joka kerta, kun liityt peliin.\n\nHeimot, tulostin, jaetut reittipisteet ja kumppanit vaativat isännän, jolla on Admin käytössä. Isäntä ja kaikki lentäjät tarvitsevat saman Client-version, joten kokeile sitä ensin maailmasi kopiolla.",
+        "inTesting": "Avaruuslento on testauksessa: avaruusalus, jonka laukaiset suurelta aukiolta, asema kiertoradalla ja uusi maailma, jolle laskeudutte ja jota kartoitatte porukkasi kanssa. Se ei ole vielä nykyisessä latauksessa.",
+        "changelog": {
+          "0.2.4": "Hahmoeditori: Mods > Character > Customise character avaa kokoruudun editorin pyörivällä esikatselulla. Valitse vartalo, ihonsävy sekä silmien ja alusvaatteiden väri ja muotoile hahmoa liukusäätimillä.\nPidät saman ulkonäön joka kerta, kun liityt peliin, ja se toimii niiden pelaajien kanssa, joilla ei ole Modstokea.\nPalvelinyhteensopivuus korvaa Mods-valikon päällekkäisen Modstoke Client -sivun.\nVaatii Modstoke Loader 0.4.0:n ja sen Modstoke-kansion."
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "Kestrel K3 pysäköitynä rannalle, kuvattuna kartoitusdroonista"
+          },
+          "trailer": {
+            "alt": "Clientin traileri: Kestrel K3 lentää lumisten huippujen ohi"
+          },
+          "tablet-home": {
+            "alt": "Maastotabletin aloitusnäyttö metsässä käsissä pidettynä"
+          },
+          "tablet-apps": {
+            "alt": "Maastotabletin sovellusluettelo rannalla"
+          },
+          "drone-camera": {
+            "alt": "Kartoitusdroonin kameran ohjaimet rantaviivan yllä"
+          },
+          "kestrel-cockpit": {
+            "alt": "Kestrel K3:n lentäjänpaikka"
+          },
+          "spacecraft-test": {
+            "alt": "Avaruusalus laskeutuneena toiselle maailmalle",
+            "caption": "Testiversio. Ei vielä nykyisessä latauksessa."
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "Kaiva maata ja kalliota, täytä kuopat takaisin ja peru virheet pienellä ulkoalueella. Toistaiseksi vain tallennusten offline-yksinpelikopioissa.",
+        "description": "Terraformingilla voit kaivaa pientä saaren aluetta ja laittaa mullan takaisin sinne, minne haluat. Kaiva kuoppa, täytä osa siitä ja peru, jos menee pieleen.\n\nToistaiseksi se on yksi ulkoalue tallennuksen offline-yksinpelikopiossa. Moninpeli ja rakentaminen kaivetulle maalle eivät vielä toimi.\n\n- Luo alue vapaalle maalle Mods-valikosta\n- Kaiva lapiolla tai hakulla, täytä lapiolla\n- Kaivamasi maa menee varastoon, ja täyttäminen kuluttaa sitä\n- Kumoaminen palauttaa sekä maan että mullan\n\nNouse ulos jokaisesta kuopasta ennen asennuksen poistoa, koska kaivettua muotoa ei ole olemassa ilman modia.",
+        "inTesting": "Koko saaren kattava kaivaminen on testauksessa: kaiva, täytä, tasoita ja silota missä tahansa saarella lapiolla, tallennettuna maailmasi mukana. Se ei ole vielä nykyisessä latauksessa.",
+        "changelog": {
+          "0.2.2": "Maaston luominen, lataaminen, poistaminen ja palauttaminen pyytää nyt vahvistuksen konsolista tai Mods-valikosta.\nToimii Modstoke Loader 0.4.0:n ja sen Modstoke-kansion kanssa."
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "Kuoppa kaivettuna Terraforming-tontin hiekkaan"
+          },
+          "mods-page": {
+            "alt": "Terraforming-sivu Mods-valikossa"
+          },
+          "mound-test": {
+            "alt": "Kelvin kävelee täytetyn maan muodostaman kumpareen yli",
+            "caption": "Testiversio. Ei vielä nykyisessä latauksessa."
+          }
+        }
+      },
+      "virginia": {
+        "summary": "Vaihda Virginian asujen värejä ja lisää muutama valinnainen tapa viettää aikaa hänen kanssaan: tervehdykset, arvostus ja rauhallinen yhteinen hetki.",
+        "description": "Muutama valinnainen lisä Virginialle: asujen värit sekä joitakin tapoja tervehtiä häntä, osoittaa arvostusta tai vain viettää rauhallista aikaa yhdessä. Kaikki on aluksi pois päältä.\n\n- Asujen värit: Original, Crimson, Forest, Ocean, Charcoal tai Ivory, vain omalla näytölläsi\n- Tervehdykset, arvostus ja rauhallinen yhteinen hetki, jos isäntä sallii ne\n- Erillinen side, jota voit tarkistaa valikosta, tallennettuna maailmasi mukana\n\nHänen mallinsa, tekstuurinsa ja animaationsa ovat pelin omia. Side ei muuta sitä, minne hän menee, kuinka paljon hän pitää sinusta tai mitä hän tuo sinulle.",
+        "changelog": {
+          "0.1.2": "Suhteesi edistyminen tallentuu nyt pelisi mukana.\nToimii Modstoke Loader 0.4.0:n ja sen Modstoke-kansion kanssa."
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia kävelee metsäpolkua pitkin"
+          },
+          "trailer": {
+            "alt": "Virginian trailerin otsikkokuva metsän päällä"
+          },
+          "settings": {
+            "alt": "Virginian asetukset Mods-valikossa"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Isäntätyökalut Sons of the Forest -peliin. Katso, ketkä ovat maailmassasi, tarkista, mitä he ovat puuhanneet, ja vangitse, vaienna, potkaise tai anna porttikielto poistumatta pelistä.",
+            "description": "Jos isännöit maailmaa, Admin tuo pelaajaluettelon ja moderointityökalusi yhteen valikkoon pelin sisällä. Valitse pelaaja nähdäksesi hänen Steam-ID:nsä ja sen, mitä modi on hänestä huomannut, ja hoida asia siinä samassa.\n\n- Luettelo, jossa vangitseminen, vaientaminen, potkaiseminen ja porttikielto\n- Todisteet lajiteltuina liikkeeseen, esineisiin, rakentamiseen, palvelimeen ja toimintoihin\n- Henkilökunnan roolit omine oikeuksineen, myös etähenkilökunta dedicated-palvelimilla\n- Isännän säätimet ajalle, säälle ja maailman asetuksille\n\nTodisteet ovat avuksi ongelman selvittämiseen. Se ei ole täydellinen huijauksenesto, eikä mikään anna porttikieltoa tai potkaise itsestään. Pelaajat eivät tarvitse Adminia liittyäkseen.",
+            "changelog": {
+              "0.5.221": "Henkilökunnan roolit: arvojärjestykseen asetetut roolit omine sallittuine ja kiellettyine oikeuksineen sekä Steam64-ylläpitäjäluettelo vanhenemispäivineen.\nEtähenkilökunta voi käyttää F7:ää listen-isännillä ja dedicated-palvelimilla. Isäntä tarkistaa jokaisen pyynnön.\nF7-valikko: korjattu kohdistus- ja jumiutuneen kursorin ongelmat, uudet ulkoasut sekä Yksinkertainen- ja Edistynyt-asettelut.\nModittomat pelaajat: nopeusrajoitukset koskevat vain kulkuneuvoja, jotka isäntä voi vahvistaa, ja esineiden poiminnan monistusvirhe on korjattu.\nUusia todisteita god modesta, nopeushuijauksista, tulinopeudesta, mahdottomista osumista ja Steam-lipuista."
+            },
+            "media": {
+              "overview": {
+                "alt": "Admin-valikko avoinna metsän päällä pelin tyylisellä ulkoasulla"
+              },
+              "trailer": {
+                "alt": "Adminin trailerin otsikkokuva metsän päällä"
+              },
+              "overview-classic": {
+                "alt": "Adminin yleiskatsaussivu klassisella ulkoasulla"
+              },
+              "world": {
+                "alt": "Maailman säätimet Admin-valikossa"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "Kirjaudu Nexus Modsiin selaimen kautta; henkilökohtaisia API-avaimia ei enää tarvita. Manager seuraa Loaderin uutta Modstoke-kansiota, ja OpenACAI-modisi ja asetuksesi siirtyvät mukana seuraavassa pelin käynnistyksessä. Uutta: yhteisön palvelinselain modstoke://-liittymislinkkeineen sekä dedicated-palvelimien työkalut: peliasetukset, henkilökunnan oikeudet, reaaliaikainen konsoli sekä turvallisempi pysäytys ja uudelleenkäynnistys. Loader-konsoli peleille ja palvelimille, ja Loaderin asennukset vain korjaavat tai päivittävät, eivät koskaan palauta vanhempaan versioon. Valitse Asetuksista ulkoasu: pelin oma, pelitiedostoistasi luettu ulkoasu tai selkeä Modstoke-tyyli. Nopeampi käynnistys, vakaampi modikatalogi ja tiukemmat rajat sille, mitä Manager lukee, lataa ja asentaa.",
+    "loader-0-4-2-net11-preview": "Toimii Linux-isännillä Winen alla, joten se toimii nyt hostatuilla dedicated-palvelimilla. Korjaa käynnistysvian, joka esiintyi jokaisessa Wine-asennuksessa. Hosting-paneelin tuki: konsolikomennot JSON-vastauksin, reaaliaikainen tilatiedosto, siisti tallennus ja pysäytys, pelaaja-, tallennuspaikka- ja modiluettelot, tapahtumavirta, kaatumisraportit, kuulutukset ja modikohtainen suorituskyvyn ajoitus. Modit voivat ilmoittaa kuvauksen ja vähimmäisversion Loaderille. Uusia SDK-ominaisuuksia modeille: isäntäkomennot, syötteen kohdistuksen omistaja ja valikon näkyvyys. Tuletko vanhemmasta Modstoke- tai OpenACAI-versiosta? Aja ensin Modstoke Legacy Cleanup 1.1.0.",
+    "loader-0-4-1-net11-preview": "Korjaa vian, jonka vuoksi Modstoke Manager 0.3.0 kieltäytyi asentamasta Loaderia. Muuten sama kuin 0.4.0: Loader sijaitsee nyt Modstoke-kansiossa. Modisi ja asetuksesi siirtyvät OpenACAI:sta ensimmäisellä käynnistyksellä, eikä mitään korvata. Toimii .NET 11 RC3:lla, joka sisältyy lataukseen. Unityn peruskirjastot ladataan nyt modstoke.comista ensimmäisellä käynnistyksellä sen sijaan, että ne olisivat arkistossa. Uusi pelinsisäinen Mods-valikko, joka sopii pelin omiin valikoihin, vierityspalkilla ja pehmeällä vierityksellä. SDK:n kautta tallennettu modin tallennusdata palautetaan nyt, kun lataat tallennuksen. Korjattu dedicated-palvelimen vika, jossa vanhentuneet maailmansiirtomerkinnät saattoivat estää kaikki poiminnat ja varastosiirrot. Käynnistysloki kertoo Loaderin tarkan version ja varoittaa, jos .NET-ajoympäristö ei täsmää. Tuletko vanhemmasta Modstoke- tai OpenACAI-versiosta? Aja ensin Modstoke Legacy Cleanup 1.1.0; se sisältyy tähän lataukseen.",
+    "loader-0-4-0-net11-preview": "Loader sijaitsee nyt Modstoke-kansiossa. Modisi ja asetuksesi siirtyvät OpenACAI:sta ensimmäisellä käynnistyksellä, eikä mitään korvata. Toimii .NET 11 RC3:lla, joka sisältyy lataukseen. Unityn peruskirjastot ladataan nyt modstoke.comista ensimmäisellä käynnistyksellä sen sijaan, että ne olisivat arkistossa. Uusi pelinsisäinen Mods-valikko, joka sopii pelin omiin valikoihin, vierityspalkilla ja pehmeällä vierityksellä. SDK:n kautta tallennettu modin tallennusdata palautetaan nyt, kun lataat tallennuksen. Korjattu dedicated-palvelimen vika, jossa vanhentuneet maailmansiirtomerkinnät saattoivat estää kaikki poiminnat ja varastosiirrot. Käynnistysloki kertoo Loaderin tarkan version ja varoittaa, jos .NET-ajoympäristö ei täsmää. Tuletko vanhemmasta Modstoke- tai OpenACAI-versiosta? Aja ensin Modstoke Legacy Cleanup 1.1.0; se sisältyy tähän lataukseen."
+  }
+}

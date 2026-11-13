@@ -8,6 +8,9 @@
   const holder = document.querySelector('#paypal-buttons');
   if (!form) return;
 
+  const text = JSON.parse(document.getElementById('site-text')?.textContent || '{}');
+  const t = (key, values) => String(text[key] ?? key).replace(/\{(\w+)\}/g, (all, name) => values?.[name] ?? all);
+
   let config;
   let sdk;
 
@@ -35,7 +38,7 @@
     sdk = document.createElement('script');
     sdk.src = `https://www.paypal.com/sdk/js?${params}`;
     sdk.onload = () => render(kind);
-    sdk.onerror = () => say("PayPal didn't load. Check your connection or try again later.");
+    sdk.onerror = () => say(t('client.support.paypalFailed'));
     document.head.append(sdk);
   }
 
@@ -44,23 +47,23 @@
       style: { layout: 'vertical', color: 'gold', shape: 'rect', label: kind === 'monthly' ? 'subscribe' : 'donate' },
       onClick: (data, actions) => {
         if (valid(amount())) { say(''); return actions.resolve(); }
-        say(`Pick an amount between $${config.minimum} and $${config.maximum}, in whole dollars.`);
+        say(t('client.support.pickAmount', { min: config.minimum, max: config.maximum }));
         return actions.reject();
       },
-      onCancel: () => say('No payment was made.'),
-      onError: () => say('Something went wrong with PayPal. No payment was made.'),
+      onCancel: () => say(t('client.support.cancelled')),
+      onError: () => say(t('client.support.error')),
     };
     if (kind === 'monthly') {
       options.createSubscription = (data, actions) => actions.subscription.create({ plan_id: config.monthlyPlanId, quantity: String(amount()) });
       options.onApprove = async data => {
         const result = await post('subscriptions', { id: data.subscriptionID });
-        say(`Thank you! Your $${result.amount} monthly donation is set up.`);
+        say(t('client.support.monthlyThanks', { amount: result.amount }));
       };
     } else {
       options.createOrder = async () => (await post('orders', { amount: amount() })).id;
       options.onApprove = async data => {
         const result = await post(`orders/${data.orderID}/capture`, {});
-        say(result.status === 'COMPLETED' ? `Thank you! Your $${result.amount} donation went through.` : 'PayPal is still processing your payment.');
+        say(result.status === 'COMPLETED' ? t('client.support.thanks', { amount: result.amount }) : t('client.support.processing'));
       };
     }
     window.paypal.Buttons(options).render(holder);

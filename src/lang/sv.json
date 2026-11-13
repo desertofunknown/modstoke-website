@@ -1,0 +1,1151 @@
+{
+  "_about": "modstoke.com-texter på svenska (du-form). Översatta från en.json; synpunkter från modersmålstalare är välkomna. Text inom {klammerparenteser} fylls i av sajten och ska stå kvar som den är.",
+  "seo": {
+    "home": {
+      "title": "Modstoke: mods till Sons of the Forest, Mod Manager och Loader",
+      "description": "Gratis mods till Sons of the Forest och verktygen för att köra dem: Modstoke Manager för Windows, Modstoke Loader och mods som Client, Admin och Virginia."
+    },
+    "mods": {
+      "title": "Mods till Sons of the Forest | Modstoke",
+      "description": "Modstoke-mods till Sons of the Forest: Client (surfplatta, drönare, planet Kestrel), Admin-värdverktyg, Terraforming, Virginia. Versioner, krav och multiplayer."
+    },
+    "tools": {
+      "title": "Modstoke Manager, Loader och SDK för Sons of the Forest",
+      "description": "Ladda ner Modstoke Manager för Windows, lägg till Modstoke Loader i Sons of the Forest och bygg mods med SDK:n som följer med."
+    },
+    "docs": {
+      "title": "Modstoke-dokumentation för spelare och modförfattare",
+      "description": "Hur Modstoke Manager, Loader och mods hänger ihop, spelkompatibilitet och vad du bör veta innan du bygger en mod till Sons of the Forest."
+    },
+    "releases": {
+      "title": "Ladda ner Modstoke Manager och Loader | Utgåvor",
+      "description": "Ladda ner Modstoke Manager för Windows och Modstoke Loader. Varje utgåva anger version, ändringar, storlek, signeringsstatus och SHA-256."
+    },
+    "hosting": {
+      "title": "Serverhosting för Sons of the Forest | Modstoke",
+      "description": "Hyr en dedikerad Sons of the Forest-server av OpenACAI, en ideell organisation, med dedikerade kärnor, dagliga backuper och Modstoke Loader klar att köra."
+    },
+    "support": {
+      "title": "Stöd Modstoke | OpenACAI",
+      "description": "Donera så att Modstoke förblir gratis. Donationer går till OpenACAI, en ideell 501(c)(3)-organisation, och GAMHON, dess program för psykisk hälsa genom spel."
+    },
+    "servers": {
+      "title": "Communityservrar för Sons of the Forest | Modstoke",
+      "description": "Hitta Sons of the Forest-servrar vars värdar valt att lista dem, med antal spelare, mods som krävs och inställningar, eller läs hur du listar din egen."
+    },
+    "notFound": {
+      "title": "Sidan hittades inte | Modstoke",
+      "description": "Sidan hittades inte. Gå tillbaka till Modstoke för mods, verktyg och guider till Sons of the Forest."
+    },
+    "pageTitle": "{page} | Modstoke",
+    "imageAlt": "Modstoke, mods och verktyg för Sons of the Forest",
+    "organization": "Gratis modverktyg och en community för Sons of the Forest, av OpenACAI."
+  },
+  "nav": {
+    "mods": "Mods",
+    "tools": "Verktyg",
+    "servers": "Servrar",
+    "hosting": "Hosting",
+    "guides": "Guider",
+    "docs": "Dokument",
+    "releases": "Utgåvor"
+  },
+  "layout": {
+    "skip": "Hoppa till innehållet",
+    "current": "Aktuell",
+    "noDownloads": "Inga publika nedladdningar än",
+    "support": "Stöd Modstoke",
+    "home": "Modstokes startsida",
+    "menu": "Meny",
+    "mainNav": "Huvudnavigering",
+    "download": "Ladda ner Manager",
+    "language": "Språk",
+    "languageNote": "Välj språk för den här sajten. Ditt val sparas.",
+    "translated": "Översatt från engelska. Rättelser är välkomna i vår Discord."
+  },
+  "footer": {
+    "about": "Gratis mods och verktyg för Sons of the Forest, gjorda av OpenACAI, en ideell organisation, som en del av {gamhon}, dess program för psykisk hälsa och social samvaro genom spel. Inte knutna till Endnight Games.",
+    "label": "Sidfot",
+    "play": "Spela",
+    "build": "Bygg",
+    "community": "Community",
+    "mods": "Mods",
+    "servers": "Servrar",
+    "rent": "Hyr en server",
+    "panel": "Serverpanel",
+    "install": "Installationsguide",
+    "troubleshooting": "Felsökning",
+    "tools": "Manager, Loader och SDK",
+    "makeMod": "Gör en mod",
+    "releases": "Utgåvor",
+    "discord": "Discord",
+    "support": "Stöd Modstoke",
+    "apps": "Discord-appar",
+    "privacy": "Integritet",
+    "terms": "Villkor"
+  },
+  "pages": {
+    "overview": "Översikt",
+    "mods": "Mods",
+    "tools": "Verktyg",
+    "docs": "Dokument",
+    "releases": "Utgåvor",
+    "servers": "Communityservrar",
+    "hosting": "Serverhosting",
+    "support": "Stöd Modstoke",
+    "notFound": "Sidan hittades inte",
+    "noReleases": {
+      "eyebrow": "Utgåvor",
+      "title": "Inga nedladdningar än",
+      "lede": "Inget har publicerats här ännu. Varje utgåva kommer att ange version, ändringar, kompatibilitet och filhashar."
+    },
+    "missing": {
+      "title": "Här finns inget.",
+      "lede": "Sidan finns inte, eller så har den flyttats.",
+      "home": "Tillbaka till Modstoke",
+      "mods": "Se modsen"
+    }
+  },
+  "home": {
+    "hero": {
+      "alt": "Kvällsljus över de snöiga topparna ovanför öns tallskog",
+      "title": "Mods som känns som en del av spelet.",
+      "lede": "Modstoke är en modloader, en skrivbordshanterare och hittills fyra egna mods: Client, Admin, Terraforming och Virginia. Allt är gratis och görs av OpenACAI, en ideell organisation.",
+      "download": "Ladda ner Manager {version}",
+      "seeMods": "Se modsen",
+      "file": "Windows · {size}",
+      "fileSigned": "Windows · {size} · signerad av OpenACAI"
+    },
+    "mods": {
+      "title": "Våra mods",
+      "all": "Alla mods"
+    },
+    "setup": {
+      "title": "Kom igång",
+      "manager": {
+        "title": "Installera Manager.",
+        "body": "Peka ut din Sons of the Forest-mapp så hittar den ditt spel och dina sparfiler."
+      },
+      "loader": {
+        "title": "Lägg till Loader.",
+        "body": "Manager installerar den. Den lägger till en Mods-meny på titel- och pausskärmen."
+      },
+      "mods": {
+        "title": "Välj dina mods.",
+        "body": "De flesta vill ha Client. Om du är värd, lägg till Admin också."
+      },
+      "backup": "Säkerhetskopiera dina sparfiler först. {guide} går igenom det steg för steg.",
+      "guideLink": "Installationsguiden",
+      "shotAlt": "Modstoke Manager med sin modlista för Sons of the Forest",
+      "shotCaption": "Managers modlista. Posterna som visas kommer från SOTF Mods, inte från den här sajten."
+    },
+    "releases": {
+      "title": "Senaste utgåvorna",
+      "all": "Alla utgåvor"
+    },
+    "ledger": {
+      "manager": "Windows-installationsprogram, signerat",
+      "loader": "Loader och SDK, förhandsversion"
+    },
+    "together": {
+      "title": "Spela tillsammans",
+      "body": "{servers} visar Sons of the Forest-världar vars värdar valt att lista dem, med de mods som var och en kräver. I vår {discord} hittar du ett crew, rapporterar buggar och får höra om nya versioner först. Allt är en del av {gamhon}, OpenACAI:s program för psykisk hälsa och social samvaro genom spel.",
+      "serversLink": "Serverlistan",
+      "browse": "Bläddra bland servrar",
+      "join": "Gå med i Discord"
+    }
+  },
+  "hosting": {
+    "eyebrow": "Serverhosting",
+    "title": "Hyr en server till Sons of the Forest",
+    "lede": "En dedikerad server på vår egen hårdvara, med Modstoke Loader och våra mods klara att köra. OpenACAI driver den som ideell organisation, och det du betalar håller servrarna och modsen igång.",
+    "status": "Öppnar snart, med start i en liten beta för medlemmar i vår Discord.",
+    "plans": {
+      "heading": "Planer",
+      "small": "Small",
+      "standard": "Standard",
+      "price": "{price} i månaden, eller mer om du vill",
+      "players": "Spelare",
+      "upTo": "Upp till {count}",
+      "cpu": "CPU",
+      "cores": "{cores} dedikerade kärnor",
+      "memory": "Minne",
+      "memorySize": "{memory} GB",
+      "storage": "Lagring",
+      "storageSize": "{disk} GB på NVMe",
+      "note": "Varje plan har ett minimibelopp. Vid betalningen kan du betala mer om du vill. Allt över minimibeloppet räknas som en donation till OpenACAI och visas som en egen rad på ditt kvitto. En plan för 16 spelare kommer senare, när vi har testat en ordentligt."
+    },
+    "get": {
+      "title": "Det här får du",
+      "cores": {
+        "title": "Egna kärnor.",
+        "body": "Din servers CPU-kärnor delas inte med någon annans."
+      },
+      "modstoke": {
+        "title": "Modstoke färdigt.",
+        "body": "Loader är installerad och hålls uppdaterad, och våra mods är ett klick bort."
+      },
+      "find": {
+        "title": "Lätt att hitta.",
+        "body": "Den syns i spelets serverlista, och på vår {servers} med en anslutningslänk för Manager om du vill att den ska listas.",
+        "link": "Serversida"
+      },
+      "admin": {
+        "title": "Adminverktyg.",
+        "body": "Modstoke Admin känner igen dig som ägare via ditt Steam-konto."
+      },
+      "panel": {
+        "title": "En enkel kontrollpanel.",
+        "body": "Dra in filer och mappar direkt, följ konsolen, se vem som spelar och kör kommandon, allt från en och samma skärm."
+      },
+      "world": {
+        "title": "Din värld, din att behålla.",
+        "body": "En backup varje dag, sparad i en vecka, och ett klick för att ladda ner din värld till din egen dator."
+      },
+      "discord": {
+        "title": "Ett hem i vår Discord.",
+        "body": "Din server får egna kanaler för meddelanden och chatt, och din personal får moderationsaviseringar."
+      },
+      "coast": {
+        "title": "Nära ostkusten.",
+        "body": "Hostad i New Jersey på en 1 Gbit/s-linje."
+      }
+    },
+    "how": {
+      "title": "Så fungerar det",
+      "apply": {
+        "title": "Ansök.",
+        "body": "Logga in med Discord, koppla ditt Steam-konto och berätta vad servern ska användas till."
+      },
+      "review": {
+        "title": "Vi granskar den.",
+        "body": "En person i vårt team läser varje ansökan."
+      },
+      "pay": {
+        "title": "Betala med PayPal.",
+        "body": "Välj en plan och hur mycket du vill betala. Den förnyas varje månad, och du kan säga upp när som helst."
+      },
+      "play": {
+        "title": "Spela.",
+        "body": "Din server startar inom några minuter, och du styr den från {panel}.",
+        "link": "panelen"
+      }
+    },
+    "faq": {
+      "title": "Frågor",
+      "players": {
+        "q": "Kan jag ha fler än 8 spelare?",
+        "a": "Inte än. Åtta är spelets egen gräns. Vår Loader kan höja den, och vi lägger till en plan för 16 spelare när vi har kört en med riktiga spelare."
+      },
+      "mods": {
+        "q": "Kan jag lägga till egna mods?",
+        "a": "Ja, via filhanteraren. Din server körs i ett eget utrymme, skilt från alla andras."
+      },
+      "payment": {
+        "q": "Vad händer om en betalning misslyckas?",
+        "a": "Efter några dagars respit pausas din server. Vi behåller dess filer i 14 dagar, så att du kan fortsätta där du slutade."
+      },
+      "apply": {
+        "q": "Varför måste jag ansöka?",
+        "a": "Vi är en liten ideell organisation som delar en maskin, så vi vill veta vem som finns på den. Det gör det rättvist och tryggt för alla."
+      },
+      "rules": {
+        "q": "Vilka regler gäller?",
+        "a": "{terms} täcker hostingen, inklusive återbetalningar och vad som händer med dina filer när en server upphör. {privacy} anger vad vi sparar.",
+        "termsLink": "Användarvillkoren",
+        "privacyLink": "Integritetspolicyn"
+      }
+    },
+    "beta": {
+      "title": "Vill du vara med i betan?",
+      "body": "Fråga i vår Discord så lägger vi till dig på listan. Hosting är en del av {gamhon}, OpenACAI:s program för psykisk hälsa och social samvaro genom spel.",
+      "have": "Har du redan en server? {panel} för att styra den.",
+      "panelLink": "Öppna panelen",
+      "ask": "Fråga på Discord",
+      "code": "Jag har en betakod",
+      "servers": "Communityservrar"
+    }
+  },
+  "support": {
+    "eyebrow": "Stöd",
+    "title": "Håll Modstoke igång",
+    "lede": "Våra mods och verktyg är gratis. De görs av OpenACAI, en ideell 501(c)(3)-organisation, och donationer betalar servern bakom den här sajten, vår Discord-bot och communityservrarna.",
+    "donate": {
+      "title": "Donera",
+      "often": "Hur ofta",
+      "once": "En gång",
+      "monthly": "Varje månad",
+      "amount": "Belopp i amerikanska dollar",
+      "otherLabel": "Annat belopp",
+      "otherPlaceholder": "Annat $",
+      "closed": "Donationer online öppnar snart. Tills dess kan du fråga i vår {discord} hur du kan hjälpa till.",
+      "note": "Betalningar går via PayPal, som mejlar dig ett kvitto. Vi ser aldrig dina kortuppgifter."
+    },
+    "roles": {
+      "title": "Supporterroller",
+      "intro": "Givare får en roll i vår Discord som tack:",
+      "supporter": {
+        "name": "Supporter",
+        "text": "Alla som har donerat"
+      },
+      "monthly": {
+        "name": "Månadssupporter",
+        "text": "Så länge en månadsdonation pågår"
+      },
+      "host": {
+        "name": "Servervärd",
+        "text": "Alla som hyr en {hosting}",
+        "link": "server av oss"
+      },
+      "note": "Tills konton öppnar kan du skriva till en moderator i Discord med ditt PayPal-kvittonummer, så lägger de till rollen. Rollerna är bara ett tack. Modsen förblir gratis för alla oavsett."
+    },
+    "gamhon": {
+      "title": "En del av GAMHON",
+      "what": "Modstoke är en del av GAMHON, Game and Mental Health Online Network. OpenACAI driver det för att ge människor ett socialt andningshål utan press genom spel, även människor som inte har så många andra platser att umgås på.",
+      "modding": "Moddning passar perfekt in. Som vilken hobby som helst ger det dig något att arbeta med och något att se fram emot, och det kommer med en community av människor som bygger saker tillsammans. Våra gratis verktyg, vår Discord och servrarna vi hostar är alla en del av det.",
+      "money": "Donationer som görs här och avgifter för {hosting} går till OpenACAI och hjälper till att finansiera programmet.",
+      "hostingLink": "serverhosting",
+      "crisis": "GAMHON handlar om fritid och vänskap, inte om rådgivning. Om du är i kris i USA, ring eller skicka sms till 988.",
+      "more": "Mer om GAMHON på openacai.com"
+    },
+    "where": {
+      "title": "Vart pengarna går",
+      "body": "Servern kommer först. En maskin i New Jersey kör den här sajten, Sentinel (vår Discord-bot) och dess lokala AI, och de spelservrar vi hostar. Allt utöver det går till resten av GAMHON.",
+      "ask": "Frågor? Fråga på Discord"
+    }
+  },
+  "servers": {
+    "eyebrow": "Communityservrar",
+    "title": "Hitta en server",
+    "intro": "Sons of the Forest-världar vars värdar valt att lista dem här, med de mods som var och en kräver.",
+    "listYours": "Lista din server",
+    "directoryLabel": "Serverkatalog",
+    "filters": {
+      "find": "Hitta en server",
+      "placeholder": "Server, värd, region eller mod…",
+      "status": "Status",
+      "allStatuses": "Alla statusar",
+      "online": "Online",
+      "offline": "Offline",
+      "kind": "Sessionstyp",
+      "allSessions": "Alla sessioner",
+      "dedicated": "Dedikerad",
+      "playerHosted": "Spelarhostad",
+      "refresh": "Uppdatera"
+    },
+    "loading": "Läser in katalogen…",
+    "refreshes": "Uppdateras var 60:e sekund medan sidan syns.",
+    "noscript": {
+      "title": "JavaScript behövs för att läsa in servrar.",
+      "body": "Aktivera JavaScript för att läsa den levande katalogen. Ingen serverinformation lagras på den här sidan."
+    },
+    "measureNote": "Spelarantal markerade med — är okända. Värdlatens är den av värden uppmätta mediantiden för tur och retur för anslutna spelare; din anslutning kan skilja sig.",
+    "join": {
+      "eyebrow": "INNAN DU GÅR MED",
+      "title": "En plats för din nästa session.",
+      "review": "Öppna en server för att se vilka mods den kräver, utvalda inställningar och senaste aktivitet. Kraven visas så att du kan granska dem; den här sidan laddar inte ner eller installerar mods.",
+      "manager": "Gå med öppnar Modstoke Manager 0.3.0 eller nyare, som visar serverdetaljerna igen så att du kan bekräfta dem innan något startar."
+    },
+    "host": {
+      "eyebrow": "FÖR VÄRDAR",
+      "title": "Dela din server, av eget val.",
+      "ask": "Be katalogens operatör i {discord} att godkänna din listning och utfärda en publiceringsnyckel. Ställ in nyckeln i hostingkomponenten och aktivera sedan publicering uttryckligen. Lägg inte nyckeln i chatten och skriv inte in den på den här webbplatsen.",
+      "discordLink": "vår Discord",
+      "privacy": "Bara värdar som valt det rapporterar. Listningar innehåller serverinformation, utvalda inställningar och sammanställd aktivitet, utan spelarnamn, chatt, lösenord eller privata Admin-data. Kontakta operatören för att ta bort en listning eller återkalla dess nyckel."
+    },
+    "detail": {
+      "eyebrow": "SERVERDETALJER",
+      "close": "Stäng",
+      "loading": "Läser in servern…"
+    }
+  },
+  "tools": {
+    "eyebrow": "Verktyg",
+    "title": "Manager, Loader och SDK",
+    "lede": "Spelare behöver Manager och Loader. Modförfattare bygger mot SDK:n, som följer med Loader.",
+    "installGuide": "Installationsguide",
+    "trailer": {
+      "watch": "Se trailern för {name} på YouTube",
+      "alt": "Titelbild från trailern för {name}",
+      "caption": "Trailer för {name}, spelas på YouTube"
+    },
+    "file": {
+      "none": "Ingen publik nedladdning än.",
+      "signed": "signerad",
+      "unsigned": "osignerad",
+      "preview": "förhandsversion"
+    },
+    "manager": {
+      "what": "En Windows-app för dina Sons of the Forest-mods. Den hittar ditt spel, installerar Loader och håller dina mods på ett ställe. Du kan bläddra bland SOTF Mods och Nexus Mods från den, hitta en server att gå med i eller sätta upp din egen dedikerade server.",
+      "store": "När Modstoke-butiken öppnar är Manager sättet att installera därifrån: den kontrollerar varje fil mot den signerade katalogen innan något packas upp.",
+      "download": "Ladda ner Manager"
+    },
+    "loader": {
+      "what": "Loadern bakom varje Modstoke-mod. Installera den en gång och lägg sedan till de mods du vill ha. Den lägger till en Mods-meny på titel- och pausskärmen, där varje mod har sina inställningar, och den levereras med den .NET-runtime den behöver.",
+      "legacy": "Äldre RedLoader- och BepInEx-mods fortsätter fungera vid sidan av den.",
+      "onReleases": "Loader bland utgåvorna",
+      "nexus": "Nexus-sida",
+      "shotAlt": "Loaders Mods-meny i spelet",
+      "shotCaption": "Mods-menyn som Loader lägger till i spelet"
+    },
+    "sdk": {
+      "what": "Gränssnitten som mods byggs mot. De ingår i Loader, så det finns inget separat att ladda ner: referera till Loader-assemblyn från ditt projekt och testa mot samma Loader-version som dina spelare kör.",
+      "notes": "{notes} täcker paketens uppbyggnad, manifestet och testning på en separat kopia av spelet.",
+      "notesLink": "Anteckningarna för skapare"
+    }
+  },
+  "guides": {
+    "home": "Hem",
+    "guides": "Guider",
+    "breadcrumb": "Sökväg",
+    "eyebrow": "SPELARGUIDER",
+    "onThisPage": "På den här sidan",
+    "managerVersion": "Manager {version}",
+    "managerPreview": "förhandsversionen av Manager",
+    "backup": {
+      "exit": "Avsluta Sons Of The Forest och stäng alla modverktyg som kan ändra dess filer. Låt en eventuell pågående Steam Cloud-synkronisering bli klar.",
+      "find": "Klistra in {path} i adressfältet i Utforskaren. För en vanlig lokal spelinstallation är det här mappen {saves} finns. Om den saknas, kontrollera Windows-kontot och sparplatsen som din installation använder innan du fortsätter.",
+      "copy": "Kopiera hela mappen {saves} till en separat, daterad backupmapp utanför spelet och dess sparmapp. Kopiera den; flytta eller ta inte bort originalet. Behåll alla konto- och världsundermappar.",
+      "verify": "Öppna backupen och kontrollera att de förväntade undermapparna och filerna finns. Rör inte den här kopian medan du gör ändringar. Steam Cloud ersätter inte en separat backup.",
+      "note": "För en dedikerad server eller sparfiler som ligger någon annanstans, säkerhetskopiera den serverns konfigurerade sparplats separat. Innan du återställer en äldre kopia, spara också de nuvarande sparfilerna så att du kan ångra återställningen."
+    },
+    "checksum": {
+      "open": "Valfritt: öppna PowerShell i mappen med det nedladdade installationsprogrammet och kör:",
+      "compare": "Jämför den returnerade {hash} med SHA-256 på {release} för samma version. För {manager} är det registrerade värdet:",
+      "releasePage": "utgivningssidan",
+      "differs": "Om den skiljer sig, kör inte filen. Ladda ner den igen från utgivningssidan och kontrollera på nytt. En matchande hash bekräftar att byten stämmer med den publicerade kontrollsumman; den bevisar inte utgivarens identitet och gör inte ett osignerat installationsprogram signerat. Se Microsofts {reference}.",
+      "reference": "Get-FileHash-referens",
+      "none": "Ingen Manager-fil är vald just nu. Kolla {releases} efter ett publicerat installationsprogram och dess kontrollsumma innan du fortsätter.",
+      "releases": "Utgåvor"
+    },
+    "index": {
+      "title": "Moddningsguider för Sons Of The Forest",
+      "description": "Installera Modstoke Manager på Windows, säkerhetskopiera dina sparfiler och lös problem med mods till Sons Of The Forest.",
+      "statusTitle": "Börja med det som finns",
+      "statusManager": "{manager} finns för Windows.",
+      "statusManagerPreview": "{manager} finns för Windows som förhandsversion.",
+      "statusNoManager": "Kolla Utgåvor för aktuell tillgänglighet av Manager.",
+      "statusLoader": "Loader {version} med SDK finns också bland utgåvorna, och Manager kan installera den åt dig. Mods som Client har egna nedladdningar, och Modstoke har ingen hostad modkatalog än.",
+      "statusNoLoader": "Det kompletta paketet med Modstoke Loader, SDK och Client är inte publicerat. Automatisk installation av det paketet är inte tillgänglig, och Modstoke har ingen hostad modkatalog än.",
+      "reviewReleases": "Se aktuella utgåvor",
+      "cardsLabel": "Tillgängliga guider",
+      "installEyebrow": "WINDOWS-INSTALLATION",
+      "installTitle": "Installera Modstoke Manager",
+      "installText": "Säkerhetskopiera sparfiler, hitta det officiella installationsprogrammet, kontrollera dess kontrollsumma och välj din spelinstallation.",
+      "installLink": "Läs installationsguiden",
+      "troubleEyebrow": "FELSÖKNING",
+      "troubleTitle": "Felsök spelmods",
+      "troubleText": "Skilj Manager-installation från problem med Loader och mods, kontrollera krav och förbered en användbar felrapport.",
+      "troubleLink": "Läs felsökningsguiden",
+      "footer": "För projektinformation och förberedelser för författare, se {docs}.",
+      "docs": "dokumentationen"
+    },
+    "install": {
+      "title": "Så installerar du Modstoke Manager på Windows",
+      "description": "En steg-för-steg-guide till att installera Modstoke Manager: säkerhetskopiering av sparfiler, officiell nedladdning, valfri SHA-256-kontroll och val av spel.",
+      "crumb": "Installera Modstoke Manager",
+      "toc": {
+        "before": "Innan du börjar",
+        "backup": "Säkerhetskopiera sparfiler",
+        "download": "Ladda ner Manager",
+        "check": "Kontrollera nedladdningen",
+        "install": "Installera och välj spelet",
+        "next": "Vad du gör sedan"
+      },
+      "before": {
+        "title": "Innan du börjar",
+        "intro": "Den här guiden gäller Modstoke Manager för Windows. Ha din Steam-installation av Sons Of The Forest tillgänglig och stäng spelet före installationen. Den aktuella nedladdningen är {manager}.",
+        "signed": "Installationsprogrammet är signerat av {publisher}. Om Windows visar en okänd utgivare i stället, kör det inte och ladda ner det igen från Utgåvor.",
+        "unsigned": "Det publicerade installationsprogrammet för förhandsversionen är osignerat. Windows kan visa en varning eftersom det inte kan verifiera en utgivarsignatur. Granska källan och utgåvans detaljer innan du bestämmer dig för att köra det. Stäng inte av Windows säkerhetsskydd för att installera det. Om du är osäker, avbryt och vänta på en signerad utgåva.",
+        "scope": "Att installera Manager installerar inte spelet och fastställer inte att mods fungerar.",
+        "scopeLoader": "När den är installerad kan Manager installera Loader från sin Loader-sida.",
+        "scopeNoLoader": "Det kompletta paketet med Modstoke Loader, SDK och Client är ännu inte publicerat, så automatisk paketinstallation är inte tillgänglig."
+      },
+      "backupTitle": "1. Säkerhetskopiera dina sparfiler",
+      "download": {
+        "title": "2. Hämta den officiella nedladdningen",
+        "open": "Öppna {releases} och leta upp nedladdningen av Manager.",
+        "releases": "Modstoke Utgåvor",
+        "read": "Läs versionen, signeringsinformationen och de registrerade kontrollerna.",
+        "filename": "I den här guiden heter installationsfilen {file}.",
+        "noFile": "Fortsätt bara när ett installationsprogram för Manager finns listat.",
+        "get": "Ladda ner installationsprogrammet med länken på den sidan. Låt utgivningssidan vara öppen om du vill jämföra dess kontrollsumma.",
+        "note": "En installationskontroll av Manager är inte ett resultat för spel- eller multiplayerkompatibilitet. De kontrollerna är markerade som ej tillämpliga för den här utgåvan av Manager."
+      },
+      "checkTitle": "3. Kontrollera nedladdningen, om du vill",
+      "setup": {
+        "title": "4. Installera Manager och välj spelet",
+        "runSigned": "Kör det nedladdade installationsprogrammet",
+        "runUnsigned": "Om du väljer att fortsätta med den osignerade förhandsversionen, kör det nedladdade installationsprogrammet",
+        "run": "{run} och följ dess installationsfrågor. Notera eventuella felmeddelanden om installationen stannar.",
+        "open": "Öppna Modstoke Manager efter installationen.",
+        "select": "Om Manager ber om spelets körbara fil, välj {exe} från din faktiska Steam-spelinstallation. Du hittar installationsmappen via spelets lokala filer i Steam. Välj spelets körbara fil, inte installationsprogrammet för Manager eller en genväg.",
+        "status": "Läs statusen som visas för den installationen. Om spelet inte hittas, kontrollera att den valda filen fortfarande finns och tillhör den avsedda Steam-installationen.",
+        "note": "Ordalydelsen på skärmen kan skilja sig mellan versioner. Följ frågan som visas i din installerade version i stället för att gissa vad som saknas."
+      },
+      "next": {
+        "title": "5. Kontrollera krav innan du lägger till mods",
+        "loader": "Modstoke har ingen hostad modkatalog än. Installera Loader från Manager först och lägg sedan till mods från deras egna sidor.",
+        "noLoader": "Modstoke har för närvarande ingen hostad modkatalog och publicerar inget komplett paket med Loader, SDK och Client. Ett saknat paket är en publiceringsbegränsning, inte något som en ominstallation av Manager löser.",
+        "elsewhere": "För en mod du fått från annat håll, läs författarens krav och installationsanvisningar för just den versionen. Bekräfta vilken spelversion och vilken Loader som stöds innan du ändrar filer. Anta inte att en mod som skrivits för en annan Loader fungerar med Modstoke.",
+        "continue": "Fortsätt med {troubleshooting} om du stöter på ett problem, eller läs {docs}.",
+        "troubleshooting": "Felsökning för mods till Sons Of The Forest",
+        "docs": "spelardokumentationen"
+      }
+    },
+    "trouble": {
+      "title": "Felsökning för mods till Sons Of The Forest",
+      "description": "Diagnostisera problem med Manager-installation, Loader-krav och spelmods, med säkerhetskopior av sparfiler, försiktiga återställningssteg och en checklista för en användbar felrapport.",
+      "crumb": "Modfelsökning",
+      "toc": {
+        "identify": "Identifiera problemet",
+        "protect": "Skydda sparfiler",
+        "manager": "Manager-installation",
+        "loader": "Krav för Loader och mods",
+        "restore": "Tillbaka till ett omoddat spel",
+        "report": "Rapportera problemet"
+      },
+      "identify": {
+        "title": "Ta reda på var problemet uppstår",
+        "intro": "Börja med det första steget som misslyckas. Ett installationsfel, en saknad Loader-nedladdning och en krasch efter att en mod laddats har olika orsaker.",
+        "managerTerm": "Manager-installation",
+        "manager": "Installationsprogrammet misslyckas, Manager öppnas inte eller den valda spelsökvägen är fel. Börja med {link}.",
+        "managerLink": "Manager-installation",
+        "loaderTerm": "Tillgänglighet för Loader",
+        "loader": "Det kompletta paketet med Modstoke Loader, SDK och Client är inte publicerat. Automatisk paketinstallation är inte tillgänglig; en ominstallation av Manager kan inte ersätta det.",
+        "gameTerm": "Spel- eller modbeteende",
+        "game": "Spelet startar inte, en mod syns inte eller en värld beter sig oväntat. Kontrollera exakt vilka {link} som gäller innan du ändrar filer.",
+        "gameLink": "krav för Loader och mods",
+        "catalog": "Modstoke har ingen hostad modkatalog än. En tom katalog är inget tecken på att dina spelfiler är skadade."
+      },
+      "protect": {
+        "title": "Skydda sparfiler innan du gör ändringar",
+        "note": "Skriv inte över en värld du bryr dig om medan du kontrollerar om borttagna eller ändrade mods orsakade problemet. Använd en separat tillfällig värld om du behöver jämföra beteende."
+      },
+      "manager": {
+        "title": "Lös problem med Manager-installation",
+        "version": "Jämför din version av Manager med {releases}. Använd den sidans information om installationsprogram och signering; anta inte att ett äldre eller annorlunda märkt paket beter sig likadant.",
+        "releases": "Utgåvor",
+        "publisher": "Om Windows varnar för en okänd utgivare, kontrollera att installationsprogrammet kom från Utgåvor. Låt säkerhetsskydden vara på. Avbryt installationen om du inte kan fastställa att det här är filen du tänkte ladda ner.",
+        "incomplete": "Om en nedladdning verkar ofullständig, använd {check} innan du försöker installera igen.",
+        "checkLink": "den valfria kontrollsummekontrollen",
+        "find": "Om Manager inte hittar spelet, kontrollera att den valda {exe} finns i den aktuella Steam-installationen, särskilt efter att du flyttat spelet till en annan enhet.",
+        "error": "Vid ett installations- eller startfel, spara det exakta meddelandet och notera om det hände före eller efter att Manager öppnades. Ändra inte spelfiler för att åtgärda ett oförklarat startfel i Manager."
+      },
+      "loader": {
+        "title": "Kontrollera krav för Loader och mods",
+        "read": "Läs modförfattarens sida för den exakta modversionen. Notera vilken Loader den kräver, beroenden, spelversion som stöds och installationsplats.",
+        "compare": "Jämför de kraven med det som faktiskt är installerat. En Loader med liknande namn eller en mapp med en DLL räcker inte för att fastställa kompatibilitet.",
+        "update": "Kontrollera om problemet började efter en uppdatering av spelet, Loader eller en mod. Spara de tidigare versionerna och det första felmeddelandet i dina anteckningar.",
+        "isolate": "Använd modförfattarens stödda sätt att inaktivera eller avinstallera för att avgränsa en misstänkt mod, och tänk på dess nödvändiga beroenden. Ändra en sak i taget och använd en separat värld med säkerhetskopierade sparfiler.",
+        "combine": "Kombinera inte Loader-installationer och flytta inte plugins mellan Loader-mappar om inte berörda författare uttryckligen stöder den uppsättningen. För multiplayer, kontrollera modens angivna krav för värd, klient och server var för sig; en fungerande singleplayer-session fastställer inte stöd för multiplayer.",
+        "notes": "Läs projektets {link} tillsammans med modförfattarens anvisningar.",
+        "notesLink": "kompatibilitetsanteckningar"
+      },
+      "restore": {
+        "title": "Gå försiktigt tillbaka till ett omoddat spel",
+        "close": "Stäng spelet. Slutför {backup} och spara modens konfigurationsfiler och en förteckning över installerade paket.",
+        "backupLink": "säkerhetskopieringen av sparfiler",
+        "remove": "Följ det dokumenterade borttagningssättet för varje installerad mod och Loader. För installationer som hanteras av ett annat verktyg, använd det verktygets stödda borttagning. Ta inte bort okända filer genom att gissa vilka som hör till en mod.",
+        "verify": "Öppna spelets {properties} i Steam, välj {installed} och sedan {integrity}. Låt verifieringen bli klar. De här stegen är dokumenterade av {support}.",
+        "properties": "Egenskaper",
+        "installed": "Installerade filer",
+        "integrity": "Verifiera spelfilernas integritet",
+        "support": "Steam Support",
+        "leftover": "Läs borttagningsanvisningarna för Loader och mods för att se om filer lämnas kvar. Steams verifiering reparerar spelfiler som Steam hanterar; den ska inte ses som en borttagning av varje fil som en mod lagt till.",
+        "launch": "Starta spelet via Steam och använd en separat tillfällig värld för att jämföra beteende. Rör inte de säkerhetskopierade världarna. Om problemet kvarstår, ta med det resultatet i din rapport.",
+        "stop": "Om du inte kan identifiera en tillagd fil eller vem den tillhör, sluta ta bort filer och be den berörda mod- eller Loader-underhållaren om vägledning."
+      },
+      "report": {
+        "title": "Förbered en användbar felrapport",
+        "intro": "Skicka rapporten via den supportväg som projektet eller modförfattaren för den komponent som fallerar länkar till. Ta med:",
+        "versions": "Din Windows-version, spelversion eller bygge, Manager-version, Loaderns namn och version samt relevanta modversioner.",
+        "error": "Den exakta feltexten och relevant loggutdrag, inklusive det första felet och raderna omkring det. Ta bort personliga sökvägar, kontouppgifter och hemligheter innan du delar något.",
+        "steps": "Korta steg som återskapar problemet, vad du förväntade dig och vad som hände.",
+        "scope": "Om det påverkar start, en viss värld, singleplayer, att vara värd eller att gå med, och om det kvarstår efter de stödda borttagningsstegen.",
+        "last": "Den senaste fungerande uppsättningen, nyligen gjorda ändringar och de steg du redan har prövat.",
+        "outro": "För hjälp med installationen av Manager, gå tillbaka till {guide}. Behåll den ursprungliga backupen tills problemet är löst.",
+        "guideLink": "installationsguiden för Windows"
+      }
+    }
+  },
+  "apps": {
+    "home": "Hem",
+    "breadcrumb": "Sökväg",
+    "eyebrow": "MODSTOKE DISCORD-APPAR",
+    "onThisPage": "På den här sidan",
+    "effective": "Gäller från {date}",
+    "effectiveDate": "19 oktober 2026",
+    "contactPage": "OpenACAI:s kontaktsida",
+    "index": {
+      "title": "Modstoke Discord-appar",
+      "description": "Lägg till Sentinel för moderering och communityverktyg, eller Radio för gemensam ljuduppspelning. Publika förhandsversioner som drivs av OpenACAI.",
+      "sentinel": {
+        "heading": "Sentinel: moderering och community",
+        "intro": "Ta med modereringshjälp, välkomstmeddelanden, självtilldelade roller, crew-sökning, communitystatistik och hjälpverktyg till din Discord-server. Sentinel är en publik förhandsversion som drivs av OpenACAI.",
+        "add": "Lägg till Sentinel på din server",
+        "install": "Serverägaren installerar Sentinel som en serverapp. Installation på ett personligt konto stöds inte. Sentinel förblir inaktiv tills ägaren kör {configure} med kanaler för välkomst, moderatorlogg och nyheter. Kanaler för allmänt, crew och hjälpforum är valfria. Kör sedan {setup} för att ställa in självtilldelade roller. Avstängningar och konversationsfunktioner är avstängda som standard.",
+        "permissions": "Installationen begär Visa kanaler, Skicka meddelanden, Läsa meddelandehistorik, Bädda in länkar, Hantera meddelanden, Hantera roller, Moderera medlemmar (timeout), Kicka medlemmar och Banna medlemmar. Granska Discords behörighetsskärm och ge Sentinel åtkomst till de kanaler och roller som behövs för funktionerna du ställer in. Installationen begär inte Administratör eller serverövergripande Hantera kanaler. Avancerade fall- och statistikfunktioner kräver konfiguration av operatören och behörigheter som är begränsade till berörda kanaler."
+      },
+      "radio": {
+        "heading": "Radio: lyssna tillsammans",
+        "intro": "Spela upp YouTube-länkar som stöds och godkänd media från Discords CDN i en röstkanal med snedstreckskommandon. Spotify-förfrågningar ger länkkort som öppnar Spotify; de spelar inte upp hela Spotify-spår i rösten. Begär bara media du har rätt att dela eller spela upp.",
+        "add": "Lägg till Radio på din server",
+        "install": "Serverägaren installerar Radio som en serverapp, inte som en app på ett personligt konto. Tillåt åtkomst till kommandokanalen samt Anslut och Tala i den avsedda röstkanalen. Radio är självdövad och spelar inte in röstljud.",
+        "limits": "Varje server har sin egen kö med upp till 10 spår. Spår är begränsade till 10 minuter och 32 MiB vardera. Radio lämnar kanalen efter 60 sekunder utan lyssnare. Tjänsten stöder upp till två aktiva ljudsessioner över alla servrar, så kapaciteten kan vara slut."
+      },
+      "support": {
+        "heading": "Support för förhandsversionen och policyer",
+        "preview": "De här apparna är publika förhandsversioner: tillgänglighet och automatiska resultat kan variera. Varje server har separat lagrad data, separat konversationskontext och separata uppspelningsköer. Sentinel delar en lokal modellarbetare mellan servrarna och behandlar en förfrågan i taget, utan moln-AI.",
+        "read": "Läs {privacy} och {terms} innan du installerar. För hjälp med installationen, gå med i {community}. Överklaga modereringsbeslut hos moderatorerna på den server där åtgärden skedde.",
+        "privacy": "appens integritetspolicy",
+        "terms": "appens villkor",
+        "community": "Modstokes supportcommunity"
+      }
+    },
+    "privacy": {
+      "title": "Integritet för Discord-apparna",
+      "description": "Hur OpenACAI hanterar information som Modstoke Sentinel och Modstoke Radio använder i Discord-servrar som installerar dem.",
+      "scope": {
+        "heading": "Vem som driver apparna",
+        "operator": "OpenACAI driver Modstoke Sentinel och Modstoke Radio som publika förhandsappar för Discord-servrar. Serverägare installerar dem som serverappar; installation på ett personligt konto stöds inte. Varje servers lagrade data, kontext och uppspelningsköer är åtskilda.",
+        "supplement": "Det här botspecifika tillägget beskriver hur de hanterar data vid sidan av {privacy}. Se även {terms} och {apps}.",
+        "privacyLink": "Modstokes integritetspolicy",
+        "termsLink": "villkoren för Discord-apparna",
+        "appsLink": "informationen om installation av apparna"
+      },
+      "sentinel": {
+        "heading": "Sentinel: funktioner för moderering och community",
+        "inactive": "Sentinel förblir inaktiv på en ny server tills dess ägare har ställt in de kanaler som krävs. När den är inställd kan den se meddelanden och medlemshändelser i Discord-kanaler den har behörighet till. Den använder dem för moderering, sammanställd communitystatistik, självtilldelade roller, crew-sökning och hjälp. Avstängningar och konversationsfunktioner är avstängda som standard.",
+        "model": "Modellbehandlingen körs lokalt på hostingservern via en loopback-anslutning, utan moln-AI-behandling. Servrarna delar en modellarbetare som behandlar en förfrågan i taget; deras kontexter förblir åtskilda. Den senaste modereringskontexten rymmer upp till sex meddelandeutdrag per kanal i minnet i ungefär tre minuter. Information som de här botarna hanterar säljs inte för reklam och används inte för AI-träning.",
+        "ledger": "Den lokala modereringsloggen behåller användar-, kanal- och meddelande-ID:n, tidsstämplar, fingeravtryck, bevisetiketter, åtgärder och uppgifter om granskare i upp till sju dagar, begränsat till 1 000 poster. En separat borttagningslogg behålls i sju dagar. Modereringsloggmeddelanden som postas i Discord har en separat lagringstid som styrs av Discord och servern."
+      },
+      "crew": {
+        "heading": "Crew-inlägg, inställningar och statistik",
+        "records": "Aktiva crew-poster innehåller crewets råtext, visningsnamn, värd-ID:n, regioner, krav och tidpunkter. De finns kvar tills crewet stängs eller löper ut, med utgångstider på en till 24 timmar. Rensningen kan fördröjas om boten inte kan komma åt Discord-inlägget. Stängda inlägg kan finnas kvar på Discord.",
+        "alerts": "Prenumerationer på crew-aviseringar och användar-ID:n för dem som valt bort finns kvar. Använd {alerts} för att sluta få crew-aviseringar; {quiet} väljer bort kompanjonsinteraktioner. De här kontrollerna raderar inte alla modereringsposter.",
+        "leave": "När en medlem lämnar städar Sentinel bort hens crew-prenumerationer och stänger de crew hen äger; att lämna innebär inte en generell radering av alla poster. Communitystatistiken är sammanställd. Inställda kanal- och roll-ID:n finns kvar så länge botarna är i drift."
+      },
+      "radio": {
+        "heading": "Radio: förfrågningar och röstuppspelning",
+        "intents": "Radio använder Discords guild- och voice-state-intents och begär inte Message Content-intenten. Den håller URL:er från snedstreckskommandon och genererade spårnummer i minnet för uppspelning. Radio är självdövad i röstkanaler och spelar inte in röstljud.",
+        "media": "Nedladdad media är tillfällig och rensas efter ett spår; rensning vid start tar också bort kvarlämnade nedladdningar. När kön stoppas töms dess innehåll i minnet.",
+        "fetch": "När media hämtas från Discords CDN eller YouTube skickas förfrågningar från hostingservern till de leverantörerna. Spotify-länkkort öppnar den ursprungliga sajten; Radio erbjuder ingen fullständig Spotify-uppspelning i röstkanaler."
+      },
+      "hosting": {
+        "heading": "Hosting och andra tjänster",
+        "vps": "Botarna körs på en VPS som hostas av InterServer. Sentinels lokala JSON-konfiguration, inställningar och ärendeposter är krypterade med AES-256-GCM, med nyckeln förvarad separat via skyddade systemuppgifter. Radios tillfälliga media använder en privat, minnesbaserad körkatalog. Swap är avstängt för båda bottjänsterna och den lokala modelltjänsten. Driftloggar sparas också som en del av driften av tjänsten. De korta lagringstiderna ovan beskriver de angivna botposterna, inte varje driftlogg eller varje Discord-meddelande.",
+        "discord": "Discord behandlar och lagrar självständigt meddelanden, inlägg, interaktioner och annan plattformsinformation enligt sina egna policyer och serverinställningar. Medialeverantörer behandlar också förfrågningar enligt sina egna policyer. Att radera en lokal botpost tar inte bort kopior som Discord eller de leverantörerna har."
+      },
+      "removal": {
+        "heading": "Ta bort Sentinel från en server",
+        "purge": "När Sentinel tas bort från en server som inte är dess egen Modstoke-driftsättning stänger den den serverns lokala tillstånd och rensar dess lokala serverdatamapp. Discord-inlägg, modereringsloggar och andra kopior som Discord behåller omfattas fortfarande av Discords och serverns kontroller. Den här mapprensningen lovar inte radering av varje driftlogg eller självständigt bevarad kopia.",
+        "home": "Den egna Modstoke-driftsättningen och dess konfiguration förblir under operatörens kontroll. Kontakta OpenACAI för raderingsbegäranden som går utöver de automatiska kontrollerna."
+      },
+      "requests": {
+        "heading": "Integritetsfrågor och raderingsbegäranden",
+        "contact": "Kontakta OpenACAI på {email} eller via {page} för integritetsfrågor eller raderingsbegäranden. Ange boten, ditt Discord-användar-ID och berörd server eller post så att teamet kan hitta informationen. Skicka inga lösenord eller kontotokens.",
+        "different": "Att välja bort, att lämna servern och att radera data är olika åtgärder. Använd den här kontaktvägen för att begära radering utöver de kontroller som beskrivs ovan. Begäranden som rör information som Discord behåller självständigt kan också behöva riktas till Discord eller serverns moderatorer."
+      }
+    },
+    "terms": {
+      "title": "Villkor för Discord-apparna",
+      "description": "Villkor för att installera och använda de publika förhandsversionerna av Modstoke Sentinel och Modstoke Radio i Discord-servrar.",
+      "scope": {
+        "heading": "Botspecifikt tillägg",
+        "operator": "OpenACAI driver Modstoke Sentinel och Modstoke Radio som publika förhandsappar för Discord-servrar. De här villkoren är ett botspecifikt tillägg till {terms}. {privacy} förklarar vilken information botarna hanterar.",
+        "termsLink": "Modstokes användarvillkor",
+        "privacyLink": "Integritetssidan för Discord-apparna",
+        "install": "Serverägare installerar botarna som serverappar. Installation på ett personligt konto stöds inte. Se {apps} för aktuella funktioner och begränsningar.",
+        "appsLink": "informationen om installation och inställning"
+      },
+      "use": {
+        "heading": "Tillåten användning",
+        "rules": "Använd botarna lagligt och följ din servers regler, Discords villkor och tillämpliga villkor från medialeverantörer. Använd dem inte för spam, trakasserier, skadlig kod, att undvika moderering eller annat missbruk. Försök inte kringgå botbehörigheter, åtkomstkontroller eller användningsbegränsningar.",
+        "media": "Skicka bara in media du har rätt att dela eller spela upp i den aktuella miljön. En URL som stöds eller lyckad uppspelning visar inte att du har tillstånd att använda materialet. Den ursprungliga leverantörens villkor gäller fortfarande."
+      },
+      "features": {
+        "heading": "Förhandsfunktioner och tillgänglighet",
+        "besteffort": "Botarna tillhandahålls som förhandsverktyg efter bästa förmåga. Funktioner, svar och uppspelning kan vara otillgängliga, försenade, felaktiga eller ändrade medan teamet underhåller dem. Förlita dig inte på en bot som enda källa till viktig information eller som en garanti för modereringstäckning.",
+        "radio": "Radio är beroende av att Discord, hosting och medialeverantörer är tillgängliga. Spotify-kort länkar till den ursprungliga sajten; de erbjuder ingen fullständig Spotify-uppspelning i röstkanaler."
+      },
+      "moderation": {
+        "heading": "Moderering och överklaganden",
+        "appeals": "Sentinel stöder moderering och communityfunktioner, men automatiska bedömningar kan vara fel. Kontakta moderatorerna på den server där en åtgärd skedde för att fråga om eller överklaga den. Ta med uppgifter om det aktuella meddelandet eller den aktuella åtgärden så att de kan granska den.",
+        "owners": "Serverägare gör den första installationen och konfigurationen. Sentinel förblir inaktiv tills ägaren ställer in kanaler för välkomst, moderatorlogg och nyheter; valfria kanaler och rollinställning aktiverar ytterligare funktioner. Avstängningar och konversationsfunktioner är avstängda som standard. Administratörer styr botens åtkomst och behörigheter. Avancerade fall- och statistikfunktioner kräver konfiguration av operatören och begränsade behörigheter.",
+        "removal": "Att ta bort en bot från servern kräver en administratör med nödvändiga behörigheter. Sentinels lokala rensning vid borttagning beskrivs i {privacy}; den raderar inte Discords kopior.",
+        "privacyLink": "integritetspolicyn"
+      },
+      "controls": {
+        "heading": "Medlemskontroller och kontakt",
+        "controls": "Använd {alerts} för att sluta få crew-aviseringar och {quiet} för att välja bort kompanjonsinteraktioner. De här kontrollerna raderar inte alla modereringsdata. För datahantering och raderingsbegäranden, följ {contact}.",
+        "contactLink": "kontaktanvisningarna för integritet",
+        "questions": "För frågor om de här villkoren, kontakta {email} eller använd {page}."
+      }
+    }
+  },
+  "mods": {
+    "notStated": "Ej angivet",
+    "loaderOrNewer": "Loader {version} eller nyare",
+    "loaderRange": "Loader {range}",
+    "loaderLink": "Modstoke Loader",
+    "needsModstoke": "Modstoke {need}",
+    "role": {
+      "client": "Fungerar när bara du har den",
+      "host": "Bara värden eller servern behöver den",
+      "allPlayers": "Värden och spelarna behöver samma version",
+      "solo": "Bara singleplayer",
+      "notStated": "Ej angivet"
+    },
+    "dedicated": {
+      "supported": "Stöds",
+      "unsupported": "Stöds inte",
+      "notStated": "Ej angivet"
+    },
+    "settings": {
+      "hostSynced": "Värden bestämmer",
+      "perPlayer": "Varje spelare bestämmer",
+      "none": "Inga inställningar",
+      "notStated": "Ej angivet"
+    },
+    "status": {
+      "preview": "Förhandsversion",
+      "experimental": "Experimentell",
+      "stable": "Stabil"
+    },
+    "label": {
+      "needs": "Kräver",
+      "multiplayer": "Multiplayer",
+      "updated": "Uppdaterad",
+      "version": "Version",
+      "status": "Status",
+      "dedicatedServer": "Dedikerad server",
+      "settings": "Inställningar",
+      "madeBy": "Gjord av",
+      "licence": "Licens",
+      "source": "Källkod",
+      "aiAssistance": "AI-hjälp"
+    },
+    "list": {
+      "title": "Mods",
+      "lede": "Det här är de mods vi gör själva. De kör alla på Modstoke Loader, och för tillfället laddar du ner dem från Nexus Mods. När Modstoke-butiken öppnar installerar Manager dem åt dig, och andra författares mods listas också här.",
+      "search": "Sök mods",
+      "anyMultiplayer": "Valfri multiplayer-uppsättning",
+      "count": {
+        "one": "{count} mod",
+        "other": "{count} mods"
+      },
+      "note": "Varje mod här kräver {loader}. {guide} går igenom hur du ställer in den med Manager.",
+      "installGuide": "Installationsguiden",
+      "details": "Detaljer",
+      "nexusPage": "Nexus-sida"
+    },
+    "page": {
+      "breadcrumb": "Sökväg",
+      "gallery": "Skärmbilder och video",
+      "watchTrailer": "Se trailern på YouTube",
+      "openFullSize": "Öppna i full storlek",
+      "trailerCaption": "Trailer, spelas på YouTube",
+      "details": "Detaljer",
+      "sourceNotPublic": "Inte publik än",
+      "aiYes": "Ja, anges på Nexus",
+      "aiNo": "Nej",
+      "downloadOnNexus": "Ladda ner på Nexus",
+      "storeNote": "Installation med ett klick från Manager kommer med Modstoke-butiken.",
+      "meta": "{version} · uppdaterad {date} · av OpenACAI",
+      "whatsNew": "Nytt i {version}",
+      "about": "Om",
+      "inTesting": "Under test",
+      "install": "Installera",
+      "installStep1": "Installera {loader}, eller låt {manager} göra det åt dig.",
+      "managerLink": "Manager",
+      "installStep2": "Stäng spelet. Ladda ner {name} från Nexus och packa upp dess Modstoke-mapp bredvid {exe}.",
+      "installStep3": "Starta spelet och öppna Mods-menyn från titelskärmen för att kontrollera att den laddades.",
+      "installNote": "Säkerhetskopiera dina sparfiler innan du provar en förhandsversion. Om något går sönder är {guide} eller vår {discord} rätt ställe att fråga.",
+      "troubleshootingGuide": "felsökningsguiden"
+    }
+  },
+  "release": {
+    "eyebrow": "UTGÅVOR",
+    "headingPreview": "Nedladdningar, inklusive förhandsbyggen.",
+    "headingVerified": "Verifierade nedladdningar.",
+    "lede": "Välj en aktuell utgåva eller granska en sparad version innan du installerar.",
+    "previewDownloads": "Förhandsnedladdningar är testbyggen. Kontrollera signatur och valideringsdetaljer innan du installerar.",
+    "managerOnly": "Manager finns, men det kompletta paketet med Loader, SDK och Client är ännu inte publicerat. Automatisk installation av Loader, SDK och Client-paketet är inte tillgänglig.",
+    "historyTitle": "Utgåvedetaljer och återställning",
+    "historyNote": "Versionerade fil-URL:er ligger fast. En tidigare utgåvepost kan finnas kvar när det aktuella valet ändras.",
+    "playerBundle": "Spelarpaket",
+    "loaderWithClient": "Paket för spelets rotmapp med Loader, dess medföljande SDK och en separat byggd klientkompanjon.",
+    "loaderOnly": "Paket för spelets rotmapp med Loader och dess medföljande SDK. Mods som Client har egna nedladdningar.",
+    "managerPackage": "Windows-skrivbordspaket för Modstoke Manager.",
+    "download": "Ladda ner {file}",
+    "size": "Storlek",
+    "bytes": "{size} byte",
+    "published": "Publicerad",
+    "details": "Utgåvedetaljer",
+    "current": "AKTUELL",
+    "previous": "TIDIGARE",
+    "noNotes": "Inga utgåveanteckningar har lämnats för den här versionen. Fil- och valideringsmetadata nedan är inte en ändringslogg.",
+    "publishedCommit": "Publicerad {date}. Källkodscommit {commit}.",
+    "packageLine": "Paket: {file} ({size} byte). SHA-256: {hash}.",
+    "testedBuilds": "Testade {game}-bygge: {builds}.",
+    "noTestedBuilds": "Inga spelbyggen har testats än. Spelkompatibiliteten är okänd.",
+    "requiresManager": "Kräver Manager {version} eller nyare.",
+    "guidedLoader": "Guidat Loader-paket: {id}.",
+    "noGuidedLoader": "Inget matchande guidat Loader-paket är valt för den här utgåvan av Manager.",
+    "listSeparator": ", ",
+    "previewBuild": "Testbygge i förhandsversion.",
+    "packageUnsigned": "Det här paketet är osignerat: {reason}.",
+    "pendingChecks": "Väntande kontroller: {checks}.",
+    "reviewDetails": "Granska utgåvedetaljerna innan du installerar.",
+    "pending": {
+      "game": "spelstart",
+      "multiplayer": "multiplayer"
+    },
+    "signatureReviewedFor": "Signaturgranskning registrerad för {publisher}.",
+    "signatureReviewed": "Signaturgranskning registrerad.",
+    "previewUnsigned": "Det här förhandspaketet är osignerat: {reason}. Signaturverifiering har inte registrerats.",
+    "signatureNotRecorded": "Signaturverifiering har inte registrerats.",
+    "checksumNote": "En SHA-256-kontrollsumma identifierar en fils byte; den autentiserar inte ett uppdateringsmanifest.",
+    "validation": "{checks}.",
+    "checkLine": "{label}: {state}",
+    "checkSeparator": " | ",
+    "checks": {
+      "cleanSource": "Ren källkod",
+      "licenses": "Licenser",
+      "build": "Bygge",
+      "install": "Installation",
+      "game": "Spelstart",
+      "multiplayer": "Multiplayer",
+      "hostedFetch": "Kontroll av hostad fil"
+    },
+    "state": {
+      "passed": "godkänd",
+      "pending": "väntar",
+      "notApplicable": "ej tillämplig",
+      "notRecorded": "ej registrerad"
+    }
+  },
+  "docs": {
+    "eyebrow": "Dokument",
+    "title": "Anteckningar för spelare och modförfattare",
+    "lede": "Hjälp med installationen finns i {guides}. Den här sidan går igenom hur delarna hänger ihop och vad du bör veta innan du bygger en mod.",
+    "guidesLink": "guiderna",
+    "onThisPage": "På den här sidan",
+    "nav": {
+      "project": "Projektet",
+      "players": "För spelare",
+      "compatibility": "Spelkompatibilitet",
+      "authors": "För modförfattare",
+      "sdk": "SDK-utveckling",
+      "play": "Spela tillsammans",
+      "downloads": "Nedladdningar och uppdateringar"
+    },
+    "project": {
+      "title": "Projektet",
+      "about": "Modstoke är ett moddningsprojekt av OpenACAI, en ideell organisation. Det är en modloader, en skrivbordshanterare och en uppsättning mods till Sons of the Forest, med en community runt dem på Discord. Allt är gratis och du behöver inget konto för att använda den här sajten.",
+      "endnight": "Vi har ingen koppling till Endnight Games. Ta inte Modstoke-problem till deras support."
+    },
+    "players": {
+      "title": "För spelare",
+      "start": "Börja med {manager}. Den hittar ditt spel, installerar {loader} och håller reda på vad du har installerat. Välj sedan bland {mods}; för tillfället laddas de ner från Nexus Mods.",
+      "managerLink": "Manager",
+      "loaderLink": "Loader",
+      "modsLink": "modsen",
+      "guides": "{install} går igenom hur du säkerhetskopierar dina sparfiler först, och {troubleshooting} hjälper dig avgränsa ett problem.",
+      "installGuide": "Installationsguiden",
+      "troubleshootingGuide": "felsökningsguiden"
+    },
+    "compatibility": {
+      "title": "Spelkompatibilitet",
+      "supported": "Stöds",
+      "note": "Varje utgåva anger vilka spelbyggen den testats på. Om en utgåva inte anger något har den inte kontrollerats mot ett visst bygge än, så prova den på en kopia av din sparfil."
+    },
+    "authors": {
+      "title": "För modförfattare",
+      "intro": "Så här hittar och startar den nuvarande Loadern en inbyggd mod. Kontrollera mot den Loader-källkod du bygger med; manifestet är inte ett fryst schema än.",
+      "build": {
+        "title": "Bygg mot den Loader du testar med.",
+        "text": "SDK-gränssnitten finns i Loader. Referera till dess assembly från ditt projekt och notera vilken Loader-version och vilket spelbygge du testade med."
+      },
+      "folder": {
+        "title": "Använd en paketmapp.",
+        "text": "Loader letar under {path}, upp till fyra mappar djupt. {legacy} från före namnbytet fungerar fortfarande. Ha manifestet bredvid dess assembly."
+      },
+      "entry": {
+        "title": "Beskriv startpunkten.",
+        "text": "Manifestet kan vara {first}, {second} eller {third}, med id, name, version, author, assembly, entryType och entryMethod. entryMethod kan utelämnas när starttypen har en publik parameterlös konstruktor."
+      },
+      "test": {
+        "title": "Testa på en separat kopia av spelet.",
+        "text": "Håll dina riktiga sparfiler utanför. Skriv ner spelbygget, Loader-versionen, beroenden och allt som inte fungerar än."
+      },
+      "ship": {
+        "title": "Skicka med anteckningar tillsammans med filerna.",
+        "text": "Versionsanteckningar, steg för installation och borttagning, licensen och filhashar. Det finns inget uppladdningsformulär här än; butiken tar emot bidrag från GitHub-utgåvor."
+      }
+    },
+    "downloads": {
+      "title": "Nedladdningar och uppdateringar",
+      "releases": "Varje utgåva på sidan {releases} anger version, ändringar, kompatibilitet, storlek och SHA-256, så att du kan kontrollera att en fil du laddat ner är den vi publicerade.",
+      "releasesLink": "Utgåvor",
+      "checksum": "En kontrollsumma visar att byten stämmer; den bevisar inte vem som publicerade dem. Modstoke-butiken lägger till signaturer för det, så att Manager kan vägra allt som inte publicerats av oss eller en granskad författare."
+    }
+  },
+  "knowledge": {
+    "sdkEyebrow": "SDK-UTVECKLING",
+    "playEyebrow": "SPELA TILLSAMMANS",
+    "tithewoodEyebrow": "TITHEWOOD",
+    "checkReleases": "Kolla utgåvestatus",
+    "gameInfo": "Spelinformation: {link}",
+    "steamLink": "Sons of the Forest på Steam",
+    "findCrew": "Hitta ett crew på Discord",
+    "visitTithewood": "Besök Tithewood för aktuell åtkomstinformation",
+    "status": {
+      "manager": "Manager {version} finns att ladda ner.",
+      "managerPreview": "Manager {version} finns som förhandsversion för Windows.",
+      "unsigned": "Förhandsversionen är osignerad.",
+      "noManager": "Inget Manager-paket är publicerat just nu.",
+      "loader": "Loader {version} finns under Utgåvor. Kontrollera vad paketet innehåller, kompatibilitet och valideringsstatus.",
+      "noLoader": "Det kompletta paketet med Loader, SDK och Client är inte offentligt utgivet.",
+      "check": "Titta under Utgåvor innan du laddar ner."
+    },
+    "topics": {
+      "sdk": {
+        "title": "Vad SDK:t byggs för att erbjuda",
+        "summary": "Den nuvarande utvecklingskällan erbjuder typade observationer av spelet och tjänster för mods. Det är kontrakt i källkoden, inte ett utgivet SDK-paket eller bevis för att det fungerar i spelet.",
+        "facts": "Ögonblicksbilder av inventarie och utrustning; krav för tillverkningsrecept och vad som saknas; den lokala spelarens överlevnadsvärden; observationer av årstid, väder och temperatur.\nObservationer av spelare och fordon i serverns värld, NPC-tillstånd och byggkrav; avgränsade kollisionsfrågor och avläsning av höjd och normaler i inläst terräng. Det visar inte att kollisioner eller framkomlighet i grottor täcks fullt ut.\nHjälpfunktioner för eget ljud och inspektion av inlästa tillgångspaket, observerad slutförd coroutine, utkastfält i gränssnittet och svar på fjärrkommandon. Serverauktorisering och kontroller av att världen är redo gäller fortfarande.\nInbyggda modmanifest kan ange exakta ID:n och versioner som krävs. Körmiljön ordnar callbacks, blockerar krav som saknas eller är cykliska och stoppar beroende mods när ett förkrav misslyckats. Initieringen av dedikerade servrar hoppar över klientmenyer och inmatning.\nAnta inte ett stabilt offentligt API, universell kompatibilitet, högre spelargränser, automatiska omförsök för osäkra kommandon eller att lyckad källkod eller lyckat bygge bevisar hur flerspelarläget beter sig."
+      },
+      "play": {
+        "title": "Hitta ditt nästa gäng",
+        "summary": "Sons of the Forest är ett öppen-värld-spel inom överlevnadsskräck med tillverkning, byggande, utforskning, solospel och onlinesamarbete. Modstoke hjälper medlemmar att ordna sina egna sessioner.",
+        "facts": "Använd /crew list med valfria filter för region, style och when. Tidsmatchningen söker i värdens skrivna sessionstid; den räknar inte ut överlappande scheman och räknar inte om tidszoner.\nAnvänd /crew create för att erbjuda en session med region, tid plus tidszon, spelstil, lediga platser och valfria krav. Ett aktivt inlägg per person; inlägg går som standard ut efter sex timmar, och du kan välja mellan en och 24 timmar.\nVälj region och spelstil med /roles. Det är intressen du väljer själv, inte garantier för matchning. /crew alerts är ett uttryckligt val att få DM; valfri regionfiltrering och en gräns på ett meddelande per två timmar gäller. Stäng av dem när som helst.\nAnvänd /servers för att se offentliga serverlistor som ägarna valt att visa. Gängens inlägg är medlemmarnas planer, inte bokningar, verifierad kompatibilitet, live-närvaro av spelare eller en automatisk spelanslutning. Kom överens med värden om spel- och modversioner och om vad som gäller för sparfiler."
+      },
+      "tithewood": {
+        "title": "Tithewood · medeltida rollspel på BYOND",
+        "summary": "Tithewood är vårt oberoende drivna medeltida rollspel på BYOND, byggt på Ratwood. Dess community är en del av Modstokes Discord.",
+        "facts": "Spelare tar karaktärsroller i en gemensam värld med handel, jordbruk, stadsvakt och äventyr. Vissa roller har åtkomstkrav som beror på spelets konfiguration.\nDen offentliga webbplatsen visar Grimoria med en övertagen miljöillustration. Det är en världskarta för miljön, inte en levande spelkarta.\nDen offentliga webbplatsen, granskad 2026-10-20, säger att den offentliga åtkomsten är stängd och att inget lanseringsdatum är meddelat. Kolla tithewood.com för aktuell åtkomst; utgå inte från att en tjänst som går att nå innebär en spelbar offentlig runda.\nNär åtkomsten öppnar, följ webbplatsen för vägledning om BYOND-klienten och anslutning. Använd den officiella BYOND-klienten för Windows och ditt BYOND-konto; dela aldrig ditt lösenord eller privata loggar i Discord.\nVälj Tithewood i projektens rollmeny och använd dess egna kanaler för diskussion och utveckling. Dela idéer, rapportera fel med en tydlig reproduktion och rensade felmeddelanden, och ordna spel först när en riktig session har meddelats."
+      }
+    }
+  },
+  "legal": {
+    "breadcrumb": "Sökväg",
+    "home": "Hem",
+    "effective": "Gäller från {date}",
+    "onThisPage": "På den här sidan",
+    "translationNote": "Det här är en översättning för din bekvämlighet. Den engelska versionen av dokumentet är den som gäller.",
+    "untranslated": "Det här dokumentet har inte översatts än, så det visas på engelska."
+  },
+  "client": {
+    "app": {
+      "count": {
+        "one": "{count} mod",
+        "other": "{count} mods"
+      },
+      "countOf": {
+        "one": "{shown} av {count} mod",
+        "other": "{shown} av {count} mods"
+      }
+    },
+    "support": {
+      "paypalFailed": "PayPal laddades inte. Kontrollera din anslutning eller försök igen senare.",
+      "pickAmount": "Välj ett belopp mellan ${min} och ${max}, i hela dollar.",
+      "cancelled": "Ingen betalning gjordes.",
+      "error": "Något gick fel med PayPal. Ingen betalning gjordes.",
+      "monthlyThanks": "Tack! Din månadsdonation på ${amount} är inställd.",
+      "thanks": "Tack! Din donation på ${amount} gick igenom.",
+      "processing": "PayPal behandlar fortfarande din betalning."
+    },
+    "servers": {
+      "unknown": "Okänd",
+      "yes": "Ja",
+      "no": "Nej",
+      "dedicated": "Dedikerad",
+      "playerHosted": "Spelarhostad",
+      "online": "Online",
+      "offline": "Offline",
+      "eyebrow": "COMMUNITYKATALOG",
+      "hostNotSpecified": "Värd ej angiven",
+      "regionNotSpecified": "Region ej angiven",
+      "noDescription": "Ingen beskrivning från värden.",
+      "playersCapacity": "Spelare / kapacitet",
+      "hostLatency": "Värdens medianlatens",
+      "gameBuild": "Spelbygge",
+      "moreComponents": {
+        "one": "+{count} komponent",
+        "other": "+{count} komponenter"
+      },
+      "requiredMods": {
+        "one": "{count} mod krävs",
+        "other": "{count} mods krävs"
+      },
+      "viewServer": "Visa server och krav ↗",
+      "viewServerLabel": "Visa {name} och krav",
+      "count": "{shown} av {total} servrar · {online} online",
+      "noneTitle": "Nästa community börjar här.",
+      "noneMessage": "Inga servrar är listade än. Värdar kan begära en listning via vår Discord. Uppdatera för att se om nya sessioner har delats.",
+      "noMatchTitle": "Inga matchande servrar.",
+      "noMatchMessage": "Prova ett annat namn, en annan region eller mod, eller ändra status- och sessionsfiltren.",
+      "refreshing": "Uppdaterar katalogen…",
+      "updated": "Uppdaterad {time} · Uppdateras var 60:e sekund",
+      "unavailable": "Katalogen är inte tillgänglig",
+      "tryRefresh": "Använd Uppdatera för att försöka igen.",
+      "loadFailedTitle": "Vi kunde inte läsa in katalogen.",
+      "loadFailedMessage": "Serverkatalogen är tillfälligt otillgänglig. Försök igen om en stund; det säger oss inte om enskilda servrar är online.",
+      "versionNotSpecified": "Version ej angiven",
+      "history": {
+        "title": "Senaste aktivitet",
+        "unavailable": "Aktivitetshistoriken är inte tillgänglig. Uppdatera för att försöka igen.",
+        "none": "Ingen timhistorik än. Aktivitet visas när värden rapporterar.",
+        "note": "Timvisa mätvärden från de senaste 30 dagarna. Luckor är okända, inte noll. Tider visas i din lokala tidszon.",
+        "players": {
+          "title": "Spelare",
+          "unit": "Spelare",
+          "description": "Spelare per timme. Luckor betyder att ingen mätning gjordes. Exakta värden finns i historiktabellen nedan.",
+          "none": "Inga spelarmätningar i den här historiken."
+        },
+        "latency": {
+          "title": "Värdens medianlatens",
+          "unit": "Millisekunder",
+          "description": "Värdens medianlatens per timme. Luckor betyder att ingen mätning gjordes. Exakta värden finns i historiktabellen nedan.",
+          "none": "Inga mätningar av värdens medianlatens i den här historiken."
+        },
+        "viewValues": "Visa timvärden",
+        "caption": "Serverhistorik per timme",
+        "time": "Tid",
+        "hostLatency": "Värdlatens",
+        "onlineSeconds": "Sekunder online"
+      },
+      "lastReport": "Senaste värdrapport: {time}. Värdlatensen speglar anslutna spelare, inte din anslutning.",
+      "openInManager": "Öppna i Manager",
+      "noJoinTarget": "Värden har inte angett något anslutningsmål.",
+      "offlineNoJoin": "Servern är offline. Det går inte att gå med.",
+      "permalink": "Permanent serverlänk ↗",
+      "joinNote": "Gå med öppnar Modstoke Manager 0.3.0 eller nyare, som visar aktuella detaljer så att du kan bekräfta dem. Den här sidan laddar inte ner några mods.",
+      "components": "Komponenter",
+      "noComponents": "Inga komponenter rapporterade av värden.",
+      "requiredModsTitle": "Mods som krävs",
+      "noRequiredMods": "Inga mods som krävs rapporterade av värden.",
+      "settings": "Inställningar rapporterade av värden",
+      "difficulty": "Svårighetsgrad",
+      "pvp": "PvP",
+      "friendlyFire": "Vänlig eld",
+      "passwordRequired": "Lösenord krävs",
+      "loadingTitle": "Läser in servern…",
+      "loadingMessage": "Läser den senaste värdrapporten och aktiviteten.",
+      "goneTitle": "Servern är inte längre listad.",
+      "detailUnavailableTitle": "Serverdetaljer är inte tillgängliga.",
+      "goneMessage": "Värden kan ha tagit bort listningen, eller så är katalogen tillfälligt otillgänglig. Stäng den här panelen och använd Uppdatera för att försöka igen.",
+      "unsupportedReport": "Katalogen returnerade en rapport som inte stöds. Försök igen senare.",
+      "invalidTitle": "Ogiltig serverlänk.",
+      "invalidMessage": "Den här länken innehåller inget giltigt server-ID. Stäng den här panelen för att bläddra i katalogen."
+    }
+  },
+  "catalog": {
+    "modstoke": {
+      "client": {
+        "summary": "En fältsurfplatta, ett armbandsur, en kartläggningsdrönare och Kestrel K3, ett litet plan med tre säten. Planera proviantrundor, sätt nålar på kartan, spana från luften eller flyg vänner runt ön.",
+        "description": "Client lägger till utrustning du bär med dig: en fältsurfplatta, ett armbandsur, en kartläggningsdrönare och Kestrel K3, ett litet plan med tre säten. Det är tänkt att kännas som utrustning, inte som en meny som klistrats ovanpå spelet.\n\nSurfplattan har en karta med dina egna nålar, en anteckningsbok, en klocka och Pack, som söker bland föremål och ammunition och gör en inköpslista för ett recept. Den planerar bara; du craftar fortfarande själv.\n\n- Kartläggningsdrönare: flyg den från surfplattan, sätt kartnålar på allt du ser, och den landar själv när batteriet börjar ta slut.\n- Kestrel K3: sätt ut den från surfplattans Hangar-app med ungefär 18 meter fri mark framför dig. En pilot, två passagerare.\n- Karaktär: välj kropp, hudton och form, och behåll samma utseende varje gång du går med.\n\nStammar, skrivaren, delade vägpunkter och följeslagare kräver en värd som kör Admin. Värden och alla som flyger behöver samma Client-version, så prova den på en kopia av din värld först.",
+        "inTesting": "Rymdfärd är under test: ett rymdskepp du skjuter upp från en stor glänta, en station i omloppsbana och en ny värld att landa på och kartlägga med ditt crew. Den finns inte i den aktuella nedladdningen än.",
+        "changelog": {
+          "0.2.4": "Karaktärsskaparen: Mods > Character > Customise character öppnar en helskärmsredigerare med roterande förhandsvisning. Välj kropp, hudton, ögon- och underkläderfärg och forma den med reglagen.\nDu behåller samma utseende varje gång du går med, och det fungerar tillsammans med spelare som inte har Modstoke.\nServerkompatibilitet ersätter den dubbla sidan Modstoke Client i Mods-menyn.\nKräver Modstoke Loader 0.4.0 och dess Modstoke-mapp."
+        },
+        "media": {
+          "kestrel-beach": {
+            "alt": "Kestrel K3 parkerad på en strand, sedd från undersökningsdronen"
+          },
+          "trailer": {
+            "alt": "Trailer för Client: Kestrel K3 flyger förbi snöiga toppar"
+          },
+          "tablet-home": {
+            "alt": "Fälttabletens startskärm, hållen uppe i skogen"
+          },
+          "tablet-apps": {
+            "alt": "Fälttabletens applista på stranden"
+          },
+          "drone-camera": {
+            "alt": "Undersökningsdronens kamerakontroller över strandlinjen"
+          },
+          "kestrel-cockpit": {
+            "alt": "Pilotsätet i Kestrel K3"
+          },
+          "spacecraft-test": {
+            "alt": "Rymdfarkosten har landat på en annan värld",
+            "caption": "Testbygge. Finns inte i den aktuella nedladdningen än."
+          }
+        }
+      },
+      "terraforming": {
+        "summary": "Gräv upp jord och sten, fyll igen hål och ångra misstag på en liten tomt utomhus. Bara offline-kopior av singleplayer-sparfiler för tillfället.",
+        "description": "Med Terraforming kan du gräva i en liten del av ön och lägga tillbaka jorden där du vill ha den. Gräv en grop, fyll igen en del av den och ångra om det går fel.\n\nFör tillfället är det en enda tomt utomhus i en offline-singleplayer-kopia av en sparfil. Multiplayer och att bygga på uppgrävd mark fungerar inte än.\n\n- Skapa en tomt på fri mark från Mods-menyn\n- Gräv med spaden eller hackan, fyll igen med spaden\n- Jord du gräver upp hamnar i en reserv, och igenfyllning förbrukar den\n- Ångra sätter tillbaka både marken och jorden\n\nKlättra ur alla hål innan du avinstallerar, eftersom den uppgrävda formen inte finns utan modden.",
+        "inTesting": "Grävning över hela ön är under test: gräv, fyll, jämna och släta ut var som helst på ön med spaden, sparat med din värld. Det finns inte i den aktuella nedladdningen än.",
+        "changelog": {
+          "0.2.2": "Att skapa, läsa in, ta bort och återställa terräng ber nu om bekräftelse, från konsolen eller Mods-menyn.\nFungerar med Modstoke Loader 0.4.0 och dess Modstoke-mapp."
+        },
+        "media": {
+          "plot-pit": {
+            "alt": "En grop grävd i sanden på en Terraforming-tomt"
+          },
+          "mods-page": {
+            "alt": "Sidan för Terraforming i Mods-menyn"
+          },
+          "mound-test": {
+            "alt": "Kelvin går över en kulle av ifylld mark",
+            "caption": "Testbygge. Finns inte i den aktuella nedladdningen än."
+          }
+        }
+      },
+      "virginia": {
+        "summary": "Färga om Virginias kläder och lägg till några valfria sätt att umgås med henne: hälsningar, uppskattning och lugn stund tillsammans.",
+        "description": "Några valfria extrafunktioner för Virginia: klädfärger, plus några sätt att hälsa på henne, visa uppskattning eller bara umgås lugnt tillsammans. Allt börjar avstängt.\n\n- Klädfärger: Original, Crimson, Forest, Ocean, Charcoal eller Ivory, bara på din egen skärm\n- Hälsningar, uppskattning och lugn stund, om värden tillåter dem\n- Ett separat band du kan kontrollera i menyn, sparat med din värld\n\nHennes modell, texturer och animationer är spelets egna. Bandet ändrar inte vart hon går, hur mycket hon gillar dig eller vad hon ger dig.",
+        "changelog": {
+          "0.1.2": "Dina framsteg i relationen sparas nu med ditt spel.\nFungerar med Modstoke Loader 0.4.0 och dess Modstoke-mapp."
+        },
+        "media": {
+          "path": {
+            "alt": "Virginia går längs en skogsstig"
+          },
+          "trailer": {
+            "alt": "Titelbild för Virginias trailer över skogen"
+          },
+          "settings": {
+            "alt": "Inställningar för Virginia i Mods-menyn"
+          }
+        }
+      }
+    },
+    "com": {
+      "openacai": {
+        "sotf": {
+          "admin": {
+            "summary": "Värdverktyg för Sons of the Forest. Se vem som är i din värld, kolla vad de har hållit på med, och fängsla, tysta, kicka eller banna utan att lämna spelet.",
+            "description": "Om du är värd för en värld samlar Admin spelarlistan och dina modereringsverktyg i en meny inne i spelet. Välj en spelare för att se hens Steam-ID och vad modden har noterat om hen, och hantera det sedan direkt där.\n\n- Lista med fängsla, tysta, kicka och banna\n- Bevis sorterade i rörelse, föremål, byggande, server och handlingar\n- Personalroller med egna behörigheter, inklusive personal på distans på dedikerade servrar\n- Värdkontroller för tid, väder och världsinställningar\n\nBevisen finns för att hjälpa dig utreda ett problem. Det är inget fullständigt antifusk, och inget bannar eller kickar av sig självt. Spelare behöver inte Admin för att gå med.",
+            "changelog": {
+              "0.5.221": "Personalroller: rangordnade roller med egna tillåt- och neka-behörigheter, plus en Steam64-adminlista med utgångsdatum.\nPersonal på distans kan använda F7 på listen-värdar och dedikerade servrar. Värden kontrollerar varje begäran.\nF7-menyn: åtgärdade fokus- och fastnad-markör-problem, nya skinn samt layouterna Enkel och Avancerad.\nSpelare utan mods: hastighetsgränser gäller bara transporter som värden kan bekräfta, och en bugg som duplicerade upplockade föremål är åtgärdad.\nNya bevis för god mode, speedhacks, eldhastighet, omöjliga träffar och Steam-biljetter."
+            },
+            "media": {
+              "overview": {
+                "alt": "Admin-menyn öppen över skogen, med skalet i spelets stil"
+              },
+              "trailer": {
+                "alt": "Titelbild för Admins trailer över skogen"
+              },
+              "overview-classic": {
+                "alt": "Admins översiktssida med det klassiska skalet"
+              },
+              "world": {
+                "alt": "Världskontroller i Admin-menyn"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "releaseNotes": {
+    "manager-0-3-0": "Logga in på Nexus Mods via webbläsaren; personliga API-nycklar behövs inte längre. Manager följer Loaderns nya Modstoke-mapp, och dina OpenACAI-mods och inställningar flyttas över vid nästa spelstart. Ny webbläsare för communityservrar med modstoke://-länkar för att gå med, plus verktyg för dedikerade servrar: spelinställningar, behörigheter för personal, en live-konsol och säkrare stopp och omstart. En Loader-konsol för spel och servrar, och Loader-installationer reparerar eller uppgraderar nu bara, aldrig nedgraderar. Välj ett skal i Inställningar: spelets eget utseende, inläst från dina spelfiler, eller den enkla Modstoke-stilen. Snabbare start, en stabilare modkatalog och snävare gränser för vad Manager läser, laddar ner och installerar.",
+    "loader-0-4-2-net11-preview": "Körs på Linux-värdar under Wine, så det fungerar nu på hostade dedikerade servrar. Rättar ett startfel på varje Wine-installation. Stöd för hostingpanelen: konsolkommandon med JSON-svar, en live-statusfil, ren sparning och stopp, listor över spelare, sparplatser och mods, en händelseström, kraschrapporter, utskick och tidsmätning per mod. Mods kan ange en beskrivning och lägsta Loader-version. Nya SDK-funktioner för mods: värdkommandon, ägare av inmatningsfokus och menysynlighet. Kommer du från en äldre Modstoke- eller OpenACAI-version? Kör Modstoke Legacy Cleanup 1.1.0 först.",
+    "loader-0-4-1-net11-preview": "Rättar att Modstoke Manager 0.3.0 vägrade installera Loader. I övrigt samma som 0.4.0: Loader bor nu i en Modstoke-mapp. Dina mods och inställningar flyttas över från OpenACAI vid första starten, och inget skrivs över. Körs på .NET 11 RC3, som följer med i nedladdningen. Unitys baskodbibliotek laddas nu ner från modstoke.com vid första starten i stället för att ligga i arkivet. Ny Mods-meny i spelet som matchar spelets egna menyer, med rullningslist och mjuk rullning. Moddata som sparats via SDK återställs nu när du laddar en sparfil. Rättade ett fel på dedikerade servrar där gamla överföringsposter i världen kunde blockera varje plockning och lagringsöverföring. Startloggen anger exakt Loader-bygge och varnar om .NET-körmiljön inte stämmer. Kommer du från en äldre Modstoke- eller OpenACAI-version? Kör Modstoke Legacy Cleanup 1.1.0 först; den ingår i den här nedladdningen.",
+    "loader-0-4-0-net11-preview": "Loader bor nu i en Modstoke-mapp. Dina mods och inställningar flyttas över från OpenACAI vid första starten, och inget skrivs över. Körs på .NET 11 RC3, som följer med i nedladdningen. Unitys baskodbibliotek laddas nu ner från modstoke.com vid första starten i stället för att ligga i arkivet. Ny Mods-meny i spelet som matchar spelets egna menyer, med rullningslist och mjuk rullning. Moddata som sparats via SDK återställs nu när du laddar en sparfil. Rättade ett fel på dedikerade servrar där gamla överföringsposter i världen kunde blockera varje plockning och lagringsöverföring. Startloggen anger exakt Loader-bygge och varnar om .NET-körmiljön inte stämmer. Kommer du från en äldre Modstoke- eller OpenACAI-version? Kör Modstoke Legacy Cleanup 1.1.0 först; den ingår i den här nedladdningen."
+  }
+}

@@ -1,5 +1,6 @@
 import { escapeHtml as e } from '../scripts/model.mjs';
 import { selectedRelease } from './release-view.mjs';
+import { translator } from './i18n.mjs';
 
 export function projectKnowledgeSnapshot(data, releaseIndex) {
   const text = value => typeof value === 'string' && value.trim().length > 0;
@@ -22,22 +23,29 @@ export function projectKnowledgeSnapshot(data, releaseIndex) {
     seen.add(topic.id);
     return {id: topic.id, title: topic.title, summary: topic.summary, facts: [...topic.facts], url: topic.url, keywords: [...topic.keywords]};
   });
-  const latestManager = selectedRelease(releaseIndex, 'manager');
-  const latestLoader = selectedRelease(releaseIndex, 'loader');
-  const managerStatus = latestManager
-    ? `Manager ${latestManager.version} is available${latestManager.channel === 'preview' ? ' as a Windows preview' : ''}.${latestManager.artifacts.some(artifact => artifact.signatureStatus === 'unsigned-preview') ? ' The preview is unsigned.' : ''}`
-    : 'No Manager package is currently published.';
-  const loaderStatus = latestLoader
-    ? `Loader ${latestLoader.version} is listed on Releases. Check its bundle contents, compatibility and validation status.`
-    : 'The complete Loader, SDK and client bundle is not publicly released.';
-  return {schema: data.schema, reviewedOn: data.reviewedOn, releaseStatus: `${managerStatus} ${loaderStatus} Check Releases before downloading.`, topics};
+  return {schema: data.schema, reviewedOn: data.reviewedOn, releaseStatus: releaseStatus(releaseIndex, translator('en').text), topics};
 }
 
-export function renderProjectKnowledge(knowledge) {
+// What is published, in one language: t is a translator's t() for a page or text() for the feed.
+// Versions need no escaping; validateReleaseIndex only lets letters, digits, dots, - and + through.
+function releaseStatus(releaseIndex, t) {
+  const manager = selectedRelease(releaseIndex, 'manager');
+  const loader = selectedRelease(releaseIndex, 'loader');
+  return [
+    manager ? t(manager.channel === 'preview' ? 'knowledge.status.managerPreview' : 'knowledge.status.manager', { version: manager.version }) : t('knowledge.status.noManager'),
+    manager?.artifacts.some(artifact => artifact.signatureStatus === 'unsigned-preview') && t('knowledge.status.unsigned'),
+    loader ? t('knowledge.status.loader', { version: loader.version }) : t('knowledge.status.noLoader'),
+    t('knowledge.status.check'),
+  ].filter(Boolean).join(' ');
+}
+
+export function renderProjectKnowledge(knowledge, releaseIndex, i = translator('en')) {
   if (!knowledge) return '';
   const sdk = knowledge.topics.find(topic => topic.id === 'sdk');
   const play = knowledge.topics.find(topic => topic.id === 'play');
   const tithewood = knowledge.topics.find(topic => topic.id === 'tithewood');
-  const facts = topic => topic.facts.map(fact => `<p>${e(fact)}</p>`).join('');
-  return `<section id="sdk-development"><p class="eyebrow">SDK DEVELOPMENT</p><h2>${e(sdk.title)}</h2><p>${e(sdk.summary)}</p>${facts(sdk)}<p>${e(knowledge.releaseStatus)}</p><a class="inline-link" href="/releases/">Check release status</a></section><section id="play-together"><p class="eyebrow">PLAY TOGETHER</p><h2>${e(play.title)}</h2><p>${e(play.summary)}</p>${facts(play)}<p>Game information: <a class="inline-link" href="https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/">Sons of the Forest on Steam</a></p><a class="inline-link" href="https://discord.gg/T2Tjh5ECS">Find a crew on Discord</a></section><section id="tithewood"><p class="eyebrow">TITHEWOOD</p><h2>${e(tithewood.title)}</h2><p>${e(tithewood.summary)}</p>${facts(tithewood)}<a class="inline-link" href="https://tithewood.com/">Visit Tithewood for current access information</a></section>`;
+  // The topics are English data; a language may translate them under knowledge.topics.<id>.
+  const text = (topic, field) => i.own(`knowledge.topics.${topic.id}.${field}`) || e(topic[field]);
+  const facts = topic => (i.own(`knowledge.topics.${topic.id}.facts`)?.split('\n') || topic.facts.map(e)).map(fact => `<p>${fact}</p>`).join('');
+  return `<section id="sdk-development"><p class="eyebrow">${i.t('knowledge.sdkEyebrow')}</p><h2>${text(sdk, 'title')}</h2><p>${text(sdk, 'summary')}</p>${facts(sdk)}<p>${releaseStatus(releaseIndex, i.t)}</p><a class="inline-link" href="${i.href('/releases/')}">${i.t('knowledge.checkReleases')}</a></section><section id="play-together"><p class="eyebrow">${i.t('knowledge.playEyebrow')}</p><h2>${text(play, 'title')}</h2><p>${text(play, 'summary')}</p>${facts(play)}<p>${i.t('knowledge.gameInfo', { link: '<a class="inline-link" href="https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/">' + i.t('knowledge.steamLink') + '</a>' })}</p><a class="inline-link" href="https://discord.gg/T2Tjh5ECS">${i.t('knowledge.findCrew')}</a></section><section id="tithewood"><p class="eyebrow">${i.t('knowledge.tithewoodEyebrow')}</p><h2>${text(tithewood, 'title')}</h2><p>${text(tithewood, 'summary')}</p>${facts(tithewood)}<a class="inline-link" href="https://tithewood.com/">${i.t('knowledge.visitTithewood')}</a></section>`;
 }

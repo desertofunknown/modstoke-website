@@ -1,85 +1,86 @@
 import { arrow, discordUrl, panelUrl } from './layout.mjs';
+import { translator } from './i18n.mjs';
 
 // The plans and minimums follow docs/DESIGN.md in the modstoke-hosting repo. Prices are monthly, in US dollars.
 export const plans = [
-  { name: 'Small', players: 'Up to 4', cores: 2, memory: 8, disk: 30, minimum: 12 },
-  { name: 'Standard', players: 'Up to 8', cores: 2, memory: 10, disk: 40, minimum: 15 },
+  { id: 'small', name: 'Small', players: 4, cores: 2, memory: 8, disk: 30, minimum: 12 },
+  { id: 'standard', name: 'Standard', players: 8, cores: 2, memory: 10, disk: 40, minimum: 15 },
 ];
 
-const plan = p => `<article class="plan">
-  <h3>${p.name}</h3>
-  <p class="plan-price"><span class="mono">$${p.minimum}</span> a month, or more if you like</p>
+const plan = (p, i) => `<article class="plan">
+  <h3>${i.t(`hosting.plans.${p.id}`)}</h3>
+  <p class="plan-price">${i.t('hosting.plans.price', { price: `<span class="mono">$${p.minimum}</span>` })}</p>
   <dl>
-    <div><dt>Players</dt><dd>${p.players}</dd></div>
-    <div><dt>CPU</dt><dd>${p.cores} dedicated cores</dd></div>
-    <div><dt>Memory</dt><dd>${p.memory} GB</dd></div>
-    <div><dt>Storage</dt><dd>${p.disk} GB on NVMe</dd></div>
+    <div><dt>${i.t('hosting.plans.players')}</dt><dd>${i.t('hosting.plans.upTo', { count: p.players })}</dd></div>
+    <div><dt>${i.t('hosting.plans.cpu')}</dt><dd>${i.t('hosting.plans.cores', { cores: p.cores })}</dd></div>
+    <div><dt>${i.t('hosting.plans.memory')}</dt><dd>${i.t('hosting.plans.memorySize', { memory: p.memory })}</dd></div>
+    <div><dt>${i.t('hosting.plans.storage')}</dt><dd>${i.t('hosting.plans.storageSize', { disk: p.disk })}</dd></div>
   </dl>
 </article>`;
 
-export function renderHosting() {
+export function renderHosting(i = translator('en')) {
   return `<section class="page-head wrap">
-  <p class="eyebrow">Server hosting</p>
-  <h1>Rent a Sons of the Forest server</h1>
-  <p class="lede">A dedicated server on our own hardware, with the Modstoke Loader and our mods ready to go. OpenACAI runs it as a nonprofit, and what you pay keeps the servers and the mods going.</p>
-  <p class="status-line">Opening soon, starting with a small beta for members of our Discord.</p>
+  <p class="eyebrow">${i.t('hosting.eyebrow')}</p>
+  <h1>${i.t('hosting.title')}</h1>
+  <p class="lede">${i.t('hosting.lede')}</p>
+  <p class="status-line">${i.t('hosting.status')}</p>
 </section>
 
 <section class="wrap block">
-  <h2 class="sr-only">Plans</h2>
+  <h2 class="sr-only">${i.t('hosting.plans.heading')}</h2>
   <div class="plans">
-${plans.map(plan).join('\n')}
+${plans.map(p => plan(p, i)).join('\n')}
   </div>
-  <p class="list-note">Each plan has a minimum. At checkout you can pay more if you want to. Anything above the minimum counts as a donation to OpenACAI and shows as its own line on your receipt. A 16-player plan comes later, once we've tested one properly.</p>
+  <p class="list-note">${i.t('hosting.plans.note')}</p>
 </section>
 
 <section class="wrap block setup">
   <div>
-    <h2>What you get</h2>
+    <h2>${i.t('hosting.get.title')}</h2>
     <ul class="checklist">
-      <li><strong>Cores of your own.</strong> Your server's CPU cores aren't shared with anyone else's.</li>
-      <li><strong>Modstoke set up.</strong> The Loader is installed and kept up to date, and our mods are a click away.</li>
-      <li><strong>Easy to find.</strong> It shows up in the game's server browser, and on our <a href="/servers/">Servers page</a> with a Manager join link if you want it listed.</li>
-      <li><strong>Admin tools.</strong> Modstoke Admin knows you as the owner through your Steam account.</li>
-      <li><strong>A simple control panel.</strong> Drag files and folders straight in, watch the console, see who's playing and run commands, all from one screen.</li>
-      <li><strong>Your world, yours to keep.</strong> A backup every day, kept for a week, and one click to download your world to your own PC.</li>
-      <li><strong>A home on our Discord.</strong> Your server gets its own announcements and chat channels, and your staff get moderation alerts.</li>
-      <li><strong>Close to the East Coast.</strong> Hosted in New Jersey on a 1 Gbps line.</li>
+      <li><strong>${i.t('hosting.get.cores.title')}</strong> ${i.t('hosting.get.cores.body')}</li>
+      <li><strong>${i.t('hosting.get.modstoke.title')}</strong> ${i.t('hosting.get.modstoke.body')}</li>
+      <li><strong>${i.t('hosting.get.find.title')}</strong> ${i.t('hosting.get.find.body', { servers: `<a href="${i.href('/servers/')}">${i.t('hosting.get.find.link')}</a>` })}</li>
+      <li><strong>${i.t('hosting.get.admin.title')}</strong> ${i.t('hosting.get.admin.body')}</li>
+      <li><strong>${i.t('hosting.get.panel.title')}</strong> ${i.t('hosting.get.panel.body')}</li>
+      <li><strong>${i.t('hosting.get.world.title')}</strong> ${i.t('hosting.get.world.body')}</li>
+      <li><strong>${i.t('hosting.get.discord.title')}</strong> ${i.t('hosting.get.discord.body')}</li>
+      <li><strong>${i.t('hosting.get.coast.title')}</strong> ${i.t('hosting.get.coast.body')}</li>
     </ul>
   </div>
   <div>
-    <h2>How it works</h2>
+    <h2>${i.t('hosting.how.title')}</h2>
     <ol class="steps">
-      <li><strong>Apply.</strong> Sign in with Discord, link your Steam account and tell us what the server's for.</li>
-      <li><strong>We review it.</strong> A person on our team reads every application.</li>
-      <li><strong>Pay with PayPal.</strong> Choose a plan and how much you'd like to pay. It renews monthly, and you can cancel any time.</li>
-      <li><strong>Play.</strong> Your server starts within minutes, and you run it from <a href="${panelUrl}">the panel</a>.</li>
+      <li><strong>${i.t('hosting.how.apply.title')}</strong> ${i.t('hosting.how.apply.body')}</li>
+      <li><strong>${i.t('hosting.how.review.title')}</strong> ${i.t('hosting.how.review.body')}</li>
+      <li><strong>${i.t('hosting.how.pay.title')}</strong> ${i.t('hosting.how.pay.body')}</li>
+      <li><strong>${i.t('hosting.how.play.title')}</strong> ${i.t('hosting.how.play.body', { panel: `<a href="${panelUrl}">${i.t('hosting.how.play.link')}</a>` })}</li>
     </ol>
   </div>
 </section>
 
 <section class="wrap block">
   <div class="prose faq">
-  <h2>Questions</h2>
-  <h3>Can I have more than 8 players?</h3>
-  <p>Not yet. Eight is the game's own limit. Our Loader can lift it, and we'll add a 16-player plan once we've run one with real players.</p>
-  <h3>Can I add my own mods?</h3>
-  <p>Yes, through the file manager. Your server runs in its own space, apart from everyone else's.</p>
-  <h3>What happens if a payment fails?</h3>
-  <p>After a few days' grace your server pauses. We keep its files for 14 days, so you can pick up where you left off.</p>
-  <h3>Why do I have to apply?</h3>
-  <p>We're a small nonprofit sharing one machine, so we want to know who's on it. It keeps things fair and safe for everyone.</p>
-  <h3>What are the rules?</h3>
-  <p>The <a href="/terms/#hosting">Terms of Service</a> cover hosting, including refunds and what happens to your files when a server ends. The <a href="/privacy/">Privacy Policy</a> says what we keep.</p>
+  <h2>${i.t('hosting.faq.title')}</h2>
+  <h3>${i.t('hosting.faq.players.q')}</h3>
+  <p>${i.t('hosting.faq.players.a')}</p>
+  <h3>${i.t('hosting.faq.mods.q')}</h3>
+  <p>${i.t('hosting.faq.mods.a')}</p>
+  <h3>${i.t('hosting.faq.payment.q')}</h3>
+  <p>${i.t('hosting.faq.payment.a')}</p>
+  <h3>${i.t('hosting.faq.apply.q')}</h3>
+  <p>${i.t('hosting.faq.apply.a')}</p>
+  <h3>${i.t('hosting.faq.rules.q')}</h3>
+  <p>${i.t('hosting.faq.rules.a', { terms: `<a href="${i.href('/terms/#hosting')}">${i.t('hosting.faq.rules.termsLink')}</a>`, privacy: `<a href="${i.href('/privacy/')}">${i.t('hosting.faq.rules.privacyLink')}</a>` })}</p>
   </div>
 </section>
 
 <section class="wrap block together">
   <div>
-    <h2>Want in on the beta?</h2>
-    <p>Ask in our Discord and we'll add you to the list. Hosting is part of <a href="/support/#gamhon">GAMHON</a>, OpenACAI's program for mental health and social connection through games.</p>
-    <p>Already have a server? <a href="${panelUrl}">Open the panel</a> to run it.</p>
+    <h2>${i.t('hosting.beta.title')}</h2>
+    <p>${i.t('hosting.beta.body', { gamhon: `<a href="${i.href('/support/#gamhon')}">GAMHON</a>` })}</p>
+    <p>${i.t('hosting.beta.have', { panel: `<a href="${panelUrl}">${i.t('hosting.beta.panelLink')}</a>` })}</p>
   </div>
-  <div class="actions"><a class="button" href="${discordUrl}">Ask on Discord ${arrow}</a><a class="button button-quiet" href="${panelUrl}register">I have a beta code</a><a class="button button-quiet" href="/servers/">Community servers</a></div>
+  <div class="actions"><a class="button" href="${discordUrl}">${i.t('hosting.beta.ask')} ${arrow}</a><a class="button button-quiet" href="${panelUrl}register">${i.t('hosting.beta.code')}</a><a class="button button-quiet" href="${i.href('/servers/')}">${i.t('hosting.beta.servers')}</a></div>
 </section>`;
 }
